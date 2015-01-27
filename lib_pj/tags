@@ -1,0 +1,2186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BSD_COMP	include/pj/compat/os_sunos.h	110;"	d
+FD_SETSIZE	include/pj/config.h	305;"	d
+FD_SETSIZE	include/pj/config.h	672;"	d
+JB_BP	include/pj/compat/setjmp.h	49;"	d
+JB_BX	include/pj/compat/setjmp.h	46;"	d
+JB_DI	include/pj/compat/setjmp.h	48;"	d
+JB_PC	include/pj/compat/setjmp.h	51;"	d
+JB_SI	include/pj/compat/setjmp.h	47;"	d
+JB_SIZE	include/pj/compat/setjmp.h	52;"	d
+JB_SP	include/pj/compat/setjmp.h	50;"	d
+NULL	include/pj/compat/os_linux_kernel.h	108;"	d
+NULL	include/pj/compat/os_symbian.h	108;"	d
+OSERR_ECONNRESET	include/pj/compat/socket.h	159;"	d
+OSERR_ECONNRESET	include/pj/compat/socket.h	164;"	d
+OSERR_ECONNRESET	include/pj/compat/socket.h	169;"	d
+OSERR_EINPROGRESS	include/pj/compat/socket.h	158;"	d
+OSERR_EINPROGRESS	include/pj/compat/socket.h	163;"	d
+OSERR_EINPROGRESS	include/pj/compat/socket.h	168;"	d
+OSERR_ENOTCONN	include/pj/compat/socket.h	160;"	d
+OSERR_ENOTCONN	include/pj/compat/socket.h	165;"	d
+OSERR_ENOTCONN	include/pj/compat/socket.h	170;"	d
+OSERR_EWOULDBLOCK	include/pj/compat/socket.h	157;"	d
+OSERR_EWOULDBLOCK	include/pj/compat/socket.h	162;"	d
+OSERR_EWOULDBLOCK	include/pj/compat/socket.h	167;"	d
+PJMEDIA_AUDIO_DEV_HAS_ANDROID_JNI	include/pj/config_site_sample.h	386;"	d
+PJMEDIA_AUDIO_DEV_HAS_COREAUDIO	include/pj/config_site_sample.h	317;"	d
+PJMEDIA_AUDIO_DEV_HAS_OPENSL	include/pj/config_site_sample.h	385;"	d
+PJMEDIA_AUDIO_DEV_HAS_PORTAUDIO	include/pj/config_site_sample.h	133;"	d
+PJMEDIA_AUDIO_DEV_HAS_PORTAUDIO	include/pj/config_site_sample.h	282;"	d
+PJMEDIA_AUDIO_DEV_HAS_PORTAUDIO	include/pj/config_site_sample.h	315;"	d
+PJMEDIA_AUDIO_DEV_HAS_PORTAUDIO	include/pj/config_site_sample.h	383;"	d
+PJMEDIA_AUDIO_DEV_HAS_PORTAUDIO	include/pj/config_site_sample.h	434;"	d
+PJMEDIA_AUDIO_DEV_HAS_PORTAUDIO	include/pj/config_site_sample.h	435;"	d
+PJMEDIA_AUDIO_DEV_HAS_SYMB_APS	include/pj/config_site_sample.h	227;"	d
+PJMEDIA_AUDIO_DEV_HAS_SYMB_APS	include/pj/config_site_sample.h	256;"	d
+PJMEDIA_AUDIO_DEV_HAS_SYMB_MDA	include/pj/config_site_sample.h	226;"	d
+PJMEDIA_AUDIO_DEV_HAS_SYMB_MDA	include/pj/config_site_sample.h	255;"	d
+PJMEDIA_AUDIO_DEV_HAS_SYMB_VAS	include/pj/config_site_sample.h	228;"	d
+PJMEDIA_AUDIO_DEV_HAS_SYMB_VAS	include/pj/config_site_sample.h	257;"	d
+PJMEDIA_AUDIO_DEV_HAS_WMME	include/pj/config_site_sample.h	134;"	d
+PJMEDIA_AUDIO_DEV_HAS_WMME	include/pj/config_site_sample.h	283;"	d
+PJMEDIA_AUDIO_DEV_HAS_WMME	include/pj/config_site_sample.h	316;"	d
+PJMEDIA_AUDIO_DEV_HAS_WMME	include/pj/config_site_sample.h	384;"	d
+PJMEDIA_CODEC_SPEEX_DEFAULT_QUALITY	include/pj/config_site_sample.h	142;"	d
+PJMEDIA_CODEC_SPEEX_DEFAULT_QUALITY	include/pj/config_site_sample.h	331;"	d
+PJMEDIA_CODEC_SPEEX_DEFAULT_QUALITY	include/pj/config_site_sample.h	393;"	d
+PJMEDIA_CODEC_SPEEX_DEFAULT_QUALITY	include/pj/config_site_sample.h	47;"	d
+PJMEDIA_CONF_USE_SWITCH_BOARD	include/pj/config_site_sample.h	223;"	d
+PJMEDIA_CONF_USE_SWITCH_BOARD	include/pj/config_site_sample.h	252;"	d
+PJMEDIA_CONF_USE_SWITCH_BOARD	include/pj/config_site_sample.h	279;"	d
+PJMEDIA_HAS_ALAW_ULAW_TABLE	include/pj/config_site_sample.h	459;"	d
+PJMEDIA_HAS_G722_CODEC	include/pj/config_site_sample.h	139;"	d
+PJMEDIA_HAS_G722_CODEC	include/pj/config_site_sample.h	324;"	d
+PJMEDIA_HAS_G722_CODEC	include/pj/config_site_sample.h	390;"	d
+PJMEDIA_HAS_ILBC_CODEC	include/pj/config_site_sample.h	138;"	d
+PJMEDIA_HAS_ILBC_CODEC	include/pj/config_site_sample.h	327;"	d
+PJMEDIA_HAS_ILBC_CODEC	include/pj/config_site_sample.h	41;"	d
+PJMEDIA_HAS_L16_CODEC	include/pj/config_site_sample.h	137;"	d
+PJMEDIA_HAS_L16_CODEC	include/pj/config_site_sample.h	323;"	d
+PJMEDIA_HAS_L16_CODEC	include/pj/config_site_sample.h	389;"	d
+PJMEDIA_HAS_L16_CODEC	include/pj/config_site_sample.h	40;"	d
+PJMEDIA_HAS_LEGACY_SOUND_API	include/pj/config_site_sample.h	431;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODECS	include/pj/config_site_sample.h	231;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODECS	include/pj/config_site_sample.h	260;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODECS	include/pj/config_site_sample.h	286;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_AMR	include/pj/config_site_sample.h	236;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_AMR	include/pj/config_site_sample.h	265;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_AMR	include/pj/config_site_sample.h	291;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_G729	include/pj/config_site_sample.h	237;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_G729	include/pj/config_site_sample.h	266;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_G729	include/pj/config_site_sample.h	292;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_ILBC	include/pj/config_site_sample.h	238;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_ILBC	include/pj/config_site_sample.h	267;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_ILBC	include/pj/config_site_sample.h	293;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_PCMA	include/pj/config_site_sample.h	235;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_PCMA	include/pj/config_site_sample.h	264;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_PCMA	include/pj/config_site_sample.h	290;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_PCMU	include/pj/config_site_sample.h	234;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_PCMU	include/pj/config_site_sample.h	263;"	d
+PJMEDIA_HAS_PASSTHROUGH_CODEC_PCMU	include/pj/config_site_sample.h	289;"	d
+PJMEDIA_HAS_SPEEX_AEC	include/pj/config_site_sample.h	145;"	d
+PJMEDIA_HAS_SPEEX_AEC	include/pj/config_site_sample.h	320;"	d
+PJMEDIA_HAS_SPEEX_AEC	include/pj/config_site_sample.h	432;"	d
+PJMEDIA_HAS_SPEEX_AEC	include/pj/config_site_sample.h	433;"	d
+PJMEDIA_HAS_SPEEX_AEC	include/pj/config_site_sample.h	50;"	d
+PJMEDIA_ILBC_CODEC_USE_COREAUDIO	include/pj/config_site_sample.h	328;"	d
+PJMEDIA_RESAMPLE_IMP	include/pj/config_site_sample.h	157;"	d
+PJMEDIA_RESAMPLE_IMP	include/pj/config_site_sample.h	62;"	d
+PJMEDIA_SOUND_BUFFER_COUNT	include/pj/config_site_sample.h	165;"	d
+PJMEDIA_SOUND_BUFFER_COUNT	include/pj/config_site_sample.h	44;"	d
+PJMEDIA_WSOLA_IMP	include/pj/config_site_sample.h	160;"	d
+PJMEDIA_WSOLA_IMP	include/pj/config_site_sample.h	65;"	d
+PJSIP_MAX_DIALOG_COUNT	include/pj/config_site_sample.h	202;"	d
+PJSIP_MAX_DIALOG_COUNT	include/pj/config_site_sample.h	351;"	d
+PJSIP_MAX_DIALOG_COUNT	include/pj/config_site_sample.h	413;"	d
+PJSIP_MAX_DIALOG_COUNT	include/pj/config_site_sample.h	456;"	d
+PJSIP_MAX_DIALOG_COUNT	include/pj/config_site_sample.h	469;"	d
+PJSIP_MAX_DIALOG_COUNT	include/pj/config_site_sample.h	75;"	d
+PJSIP_MAX_NET_EVENTS	include/pj/config_site_sample.h	479;"	d
+PJSIP_MAX_PKT_LEN	include/pj/config_site_sample.h	175;"	d
+PJSIP_MAX_TSX_COUNT	include/pj/config_site_sample.h	201;"	d
+PJSIP_MAX_TSX_COUNT	include/pj/config_site_sample.h	350;"	d
+PJSIP_MAX_TSX_COUNT	include/pj/config_site_sample.h	412;"	d
+PJSIP_MAX_TSX_COUNT	include/pj/config_site_sample.h	455;"	d
+PJSIP_MAX_TSX_COUNT	include/pj/config_site_sample.h	468;"	d
+PJSIP_MAX_TSX_COUNT	include/pj/config_site_sample.h	74;"	d
+PJSIP_POOL_INC_ENDPT	include/pj/config_site_sample.h	179;"	d
+PJSIP_POOL_INC_TDATA	include/pj/config_site_sample.h	183;"	d
+PJSIP_POOL_INC_UA	include/pj/config_site_sample.h	185;"	d
+PJSIP_POOL_LEN_ENDPT	include/pj/config_site_sample.h	178;"	d
+PJSIP_POOL_LEN_TDATA	include/pj/config_site_sample.h	182;"	d
+PJSIP_POOL_LEN_UA	include/pj/config_site_sample.h	184;"	d
+PJSIP_POOL_RDATA_INC	include/pj/config_site_sample.h	181;"	d
+PJSIP_POOL_RDATA_LEN	include/pj/config_site_sample.h	180;"	d
+PJSIP_POOL_TSX_INC	include/pj/config_site_sample.h	189;"	d
+PJSIP_POOL_TSX_LAYER_INC	include/pj/config_site_sample.h	187;"	d
+PJSIP_POOL_TSX_LAYER_LEN	include/pj/config_site_sample.h	186;"	d
+PJSIP_POOL_TSX_LEN	include/pj/config_site_sample.h	188;"	d
+PJSIP_SAFE_MODULE	include/pj/config_site_sample.h	172;"	d
+PJSIP_SAFE_MODULE	include/pj/config_site_sample.h	473;"	d
+PJSIP_UDP_SO_RCVBUF_SIZE	include/pj/config_site_sample.h	458;"	d
+PJSIP_UDP_SO_RCVBUF_SIZE	include/pj/config_site_sample.h	471;"	d
+PJSIP_UDP_SO_SNDBUF_SIZE	include/pj/config_site_sample.h	457;"	d
+PJSIP_UDP_SO_SNDBUF_SIZE	include/pj/config_site_sample.h	470;"	d
+PJSIP_UNESCAPE_IN_PLACE	include/pj/config_site_sample.h	476;"	d
+PJSUA_DEFAULT_CODEC_QUALITY	include/pj/config_site_sample.h	198;"	d
+PJSUA_DEFAULT_CODEC_QUALITY	include/pj/config_site_sample.h	347;"	d
+PJSUA_DEFAULT_CODEC_QUALITY	include/pj/config_site_sample.h	409;"	d
+PJSUA_DEFAULT_CODEC_QUALITY	include/pj/config_site_sample.h	430;"	d
+PJSUA_DEFAULT_CODEC_QUALITY	include/pj/config_site_sample.h	85;"	d
+PJSUA_MAX_ACC	include/pj/config_site_sample.h	206;"	d
+PJSUA_MAX_ACC	include/pj/config_site_sample.h	355;"	d
+PJSUA_MAX_ACC	include/pj/config_site_sample.h	417;"	d
+PJSUA_MAX_ACC	include/pj/config_site_sample.h	88;"	d
+PJSUA_MAX_BUDDIES	include/pj/config_site_sample.h	210;"	d
+PJSUA_MAX_BUDDIES	include/pj/config_site_sample.h	359;"	d
+PJSUA_MAX_BUDDIES	include/pj/config_site_sample.h	421;"	d
+PJSUA_MAX_BUDDIES	include/pj/config_site_sample.h	92;"	d
+PJSUA_MAX_CALLS	include/pj/config_site_sample.h	203;"	d
+PJSUA_MAX_CALLS	include/pj/config_site_sample.h	352;"	d
+PJSUA_MAX_CALLS	include/pj/config_site_sample.h	414;"	d
+PJSUA_MAX_CALLS	include/pj/config_site_sample.h	482;"	d
+PJSUA_MAX_CALLS	include/pj/config_site_sample.h	76;"	d
+PJSUA_MAX_CONF_PORTS	include/pj/config_site_sample.h	209;"	d
+PJSUA_MAX_CONF_PORTS	include/pj/config_site_sample.h	358;"	d
+PJSUA_MAX_CONF_PORTS	include/pj/config_site_sample.h	420;"	d
+PJSUA_MAX_CONF_PORTS	include/pj/config_site_sample.h	91;"	d
+PJSUA_MAX_PLAYERS	include/pj/config_site_sample.h	207;"	d
+PJSUA_MAX_PLAYERS	include/pj/config_site_sample.h	356;"	d
+PJSUA_MAX_PLAYERS	include/pj/config_site_sample.h	418;"	d
+PJSUA_MAX_PLAYERS	include/pj/config_site_sample.h	89;"	d
+PJSUA_MAX_RECORDERS	include/pj/config_site_sample.h	208;"	d
+PJSUA_MAX_RECORDERS	include/pj/config_site_sample.h	357;"	d
+PJSUA_MAX_RECORDERS	include/pj/config_site_sample.h	419;"	d
+PJSUA_MAX_RECORDERS	include/pj/config_site_sample.h	90;"	d
+PJ_1_PI	include/pj/math.h	49;"	d
+PJ_ABS	include/pj/math.h	54;"	d
+PJ_ACTIVESOCK_MAX_CONSECUTIVE_ACCEPT_ERROR	include/pj/config.h	573;"	d
+PJ_ACTIVESOCK_TCP_IPHONE_OS_BG	include/pj/compat/os_auto.h	187;"	d
+PJ_AF_LOCAL	include/pj/sock.h	71;"	d
+PJ_ALIGN_DATA	include/pj/compat/cc_gcc.h	76;"	d
+PJ_ALIGN_DATA	include/pj/compat/cc_msvc.h	84;"	d
+PJ_ANDROID	include/pj/config_site_sample.h	368;"	d
+PJ_ARRAY_SIZE	include/pj/types.h	281;"	d
+PJ_ASSERT_ON_FAIL	include/pj/assert.h	83;"	d
+PJ_ASSERT_ON_FAIL	include/pj/assert.h	89;"	d
+PJ_ASSERT_RETURN	include/pj/assert.h	64;"	d
+PJ_ASSERT_RETURN	include/pj/assert.h	69;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_auto.h	173;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_darwinos.h	93;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_linux.h	108;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_linux_kernel.h	129;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_rtems.h	113;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_sunos.h	107;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_symbian.h	133;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_win32.h	121;"	d
+PJ_ATOMIC_VALUE_TYPE	include/pj/compat/os_win32_wince.h	116;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_armcc.h	46;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_codew.h	42;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_gcc.h	56;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_gcc.h	62;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_gcce.h	42;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_msvc.h	71;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/compat/cc_mwcc.h	42;"	d
+PJ_ATTR_MAY_ALIAS	include/pj/list.h	/^} PJ_ATTR_MAY_ALIAS; \/* may_alias avoids warning with gcc-4.4 -Wall -O2 *\/$/;"	v	typeref:struct:pj_list
+PJ_ATTR_NORETURN	include/pj/compat/cc_armcc.h	45;"	d
+PJ_ATTR_NORETURN	include/pj/compat/cc_codew.h	41;"	d
+PJ_ATTR_NORETURN	include/pj/compat/cc_gcc.h	55;"	d
+PJ_ATTR_NORETURN	include/pj/compat/cc_gcc.h	61;"	d
+PJ_ATTR_NORETURN	include/pj/compat/cc_gcce.h	41;"	d
+PJ_ATTR_NORETURN	include/pj/compat/cc_msvc.h	70;"	d
+PJ_ATTR_NORETURN	include/pj/compat/cc_mwcc.h	41;"	d
+PJ_BEGIN_DECL	include/pj/config.h	1061;"	d
+PJ_BEGIN_DECL	include/pj/config.h	1066;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_auto.h	149;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_darwinos.h	79;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_linux.h	94;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_linux_kernel.h	96;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_palmos.h	91;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_rtems.h	99;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_sunos.h	81;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_symbian.h	94;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_win32.h	90;"	d
+PJ_BLOCKING_CONNECT_ERROR_VAL	include/pj/compat/os_win32_wince.h	87;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_auto.h	144;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_darwinos.h	74;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_linux.h	89;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_linux_kernel.h	91;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_palmos.h	86;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_rtems.h	94;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_sunos.h	76;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_symbian.h	89;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_win32.h	85;"	d
+PJ_BLOCKING_ERROR_VAL	include/pj/compat/os_win32_wince.h	82;"	d
+PJ_BUILD_ERR	include/pj/errno.h	310;"	d
+PJ_CACHING_POOL_ARRAY_SIZE	include/pj/pool.h	800;"	d
+PJ_CATCH	include/pj/except.h	283;"	d
+PJ_CATCH	include/pj/except.h	383;"	d
+PJ_CATCH_ANY	include/pj/except.h	286;"	d
+PJ_CATCH_ANY	include/pj/except.h	313;"	d
+PJ_CATCH_ANY	include/pj/except.h	323;"	d
+PJ_CATCH_ANY	include/pj/except.h	389;"	d
+PJ_CC_NAME	include/pj/compat/cc_armcc.h	32;"	d
+PJ_CC_NAME	include/pj/compat/cc_codew.h	32;"	d
+PJ_CC_NAME	include/pj/compat/cc_gcc.h	32;"	d
+PJ_CC_NAME	include/pj/compat/cc_gcce.h	32;"	d
+PJ_CC_NAME	include/pj/compat/cc_msvc.h	32;"	d
+PJ_CC_NAME	include/pj/compat/cc_mwcc.h	32;"	d
+PJ_CC_VER_1	include/pj/compat/cc_armcc.h	33;"	d
+PJ_CC_VER_1	include/pj/compat/cc_codew.h	33;"	d
+PJ_CC_VER_1	include/pj/compat/cc_gcc.h	33;"	d
+PJ_CC_VER_1	include/pj/compat/cc_gcce.h	33;"	d
+PJ_CC_VER_1	include/pj/compat/cc_msvc.h	33;"	d
+PJ_CC_VER_1	include/pj/compat/cc_mwcc.h	33;"	d
+PJ_CC_VER_2	include/pj/compat/cc_armcc.h	34;"	d
+PJ_CC_VER_2	include/pj/compat/cc_codew.h	34;"	d
+PJ_CC_VER_2	include/pj/compat/cc_gcc.h	34;"	d
+PJ_CC_VER_2	include/pj/compat/cc_gcce.h	34;"	d
+PJ_CC_VER_2	include/pj/compat/cc_msvc.h	34;"	d
+PJ_CC_VER_2	include/pj/compat/cc_mwcc.h	34;"	d
+PJ_CC_VER_3	include/pj/compat/cc_armcc.h	35;"	d
+PJ_CC_VER_3	include/pj/compat/cc_codew.h	35;"	d
+PJ_CC_VER_3	include/pj/compat/cc_gcc.h	38;"	d
+PJ_CC_VER_3	include/pj/compat/cc_gcc.h	40;"	d
+PJ_CC_VER_3	include/pj/compat/cc_gcce.h	35;"	d
+PJ_CC_VER_3	include/pj/compat/cc_msvc.h	35;"	d
+PJ_CC_VER_3	include/pj/compat/cc_mwcc.h	35;"	d
+PJ_CHECK_STACK	include/pj/os.h	353;"	d
+PJ_CHECK_STACK	include/pj/os.h	373;"	d
+PJ_CRC32_HAS_TABLES	include/pj/config_site_sample.h	454;"	d
+PJ_DARWINOS	include/pj/config.h	126;"	d
+PJ_DARWINOS	include/pj/config.h	127;"	d
+PJ_DEBUG	include/pj/config.h	334;"	d
+PJ_DEBUG	include/pj/config.h	336;"	d
+PJ_DEBUG	include/pj/config_site_sample.h	472;"	d
+PJ_DEBUG_MUTEX	include/pj/config.h	349;"	d
+PJ_DECL	include/pj/config.h	1015;"	d
+PJ_DECL	include/pj/config.h	1017;"	d
+PJ_DECL	include/pj/config.h	1021;"	d
+PJ_DECL	include/pj/config.h	1023;"	d
+PJ_DECL_ANSI_TEMP_BUF	include/pj/unicode.h	123;"	d
+PJ_DECL_ANSI_TEMP_BUF	include/pj/unicode.h	92;"	d
+PJ_DECL_DATA	include/pj/config.h	1079;"	d
+PJ_DECL_DATA	include/pj/config.h	1081;"	d
+PJ_DECL_DATA	include/pj/config.h	1084;"	d
+PJ_DECL_LIST_MEMBER	include/pj/list.h	62;"	d
+PJ_DECL_NO_RETURN	include/pj/config.h	1059;"	d
+PJ_DECL_NO_RETURN	include/pj/config.h	1064;"	d
+PJ_DECL_UNICODE_TEMP_BUF	include/pj/unicode.h	111;"	d
+PJ_DECL_UNICODE_TEMP_BUF	include/pj/unicode.h	76;"	d
+PJ_DEF	include/pj/config.h	1034;"	d
+PJ_DEF	include/pj/config.h	1036;"	d
+PJ_DEF_DATA	include/pj/config.h	1094;"	d
+PJ_DEF_DATA	include/pj/config.h	1096;"	d
+PJ_EAFNOTSUP	include/pj/errno.h	424;"	d
+PJ_EBUG	include/pj/errno.h	353;"	d
+PJ_EBUSY	include/pj/errno.h	368;"	d
+PJ_ECANCELLED	include/pj/errno.h	383;"	d
+PJ_EEOF	include/pj/errno.h	393;"	d
+PJ_EEXISTS	include/pj/errno.h	388;"	d
+PJ_EGONE	include/pj/errno.h	429;"	d
+PJ_EIGNORED	include/pj/errno.h	414;"	d
+PJ_EINVAL	include/pj/errno.h	333;"	d
+PJ_EINVALIDOP	include/pj/errno.h	378;"	d
+PJ_EIPV6NOTSUP	include/pj/errno.h	419;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_auto.h	193;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_darwinos.h	122;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_linux.h	111;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_linux_kernel.h	133;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_palmos.h	104;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_rtems.h	116;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_sunos.h	113;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_symbian.h	137;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_win32.h	124;"	d
+PJ_EMULATE_RWMUTEX	include/pj/compat/os_win32_wince.h	131;"	d
+PJ_ENABLE_EXTRA_CHECK	include/pj/config.h	308;"	d
+PJ_ENABLE_EXTRA_CHECK	include/pj/config.h	737;"	d
+PJ_ENABLE_EXTRA_CHECK	include/pj/config_site_sample.h	447;"	d
+PJ_ENABLE_EXTRA_CHECK	include/pj/config_site_sample.h	466;"	d
+PJ_ENAMETOOLONG	include/pj/errno.h	338;"	d
+PJ_END	include/pj/except.h	287;"	d
+PJ_END	include/pj/except.h	314;"	d
+PJ_END	include/pj/except.h	324;"	d
+PJ_END	include/pj/except.h	395;"	d
+PJ_END_DECL	include/pj/config.h	1062;"	d
+PJ_END_DECL	include/pj/config.h	1067;"	d
+PJ_ENOMEM	include/pj/errno.h	348;"	d
+PJ_ENOTFOUND	include/pj/errno.h	343;"	d
+PJ_ENOTSUP	include/pj/errno.h	373;"	d
+PJ_EPENDING	include/pj/errno.h	323;"	d
+PJ_ERESOLVE	include/pj/errno.h	404;"	d
+PJ_ERRNO_SPACE_SIZE	include/pj/errno.h	450;"	d
+PJ_ERRNO_START	include/pj/errno.h	444;"	d
+PJ_ERRNO_START_STATUS	include/pj/errno.h	456;"	d
+PJ_ERRNO_START_SYS	include/pj/errno.h	463;"	d
+PJ_ERRNO_START_USER	include/pj/errno.h	470;"	d
+PJ_ERR_MSG_SIZE	include/pj/errno.h	85;"	d
+PJ_ESOCKETSTOP	include/pj/errno.h	434;"	d
+PJ_ETIMEDOUT	include/pj/errno.h	358;"	d
+PJ_ETOOBIG	include/pj/errno.h	398;"	d
+PJ_ETOOMANY	include/pj/errno.h	363;"	d
+PJ_ETOOMANYCONN	include/pj/errno.h	328;"	d
+PJ_ETOOSMALL	include/pj/errno.h	409;"	d
+PJ_EUNKNOWN	include/pj/errno.h	318;"	d
+PJ_EXCEPTION_USE_WIN32_SEH	include/pj/config.h	309;"	d
+PJ_EXCEPTION_USE_WIN32_SEH	include/pj/config.h	774;"	d
+PJ_EXPORT_DECL_SPECIFIER	include/pj/compat/cc_msvc.h	64;"	d
+PJ_EXPORT_DECL_SPECIFIER	include/pj/compat/os_symbian.h	158;"	d
+PJ_EXPORT_DECL_SPECIFIER	include/pj/config.h	971;"	d
+PJ_EXPORT_DEF_SPECIFIER	include/pj/compat/cc_msvc.h	65;"	d
+PJ_EXPORT_DEF_SPECIFIER	include/pj/compat/os_symbian.h	160;"	d
+PJ_EXPORT_DEF_SPECIFIER	include/pj/config.h	984;"	d
+PJ_EXPORT_SYMBOL	include/pj/config.h	1004;"	d
+PJ_FALSE	include/pj/types.h	/^    PJ_FALSE=0$/;"	e	enum:pj_constants_
+PJ_FD_SETSIZE_SETABLE	include/pj/config.h	657;"	d
+PJ_FD_SETSIZE_SETABLE	include/pj/config.h	659;"	d
+PJ_FUNCTIONS_ARE_INLINED	include/pj/config.h	295;"	d
+PJ_FUNCTIONS_ARE_INLINED	include/pj/config.h	358;"	d
+PJ_GETADDRINFO_USE_CFHOST	include/pj/compat/os_auto.h	180;"	d
+PJ_GETHOSTIP_DISABLE_LOCAL_RESOLUTION	include/pj/compat/os_auto.h	182;"	d
+PJ_GET_EXCEPTION	include/pj/except.h	289;"	d
+PJ_GET_EXCEPTION	include/pj/except.h	317;"	d
+PJ_GET_EXCEPTION	include/pj/except.h	326;"	d
+PJ_GET_EXCEPTION	include/pj/except.h	410;"	d
+PJ_GRP_LOCK_DEBUG	include/pj/config.h	499;"	d
+PJ_GUID_MAX_LENGTH	include/pj/guid.h	72;"	d
+PJ_HASH_ENTRY_BUF_SIZE	include/pj/hash.h	51;"	d
+PJ_HASH_KEY_STRING	include/pj/hash.h	46;"	d
+PJ_HASH_USE_OWN_TOLOWER	include/pj/config_site_sample.h	475;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_auto.h	47;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_darwinos.h	30;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_linux.h	30;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_linux_kernel.h	30;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_palmos.h	30;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_rtems.h	36;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_sunos.h	30;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_symbian.h	30;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_win32.h	36;"	d
+PJ_HAS_ARPA_INET_H	include/pj/compat/os_win32_wince.h	35;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_auto.h	48;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_darwinos.h	31;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_linux.h	31;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_linux_kernel.h	31;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_palmos.h	31;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_rtems.h	37;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_sunos.h	31;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_symbian.h	31;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_win32.h	37;"	d
+PJ_HAS_ASSERT_H	include/pj/compat/os_win32_wince.h	36;"	d
+PJ_HAS_BZERO	include/pj/compat/cc_gcc.h	71;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_auto.h	49;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_darwinos.h	32;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_linux.h	32;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_linux_kernel.h	32;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_palmos.h	32;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_rtems.h	38;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_sunos.h	32;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_symbian.h	32;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_win32.h	38;"	d
+PJ_HAS_CTYPE_H	include/pj/compat/os_win32_wince.h	37;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_auto.h	50;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_darwinos.h	33;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_linux.h	33;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_linux_kernel.h	33;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_palmos.h	33;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_rtems.h	39;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_sunos.h	33;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_symbian.h	33;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_win32.h	39;"	d
+PJ_HAS_ERRNO_H	include/pj/compat/os_win32_wince.h	38;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_auto.h	134;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_darwinos.h	60;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_linux.h	79;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_linux_kernel.h	86;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_palmos.h	76;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_rtems.h	72;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_sunos.h	66;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_symbian.h	67;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_win32.h	75;"	d
+PJ_HAS_ERRNO_VAR	include/pj/compat/os_win32_wince.h	72;"	d
+PJ_HAS_ERROR_STRING	include/pj/config.h	310;"	d
+PJ_HAS_ERROR_STRING	include/pj/config.h	802;"	d
+PJ_HAS_ERROR_STRING	include/pj/config_site_sample.h	448;"	d
+PJ_HAS_EVENT_OBJ	include/pj/compat/os_linux_kernel.h	121;"	d
+PJ_HAS_EVENT_OBJ	include/pj/compat/os_symbian.h	126;"	d
+PJ_HAS_EVENT_OBJ	include/pj/config.h	307;"	d
+PJ_HAS_EVENT_OBJ	include/pj/config.h	713;"	d
+PJ_HAS_EXCEPTION_NAMES	include/pj/config.h	753;"	d
+PJ_HAS_FCNTL_H	include/pj/compat/os_auto.h	51;"	d
+PJ_HAS_FLOATING_POINT	include/pj/compat/m_auto.h	55;"	d
+PJ_HAS_FLOATING_POINT	include/pj/compat/os_linux_kernel.h	118;"	d
+PJ_HAS_FLOATING_POINT	include/pj/compat/os_symbian.h	123;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config.h	296;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config.h	367;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config_site_sample.h	107;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config_site_sample.h	308;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config_site_sample.h	33;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config_site_sample.h	375;"	d
+PJ_HAS_FLOATING_POINT	include/pj/config_site_sample.h	376;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_auto.h	157;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_darwinos.h	86;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_linux.h	101;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_linux_kernel.h	122;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_palmos.h	98;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_rtems.h	106;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_sunos.h	100;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_symbian.h	127;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_win32.h	109;"	d
+PJ_HAS_HIGH_RES_TIMER	include/pj/compat/os_win32_wince.h	112;"	d
+PJ_HAS_IFADDRS_H	include/pj/compat/os_auto.h	61;"	d
+PJ_HAS_INT64	include/pj/compat/cc_armcc.h	48;"	d
+PJ_HAS_INT64	include/pj/compat/cc_codew.h	44;"	d
+PJ_HAS_INT64	include/pj/compat/cc_gcc.h	48;"	d
+PJ_HAS_INT64	include/pj/compat/cc_gcce.h	44;"	d
+PJ_HAS_INT64	include/pj/compat/cc_msvc.h	73;"	d
+PJ_HAS_INT64	include/pj/compat/cc_mwcc.h	44;"	d
+PJ_HAS_IPV6	include/pj/config.h	312;"	d
+PJ_HAS_IPV6	include/pj/config.h	552;"	d
+PJ_HAS_LIMITS_H	include/pj/compat/os_auto.h	52;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_auto.h	53;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_darwinos.h	34;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_linux.h	34;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_linux_kernel.h	34;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_rtems.h	40;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_sunos.h	34;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_symbian.h	34;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_win32.h	40;"	d
+PJ_HAS_LINUX_SOCKET_H	include/pj/compat/os_win32_wince.h	39;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_auto.h	160;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_darwinos.h	87;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_linux.h	102;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_linux_kernel.h	119;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_rtems.h	107;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_sunos.h	101;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_symbian.h	124;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_win32.h	110;"	d
+PJ_HAS_MALLOC	include/pj/compat/os_win32_wince.h	113;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_auto.h	54;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_darwinos.h	35;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_linux.h	35;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_linux_kernel.h	35;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_palmos.h	34;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_rtems.h	41;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_sunos.h	35;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_symbian.h	35;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_win32.h	41;"	d
+PJ_HAS_MALLOC_H	include/pj/compat/os_win32_wince.h	40;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_darwinos.h	54;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_linux.h	54;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_linux_kernel.h	53;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_palmos.h	51;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_rtems.h	59;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_sunos.h	53;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_symbian.h	55;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_win32.h	61;"	d
+PJ_HAS_MSWSOCK_H	include/pj/compat/os_win32_wince.h	59;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_auto.h	55;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_darwinos.h	36;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_linux.h	36;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_linux_kernel.h	36;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_palmos.h	35;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_rtems.h	42;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_sunos.h	36;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_symbian.h	36;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_win32.h	42;"	d
+PJ_HAS_NETDB_H	include/pj/compat/os_win32_wince.h	41;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_auto.h	57;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_darwinos.h	37;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_linux.h	37;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_linux_kernel.h	37;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_palmos.h	36;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_rtems.h	43;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_sunos.h	37;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_symbian.h	37;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_win32.h	43;"	d
+PJ_HAS_NETINET_IN_H	include/pj/compat/os_win32_wince.h	42;"	d
+PJ_HAS_NETINET_IN_SYSTM_H	include/pj/compat/os_auto.h	56;"	d
+PJ_HAS_NETINET_IP_H	include/pj/compat/os_auto.h	58;"	d
+PJ_HAS_NETINET_TCP_H	include/pj/compat/os_auto.h	59;"	d
+PJ_HAS_NETINET_TCP_H	include/pj/compat/os_darwinos.h	38;"	d
+PJ_HAS_NETINET_TCP_H	include/pj/compat/os_symbian.h	38;"	d
+PJ_HAS_NETINET_TCP_H	include/pj/compat/os_win32.h	44;"	d
+PJ_HAS_NETINET_TCP_H	include/pj/compat/os_win32_wince.h	43;"	d
+PJ_HAS_NET_IF_H	include/pj/compat/os_auto.h	60;"	d
+PJ_HAS_NO_SNPRINTF	include/pj/compat/os_symbian.h	45;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_alpha.h	30;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_armv4.h	34;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_auto.h	58;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_i386.h	30;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_m68k.h	30;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_powerpc.h	30;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_sparc.h	30;"	d
+PJ_HAS_PENTIUM	include/pj/compat/m_x86_64.h	30;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	158;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	171;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	183;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	195;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	208;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	221;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	234;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	246;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	260;"	d
+PJ_HAS_PENTIUM	include/pj/config.h	273;"	d
+PJ_HAS_POOL_ALT_API	include/pj/config.h	531;"	d
+PJ_HAS_SEMAPHORE	include/pj/compat/os_auto.h	94;"	d
+PJ_HAS_SEMAPHORE	include/pj/compat/os_auto.h	96;"	d
+PJ_HAS_SEMAPHORE	include/pj/compat/os_auto.h	98;"	d
+PJ_HAS_SEMAPHORE	include/pj/compat/os_linux_kernel.h	120;"	d
+PJ_HAS_SEMAPHORE	include/pj/compat/os_symbian.h	125;"	d
+PJ_HAS_SEMAPHORE	include/pj/config.h	306;"	d
+PJ_HAS_SEMAPHORE	include/pj/config.h	703;"	d
+PJ_HAS_SEMAPHORE_H	include/pj/compat/os_auto.h	62;"	d
+PJ_HAS_SEMAPHORE_H	include/pj/compat/os_linux.h	52;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_auto.h	63;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_darwinos.h	39;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_linux.h	38;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_linux_kernel.h	38;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_palmos.h	37;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_rtems.h	44;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_sunos.h	38;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_symbian.h	39;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_win32.h	45;"	d
+PJ_HAS_SETJMP_H	include/pj/compat/os_win32_wince.h	44;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_auto.h	113;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_auto.h	116;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_darwinos.h	136;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_linux.h	125;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_rtems.h	133;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_sunos.h	127;"	d
+PJ_HAS_SOCKLEN_T	include/pj/compat/os_symbian.h	151;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_auto.h	139;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_darwinos.h	69;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_linux.h	84;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_linux_kernel.h	67;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_palmos.h	81;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_rtems.h	77;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_sunos.h	71;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_symbian.h	72;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_win32.h	80;"	d
+PJ_HAS_SO_ERROR	include/pj/compat/os_win32_wince.h	77;"	d
+PJ_HAS_SSL_SOCK	include/pj/config.h	857;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_auto.h	64;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_darwinos.h	40;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_linux.h	39;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_linux_kernel.h	39;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_palmos.h	38;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_rtems.h	45;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_sunos.h	39;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_symbian.h	40;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_win32.h	46;"	d
+PJ_HAS_STDARG_H	include/pj/compat/os_win32_wince.h	45;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_auto.h	65;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_darwinos.h	41;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_linux.h	40;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_linux_kernel.h	40;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_palmos.h	39;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_rtems.h	46;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_sunos.h	40;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_symbian.h	41;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_win32.h	47;"	d
+PJ_HAS_STDDEF_H	include/pj/compat/os_win32_wince.h	46;"	d
+PJ_HAS_STDINT_H	include/pj/compat/os_auto.h	67;"	d
+PJ_HAS_STDINT_H	include/pj/compat/os_win32.h	48;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_auto.h	66;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_darwinos.h	42;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_linux.h	41;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_linux_kernel.h	41;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_palmos.h	40;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_rtems.h	47;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_sunos.h	41;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_symbian.h	42;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_win32.h	49;"	d
+PJ_HAS_STDIO_H	include/pj/compat/os_win32_wince.h	47;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_auto.h	68;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_darwinos.h	43;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_linux.h	42;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_linux_kernel.h	42;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_palmos.h	41;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_rtems.h	48;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_sunos.h	42;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_symbian.h	43;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_win32.h	50;"	d
+PJ_HAS_STDLIB_H	include/pj/compat/os_win32_wince.h	48;"	d
+PJ_HAS_STRICMP_ALNUM	include/pj/config.h	815;"	d
+PJ_HAS_STRICMP_ALNUM	include/pj/config_site_sample.h	474;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_auto.h	69;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_darwinos.h	44;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_linux.h	43;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_linux_kernel.h	43;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_palmos.h	42;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_rtems.h	49;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_sunos.h	43;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_symbian.h	44;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_win32.h	51;"	d
+PJ_HAS_STRING_H	include/pj/compat/os_win32_wince.h	49;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_auto.h	70;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_darwinos.h	45;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_linux.h	44;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_linux_kernel.h	44;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_palmos.h	43;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_rtems.h	50;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_sunos.h	44;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_symbian.h	46;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_win32.h	52;"	d
+PJ_HAS_SYS_IOCTL_H	include/pj/compat/os_win32_wince.h	50;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_auto.h	71;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_darwinos.h	46;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_linux.h	45;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_linux_kernel.h	45;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_palmos.h	44;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_rtems.h	51;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_sunos.h	45;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_symbian.h	47;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_win32.h	53;"	d
+PJ_HAS_SYS_SELECT_H	include/pj/compat/os_win32_wince.h	51;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_auto.h	72;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_darwinos.h	47;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_linux.h	46;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_linux_kernel.h	46;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_palmos.h	45;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_rtems.h	52;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_sunos.h	46;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_symbian.h	48;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_win32.h	54;"	d
+PJ_HAS_SYS_SOCKET_H	include/pj/compat/os_win32_wince.h	52;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_auto.h	74;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_darwinos.h	49;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_linux.h	48;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_linux_kernel.h	48;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_palmos.h	46;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_rtems.h	54;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_sunos.h	48;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_symbian.h	50;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_win32.h	56;"	d
+PJ_HAS_SYS_TIMEB_H	include/pj/compat/os_win32_wince.h	54;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_auto.h	73;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_darwinos.h	48;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_linux.h	47;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_linux_kernel.h	47;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_rtems.h	53;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_sunos.h	47;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_symbian.h	49;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_win32.h	55;"	d
+PJ_HAS_SYS_TIME_H	include/pj/compat/os_win32_wince.h	53;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_auto.h	75;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_darwinos.h	50;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_linux.h	49;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_linux_kernel.h	49;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_palmos.h	47;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_rtems.h	55;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_sunos.h	49;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_symbian.h	51;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_win32.h	57;"	d
+PJ_HAS_SYS_TYPES_H	include/pj/compat/os_win32_wince.h	55;"	d
+PJ_HAS_SYS_UTSNAME_H	include/pj/compat/os_auto.h	78;"	d
+PJ_HAS_TCP	include/pj/config.h	302;"	d
+PJ_HAS_TCP	include/pj/config.h	542;"	d
+PJ_HAS_THREADS	include/pj/compat/os_auto.h	153;"	d
+PJ_HAS_THREADS	include/pj/compat/os_darwinos.h	83;"	d
+PJ_HAS_THREADS	include/pj/compat/os_linux.h	98;"	d
+PJ_HAS_THREADS	include/pj/compat/os_linux_kernel.h	99;"	d
+PJ_HAS_THREADS	include/pj/compat/os_palmos.h	95;"	d
+PJ_HAS_THREADS	include/pj/compat/os_rtems.h	103;"	d
+PJ_HAS_THREADS	include/pj/compat/os_sunos.h	97;"	d
+PJ_HAS_THREADS	include/pj/compat/os_symbian.h	99;"	d
+PJ_HAS_THREADS	include/pj/compat/os_win32.h	106;"	d
+PJ_HAS_THREADS	include/pj/compat/os_win32_wince.h	109;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_auto.h	79;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_darwinos.h	51;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_linux.h	50;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_linux_kernel.h	50;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_palmos.h	48;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_rtems.h	56;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_sunos.h	50;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_symbian.h	52;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_win32.h	58;"	d
+PJ_HAS_TIME_H	include/pj/compat/os_win32_wince.h	56;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_auto.h	80;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_darwinos.h	52;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_linux.h	51;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_linux_kernel.h	51;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_palmos.h	49;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_rtems.h	57;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_sunos.h	51;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_symbian.h	53;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_win32.h	59;"	d
+PJ_HAS_UNISTD_H	include/pj/compat/os_win32_wince.h	57;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_darwinos.h	56;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_linux.h	56;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_linux_kernel.h	55;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_palmos.h	53;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_rtems.h	61;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_sunos.h	55;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_symbian.h	57;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_win32.h	63;"	d
+PJ_HAS_WINSOCK2_H	include/pj/compat/os_win32_wince.h	61;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_darwinos.h	55;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_linux.h	55;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_linux_kernel.h	54;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_palmos.h	52;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_rtems.h	60;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_sunos.h	54;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_symbian.h	56;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_win32.h	62;"	d
+PJ_HAS_WINSOCK_H	include/pj/compat/os_win32_wince.h	60;"	d
+PJ_HAS_WS2TCPIP_H	include/pj/compat/os_win32.h	64;"	d
+PJ_HIGHPREC_VALUE_IS_ZERO	include/pj/compat/high_precision.h	31;"	d
+PJ_HIGHPREC_VALUE_IS_ZERO	include/pj/compat/high_precision.h	98;"	d
+PJ_IDECL	include/pj/config.h	1112;"	d
+PJ_IDECL	include/pj/config.h	1115;"	d
+PJ_IDECL_NO_RETURN	include/pj/config.h	1060;"	d
+PJ_IDECL_NO_RETURN	include/pj/config.h	1065;"	d
+PJ_IDEF	include/pj/config.h	1113;"	d
+PJ_IDEF	include/pj/config.h	1116;"	d
+PJ_IMPORT_DECL_SPECIFIER	include/pj/compat/cc_msvc.h	66;"	d
+PJ_IMPORT_DECL_SPECIFIER	include/pj/compat/os_symbian.h	161;"	d
+PJ_IMPORT_DECL_SPECIFIER	include/pj/config.h	996;"	d
+PJ_IN6ADDR_ANY_INIT	include/pj/sock.h	553;"	d
+PJ_IN6ADDR_LOOPBACK_INIT	include/pj/sock.h	556;"	d
+PJ_INADDR_ANY	include/pj/sock.h	449;"	d
+PJ_INADDR_BROADCAST	include/pj/sock.h	455;"	d
+PJ_INADDR_NONE	include/pj/sock.h	452;"	d
+PJ_INET6_ADDRSTRLEN	include/pj/sock.h	494;"	d
+PJ_INET_ADDRSTRLEN	include/pj/sock.h	489;"	d
+PJ_INLINE	include/pj/config.h	960;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_armcc.h	38;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_armcc.h	40;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_codew.h	38;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_gcc.h	54;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_gcc.h	60;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_gcce.h	38;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_msvc.h	59;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_msvc.h	61;"	d
+PJ_INLINE_SPECIFIER	include/pj/compat/cc_mwcc.h	38;"	d
+PJ_INT64	include/pj/compat/cc_codew.h	49;"	d
+PJ_INT64	include/pj/compat/cc_gcc.h	65;"	d
+PJ_INT64	include/pj/compat/cc_gcce.h	49;"	d
+PJ_INT64	include/pj/compat/cc_msvc.h	78;"	d
+PJ_INT64	include/pj/compat/cc_mwcc.h	49;"	d
+PJ_INT64_FMT	include/pj/compat/cc_armcc.h	53;"	d
+PJ_INT64_FMT	include/pj/compat/cc_codew.h	51;"	d
+PJ_INT64_FMT	include/pj/compat/cc_gcc.h	67;"	d
+PJ_INT64_FMT	include/pj/compat/cc_gcce.h	51;"	d
+PJ_INT64_FMT	include/pj/compat/cc_msvc.h	80;"	d
+PJ_INT64_FMT	include/pj/compat/cc_mwcc.h	51;"	d
+PJ_INVALID_SOCKET	include/pj/sock.h	472;"	d
+PJ_IOQUEUE_ALWAYS_ASYNC	include/pj/ioqueue.h	310;"	d
+PJ_IOQUEUE_DEFAULT_ALLOW_CONCURRENCY	include/pj/config.h	621;"	d
+PJ_IOQUEUE_HAS_SAFE_UNREG	include/pj/config.h	605;"	d
+PJ_IOQUEUE_KEY_FREE_DELAY	include/pj/config.h	645;"	d
+PJ_IOQUEUE_MAX_EVENTS_IN_SINGLE_POLL	include/pj/ioqueue.h	303;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/compat/os_darwinos.h	107;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/compat/os_symbian.h	118;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/config.h	304;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/config.h	584;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/config_site_sample.h	449;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/config_site_sample.h	453;"	d
+PJ_IOQUEUE_MAX_HANDLES	include/pj/config_site_sample.h	467;"	d
+PJ_IOQUEUE_OP_ACCEPT	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_ACCEPT	= 64,	\/**< accept() operation.    *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_CONNECT	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_CONNECT	= 128	\/**< connect() operation.   *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_NONE	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_NONE		= 0,	\/**< No operation.          *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_READ	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_READ		= 1,	\/**< read() operation.      *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_RECV	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_RECV          = 2,    \/**< recv() operation.      *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_RECV_FROM	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_RECV_FROM	= 4,	\/**< recvfrom() operation.  *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_SEND	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_SEND          = 16,   \/**< send() operation.      *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_SEND_TO	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_SEND_TO	= 32,	\/**< sendto() operation.    *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IOQUEUE_OP_WRITE	include/pj/ioqueue.h	/^    PJ_IOQUEUE_OP_WRITE		= 8,	\/**< write() operation.     *\/$/;"	e	enum:pj_ioqueue_operation_e
+PJ_IPHONE_OS_HAS_MULTITASKING_SUPPORT	include/pj/compat/os_auto.h	185;"	d
+PJ_IP_HELPER_IGNORE_LOOPBACK_IF	include/pj/config.h	693;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_alpha.h	32;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_armv4.h	36;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_auto.h	47;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_auto.h	50;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_i386.h	32;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_m68k.h	32;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_powerpc.h	32;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_sparc.h	32;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/m_x86_64.h	32;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/os_symbian.h	114;"	d
+PJ_IS_BIG_ENDIAN	include/pj/compat/os_win32_wince.h	104;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	160;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	173;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	185;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	197;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	210;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	236;"	d
+PJ_IS_BIG_ENDIAN	include/pj/config.h	275;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_alpha.h	31;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_armv4.h	35;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_auto.h	46;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_auto.h	49;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_i386.h	31;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_m68k.h	31;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_powerpc.h	31;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_sparc.h	31;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/m_x86_64.h	31;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/os_symbian.h	113;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/compat/os_win32_wince.h	103;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	159;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	172;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	184;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	196;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	209;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	235;"	d
+PJ_IS_LITTLE_ENDIAN	include/pj/config.h	274;"	d
+PJ_LINUX	include/pj/compat/os_auto.h	38;"	d
+PJ_LINUX	include/pj/config.h	103;"	d
+PJ_LINUX	include/pj/config.h	104;"	d
+PJ_LOG	include/pj/log.h	107;"	d
+PJ_LOG_ENABLE_INDENT	include/pj/config.h	421;"	d
+PJ_LOG_HAS_COLOR	include/pj/log.h	/^    PJ_LOG_HAS_COLOR	  = 1024, \/**< Colorize logs [yes on win32]	      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_CR	include/pj/log.h	/^    PJ_LOG_HAS_CR	  =  256, \/**< Include carriage return [no] 	      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_DAY_NAME	include/pj/log.h	/^    PJ_LOG_HAS_DAY_NAME   =    1, \/**< Include day name [default: no] 	      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_DAY_OF_MON	include/pj/log.h	/^    PJ_LOG_HAS_DAY_OF_MON =    8, \/**< Include day of month [no]	      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_INDENT	include/pj/log.h	/^    PJ_LOG_HAS_INDENT     =16384  \/**< Indentation. Say yes! [yes]            *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_LEVEL_TEXT	include/pj/log.h	/^    PJ_LOG_HAS_LEVEL_TEXT = 2048, \/**< Include level text string [no]	      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_MICRO_SEC	include/pj/log.h	/^    PJ_LOG_HAS_MICRO_SEC  =   32, \/**< Include microseconds [yes]             *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_MONTH	include/pj/log.h	/^    PJ_LOG_HAS_MONTH	  =    4, \/**< Include month [no]		      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_NEWLINE	include/pj/log.h	/^    PJ_LOG_HAS_NEWLINE	  =  128, \/**< Terminate each call with newline [yes] *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_SENDER	include/pj/log.h	/^    PJ_LOG_HAS_SENDER	  =   64, \/**< Include sender in the log [yes] 	      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_SPACE	include/pj/log.h	/^    PJ_LOG_HAS_SPACE	  =  512, \/**< Include two spaces before log [yes]    *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_THREAD_ID	include/pj/log.h	/^    PJ_LOG_HAS_THREAD_ID  = 4096, \/**< Include thread identification [no]     *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_THREAD_SWC	include/pj/log.h	/^    PJ_LOG_HAS_THREAD_SWC = 8192, \/**< Add mark when thread has switched [yes]*\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_TIME	include/pj/log.h	/^    PJ_LOG_HAS_TIME	  =   16, \/**< Include time [yes]		      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_HAS_YEAR	include/pj/log.h	/^    PJ_LOG_HAS_YEAR       =    2, \/**< Include year digit [no]		      *\/$/;"	e	enum:pj_log_decoration
+PJ_LOG_INDENT_CHAR	include/pj/config.h	440;"	d
+PJ_LOG_INDENT_SIZE	include/pj/config.h	431;"	d
+PJ_LOG_MAX_LEVEL	include/pj/config.h	297;"	d
+PJ_LOG_MAX_LEVEL	include/pj/config.h	388;"	d
+PJ_LOG_MAX_LEVEL	include/pj/config_site_sample.h	446;"	d
+PJ_LOG_MAX_LEVEL	include/pj/config_site_sample.h	465;"	d
+PJ_LOG_MAX_SIZE	include/pj/config.h	298;"	d
+PJ_LOG_MAX_SIZE	include/pj/config.h	400;"	d
+PJ_LOG_MAX_SIZE	include/pj/config_site_sample.h	117;"	d
+PJ_LOG_USE_STACK_BUFFER	include/pj/config.h	299;"	d
+PJ_LOG_USE_STACK_BUFFER	include/pj/config.h	412;"	d
+PJ_LOG_USE_STACK_BUFFER	include/pj/config_site_sample.h	122;"	d
+PJ_MAX	include/pj/math.h	55;"	d
+PJ_MAXINT32	include/pj/types.h	284;"	d
+PJ_MAXPATH	include/pj/config.h	721;"	d
+PJ_MAXPATH	include/pj/config_site_sample.h	110;"	d
+PJ_MAX_EXCEPTION_ID	include/pj/config.h	764;"	d
+PJ_MAX_HOSTNAME	include/pj/config.h	303;"	d
+PJ_MAX_HOSTNAME	include/pj/config.h	563;"	d
+PJ_MAX_OBJ_NAME	include/pj/types.h	289;"	d
+PJ_MAX_SOCKOPT_PARAMS	include/pj/sock.h	620;"	d
+PJ_MIN	include/pj/math.h	56;"	d
+PJ_MUTEX_DEFAULT	include/pj/os.h	/^    PJ_MUTEX_DEFAULT,$/;"	e	enum:pj_mutex_type_e
+PJ_MUTEX_RECURSE	include/pj/os.h	/^    PJ_MUTEX_RECURSE$/;"	e	enum:pj_mutex_type_e
+PJ_MUTEX_SIMPLE	include/pj/os.h	/^    PJ_MUTEX_SIMPLE,$/;"	e	enum:pj_mutex_type_e
+PJ_M_ALPHA	include/pj/config.h	205;"	d
+PJ_M_ALPHA	include/pj/config.h	206;"	d
+PJ_M_ARMV4	include/pj/config.h	243;"	d
+PJ_M_ARMV4	include/pj/config.h	244;"	d
+PJ_M_I386	include/pj/config.h	155;"	d
+PJ_M_I386	include/pj/config.h	156;"	d
+PJ_M_IA64	include/pj/config.h	180;"	d
+PJ_M_IA64	include/pj/config.h	181;"	d
+PJ_M_M68K	include/pj/config.h	192;"	d
+PJ_M_M68K	include/pj/config.h	193;"	d
+PJ_M_MIPS	include/pj/config.h	218;"	d
+PJ_M_MIPS	include/pj/config.h	219;"	d
+PJ_M_NAME	include/pj/compat/m_alpha.h	28;"	d
+PJ_M_NAME	include/pj/compat/m_armv4.h	32;"	d
+PJ_M_NAME	include/pj/compat/m_auto.h	30;"	d
+PJ_M_NAME	include/pj/compat/m_i386.h	28;"	d
+PJ_M_NAME	include/pj/compat/m_m68k.h	28;"	d
+PJ_M_NAME	include/pj/compat/m_powerpc.h	28;"	d
+PJ_M_NAME	include/pj/compat/m_sparc.h	28;"	d
+PJ_M_NAME	include/pj/compat/m_x86_64.h	28;"	d
+PJ_M_NAME	include/pj/config.h	157;"	d
+PJ_M_NAME	include/pj/config.h	170;"	d
+PJ_M_NAME	include/pj/config.h	182;"	d
+PJ_M_NAME	include/pj/config.h	194;"	d
+PJ_M_NAME	include/pj/config.h	207;"	d
+PJ_M_NAME	include/pj/config.h	220;"	d
+PJ_M_NAME	include/pj/config.h	233;"	d
+PJ_M_NAME	include/pj/config.h	245;"	d
+PJ_M_NAME	include/pj/config.h	259;"	d
+PJ_M_NAME	include/pj/config.h	272;"	d
+PJ_M_NIOS2	include/pj/config.h	270;"	d
+PJ_M_NIOS2	include/pj/config.h	271;"	d
+PJ_M_POWERPC	include/pj/config.h	257;"	d
+PJ_M_POWERPC	include/pj/config.h	258;"	d
+PJ_M_SPARC	include/pj/config.h	231;"	d
+PJ_M_SPARC	include/pj/config.h	232;"	d
+PJ_M_X86_64	include/pj/config.h	168;"	d
+PJ_M_X86_64	include/pj/config.h	169;"	d
+PJ_NATIVE_ERR_POSITIVE	include/pj/compat/os_symbian.h	131;"	d
+PJ_NATIVE_ERR_POSITIVE	include/pj/config.h	792;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_auto.h	167;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_darwinos.h	91;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_linux.h	106;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_linux_kernel.h	127;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_palmos.h	101;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_rtems.h	111;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_sunos.h	105;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_symbian.h	130;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_win32.h	116;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_win32.h	118;"	d
+PJ_NATIVE_STRING_IS_UNICODE	include/pj/compat/os_win32_wince.h	128;"	d
+PJ_NATIVE_TO_STRING	include/pj/unicode.h	128;"	d
+PJ_NATIVE_TO_STRING	include/pj/unicode.h	99;"	d
+PJ_NORETURN	include/pj/compat/cc_armcc.h	44;"	d
+PJ_NORETURN	include/pj/compat/cc_codew.h	40;"	d
+PJ_NORETURN	include/pj/compat/cc_gcc.h	46;"	d
+PJ_NORETURN	include/pj/compat/cc_gcce.h	40;"	d
+PJ_NORETURN	include/pj/compat/cc_msvc.h	69;"	d
+PJ_NORETURN	include/pj/compat/cc_mwcc.h	40;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_auto.h	163;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_darwinos.h	89;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_linux.h	104;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_linux_kernel.h	124;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_palmos.h	100;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_rtems.h	109;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_sunos.h	103;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_symbian.h	128;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_win32.h	112;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/compat/os_win32_wince.h	114;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/config.h	522;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/config_site_sample.h	125;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/config_site_sample.h	444;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/config_site_sample.h	445;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/config_site_sample.h	463;"	d
+PJ_OS_HAS_CHECK_STACK	include/pj/config_site_sample.h	464;"	d
+PJ_OS_NAME	include/pj/compat/os_auto.h	31;"	d
+PJ_OS_NAME	include/pj/compat/os_darwinos.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_linux.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_linux_kernel.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_palmos.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_rtems.h	34;"	d
+PJ_OS_NAME	include/pj/compat/os_sunos.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_symbian.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_win32.h	28;"	d
+PJ_OS_NAME	include/pj/compat/os_win32_wince.h	28;"	d
+PJ_O_APPEND	include/pj/file_io.h	/^    PJ_O_APPEND     = 0x1108    \/**< Append to existing file.           *\/$/;"	e	enum:pj_file_access
+PJ_O_RDONLY	include/pj/file_io.h	/^    PJ_O_RDONLY     = 0x1101,   \/**< Open file for reading.             *\/$/;"	e	enum:pj_file_access
+PJ_O_RDWR	include/pj/file_io.h	/^    PJ_O_RDWR       = 0x1103,   \/**< Open file for reading and writing. $/;"	e	enum:pj_file_access
+PJ_O_WRONLY	include/pj/file_io.h	/^    PJ_O_WRONLY     = 0x1102,   \/**< Open file for writing.             *\/$/;"	e	enum:pj_file_access
+PJ_PERROR	include/pj/errno.h	176;"	d
+PJ_PERROR_TITLE_BUF_SIZE	include/pj/errno.h	91;"	d
+PJ_PI	include/pj/math.h	48;"	d
+PJ_POOL_ALIGNMENT	include/pj/compat/os_auto.h	170;"	d
+PJ_POOL_ALIGNMENT	include/pj/pool.h	350;"	d
+PJ_POOL_ALIGNMENT	include/pj/pool_alt.h	131;"	d
+PJ_POOL_ALLOC_T	include/pj/pool.h	491;"	d
+PJ_POOL_ALLOC_T	include/pj/pool_alt.h	128;"	d
+PJ_POOL_DEBUG	include/pj/config.h	301;"	d
+PJ_POOL_DEBUG	include/pj/config.h	478;"	d
+PJ_POOL_SIZE	include/pj/pool.h	344;"	d
+PJ_POOL_SIZE	include/pj/pool_alt.h	52;"	d
+PJ_POOL_ZALLOC_T	include/pj/pool.h	505;"	d
+PJ_POOL_ZALLOC_T	include/pj/pool_alt.h	126;"	d
+PJ_QOS_BSD	include/pj/config.h	830;"	d
+PJ_QOS_DUMMY	include/pj/config.h	827;"	d
+PJ_QOS_IMPLEMENTATION	include/pj/config.h	844;"	d
+PJ_QOS_PARAM_HAS_DSCP	include/pj/sock_qos.h	/^    PJ_QOS_PARAM_HAS_DSCP = 1,	    \/**< DSCP field is set.	    *\/$/;"	e	enum:pj_qos_flag
+PJ_QOS_PARAM_HAS_SO_PRIO	include/pj/sock_qos.h	/^    PJ_QOS_PARAM_HAS_SO_PRIO = 2,   \/**< Socket SO_PRIORITY	    *\/$/;"	e	enum:pj_qos_flag
+PJ_QOS_PARAM_HAS_WMM	include/pj/sock_qos.h	/^    PJ_QOS_PARAM_HAS_WMM = 4	    \/**< WMM  field is set. 	    *\/$/;"	e	enum:pj_qos_flag
+PJ_QOS_SYMBIAN	include/pj/config.h	836;"	d
+PJ_QOS_TYPE_BACKGROUND	include/pj/sock_qos.h	/^    PJ_QOS_TYPE_BACKGROUND,	\/**< Background traffic.		*\/$/;"	e	enum:pj_qos_type
+PJ_QOS_TYPE_BEST_EFFORT	include/pj/sock_qos.h	/^    PJ_QOS_TYPE_BEST_EFFORT,	\/**< Best effort traffic (default value).$/;"	e	enum:pj_qos_type
+PJ_QOS_TYPE_CONTROL	include/pj/sock_qos.h	/^    PJ_QOS_TYPE_CONTROL		\/**< Control traffic.			*\/$/;"	e	enum:pj_qos_type
+PJ_QOS_TYPE_VIDEO	include/pj/sock_qos.h	/^    PJ_QOS_TYPE_VIDEO,		\/**< Video traffic.			*\/$/;"	e	enum:pj_qos_type
+PJ_QOS_TYPE_VOICE	include/pj/sock_qos.h	/^    PJ_QOS_TYPE_VOICE,		\/**< Voice traffic.			*\/$/;"	e	enum:pj_qos_type
+PJ_QOS_WM	include/pj/config.h	833;"	d
+PJ_QOS_WMM_PRIO_BULK	include/pj/sock_qos.h	/^    PJ_QOS_WMM_PRIO_BULK,		\/**< Bulk priority.	    *\/$/;"	e	enum:pj_qos_wmm_prio
+PJ_QOS_WMM_PRIO_BULK_EFFORT	include/pj/sock_qos.h	/^    PJ_QOS_WMM_PRIO_BULK_EFFORT,	\/**< Bulk effort priority   *\/$/;"	e	enum:pj_qos_wmm_prio
+PJ_QOS_WMM_PRIO_VIDEO	include/pj/sock_qos.h	/^    PJ_QOS_WMM_PRIO_VIDEO,		\/**< Video priority	    *\/$/;"	e	enum:pj_qos_wmm_prio
+PJ_QOS_WMM_PRIO_VOICE	include/pj/sock_qos.h	/^    PJ_QOS_WMM_PRIO_VOICE		\/**< Voice priority	    *\/$/;"	e	enum:pj_qos_wmm_prio
+PJ_RACE_ME	include/pj/config.h	1142;"	d
+PJ_RBCOLOR_BLACK	include/pj/rbtree.h	/^    PJ_RBCOLOR_BLACK,$/;"	e	enum:pj_rbcolor_t
+PJ_RBCOLOR_RED	include/pj/rbtree.h	/^    PJ_RBCOLOR_RED$/;"	e	enum:pj_rbcolor_t
+PJ_RBTREE_NODE_SIZE	include/pj/rbtree.h	100;"	d
+PJ_RBTREE_SIZE	include/pj/rbtree.h	106;"	d
+PJ_RETURN_OS_ERROR	include/pj/errno.h	259;"	d
+PJ_SAFE_POOL	include/pj/config.h	465;"	d
+PJ_SCANNER_USE_BITWISE	include/pj/config_site_sample.h	462;"	d
+PJ_SD_BOTH	include/pj/sock.h	/^    PJ_SD_BOTH	    = 2,    \/**< No more send and receive.  *\/$/;"	e	enum:pj_socket_sd_type
+PJ_SD_RECEIVE	include/pj/sock.h	/^    PJ_SD_RECEIVE   = 0,    \/**< No more receive.	    *\/$/;"	e	enum:pj_socket_sd_type
+PJ_SD_SEND	include/pj/sock.h	/^    PJ_SD_SEND	    = 1,    \/**< No more sending.	    *\/$/;"	e	enum:pj_socket_sd_type
+PJ_SEEK_CUR	include/pj/file_io.h	/^    PJ_SEEK_CUR     = 0x1202,   \/**< Offset from current position.      *\/$/;"	e	enum:pj_file_seek_type
+PJ_SEEK_END	include/pj/file_io.h	/^    PJ_SEEK_END     = 0x1203    \/**< Size of the file plus offset.      *\/$/;"	e	enum:pj_file_seek_type
+PJ_SEEK_SET	include/pj/file_io.h	/^    PJ_SEEK_SET     = 0x1201,   \/**< Offset from beginning of the file. *\/$/;"	e	enum:pj_file_seek_type
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_auto.h	130;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_darwinos.h	119;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_linux.h	75;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_linux_kernel.h	79;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_palmos.h	72;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_rtems.h	89;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_sunos.h	93;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_symbian.h	84;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_win32.h	102;"	d
+PJ_SELECT_NEEDS_NFDS	include/pj/compat/os_win32_wince.h	99;"	d
+PJ_SHUT_RD	include/pj/sock.h	/^    PJ_SHUT_RD	    = 0,    \/**< Alias for SD_RECEIVE.	    *\/$/;"	e	enum:pj_socket_sd_type
+PJ_SHUT_RDWR	include/pj/sock.h	/^    PJ_SHUT_RDWR    = 2     \/**< Alias for SD_BOTH.	    *\/$/;"	e	enum:pj_socket_sd_type
+PJ_SHUT_WR	include/pj/sock.h	/^    PJ_SHUT_WR	    = 1,    \/**< Alias for SD_SEND.	    *\/$/;"	e	enum:pj_socket_sd_type
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_darwinos.h	98;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_linux.h	63;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_linux_kernel.h	62;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_palmos.h	60;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_rtems.h	68;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_sunos.h	62;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_symbian.h	64;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_win32.h	71;"	d
+PJ_SOCKADDR_HAS_LEN	include/pj/compat/os_win32_wince.h	68;"	d
+PJ_SOCKADDR_IN_SIN_ZERO_LEN	include/pj/sock.h	501;"	d
+PJ_SOCKADDR_RESET_LEN	include/pj/compat/socket.h	234;"	d
+PJ_SOCKADDR_RESET_LEN	include/pj/compat/socket.h	237;"	d
+PJ_SOCKADDR_SET_LEN	include/pj/compat/socket.h	233;"	d
+PJ_SOCKADDR_SET_LEN	include/pj/compat/socket.h	236;"	d
+PJ_SOCK_DISABLE_WSAECONNRESET	include/pj/config.h	868;"	d
+PJ_SOCK_HAS_GETADDRINFO	include/pj/compat/os_auto.h	90;"	d
+PJ_SOCK_HAS_GETADDRINFO	include/pj/compat/socket.h	74;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_auto.h	87;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_darwinos.h	64;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_linux.h	58;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_linux_kernel.h	57;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_palmos.h	55;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_rtems.h	63;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_sunos.h	57;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_symbian.h	59;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_win32.h	66;"	d
+PJ_SOCK_HAS_INET_ATON	include/pj/compat/os_win32_wince.h	63;"	d
+PJ_SOCK_HAS_INET_NTOP	include/pj/compat/os_auto.h	89;"	d
+PJ_SOCK_HAS_INET_PTON	include/pj/compat/os_auto.h	88;"	d
+PJ_SOMAXCONN	include/pj/sock.h	464;"	d
+PJ_SSL_CERT_ECHAIN_TOO_LONG	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_ECHAIN_TOO_LONG				= (1 << 8),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_ECRL_FAILURE	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_ECRL_FAILURE				= (1 << 6),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EIDENTITY_NOT_MATCH	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EIDENTITY_NOT_MATCH			= (1 << 30),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EINVALID_FORMAT	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EINVALID_FORMAT				= (1 << 3),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EINVALID_PURPOSE	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EINVALID_PURPOSE			= (1 << 4),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EISSUER_MISMATCH	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EISSUER_MISMATCH			= (1 << 5),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EISSUER_NOT_FOUND	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EISSUER_NOT_FOUND			= (1 << 0),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EREVOKED	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EREVOKED				= (1 << 7),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_ESUCCESS	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_ESUCCESS				= 0,$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EUNKNOWN	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EUNKNOWN				= (1 << 31)$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EUNTRUSTED	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EUNTRUSTED				= (1 << 1),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_EVALIDITY_PERIOD	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_EVALIDITY_PERIOD			= (1 << 2),$/;"	e	enum:pj_ssl_cert_verify_flag_t
+PJ_SSL_CERT_NAME_DNS	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_NAME_DNS,$/;"	e	enum:pj_ssl_cert_name_type
+PJ_SSL_CERT_NAME_IP	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_NAME_IP$/;"	e	enum:pj_ssl_cert_name_type
+PJ_SSL_CERT_NAME_RFC822	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_NAME_RFC822,$/;"	e	enum:pj_ssl_cert_name_type
+PJ_SSL_CERT_NAME_UNKNOWN	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_NAME_UNKNOWN = 0,$/;"	e	enum:pj_ssl_cert_name_type
+PJ_SSL_CERT_NAME_URI	include/pj/ssl_sock.h	/^    PJ_SSL_CERT_NAME_URI,$/;"	e	enum:pj_ssl_cert_name_type
+PJ_SSL_CK_DES_192_EDE3_CBC_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_DES_192_EDE3_CBC_WITH_MD5      	= 0x000700C0$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_CK_DES_64_CBC_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_DES_64_CBC_WITH_MD5            	= 0x00060040,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_CK_IDEA_128_CBC_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_IDEA_128_CBC_WITH_MD5          	= 0x00050080,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_CK_RC2_128_CBC_EXPORT40_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_RC2_128_CBC_EXPORT40_WITH_MD5  	= 0x00040080,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_CK_RC2_128_CBC_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_RC2_128_CBC_WITH_MD5           	= 0x00030080,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_CK_RC4_128_EXPORT40_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_RC4_128_EXPORT40_WITH_MD5      	= 0x00020080,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_CK_RC4_128_WITH_MD5	include/pj/ssl_sock.h	/^    PJ_SSL_CK_RC4_128_WITH_MD5               	= 0x00010080,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_FORTEZZA_KEA_WITH_FORTEZZA_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_SSL_FORTEZZA_KEA_WITH_FORTEZZA_CBC_SHA	= 0x0000001D,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_FORTEZZA_KEA_WITH_NULL_SHA	include/pj/ssl_sock.h	/^    PJ_SSL_FORTEZZA_KEA_WITH_NULL_SHA        	= 0x0000001C,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_FORTEZZA_KEA_WITH_RC4_128_SHA	include/pj/ssl_sock.h	/^    PJ_SSL_FORTEZZA_KEA_WITH_RC4_128_SHA     	= 0x0000001E,$/;"	e	enum:pj_ssl_cipher
+PJ_SSL_SOCK_PROTO_DEFAULT	include/pj/ssl_sock.h	/^    PJ_SSL_SOCK_PROTO_DEFAULT,	    \/**< Default protocol of backend.	*\/$/;"	e	enum:pj_ssl_sock_proto
+PJ_SSL_SOCK_PROTO_DTLS1	include/pj/ssl_sock.h	/^    PJ_SSL_SOCK_PROTO_DTLS1	    \/**< DTLSv1.0 protocol.		*\/$/;"	e	enum:pj_ssl_sock_proto
+PJ_SSL_SOCK_PROTO_SSL2	include/pj/ssl_sock.h	/^    PJ_SSL_SOCK_PROTO_SSL2,	    \/**< SSLv2.0 protocol.		*\/$/;"	e	enum:pj_ssl_sock_proto
+PJ_SSL_SOCK_PROTO_SSL23	include/pj/ssl_sock.h	/^    PJ_SSL_SOCK_PROTO_SSL23,	    \/**< SSLv3.0 but can roll back to $/;"	e	enum:pj_ssl_sock_proto
+PJ_SSL_SOCK_PROTO_SSL3	include/pj/ssl_sock.h	/^    PJ_SSL_SOCK_PROTO_SSL3,	    \/**< SSLv3.0 protocol.		*\/$/;"	e	enum:pj_ssl_sock_proto
+PJ_SSL_SOCK_PROTO_TLS1	include/pj/ssl_sock.h	/^    PJ_SSL_SOCK_PROTO_TLS1,	    \/**< TLSv1.0 protocol.		*\/$/;"	e	enum:pj_ssl_sock_proto
+PJ_STATUS_FROM_OS	include/pj/errno.h	274;"	d
+PJ_STATUS_FROM_OS	include/pj/errno.h	276;"	d
+PJ_STATUS_TO_OS	include/pj/errno.h	290;"	d
+PJ_STATUS_TO_OS	include/pj/errno.h	292;"	d
+PJ_STRING_TO_NATIVE	include/pj/unicode.h	116;"	d
+PJ_STRING_TO_NATIVE	include/pj/unicode.h	82;"	d
+PJ_SUCCESS	include/pj/types.h	/^    PJ_SUCCESS=0,$/;"	e	enum:pj_constants_
+PJ_SUNOS	include/pj/config.h	117;"	d
+PJ_SUNOS	include/pj/config.h	118;"	d
+PJ_SYS_HAS_IOS_BG	include/pj/os.h	/^    PJ_SYS_HAS_IOS_BG = 1$/;"	e	enum:pj_sys_info_flag
+PJ_T	include/pj/types.h	84;"	d
+PJ_T	include/pj/types.h	86;"	d
+PJ_TERM_COLOR_B	include/pj/types.h	/^    PJ_TERM_COLOR_B	= 1,    \/**< Blue.          *\/$/;"	e	enum:__anon3
+PJ_TERM_COLOR_BRIGHT	include/pj/types.h	/^    PJ_TERM_COLOR_BRIGHT = 8    \/**< Bright mask.   *\/$/;"	e	enum:__anon3
+PJ_TERM_COLOR_G	include/pj/types.h	/^    PJ_TERM_COLOR_G	= 4,    \/**< Green          *\/$/;"	e	enum:__anon3
+PJ_TERM_COLOR_R	include/pj/types.h	/^    PJ_TERM_COLOR_R	= 2,    \/**< Red            *\/$/;"	e	enum:__anon3
+PJ_TERM_HAS_COLOR	include/pj/compat/os_linux_kernel.h	126;"	d
+PJ_TERM_HAS_COLOR	include/pj/compat/os_symbian.h	129;"	d
+PJ_TERM_HAS_COLOR	include/pj/compat/os_win32_wince.h	122;"	d
+PJ_TERM_HAS_COLOR	include/pj/config.h	300;"	d
+PJ_TERM_HAS_COLOR	include/pj/config.h	449;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_auto.h	204;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_darwinos.h	133;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_linux.h	122;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_linux_kernel.h	144;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_palmos.h	115;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_rtems.h	130;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_sunos.h	124;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_symbian.h	148;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_win32.h	135;"	d
+PJ_THREAD_ALLOCATE_STACK	include/pj/compat/os_win32_wince.h	142;"	d
+PJ_THREAD_DEFAULT_STACK_SIZE	include/pj/config.h	510;"	d
+PJ_THREAD_DESC_SIZE	include/pj/compat/os_linux_kernel.h	130;"	d
+PJ_THREAD_DESC_SIZE	include/pj/compat/os_symbian.h	134;"	d
+PJ_THREAD_DESC_SIZE	include/pj/os.h	164;"	d
+PJ_THREAD_FUNC	include/pj/compat/cc_armcc.h	43;"	d
+PJ_THREAD_FUNC	include/pj/compat/cc_codew.h	39;"	d
+PJ_THREAD_FUNC	include/pj/compat/cc_gcc.h	45;"	d
+PJ_THREAD_FUNC	include/pj/compat/cc_gcce.h	39;"	d
+PJ_THREAD_FUNC	include/pj/compat/cc_msvc.h	68;"	d
+PJ_THREAD_FUNC	include/pj/compat/cc_mwcc.h	39;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_auto.h	199;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_darwinos.h	128;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_linux.h	117;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_linux_kernel.h	139;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_palmos.h	110;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_rtems.h	125;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_sunos.h	119;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_symbian.h	143;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_win32.h	130;"	d
+PJ_THREAD_SET_STACK_SIZE	include/pj/compat/os_win32_wince.h	137;"	d
+PJ_THREAD_SUSPENDED	include/pj/os.h	/^    PJ_THREAD_SUSPENDED = 1$/;"	e	enum:pj_thread_create_flags
+PJ_THROW	include/pj/except.h	288;"	d
+PJ_THROW	include/pj/except.h	315;"	d
+PJ_THROW	include/pj/except.h	325;"	d
+PJ_THROW	include/pj/except.h	403;"	d
+PJ_TIMER_DEBUG	include/pj/config.h	491;"	d
+PJ_TIMESTAMP_USE_RDTSC	include/pj/compat/os_win32_wince.h	125;"	d
+PJ_TIMESTAMP_USE_RDTSC	include/pj/config.h	784;"	d
+PJ_TIME_VAL_ADD	include/pj/types.h	469;"	d
+PJ_TIME_VAL_EQ	include/pj/types.h	417;"	d
+PJ_TIME_VAL_GT	include/pj/types.h	427;"	d
+PJ_TIME_VAL_GTE	include/pj/types.h	438;"	d
+PJ_TIME_VAL_LT	include/pj/types.h	449;"	d
+PJ_TIME_VAL_LTE	include/pj/types.h	459;"	d
+PJ_TIME_VAL_MSEC	include/pj/types.h	407;"	d
+PJ_TIME_VAL_SUB	include/pj/types.h	484;"	d
+PJ_TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA 	= 0x00000011,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA     	= 0x00000013,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_DSS_WITH_AES_128_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_WITH_AES_128_CBC_SHA      	= 0x00000032,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_DSS_WITH_AES_128_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_WITH_AES_128_CBC_SHA256   	= 0x00000040,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_DSS_WITH_AES_256_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_WITH_AES_256_CBC_SHA      	= 0x00000038,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_DSS_WITH_AES_256_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_WITH_AES_256_CBC_SHA256   	= 0x0000006A,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_DSS_WITH_DES_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_DSS_WITH_DES_CBC_SHA          	= 0x00000012,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA 	= 0x00000014,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA     	= 0x00000016,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_WITH_AES_128_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_WITH_AES_128_CBC_SHA      	= 0x00000033,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_WITH_AES_128_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_WITH_AES_128_CBC_SHA256   	= 0x00000067,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_WITH_AES_256_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_WITH_AES_256_CBC_SHA      	= 0x00000039,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_WITH_AES_256_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_WITH_AES_256_CBC_SHA256   	= 0x0000006B,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DHE_RSA_WITH_DES_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DHE_RSA_WITH_DES_CBC_SHA          	= 0x00000015,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA  	= 0x0000000B,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA      	= 0x0000000D,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_WITH_AES_128_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_WITH_AES_128_CBC_SHA       	= 0x00000030,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_WITH_AES_128_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_WITH_AES_128_CBC_SHA256    	= 0x0000003E,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_WITH_AES_256_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_WITH_AES_256_CBC_SHA       	= 0x00000036,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_WITH_AES_256_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_WITH_AES_256_CBC_SHA256    	= 0x00000068,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_DSS_WITH_DES_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_DSS_WITH_DES_CBC_SHA           	= 0x0000000C,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA  	= 0x0000000E,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA      	= 0x00000010,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_WITH_AES_128_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_WITH_AES_128_CBC_SHA       	= 0x00000031,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_WITH_AES_128_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_WITH_AES_128_CBC_SHA256    	= 0x0000003F,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_WITH_AES_256_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_WITH_AES_256_CBC_SHA       	= 0x00000037,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_WITH_AES_256_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_WITH_AES_256_CBC_SHA256    	= 0x00000069,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_RSA_WITH_DES_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_RSA_WITH_DES_CBC_SHA           	= 0x0000000F,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA 	= 0x00000019,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_EXPORT_WITH_RC4_40_MD5	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_EXPORT_WITH_RC4_40_MD5    	= 0x00000017,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_3DES_EDE_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_3DES_EDE_CBC_SHA     	= 0x0000001B,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_AES_128_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_AES_128_CBC_SHA      	= 0x00000034,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_AES_128_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_AES_128_CBC_SHA256   	= 0x0000006C,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_AES_256_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_AES_256_CBC_SHA      	= 0x0000003A,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_AES_256_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_AES_256_CBC_SHA256   	= 0x0000006D,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_DES_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_DES_CBC_SHA          	= 0x0000001A,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_DH_anon_WITH_RC4_128_MD5	include/pj/ssl_sock.h	/^    PJ_TLS_DH_anon_WITH_RC4_128_MD5          	= 0x00000018,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_NULL_WITH_NULL_NULL	include/pj/ssl_sock.h	/^    PJ_TLS_NULL_WITH_NULL_NULL               	= 0x00000000,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_EXPORT_WITH_DES40_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_EXPORT_WITH_DES40_CBC_SHA     	= 0x00000008,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5    	= 0x00000006,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_EXPORT_WITH_RC4_40_MD5	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_EXPORT_WITH_RC4_40_MD5        	= 0x00000003,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_3DES_EDE_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_3DES_EDE_CBC_SHA         	= 0x0000000A,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_AES_128_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_AES_128_CBC_SHA          	= 0x0000002F,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_AES_128_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_AES_128_CBC_SHA256       	= 0x0000003C,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_AES_256_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_AES_256_CBC_SHA          	= 0x00000035,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_AES_256_CBC_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_AES_256_CBC_SHA256       	= 0x0000003D,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_DES_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_DES_CBC_SHA              	= 0x00000009,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_IDEA_CBC_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_IDEA_CBC_SHA             	= 0x00000007,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_NULL_MD5	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_NULL_MD5                 	= 0x00000001,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_NULL_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_NULL_SHA                 	= 0x00000002,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_NULL_SHA256	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_NULL_SHA256              	= 0x0000003B,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_RC4_128_MD5	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_RC4_128_MD5              	= 0x00000004,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_RSA_WITH_RC4_128_SHA	include/pj/ssl_sock.h	/^    PJ_TLS_RSA_WITH_RC4_128_SHA              	= 0x00000005,$/;"	e	enum:pj_ssl_cipher
+PJ_TLS_UNKNOWN_CIPHER	include/pj/ssl_sock.h	/^    PJ_TLS_UNKNOWN_CIPHER                       = -1,$/;"	e	enum:pj_ssl_cipher
+PJ_TODO	include/pj/config.h	1134;"	d
+PJ_TRUE	include/pj/types.h	/^    PJ_TRUE=1,$/;"	e	enum:pj_constants_
+PJ_TRY	include/pj/except.h	282;"	d
+PJ_TRY	include/pj/except.h	311;"	d
+PJ_TRY	include/pj/except.h	322;"	d
+PJ_TRY	include/pj/except.h	374;"	d
+PJ_UINT64	include/pj/compat/cc_codew.h	50;"	d
+PJ_UINT64	include/pj/compat/cc_gcc.h	66;"	d
+PJ_UINT64	include/pj/compat/cc_gcce.h	50;"	d
+PJ_UINT64	include/pj/compat/cc_msvc.h	79;"	d
+PJ_UINT64	include/pj/compat/cc_mwcc.h	50;"	d
+PJ_UNREACHED	include/pj/compat/cc_armcc.h	55;"	d
+PJ_UNREACHED	include/pj/compat/cc_codew.h	53;"	d
+PJ_UNREACHED	include/pj/compat/cc_gcc.h	74;"	d
+PJ_UNREACHED	include/pj/compat/cc_msvc.h	82;"	d
+PJ_UNREACHED	include/pj/compat/cc_mwcc.h	53;"	d
+PJ_UNUSED_ARG	include/pj/config.h	1125;"	d
+PJ_USE_EXCEPTION	include/pj/except.h	281;"	d
+PJ_USE_EXCEPTION	include/pj/except.h	310;"	d
+PJ_USE_EXCEPTION	include/pj/except.h	321;"	d
+PJ_USE_EXCEPTION	include/pj/except.h	368;"	d
+PJ_VERSION_NUM	include/pj/config.h	1207;"	d
+PJ_VERSION_NUM_EXTRA	include/pj/config.h	1200;"	d
+PJ_VERSION_NUM_MAJOR	include/pj/config.h	1188;"	d
+PJ_VERSION_NUM_MINOR	include/pj/config.h	1191;"	d
+PJ_VERSION_NUM_REV	include/pj/config.h	1194;"	d
+PJ_WIN32	include/pj/config.h	77;"	d
+PJ_WIN32	include/pj/config.h	89;"	d
+PJ_WIN32	include/pj/config.h	90;"	d
+PJ_WIN32_WINCE	include/pj/config.h	72;"	d
+PJ_WIN32_WINCE	include/pj/config.h	73;"	d
+PJ_WIN32_WINNT	include/pj/compat/os_win32.h	31;"	d
+PJ_WIN64	include/pj/config.h	86;"	d
+PJ_WIN64	include/pj/config.h	87;"	d
+RPC_NO_WINDOWS_H	include/pj/compat/os_win32_wince.h	31;"	d
+TLS_OUT_OF_INDEXES	include/pj/compat/os_win32_wince.h	119;"	d
+TPjException	include/pj/except.h	/^class TPjException$/;"	c
+WIN32_LEAN_AND_MEAN	include/pj/compat/os_win32.h	30;"	d
+WIN32_LEAN_AND_MEAN	include/pj/compat/os_win32_wince.h	30;"	d
+WIN32_LEAN_AND_MEAN	include/pj/except.h	272;"	d
+WORDS_BIGENDIAN	include/pj/compat/m_auto.h	38;"	d
+_CRT_SECURE_NO_DEPRECATE	include/pj/compat/cc_msvc.h	39;"	d
+_CRT_SECURE_NO_WARNINGS	include/pj/compat/cc_msvc.h	42;"	d
+_SIGSET_NWORDS	include/pj/compat/setjmp.h	59;"	d
+_WIN32_WINNT	include/pj/compat/os_auto.h	43;"	d
+_WIN32_WINNT	include/pj/compat/os_win32.h	33;"	d
+__FD_SETSIZE	include/pj/compat/os_linux_kernel.h	106;"	d
+__PJLIB_H__	include/pjlib.h	22;"	d
+__PJ_ADDR_RESOLV_H__	include/pj/addr_resolv.h	21;"	d
+__PJ_ARRAY_H__	include/pj/array.h	21;"	d
+__PJ_ASSERT_H__	include/pj/assert.h	21;"	d
+__PJ_ASYNCSOCK_H__	include/pj/activesock.h	21;"	d
+__PJ_COMPAT_ASSERT_H__	include/pj/compat/assert.h	21;"	d
+__PJ_COMPAT_CC_ARMCC_H__	include/pj/compat/cc_armcc.h	21;"	d
+__PJ_COMPAT_CC_CODEW_H__	include/pj/compat/cc_codew.h	21;"	d
+__PJ_COMPAT_CC_GCCE_H__	include/pj/compat/cc_gcce.h	21;"	d
+__PJ_COMPAT_CC_GCC_H__	include/pj/compat/cc_gcc.h	21;"	d
+__PJ_COMPAT_CC_MSVC_H__	include/pj/compat/cc_msvc.h	21;"	d
+__PJ_COMPAT_CC_MWCC_H__	include/pj/compat/cc_mwcc.h	21;"	d
+__PJ_COMPAT_CTYPE_H__	include/pj/compat/ctype.h	21;"	d
+__PJ_COMPAT_ERRNO_H__	include/pj/compat/errno.h	21;"	d
+__PJ_COMPAT_HIGH_PRECISION_H__	include/pj/compat/high_precision.h	21;"	d
+__PJ_COMPAT_MALLOC_H__	include/pj/compat/malloc.h	21;"	d
+__PJ_COMPAT_M_ALPHA_H__	include/pj/compat/m_alpha.h	21;"	d
+__PJ_COMPAT_M_ARMV4_H__	include/pj/compat/m_armv4.h	21;"	d
+__PJ_COMPAT_M_AUTO_H__	include/pj/compat/m_auto.h	22;"	d
+__PJ_COMPAT_M_M68K_H__	include/pj/compat/m_m68k.h	21;"	d
+__PJ_COMPAT_M_POWERPC_H__	include/pj/compat/m_powerpc.h	21;"	d
+__PJ_COMPAT_M_SPARC_H__	include/pj/compat/m_sparc.h	21;"	d
+__PJ_COMPAT_M_i386_H__	include/pj/compat/m_i386.h	21;"	d
+__PJ_COMPAT_M_x86_64_H__	include/pj/compat/m_x86_64.h	21;"	d
+__PJ_COMPAT_OS_AUTO_H__	include/pj/compat/os_auto.h	22;"	d
+__PJ_COMPAT_OS_DARWINOS_H__	include/pj/compat/os_darwinos.h	21;"	d
+__PJ_COMPAT_OS_LINUX_H__	include/pj/compat/os_linux.h	21;"	d
+__PJ_COMPAT_OS_LINUX_KERNEL_H__	include/pj/compat/os_linux_kernel.h	21;"	d
+__PJ_COMPAT_OS_PALMOS_H__	include/pj/compat/os_palmos.h	21;"	d
+__PJ_COMPAT_OS_RTEMS_H__	include/pj/compat/os_rtems.h	27;"	d
+__PJ_COMPAT_OS_SUNOS_H__	include/pj/compat/os_sunos.h	21;"	d
+__PJ_COMPAT_OS_SYMBIAN_H__	include/pj/compat/os_symbian.h	21;"	d
+__PJ_COMPAT_OS_WIN32_H__	include/pj/compat/os_win32.h	21;"	d
+__PJ_COMPAT_OS_WIN32_WINCE_H__	include/pj/compat/os_win32_wince.h	21;"	d
+__PJ_COMPAT_RAND_H__	include/pj/compat/rand.h	21;"	d
+__PJ_COMPAT_SETJMP_H__	include/pj/compat/setjmp.h	21;"	d
+__PJ_COMPAT_SIZE_T_H__	include/pj/compat/size_t.h	21;"	d
+__PJ_COMPAT_SOCKET_H__	include/pj/compat/socket.h	21;"	d
+__PJ_COMPAT_STDARG_H__	include/pj/compat/stdarg.h	21;"	d
+__PJ_COMPAT_STDFILEIO_H__	include/pj/compat/stdfileio.h	21;"	d
+__PJ_COMPAT_STRING_H__	include/pj/compat/string.h	21;"	d
+__PJ_COMPAT_TIME_H__	include/pj/compat/time.h	21;"	d
+__PJ_CONFIG_H__	include/pj/config.h	21;"	d
+__PJ_CTYPE_H__	include/pj/ctype.h	21;"	d
+__PJ_DOXYGEN_H__	include/pj/doxygen.h	21;"	d
+__PJ_ERRNO_H__	include/pj/errno.h	21;"	d
+__PJ_EXCEPTION_H__	include/pj/except.h	21;"	d
+__PJ_EXPORT_SYMBOL	include/pj/compat/os_linux_kernel.h	113;"	d
+__PJ_FIFOBUF_H__	include/pj/fifobuf.h	21;"	d
+__PJ_FILE_ACCESS_H__	include/pj/file_access.h	21;"	d
+__PJ_FILE_IO_H__	include/pj/file_io.h	21;"	d
+__PJ_GUID_H__	include/pj/guid.h	21;"	d
+__PJ_HASH_H__	include/pj/hash.h	21;"	d
+__PJ_IOQUEUE_H__	include/pj/ioqueue.h	22;"	d
+__PJ_IP_ROUTE_H__	include/pj/ip_helper.h	21;"	d
+__PJ_LIST_H__	include/pj/list.h	21;"	d
+__PJ_LOCK_H__	include/pj/lock.h	21;"	d
+__PJ_LOG_H__	include/pj/log.h	21;"	d
+__PJ_MATH_H__	include/pj/math.h	22;"	d
+__PJ_OS_H__	include/pj/os.h	21;"	d
+__PJ_POOL_ALT_H__	include/pj/pool_alt.h	21;"	d
+__PJ_POOL_H__	include/pj/pool.h	32;"	d
+__PJ_POOL_H__	include/pj/pool_alt.h	23;"	d
+__PJ_RAND_H__	include/pj/rand.h	21;"	d
+__PJ_RBTREE_H__	include/pj/rbtree.h	21;"	d
+__PJ_SELECT_H__	include/pj/sock_select.h	21;"	d
+__PJ_SOCK_H__	include/pj/sock.h	21;"	d
+__PJ_SOCK_QOS_H__	include/pj/sock_qos.h	21;"	d
+__PJ_SSL_SOCK_H__	include/pj/ssl_sock.h	20;"	d
+__PJ_STRING_H__	include/pj/string.h	21;"	d
+__PJ_TIMER_H__	include/pj/timer.h	19;"	d
+__PJ_TYPES_H__	include/pj/types.h	21;"	d
+__PJ_UNICODE_H__	include/pj/unicode.h	21;"	d
+__POOL_STACK_H__	include/pj/pool_buf.h	21;"	d
+__jmp_buf	include/pj/compat/setjmp.h	/^	typedef int __jmp_buf[6];$/;"	t
+__jmp_buf_tag	include/pj/compat/setjmp.h	/^    typedef struct __jmp_buf_tag    \/* C++ doesn't like tagless structs.  *\/$/;"	s
+__jmpbuf	include/pj/compat/setjmp.h	/^	__jmp_buf __jmpbuf;		\/* Calling environment.  *\/$/;"	m	struct:__jmp_buf_tag
+__mask_was_saved	include/pj/compat/setjmp.h	/^	int __mask_was_saved;		\/* Saved the signal mask?  *\/$/;"	m	struct:__jmp_buf_tag
+__pj_throw__	include/pj/config.h	1150;"	d
+__saved_mask	include/pj/compat/setjmp.h	/^	__sigset_t __saved_mask;	\/* Saved signal mask.  *\/$/;"	m	struct:__jmp_buf_tag
+__sigset_t	include/pj/compat/setjmp.h	/^    } __sigset_t;$/;"	t	typeref:struct:__sigset_t_tag
+__sigset_t_tag	include/pj/compat/setjmp.h	/^    typedef struct __sigset_t_tag$/;"	s
+__val	include/pj/compat/setjmp.h	/^	unsigned long int __val[_SIGSET_NWORDS];$/;"	m	struct:__sigset_t_tag
+_grp_lock	include/pj/timer.h	/^    pj_grp_lock_t *_grp_lock;$/;"	m	struct:pj_timer_entry
+_timer_id	include/pj/timer.h	/^    pj_timer_id_t _timer_id;$/;"	m	struct:pj_timer_entry
+_timer_value	include/pj/timer.h	/^    pj_time_val _timer_value;$/;"	m	struct:pj_timer_entry
+activesock_data	include/pj/ioqueue.h	/^    void *activesock_data;	    \/**< Active socket data.	    *\/$/;"	m	struct:pj_ioqueue_op_key_t
+addr	include/pj/sock.h	/^    pj_addr_hdr	    addr;	\/**< Generic transport address.	    *\/$/;"	m	union:pj_sockaddr
+addr	include/pj/sock.h	/^PJ_DECL(pj_bool_t) pj_sockaddr_has_addr(const pj_sockaddr_t *addr);$/;"	v
+addr	include/pj/sock.h	/^PJ_DECL(pj_in_addr) pj_sockaddr_in_get_addr(const pj_sockaddr_in *addr);$/;"	v
+addr	include/pj/sock.h	/^PJ_DECL(pj_uint16_t) pj_sockaddr_get_port(const pj_sockaddr_t *addr);$/;"	v
+addr	include/pj/sock.h	/^PJ_DECL(pj_uint16_t) pj_sockaddr_in_get_port(const pj_sockaddr_in *addr);$/;"	v
+addr	include/pj/sock.h	/^PJ_DECL(unsigned) pj_sockaddr_get_addr_len(const pj_sockaddr_t *addr);$/;"	v
+addr	include/pj/sock.h	/^PJ_DECL(unsigned) pj_sockaddr_get_len(const pj_sockaddr_t *addr);$/;"	v
+addr	include/pj/sock.h	/^PJ_DECL(void*) pj_sockaddr_get_addr(const pj_sockaddr_t *addr);$/;"	v
+ai_addr	include/pj/addr_resolv.h	/^    pj_sockaddr  ai_addr;			\/**< Binary address.	    *\/$/;"	m	struct:pj_addrinfo
+ai_canonname	include/pj/addr_resolv.h	/^    char	 ai_canonname[PJ_MAX_HOSTNAME]; \/**< Canonical name for host*\/$/;"	m	struct:pj_addrinfo
+asock	include/pj/activesock.h	/^PJ_DECL(pj_status_t) pj_activesock_close(pj_activesock_t *asock);$/;"	v
+asock	include/pj/activesock.h	/^PJ_DECL(void*) pj_activesock_get_user_data(pj_activesock_t *asock);$/;"	v
+assert	include/pj/compat/assert.h	32;"	d
+assert	include/pj/compat/assert.h	40;"	d
+async_cnt	include/pj/activesock.h	/^    unsigned async_cnt;$/;"	m	struct:pj_activesock_cfg
+async_cnt	include/pj/ssl_sock.h	/^    unsigned async_cnt;$/;"	m	struct:pj_ssl_sock_param
+atime	include/pj/file_access.h	/^    pj_time_val     atime;  \/**< Time of last access.           *\/$/;"	m	struct:pj_file_stat
+atomic_var	include/pj/os.h	/^PJ_DECL(pj_atomic_value_t) pj_atomic_dec_and_get(pj_atomic_t *atomic_var);$/;"	v
+atomic_var	include/pj/os.h	/^PJ_DECL(pj_atomic_value_t) pj_atomic_get(pj_atomic_t *atomic_var);$/;"	v
+atomic_var	include/pj/os.h	/^PJ_DECL(pj_atomic_value_t) pj_atomic_inc_and_get(pj_atomic_t *atomic_var);$/;"	v
+atomic_var	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_atomic_destroy( pj_atomic_t *atomic_var );$/;"	v
+atomic_var	include/pj/os.h	/^PJ_DECL(void) pj_atomic_dec(pj_atomic_t *atomic_var);$/;"	v
+atomic_var	include/pj/os.h	/^PJ_DECL(void) pj_atomic_inc(pj_atomic_t *atomic_var);$/;"	v
+block_alloc	include/pj/pool.h	/^    void* (*block_alloc)(pj_pool_factory *factory, pj_size_t size);$/;"	m	struct:pj_pool_factory_policy
+block_alloc	include/pj/pool_alt.h	/^    void* (*block_alloc)(pj_pool_factory *factory, pj_size_t size);$/;"	m	struct:pj_pool_factory_policy
+block_free	include/pj/pool.h	/^    void (*block_free)(pj_pool_factory *factory, void *mem, pj_size_t size);$/;"	m	struct:pj_pool_factory_policy
+block_free	include/pj/pool_alt.h	/^    void (*block_free)(pj_pool_factory *factory, void *mem, pj_size_t size);$/;"	m	struct:pj_pool_factory_policy
+block_list	include/pj/pool.h	/^    pj_pool_block   block_list;$/;"	m	struct:pj_pool_t
+buf	include/pj/pool.h	/^    unsigned char    *buf;                      \/**< Start of buffer.       *\/$/;"	m	struct:pj_pool_block
+callback	include/pj/pool.h	/^    pj_pool_callback *callback;$/;"	m	struct:pj_pool_factory_policy
+callback	include/pj/pool.h	/^    pj_pool_callback *callback;$/;"	m	struct:pj_pool_t
+callback	include/pj/pool_alt.h	/^    pj_pool_callback *callback;$/;"	m	struct:pj_pool_factory_policy
+capacity	include/pj/pool.h	/^    pj_size_t	    capacity;$/;"	m	struct:pj_caching_pool
+capacity	include/pj/pool.h	/^    pj_size_t	    capacity;$/;"	m	struct:pj_pool_t
+cb	include/pj/pool_alt.h	/^    pj_pool_callback   *cb;$/;"	m	struct:pj_pool_t
+cb	include/pj/ssl_sock.h	/^    pj_ssl_sock_cb cb;$/;"	m	struct:pj_ssl_sock_param
+cb	include/pj/timer.h	/^    pj_timer_heap_callback *cb;$/;"	m	struct:pj_timer_entry
+cfg	include/pj/activesock.h	/^PJ_DECL(void) pj_activesock_cfg_default(pj_activesock_cfg *cfg);$/;"	v
+cfg	include/pj/lock.h	/^PJ_DECL(void) pj_grp_lock_config_default(pj_grp_lock_config *cfg);$/;"	v
+ch_pool	include/pj/pool.h	/^PJ_DECL(void) pj_caching_pool_destroy( pj_caching_pool *ch_pool );$/;"	v
+cipher	include/pj/ssl_sock.h	/^    pj_ssl_cipher cipher;$/;"	m	struct:pj_ssl_sock_info
+cipher	include/pj/ssl_sock.h	/^PJ_DECL(const char*) pj_ssl_cipher_name(pj_ssl_cipher cipher);$/;"	v
+cipher	include/pj/ssl_sock.h	/^PJ_DECL(pj_bool_t) pj_ssl_cipher_is_supported(pj_ssl_cipher cipher);$/;"	v
+ciphers	include/pj/ssl_sock.h	/^    pj_ssl_cipher *ciphers;$/;"	m	struct:pj_ssl_sock_param
+ciphers_num	include/pj/ssl_sock.h	/^    unsigned ciphers_num;$/;"	m	struct:pj_ssl_sock_param
+cn	include/pj/ssl_sock.h	/^        pj_str_t	cn;	    \/**< Common name		*\/$/;"	m	struct:pj_ssl_cert_info::__anon4
+cn	include/pj/ssl_sock.h	/^        pj_str_t	cn;	    \/**< Common name		*\/$/;"	m	struct:pj_ssl_cert_info::__anon5
+cnt	include/pj/sock.h	/^    unsigned cnt;$/;"	m	struct:pj_sockopt_params
+cnt	include/pj/ssl_sock.h	/^	unsigned	cnt;	    \/**< # of entry		*\/$/;"	m	struct:pj_ssl_cert_info::__anon7
+code	include/pj/errno.h	/^PJ_DECL(void) pj_set_netos_error(pj_status_t code);$/;"	v
+code	include/pj/errno.h	/^PJ_DECL(void) pj_set_os_error(pj_status_t code);$/;"	v
+code_	include/pj/except.h	/^    int code_;$/;"	m	class:TPjException
+color	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_term_set_color(pj_color_t color);$/;"	v
+color	include/pj/rbtree.h	/^    pj_rbcolor_t color;$/;"	m	struct:pj_rbtree_node
+comp	include/pj/rbtree.h	/^    pj_rbtree_comp *comp;       \/**< Key comparison function.           *\/$/;"	m	struct:pj_rbtree
+concurrency	include/pj/activesock.h	/^    int concurrency;$/;"	m	struct:pj_activesock_cfg
+concurrency	include/pj/ssl_sock.h	/^    int concurrency;$/;"	m	struct:pj_ssl_sock_param
+count	include/pj/timer.h	/^PJ_DECL(pj_size_t) pj_timer_heap_mem_size(pj_size_t count);$/;"	v
+cp	include/pj/sock.h	/^PJ_DECL(pj_in_addr) pj_inet_addr(const pj_str_t *cp);$/;"	v
+create_pool	include/pj/pool.h	/^    pj_pool_t*	(*create_pool)( pj_pool_factory *factory,$/;"	m	struct:pj_pool_factory
+ctime	include/pj/file_access.h	/^    pj_time_val     ctime;  \/**< Time of last creation.         *\/$/;"	m	struct:pj_file_stat
+cur	include/pj/pool.h	/^    unsigned char    *cur;                      \/**< Current alloc ptr.     *\/$/;"	m	struct:pj_pool_block
+data	include/pj/sock_select.h	/^    pj_sock_t data[PJ_IOQUEUE_MAX_HANDLES+ 4]; \/**< Opaque buffer for fd_set *\/$/;"	m	struct:pj_fd_set_t
+day	include/pj/types.h	/^    int day;$/;"	m	struct:pj_parsed_time
+do_mod	include/pj/compat/high_precision.h	/^    PJ_INLINE(pj_int64_t) do_mod( pj_int64_t a1, pj_int64_t a2)$/;"	f
+dscp_val	include/pj/sock_qos.h	/^    pj_uint8_t      dscp_val; \/**< The 6 bits DSCP value to set	    *\/$/;"	m	struct:pj_qos_params
+dst_addr	include/pj/ip_helper.h	/^	pj_in_addr	dst_addr;   \/**< Destination IP address.	*\/$/;"	m	struct:pj_ip_route_entry::__anon1
+dummy	include/pj/pool_alt.h	/^    int dummy;$/;"	m	struct:pj_pool_block
+dummy	include/pj/pool_alt.h	/^    int dummy;$/;"	m	struct:pj_pool_factory
+dump_status	include/pj/pool.h	/^    void (*dump_status)( pj_pool_factory *factory, pj_bool_t detail );$/;"	m	struct:pj_pool_factory
+end	include/pj/pool.h	/^    unsigned char    *end;                      \/**< End of buffer.         *\/$/;"	m	struct:pj_pool_block
+end	include/pj/ssl_sock.h	/^	pj_time_val	end;	    \/**< Validity end		*\/$/;"	m	struct:pj_ssl_cert_info::__anon6
+entry	include/pj/ssl_sock.h	/^	} *entry;		    \/**< Subject alt name entry *\/$/;"	m	struct:pj_ssl_cert_info::__anon7	typeref:struct:pj_ssl_cert_info::__anon7::__anon8
+entry	include/pj/timer.h	/^PJ_DECL(pj_bool_t) pj_timer_entry_running( pj_timer_entry *entry );$/;"	v
+entry	include/pj/types.h	/^    pj_hash_entry   *entry;     \/**< Internal entry.     *\/$/;"	m	struct:pj_hash_iterator_t
+env	include/pj/compat/setjmp.h	/^    PJ_DECL(int) pj_setjmp(pj_jmp_buf env);$/;"	v
+established	include/pj/ssl_sock.h	/^    pj_bool_t established;$/;"	m	struct:pj_ssl_sock_info
+event	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_event_destroy(pj_event_t *event);$/;"	v
+event	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_event_pulse(pj_event_t *event);$/;"	v
+event	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_event_reset(pj_event_t *event);$/;"	v
+event	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_event_set(pj_event_t *event);$/;"	v
+event	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_event_trywait(pj_event_t *event);$/;"	v
+event	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_event_wait(pj_event_t *event);$/;"	v
+factory	include/pj/pool.h	/^    pj_pool_factory *factory;$/;"	m	struct:pj_pool_t
+factory	include/pj/pool.h	/^    pj_pool_factory factory;$/;"	m	struct:pj_caching_pool
+factory	include/pj/pool_alt.h	/^    pj_pool_factory    *factory;$/;"	m	struct:pj_pool_t
+factory	include/pj/pool_alt.h	/^    pj_pool_factory factory;$/;"	m	struct:pj_caching_pool
+factory_data	include/pj/pool.h	/^    void	    *factory_data;$/;"	m	struct:pj_pool_t
+fb	include/pj/fifobuf.h	/^PJ_DECL(unsigned)    pj_fifobuf_max_size (pj_fifobuf_t *fb);$/;"	v
+fd	include/pj/file_io.h	/^PJ_DECL(pj_status_t) pj_file_close(pj_oshandle_t fd);$/;"	v
+fd	include/pj/file_io.h	/^PJ_DECL(pj_status_t) pj_file_flush(pj_oshandle_t fd);$/;"	v
+fdsetp	include/pj/sock_select.h	/^PJ_DECL(pj_size_t) PJ_FD_COUNT(const pj_fd_set_t *fdsetp);$/;"	v
+fdsetp	include/pj/sock_select.h	/^PJ_DECL(void) PJ_FD_ZERO(pj_fd_set_t *fdsetp);$/;"	v
+first	include/pj/fifobuf.h	/^    char *first, *last;$/;"	m	struct:pj_fifobuf_t
+first_mem	include/pj/pool_alt.h	/^    struct pj_pool_mem *first_mem;$/;"	m	struct:pj_pool_t	typeref:struct:pj_pool_t::pj_pool_mem
+flags	include/pj/lock.h	/^    unsigned	flags;$/;"	m	struct:pj_grp_lock_config
+flags	include/pj/os.h	/^    pj_uint32_t	flags;$/;"	m	struct:pj_sys_info
+flags	include/pj/pool.h	/^    unsigned flags;$/;"	m	struct:pj_pool_factory_policy
+flags	include/pj/pool_alt.h	/^    unsigned flags;$/;"	m	struct:pj_pool_factory_policy
+flags	include/pj/sock_qos.h	/^    pj_uint8_t      flags;    \/**< Determines which values to $/;"	m	struct:pj_qos_params
+fmean_	include/pj/math.h	/^    float	     fmean_;	\/* mean(floating point) *\/$/;"	m	struct:pj_math_stat
+free_list	include/pj/pool.h	/^    pj_list	    free_list[PJ_CACHING_POOL_ARRAY_SIZE];$/;"	m	struct:pj_caching_pool
+freq	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_get_timestamp_freq(pj_timestamp *freq);$/;"	v
+full	include/pj/fifobuf.h	/^    int full;$/;"	m	struct:pj_fifobuf_t
+func	include/pj/log.h	/^PJ_DECL(void) pj_log_set_log_func( pj_log_func *func );$/;"	v
+func	include/pj/types.h	/^PJ_DECL(pj_status_t) pj_atexit(pj_exit_callback func);$/;"	v
+getsockopt	include/pj/compat/socket.h	191;"	d
+gmt	include/pj/ssl_sock.h	/^	pj_bool_t	gmt;	    \/**< Flag if validity date\/time $/;"	m	struct:pj_ssl_cert_info::__anon6
+grp_lock	include/pj/activesock.h	/^    pj_grp_lock_t *grp_lock;$/;"	m	struct:pj_activesock_cfg
+grp_lock	include/pj/lock.h	/^PJ_DECL(int) pj_grp_lock_get_ref(pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_grp_lock_acquire( pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_grp_lock_add_ref(pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_grp_lock_dec_ref(pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_grp_lock_destroy( pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_grp_lock_release( pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_grp_lock_tryacquire( pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/lock.h	/^PJ_DECL(void) pj_grp_lock_dump(pj_grp_lock_t *grp_lock);$/;"	v
+grp_lock	include/pj/ssl_sock.h	/^    pj_grp_lock_t *grp_lock;$/;"	m	struct:pj_ssl_sock_info
+grp_lock	include/pj/ssl_sock.h	/^    pj_grp_lock_t *grp_lock;$/;"	m	struct:pj_ssl_sock_param
+h_addr	include/pj/addr_resolv.h	75;"	d
+h_addr_list	include/pj/addr_resolv.h	/^    char   **h_addr_list;	\/**< List of addresses. *\/$/;"	m	struct:pj_hostent
+h_addrtype	include/pj/addr_resolv.h	/^    int	     h_addrtype;	\/**< Host address type. *\/$/;"	m	struct:pj_hostent
+h_aliases	include/pj/addr_resolv.h	/^    char   **h_aliases;		\/**< Aliases list. *\/$/;"	m	struct:pj_hostent
+h_length	include/pj/addr_resolv.h	/^    int	     h_length;		\/**< Length of address. *\/$/;"	m	struct:pj_hostent
+h_name	include/pj/addr_resolv.h	/^    char    *h_name;		\/**< The official name of the host. *\/$/;"	m	struct:pj_hostent
+hi	include/pj/types.h	/^	pj_uint32_t hi;     \/**< high 32-bit value of the 64-bit value. *\/$/;"	m	struct:pj_timestamp::__anon2
+hostlong	include/pj/sock.h	/^PJ_DECL(pj_uint32_t) pj_htonl(pj_uint32_t hostlong);$/;"	v
+hostshort	include/pj/sock.h	/^PJ_DECL(pj_uint16_t) pj_htons(pj_uint16_t hostshort);$/;"	v
+hour	include/pj/types.h	/^    int hour;$/;"	m	struct:pj_parsed_time
+ht	include/pj/hash.h	/^PJ_DECL(unsigned) pj_hash_count( pj_hash_table_t *ht );$/;"	v
+ht	include/pj/timer.h	/^PJ_DECL(pj_size_t) pj_timer_heap_count( pj_timer_heap_t *ht );$/;"	v
+ht	include/pj/timer.h	/^PJ_DECL(void) pj_timer_heap_destroy( pj_timer_heap_t *ht );$/;"	v
+ht	include/pj/timer.h	/^PJ_DECL(void) pj_timer_heap_dump(pj_timer_heap_t *ht);$/;"	v
+id	include/pj/except.h	/^PJ_DECL(const char*) pj_exception_id_name(pj_exception_id_t id);$/;"	v
+id	include/pj/except.h	/^PJ_DECL(pj_status_t) pj_exception_id_free(pj_exception_id_t id);$/;"	v
+id	include/pj/timer.h	/^    int id;$/;"	m	struct:pj_timer_entry
+if_addr	include/pj/ip_helper.h	/^	pj_in_addr	if_addr;    \/**< Local interface IP address.	*\/$/;"	m	struct:pj_ip_route_entry::__anon1
+imr_interface	include/pj/sock.h	/^    pj_in_addr imr_interface;	\/**< local IP address of interface. *\/$/;"	m	struct:pj_ip_mreq
+imr_multiaddr	include/pj/sock.h	/^    pj_in_addr imr_multiaddr;	\/**< IP multicast address of group. *\/$/;"	m	struct:pj_ip_mreq
+inaddr	include/pj/sock.h	/^PJ_DECL(char*) pj_inet_ntoa(pj_in_addr inaddr);$/;"	v
+increment_size	include/pj/pool.h	/^    pj_size_t	    increment_size;$/;"	m	struct:pj_pool_t
+index	include/pj/types.h	/^    pj_uint32_t	     index;     \/**< Internal index.     *\/$/;"	m	struct:pj_hash_iterator_t
+info	include/pj/os.h	/^    pj_str_t	info;$/;"	m	struct:pj_sys_info
+info	include/pj/ssl_sock.h	/^        pj_str_t	info;	    \/**< One line subject, fields$/;"	m	struct:pj_ssl_cert_info::__anon4
+info	include/pj/ssl_sock.h	/^        pj_str_t	info;	    \/**< One line subject, fields$/;"	m	struct:pj_ssl_cert_info::__anon5
+internal__	include/pj/ioqueue.h	/^    void *internal__[32];           \/**< Internal I\/O Queue data.   *\/$/;"	m	struct:pj_ioqueue_op_key_t
+ioque	include/pj/ioqueue.h	/^PJ_DECL(pj_status_t) pj_ioqueue_destroy( pj_ioqueue_t *ioque );$/;"	v
+ioqueue	include/pj/ssl_sock.h	/^    pj_ioqueue_t *ioqueue;$/;"	m	struct:pj_ssl_sock_param
+ipv4	include/pj/ip_helper.h	/^    } ipv4;$/;"	m	union:pj_ip_route_entry	typeref:struct:pj_ip_route_entry::__anon1
+ipv4	include/pj/sock.h	/^    pj_sockaddr_in  ipv4;	\/**< IPv4 transport address.	    *\/$/;"	m	union:pj_sockaddr
+ipv6	include/pj/sock.h	/^    pj_sockaddr_in6 ipv6;	\/**< IPv6 transport address.	    *\/$/;"	m	union:pj_sockaddr
+isalnum	include/pj/compat/ctype.h	31;"	d
+isalpha	include/pj/compat/ctype.h	32;"	d
+isascii	include/pj/compat/ctype.h	33;"	d
+isblank	include/pj/compat/ctype.h	45;"	d
+isdigit	include/pj/compat/ctype.h	34;"	d
+islower	include/pj/compat/ctype.h	37;"	d
+isspace	include/pj/compat/ctype.h	35;"	d
+issuer	include/pj/ssl_sock.h	/^    } issuer;			    \/**< Issuer			*\/$/;"	m	struct:pj_ssl_cert_info	typeref:struct:pj_ssl_cert_info::__anon5
+isupper	include/pj/compat/ctype.h	38;"	d
+isxdigit	include/pj/compat/ctype.h	39;"	d
+jmp_buf	include/pj/compat/setjmp.h	/^    } jmp_buf[1];$/;"	t	typeref:struct:__jmp_buf_tag
+key	include/pj/ioqueue.h	/^PJ_DECL(pj_status_t) pj_ioqueue_lock_key(pj_ioqueue_key_t *key);$/;"	v
+key	include/pj/ioqueue.h	/^PJ_DECL(pj_status_t) pj_ioqueue_unlock_key(pj_ioqueue_key_t *key);$/;"	v
+key	include/pj/ioqueue.h	/^PJ_DECL(pj_status_t) pj_ioqueue_unregister( pj_ioqueue_key_t *key );$/;"	v
+key	include/pj/ioqueue.h	/^PJ_DECL(void*) pj_ioqueue_get_user_data( pj_ioqueue_key_t *key );$/;"	v
+key	include/pj/rbtree.h	/^    const void *key;$/;"	m	struct:pj_rbtree_node
+last	include/pj/fifobuf.h	/^    char *first, *last;$/;"	m	struct:pj_fifobuf_t
+last	include/pj/math.h	/^    int		     last;	\/* last value		*\/$/;"	m	struct:pj_math_stat
+last_native_err	include/pj/ssl_sock.h	/^    unsigned long	last_native_err;$/;"	m	struct:pj_ssl_sock_info
+left	include/pj/rbtree.h	/^    struct pj_rbtree_node *parent, *left, *right;$/;"	m	struct:pj_rbtree_node	typeref:struct:pj_rbtree_node::
+level	include/pj/sock.h	/^	int level;$/;"	m	struct:pj_sockopt_params::__anon9
+list	include/pj/list.h	/^PJ_IDECL(pj_size_t) pj_list_size(const pj_list_type *list);$/;"	v
+lo	include/pj/types.h	/^	pj_uint32_t lo;     \/**< Low 32-bit value of the 64-bit value. *\/$/;"	m	struct:pj_timestamp::__anon2
+local_addr	include/pj/ssl_sock.h	/^    pj_sockaddr local_addr;$/;"	m	struct:pj_ssl_sock_info
+local_cert_info	include/pj/ssl_sock.h	/^    pj_ssl_cert_info *local_cert_info;$/;"	m	struct:pj_ssl_sock_info
+lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_lock_acquire( pj_lock_t *lock );$/;"	v
+lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_lock_destroy( pj_lock_t *lock );$/;"	v
+lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_lock_release( pj_lock_t *lock );$/;"	v
+lock	include/pj/lock.h	/^PJ_DECL(pj_status_t) pj_lock_tryacquire( pj_lock_t *lock );$/;"	v
+lock	include/pj/pool.h	/^    pj_lock_t	   *lock;$/;"	m	struct:pj_caching_pool
+m2_	include/pj/math.h	/^    pj_highprec_t    m2_;	\/* variance * n		*\/$/;"	m	struct:pj_math_stat
+machine	include/pj/os.h	/^    pj_str_t	machine;$/;"	m	struct:pj_sys_info
+mask	include/pj/ip_helper.h	/^	pj_in_addr	mask;	    \/**< Destination mask.		*\/$/;"	m	struct:pj_ip_route_entry::__anon1
+max	include/pj/math.h	/^    int		     max;	\/* maximum value	*\/$/;"	m	struct:pj_math_stat
+max_capacity	include/pj/pool.h	/^    pj_size_t       max_capacity;$/;"	m	struct:pj_caching_pool
+mean	include/pj/math.h	/^    int		     mean;	\/* mean			*\/$/;"	m	struct:pj_math_stat
+mean_res_	include/pj/math.h	/^    int		     mean_res_;	\/* mean residu		*\/$/;"	m	struct:pj_math_stat
+min	include/pj/math.h	/^    int		     min;	\/* minimum value	*\/$/;"	m	struct:pj_math_stat
+min	include/pj/types.h	/^    int min;$/;"	m	struct:pj_parsed_time
+mon	include/pj/types.h	/^    int mon;$/;"	m	struct:pj_parsed_time
+msec	include/pj/types.h	/^    int msec;$/;"	m	struct:pj_parsed_time
+msec	include/pj/types.h	/^    long    msec;$/;"	m	struct:pj_time_val
+mtime	include/pj/file_access.h	/^    pj_time_val     mtime;  \/**< Time of last modification.     *\/$/;"	m	struct:pj_file_stat
+mutex	include/pj/os.h	/^PJ_DECL(pj_bool_t) pj_mutex_is_locked(pj_mutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_mutex_destroy(pj_mutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_mutex_lock(pj_mutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_mutex_trylock(pj_mutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_mutex_unlock(pj_mutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_rwmutex_destroy(pj_rwmutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_rwmutex_lock_read(pj_rwmutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_rwmutex_lock_write(pj_rwmutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_rwmutex_unlock_read(pj_rwmutex_t *mutex);$/;"	v
+mutex	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_rwmutex_unlock_write(pj_rwmutex_t *mutex);$/;"	v
+n	include/pj/math.h	/^    int		     n;		\/* number of samples	*\/$/;"	m	struct:pj_math_stat
+name	include/pj/ssl_sock.h	/^	    pj_str_t	name;	    \/**< The name		*\/$/;"	m	struct:pj_ssl_cert_info::__anon7::__anon8
+netlong	include/pj/sock.h	/^PJ_DECL(pj_uint32_t) pj_ntohl(pj_uint32_t netlong);$/;"	v
+netshort	include/pj/sock.h	/^PJ_DECL(pj_uint16_t) pj_ntohs(pj_uint16_t netshort);$/;"	v
+next	include/pj/pool_alt.h	/^    struct pj_pool_mem *next;$/;"	m	struct:pj_pool_mem	typeref:struct:pj_pool_mem::pj_pool_mem
+node	include/pj/list.h	/^PJ_IDECL(void) pj_list_erase(pj_list_type *node);$/;"	v
+null	include/pj/rbtree.h	/^    pj_rbtree_node *null;       \/**< Constant to indicate NULL node.    *\/$/;"	m	struct:pj_rbtree
+null_node	include/pj/rbtree.h	/^    pj_rbtree_node null_node;   \/**< Constant to indicate NULL node.    *\/$/;"	m	struct:pj_rbtree
+obj_name	include/pj/pool.h	/^    char	    obj_name[PJ_MAX_OBJ_NAME];$/;"	m	struct:pj_pool_t
+obj_name	include/pj/pool_alt.h	/^    char	        obj_name[32];$/;"	m	struct:pj_pool_t
+on_accept_complete	include/pj/activesock.h	/^    pj_bool_t (*on_accept_complete)(pj_activesock_t *asock,$/;"	m	struct:pj_activesock_cb
+on_accept_complete	include/pj/ioqueue.h	/^    void (*on_accept_complete)(pj_ioqueue_key_t *key, $/;"	m	struct:pj_ioqueue_callback
+on_accept_complete	include/pj/ssl_sock.h	/^    pj_bool_t (*on_accept_complete)(pj_ssl_sock_t *ssock,$/;"	m	struct:pj_ssl_sock_cb
+on_accept_complete2	include/pj/activesock.h	/^    pj_bool_t (*on_accept_complete2)(pj_activesock_t *asock,$/;"	m	struct:pj_activesock_cb
+on_block_alloc	include/pj/pool.h	/^    pj_bool_t (*on_block_alloc)(pj_pool_factory *factory, pj_size_t size);$/;"	m	struct:pj_pool_factory
+on_block_free	include/pj/pool.h	/^    void (*on_block_free)(pj_pool_factory *factory, pj_size_t size);$/;"	m	struct:pj_pool_factory
+on_connect_complete	include/pj/activesock.h	/^    pj_bool_t (*on_connect_complete)(pj_activesock_t *asock,$/;"	m	struct:pj_activesock_cb
+on_connect_complete	include/pj/ioqueue.h	/^    void (*on_connect_complete)(pj_ioqueue_key_t *key, $/;"	m	struct:pj_ioqueue_callback
+on_connect_complete	include/pj/ssl_sock.h	/^    pj_bool_t (*on_connect_complete)(pj_ssl_sock_t *ssock,$/;"	m	struct:pj_ssl_sock_cb
+on_data_read	include/pj/activesock.h	/^    pj_bool_t (*on_data_read)(pj_activesock_t *asock,$/;"	m	struct:pj_activesock_cb
+on_data_read	include/pj/ssl_sock.h	/^    pj_bool_t (*on_data_read)(pj_ssl_sock_t *ssock,$/;"	m	struct:pj_ssl_sock_cb
+on_data_recvfrom	include/pj/activesock.h	/^    pj_bool_t (*on_data_recvfrom)(pj_activesock_t *asock,$/;"	m	struct:pj_activesock_cb
+on_data_recvfrom	include/pj/ssl_sock.h	/^    pj_bool_t (*on_data_recvfrom)(pj_ssl_sock_t *ssock,$/;"	m	struct:pj_ssl_sock_cb
+on_data_sent	include/pj/activesock.h	/^    pj_bool_t (*on_data_sent)(pj_activesock_t *asock,$/;"	m	struct:pj_activesock_cb
+on_data_sent	include/pj/ssl_sock.h	/^    pj_bool_t (*on_data_sent)(pj_ssl_sock_t *ssock,$/;"	m	struct:pj_ssl_sock_cb
+on_read_complete	include/pj/ioqueue.h	/^    void (*on_read_complete)(pj_ioqueue_key_t *key, $/;"	m	struct:pj_ioqueue_callback
+on_write_complete	include/pj/ioqueue.h	/^    void (*on_write_complete)(pj_ioqueue_key_t *key, $/;"	m	struct:pj_ioqueue_callback
+options	include/pj/sock.h	/^    } options[PJ_MAX_SOCKOPT_PARAMS];$/;"	m	struct:pj_sockopt_params	typeref:struct:pj_sockopt_params::__anon9
+optlen	include/pj/sock.h	/^	int optlen;$/;"	m	struct:pj_sockopt_params::__anon9
+optname	include/pj/sock.h	/^	int optname;$/;"	m	struct:pj_sockopt_params::__anon9
+optval	include/pj/sock.h	/^	void *optval;$/;"	m	struct:pj_sockopt_params::__anon9
+os_name	include/pj/os.h	/^    pj_str_t	os_name;$/;"	m	struct:pj_sys_info
+os_ver	include/pj/os.h	/^    pj_uint32_t	os_ver;$/;"	m	struct:pj_sys_info
+param	include/pj/ssl_sock.h	/^PJ_DECL(void) pj_ssl_sock_param_default(pj_ssl_sock_param *param);$/;"	v
+parent	include/pj/rbtree.h	/^    struct pj_rbtree_node *parent, *left, *right;$/;"	m	struct:pj_rbtree_node	typeref:struct:pj_rbtree_node::pj_rbtree_node
+peak_used_size	include/pj/pool.h	/^    pj_size_t	    peak_used_size;$/;"	m	struct:pj_caching_pool
+peak_used_size	include/pj/pool_alt.h	/^    unsigned peak_used_size;$/;"	m	struct:pj_caching_pool
+pj_AF_INET	include/pj/sock.h	113;"	d
+pj_AF_INET6	include/pj/sock.h	115;"	d
+pj_AF_IRDA	include/pj/sock.h	119;"	d
+pj_AF_PACKET	include/pj/sock.h	117;"	d
+pj_AF_UNIX	include/pj/sock.h	111;"	d
+pj_AF_UNSPEC	include/pj/sock.h	109;"	d
+pj_IPTOS_LOWDELAY	include/pj/sock.h	266;"	d
+pj_IPTOS_MINCOST	include/pj/sock.h	275;"	d
+pj_IPTOS_RELIABILITY	include/pj/sock.h	272;"	d
+pj_IPTOS_THROUGHPUT	include/pj/sock.h	269;"	d
+pj_IP_ADD_MEMBERSHIP	include/pj/sock.h	391;"	d
+pj_IP_DROP_MEMBERSHIP	include/pj/sock.h	394;"	d
+pj_IP_MULTICAST_IF	include/pj/sock.h	382;"	d
+pj_IP_MULTICAST_LOOP	include/pj/sock.h	388;"	d
+pj_IP_MULTICAST_TTL	include/pj/sock.h	385;"	d
+pj_IP_TOS	include/pj/sock.h	263;"	d
+pj_MSG_DONTROUTE	include/pj/sock.h	429;"	d
+pj_MSG_OOB	include/pj/sock.h	423;"	d
+pj_MSG_PEEK	include/pj/sock.h	426;"	d
+pj_SOCK_DGRAM	include/pj/sock.h	162;"	d
+pj_SOCK_RAW	include/pj/sock.h	164;"	d
+pj_SOCK_RDM	include/pj/sock.h	166;"	d
+pj_SOCK_STREAM	include/pj/sock.h	160;"	d
+pj_SOL_IP	include/pj/sock.h	206;"	d
+pj_SOL_IPV6	include/pj/sock.h	212;"	d
+pj_SOL_SOCKET	include/pj/sock.h	204;"	d
+pj_SOL_TCP	include/pj/sock.h	208;"	d
+pj_SOL_UDP	include/pj/sock.h	210;"	d
+pj_SO_NOSIGPIPE	include/pj/sock.h	376;"	d
+pj_SO_PRIORITY	include/pj/sock.h	379;"	d
+pj_SO_RCVBUF	include/pj/sock.h	364;"	d
+pj_SO_REUSEADDR	include/pj/sock.h	373;"	d
+pj_SO_SNDBUF	include/pj/sock.h	367;"	d
+pj_SO_TYPE	include/pj/sock.h	361;"	d
+pj_TCP_NODELAY	include/pj/sock.h	370;"	d
+pj_activesock_cb	include/pj/activesock.h	/^typedef struct pj_activesock_cb$/;"	s
+pj_activesock_cb	include/pj/activesock.h	/^} pj_activesock_cb;$/;"	t	typeref:struct:pj_activesock_cb
+pj_activesock_cfg	include/pj/activesock.h	/^typedef struct pj_activesock_cfg$/;"	s
+pj_activesock_cfg	include/pj/activesock.h	/^} pj_activesock_cfg;$/;"	t	typeref:struct:pj_activesock_cfg
+pj_activesock_t	include/pj/activesock.h	/^typedef struct pj_activesock_t pj_activesock_t;$/;"	t	typeref:struct:pj_activesock_t
+pj_add_timestamp	include/pj/os.h	/^PJ_INLINE(void) pj_add_timestamp(pj_timestamp *t1, const pj_timestamp *t2)$/;"	f
+pj_add_timestamp32	include/pj/os.h	/^PJ_INLINE(void) pj_add_timestamp32(pj_timestamp *t1, pj_uint32_t t2)$/;"	f
+pj_addr_hdr	include/pj/sock.h	/^typedef struct pj_addr_hdr$/;"	s
+pj_addr_hdr	include/pj/sock.h	/^} pj_addr_hdr;$/;"	t	typeref:struct:pj_addr_hdr
+pj_addrinfo	include/pj/addr_resolv.h	/^typedef struct pj_addrinfo$/;"	s
+pj_addrinfo	include/pj/addr_resolv.h	/^} pj_addrinfo;$/;"	t	typeref:struct:pj_addrinfo
+pj_ansi_snprintf	include/pj/compat/string.h	86;"	d
+pj_ansi_sprintf	include/pj/compat/string.h	75;"	d
+pj_ansi_strcasecmp	include/pj/compat/string.h	71;"	d
+pj_ansi_strcat	include/pj/compat/string.h	68;"	d
+pj_ansi_strchr	include/pj/compat/string.h	70;"	d
+pj_ansi_strcmp	include/pj/compat/string.h	63;"	d
+pj_ansi_strcpy	include/pj/compat/string.h	66;"	d
+pj_ansi_stricmp	include/pj/compat/string.h	72;"	d
+pj_ansi_strlen	include/pj/compat/string.h	65;"	d
+pj_ansi_strncasecmp	include/pj/compat/string.h	73;"	d
+pj_ansi_strncmp	include/pj/compat/string.h	64;"	d
+pj_ansi_strncpy	include/pj/compat/string.h	67;"	d
+pj_ansi_strnicmp	include/pj/compat/string.h	74;"	d
+pj_ansi_strstr	include/pj/compat/string.h	69;"	d
+pj_ansi_vsnprintf	include/pj/compat/string.h	88;"	d
+pj_ansi_vsprintf	include/pj/compat/string.h	87;"	d
+pj_assert	include/pj/assert.h	49;"	d
+pj_atomic_t	include/pj/types.h	/^typedef struct pj_atomic_t pj_atomic_t;$/;"	t	typeref:struct:pj_atomic_t
+pj_atomic_value_t	include/pj/types.h	/^typedef PJ_ATOMIC_VALUE_TYPE pj_atomic_value_t;$/;"	t
+pj_bool_t	include/pj/types.h	/^typedef int		pj_bool_t;$/;"	t
+pj_bzero	include/pj/string.h	/^PJ_INLINE(void) pj_bzero(void *dst, pj_size_t size)$/;"	f
+pj_caching_pool	include/pj/pool.h	/^struct pj_caching_pool $/;"	s
+pj_caching_pool	include/pj/pool_alt.h	/^struct pj_caching_pool $/;"	s
+pj_caching_pool	include/pj/types.h	/^typedef struct pj_caching_pool pj_caching_pool;$/;"	t	typeref:struct:pj_caching_pool
+pj_caching_pool_destroy	include/pj/pool_alt.h	194;"	d
+pj_caching_pool_init	include/pj/pool_alt.h	193;"	d
+pj_char_t	include/pj/types.h	/^    typedef char pj_char_t;$/;"	t
+pj_char_t	include/pj/types.h	/^    typedef wchar_t pj_char_t;$/;"	t
+pj_cmp_timestamp	include/pj/os.h	/^PJ_INLINE(int) pj_cmp_timestamp(const pj_timestamp *t1, const pj_timestamp *t2)$/;"	f
+pj_color_t	include/pj/types.h	/^typedef unsigned int pj_color_t;$/;"	t
+pj_constants_	include/pj/types.h	/^enum pj_constants_$/;"	g
+pj_cstr	include/pj/string.h	/^PJ_INLINE(const pj_str_t*) pj_cstr(pj_str_t *str, const char *s)$/;"	f
+pj_error_callback	include/pj/errno.h	/^typedef pj_str_t (*pj_error_callback)(pj_status_t e, char *msg, pj_size_t max);$/;"	t
+pj_event_t	include/pj/types.h	/^typedef struct pj_event_t pj_event_t;$/;"	t	typeref:struct:pj_event_t
+pj_exception_id_t	include/pj/types.h	/^typedef int pj_exception_id_t;$/;"	t
+pj_exception_state_t	include/pj/except.h	/^struct pj_exception_state_t$/;"	s
+pj_exit_callback	include/pj/types.h	/^typedef void (*pj_exit_callback)(void);$/;"	t
+pj_fd_set_t	include/pj/sock_select.h	/^typedef struct pj_fd_set_t$/;"	s
+pj_fd_set_t	include/pj/sock_select.h	/^} pj_fd_set_t;$/;"	t	typeref:struct:pj_fd_set_t
+pj_fifobuf_t	include/pj/fifobuf.h	/^struct pj_fifobuf_t$/;"	s
+pj_fifobuf_t	include/pj/fifobuf.h	/^typedef struct pj_fifobuf_t pj_fifobuf_t;$/;"	t	typeref:struct:pj_fifobuf_t
+pj_file_access	include/pj/file_io.h	/^enum pj_file_access$/;"	g
+pj_file_seek_type	include/pj/file_io.h	/^enum pj_file_seek_type$/;"	g
+pj_file_stat	include/pj/file_access.h	/^typedef struct pj_file_stat$/;"	s
+pj_file_stat	include/pj/file_access.h	/^} pj_file_stat;$/;"	t	typeref:struct:pj_file_stat
+pj_get_native_netos_error	include/pj/compat/errno.h	29;"	d
+pj_get_native_netos_error	include/pj/compat/errno.h	35;"	d
+pj_get_native_os_error	include/pj/compat/errno.h	28;"	d
+pj_get_native_os_error	include/pj/compat/errno.h	34;"	d
+pj_grp_lock_add_ref	include/pj/lock.h	315;"	d
+pj_grp_lock_add_ref_dbg	include/pj/lock.h	311;"	d
+pj_grp_lock_config	include/pj/lock.h	/^typedef struct pj_grp_lock_config$/;"	s
+pj_grp_lock_config	include/pj/lock.h	/^} pj_grp_lock_config;$/;"	t	typeref:struct:pj_grp_lock_config
+pj_grp_lock_dec_ref	include/pj/lock.h	336;"	d
+pj_grp_lock_dec_ref_dbg	include/pj/lock.h	333;"	d
+pj_grp_lock_t	include/pj/types.h	/^typedef struct pj_grp_lock_t pj_grp_lock_t;$/;"	t	typeref:struct:pj_grp_lock_t
+pj_hash_entry	include/pj/types.h	/^typedef struct pj_hash_entry pj_hash_entry;$/;"	t	typeref:struct:pj_hash_entry
+pj_hash_entry_buf	include/pj/hash.h	/^typedef void *pj_hash_entry_buf[(PJ_HASH_ENTRY_BUF_SIZE+sizeof(void*)-1)\/(sizeof(void*))];$/;"	t
+pj_hash_iterator_t	include/pj/types.h	/^typedef struct pj_hash_iterator_t$/;"	s
+pj_hash_iterator_t	include/pj/types.h	/^} pj_hash_iterator_t;$/;"	t	typeref:struct:pj_hash_iterator_t
+pj_hash_table_t	include/pj/types.h	/^typedef struct pj_hash_table_t pj_hash_table_t;$/;"	t	typeref:struct:pj_hash_table_t
+pj_hex_digit_to_val	include/pj/ctype.h	/^PJ_INLINE(unsigned) pj_hex_digit_to_val(unsigned char c)$/;"	f
+pj_hex_digits	include/pj/ctype.h	141;"	d
+pj_highprec_div	include/pj/compat/high_precision.h	40;"	d
+pj_highprec_div	include/pj/compat/high_precision.h	80;"	d
+pj_highprec_mod	include/pj/compat/high_precision.h	32;"	d
+pj_highprec_mod	include/pj/compat/high_precision.h	41;"	d
+pj_highprec_mod	include/pj/compat/high_precision.h	89;"	d
+pj_highprec_mul	include/pj/compat/high_precision.h	71;"	d
+pj_highprec_t	include/pj/compat/high_precision.h	/^    typedef double pj_highprec_t;$/;"	t
+pj_highprec_t	include/pj/compat/high_precision.h	/^    typedef pj_int32_t pj_highprec_t;$/;"	t
+pj_highprec_t	include/pj/compat/high_precision.h	/^    typedef pj_int64_t pj_highprec_t;$/;"	t
+pj_hostent	include/pj/addr_resolv.h	/^typedef struct pj_hostent$/;"	s
+pj_hostent	include/pj/addr_resolv.h	/^} pj_hostent;$/;"	t	typeref:struct:pj_hostent
+pj_in6_addr	include/pj/sock.h	/^typedef union pj_in6_addr$/;"	u
+pj_in6_addr	include/pj/sock.h	/^} pj_in6_addr;$/;"	t	typeref:union:pj_in6_addr
+pj_in_addr	include/pj/sock.h	/^typedef struct pj_in_addr$/;"	s
+pj_in_addr	include/pj/sock.h	/^} pj_in_addr;$/;"	t	typeref:struct:pj_in_addr
+pj_int16_t	include/pj/types.h	/^typedef short		pj_int16_t;$/;"	t
+pj_int32_t	include/pj/types.h	/^typedef int		pj_int32_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_armcc.h	/^typedef long long pj_int64_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_codew.h	/^typedef long long pj_int64_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_gcc.h	/^  typedef int64_t		pj_int64_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_gcc.h	/^  typedef long long		pj_int64_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_gcce.h	/^typedef long long pj_int64_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_msvc.h	/^typedef __int64 pj_int64_t;$/;"	t
+pj_int64_t	include/pj/compat/cc_mwcc.h	/^typedef long long pj_int64_t;$/;"	t
+pj_int8_t	include/pj/types.h	/^typedef signed char	pj_int8_t;$/;"	t
+pj_ioqueue_callback	include/pj/ioqueue.h	/^typedef struct pj_ioqueue_callback$/;"	s
+pj_ioqueue_callback	include/pj/ioqueue.h	/^} pj_ioqueue_callback;$/;"	t	typeref:struct:pj_ioqueue_callback
+pj_ioqueue_key_t	include/pj/types.h	/^typedef struct pj_ioqueue_key_t pj_ioqueue_key_t;$/;"	t	typeref:struct:pj_ioqueue_key_t
+pj_ioqueue_op_key_t	include/pj/ioqueue.h	/^typedef struct pj_ioqueue_op_key_t$/;"	s
+pj_ioqueue_op_key_t	include/pj/ioqueue.h	/^} pj_ioqueue_op_key_t;$/;"	t	typeref:struct:pj_ioqueue_op_key_t
+pj_ioqueue_operation_e	include/pj/ioqueue.h	/^typedef enum pj_ioqueue_operation_e$/;"	g
+pj_ioqueue_operation_e	include/pj/ioqueue.h	/^} pj_ioqueue_operation_e;$/;"	t	typeref:enum:pj_ioqueue_operation_e
+pj_ioqueue_t	include/pj/types.h	/^typedef struct pj_ioqueue_t pj_ioqueue_t;$/;"	t	typeref:struct:pj_ioqueue_t
+pj_ip_mreq	include/pj/sock.h	/^typedef struct pj_ip_mreq {$/;"	s
+pj_ip_mreq	include/pj/sock.h	/^} pj_ip_mreq;$/;"	t	typeref:struct:pj_ip_mreq
+pj_ip_route_entry	include/pj/ip_helper.h	/^typedef union pj_ip_route_entry$/;"	u
+pj_ip_route_entry	include/pj/ip_helper.h	/^} pj_ip_route_entry;$/;"	t	typeref:union:pj_ip_route_entry
+pj_isalnum	include/pj/ctype.h	/^PJ_INLINE(int) pj_isalnum(unsigned char c) { return isalnum(c); }$/;"	f
+pj_isalpha	include/pj/ctype.h	/^PJ_INLINE(int) pj_isalpha(unsigned char c) { return isalpha(c); }$/;"	f
+pj_isascii	include/pj/ctype.h	/^PJ_INLINE(int) pj_isascii(unsigned char c) { return c<128; }$/;"	f
+pj_isblank	include/pj/ctype.h	/^PJ_INLINE(int) pj_isblank(unsigned char c) { return isblank(c); }$/;"	f
+pj_isdigit	include/pj/ctype.h	/^PJ_INLINE(int) pj_isdigit(unsigned char c) { return isdigit(c); }$/;"	f
+pj_islower	include/pj/ctype.h	/^PJ_INLINE(int) pj_islower(unsigned char c) { return islower(c); }$/;"	f
+pj_isqrt	include/pj/math.h	/^PJ_INLINE(unsigned) pj_isqrt(unsigned i)$/;"	f
+pj_isspace	include/pj/ctype.h	/^PJ_INLINE(int) pj_isspace(unsigned char c) { return isspace(c); }$/;"	f
+pj_isupper	include/pj/ctype.h	/^PJ_INLINE(int) pj_isupper(unsigned char c) { return isupper(c); }$/;"	f
+pj_isxdigit	include/pj/ctype.h	/^PJ_INLINE(int) pj_isxdigit(unsigned char c){ return isxdigit(c); }$/;"	f
+pj_jmp_buf	include/pj/compat/setjmp.h	/^    typedef jmp_buf pj_jmp_buf;$/;"	t
+pj_jmp_buf	include/pj/compat/setjmp.h	/^   typedef int pj_jmp_buf[1];$/;"	t
+pj_jmp_buf	include/pj/compat/setjmp.h	/^   typedef jmp_buf pj_jmp_buf;$/;"	t
+pj_link_node	include/pj/list_i.h	/^PJ_INLINE(void) pj_link_node(pj_list_type *prev, pj_list_type *next)$/;"	f
+pj_list	include/pj/list.h	/^struct pj_list$/;"	s
+pj_list	include/pj/types.h	/^typedef struct pj_list pj_list;$/;"	t	typeref:struct:pj_list
+pj_list_empty	include/pj/list.h	/^PJ_INLINE(int) pj_list_empty(const pj_list_type * node)$/;"	f
+pj_list_erase	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_erase(pj_list_type *node)$/;"	f
+pj_list_find_node	include/pj/list_i.h	/^PJ_IDEF(pj_list_type*) pj_list_find_node(pj_list_type *list, pj_list_type *node)$/;"	f
+pj_list_init	include/pj/list.h	/^PJ_INLINE(void) pj_list_init(pj_list_type * node)$/;"	f
+pj_list_insert_after	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_insert_after(pj_list_type *pos, pj_list_type *node)$/;"	f
+pj_list_insert_before	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_insert_before(pj_list_type *pos, pj_list_type *node)$/;"	f
+pj_list_insert_nodes_after	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_insert_nodes_after(pj_list_type *pos, pj_list_type *lst)$/;"	f
+pj_list_insert_nodes_before	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_insert_nodes_before(pj_list_type *pos, pj_list_type *lst)$/;"	f
+pj_list_merge_first	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_merge_first(pj_list_type *lst1, pj_list_type *lst2)$/;"	f
+pj_list_merge_last	include/pj/list_i.h	/^PJ_IDEF(void) pj_list_merge_last(pj_list_type *lst1, pj_list_type *lst2)$/;"	f
+pj_list_push_back	include/pj/list.h	/^PJ_INLINE(void) pj_list_push_back(pj_list_type *list, pj_list_type *node)$/;"	f
+pj_list_push_front	include/pj/list.h	/^PJ_INLINE(void) pj_list_push_front(pj_list_type *list, pj_list_type *node)$/;"	f
+pj_list_search	include/pj/list_i.h	/^PJ_IDEF(pj_list_type*) pj_list_search(pj_list_type *list, void *value,$/;"	f
+pj_list_size	include/pj/list_i.h	/^PJ_IDEF(pj_size_t) pj_list_size(const pj_list_type *list)$/;"	f
+pj_list_type	include/pj/types.h	/^typedef void pj_list_type;$/;"	t
+pj_lock_t	include/pj/types.h	/^typedef struct pj_lock_t pj_lock_t;$/;"	t	typeref:struct:pj_lock_t
+pj_log	include/pj/log.h	270;"	d
+pj_log_add_indent	include/pj/log.h	303;"	d
+pj_log_decoration	include/pj/log.h	/^enum pj_log_decoration$/;"	g
+pj_log_func	include/pj/log.h	/^typedef void pj_log_func(int level, const char *data, int len);$/;"	t
+pj_log_get_color	include/pj/log.h	343;"	d
+pj_log_get_decor	include/pj/log.h	335;"	d
+pj_log_get_level	include/pj/log.h	187;"	d
+pj_log_get_level	include/pj/log.h	328;"	d
+pj_log_init	include/pj/log.h	349;"	d
+pj_log_pop_indent	include/pj/log.h	313;"	d
+pj_log_push_indent	include/pj/log.h	308;"	d
+pj_log_set_color	include/pj/log.h	321;"	d
+pj_log_set_decor	include/pj/log.h	293;"	d
+pj_log_set_level	include/pj/log.h	282;"	d
+pj_log_set_log_func	include/pj/log.h	260;"	d
+pj_log_wrapper_1	include/pj/log.h	372;"	d
+pj_log_wrapper_1	include/pj/log.h	376;"	d
+pj_log_wrapper_2	include/pj/log.h	386;"	d
+pj_log_wrapper_2	include/pj/log.h	390;"	d
+pj_log_wrapper_3	include/pj/log.h	400;"	d
+pj_log_wrapper_3	include/pj/log.h	404;"	d
+pj_log_wrapper_4	include/pj/log.h	414;"	d
+pj_log_wrapper_4	include/pj/log.h	418;"	d
+pj_log_wrapper_5	include/pj/log.h	428;"	d
+pj_log_wrapper_5	include/pj/log.h	432;"	d
+pj_log_wrapper_6	include/pj/log.h	442;"	d
+pj_log_wrapper_6	include/pj/log.h	446;"	d
+pj_longjmp	include/pj/compat/setjmp.h	35;"	d
+pj_longjmp	include/pj/compat/setjmp.h	93;"	d
+pj_main_func_ptr	include/pj/os.h	/^typedef int (*pj_main_func_ptr)(int argc, char *argv[]);$/;"	t
+pj_math_stat	include/pj/math.h	/^typedef struct pj_math_stat$/;"	s
+pj_math_stat	include/pj/math.h	/^} pj_math_stat;$/;"	t	typeref:struct:pj_math_stat
+pj_math_stat_get_stddev	include/pj/math.h	/^PJ_INLINE(unsigned) pj_math_stat_get_stddev(const pj_math_stat *stat)$/;"	f
+pj_math_stat_init	include/pj/math.h	/^PJ_INLINE(void) pj_math_stat_init(pj_math_stat *stat)$/;"	f
+pj_math_stat_set_stddev	include/pj/math.h	/^PJ_INLINE(void) pj_math_stat_set_stddev(pj_math_stat *stat, unsigned dev)$/;"	f
+pj_math_stat_update	include/pj/math.h	/^PJ_INLINE(void) pj_math_stat_update(pj_math_stat *stat, int val)$/;"	f
+pj_memchr	include/pj/string.h	/^PJ_INLINE(void*) pj_memchr(const void *buf, int c, pj_size_t size)$/;"	f
+pj_memcmp	include/pj/string.h	/^PJ_INLINE(int) pj_memcmp(const void *buf1, const void *buf2, pj_size_t size)$/;"	f
+pj_memcpy	include/pj/string.h	/^PJ_INLINE(void*) pj_memcpy(void *dst, const void *src, pj_size_t size)$/;"	f
+pj_memmove	include/pj/string.h	/^PJ_INLINE(void*) pj_memmove(void *dst, const void *src, pj_size_t size)$/;"	f
+pj_memset	include/pj/string.h	/^PJ_INLINE(void*) pj_memset(void *dst, int c, pj_size_t size)$/;"	f
+pj_mutex_t	include/pj/types.h	/^typedef struct pj_mutex_t pj_mutex_t;$/;"	t	typeref:struct:pj_mutex_t
+pj_mutex_type_e	include/pj/os.h	/^typedef enum pj_mutex_type_e$/;"	g
+pj_mutex_type_e	include/pj/os.h	/^} pj_mutex_type_e;$/;"	t	typeref:enum:pj_mutex_type_e
+pj_native_snprintf	include/pj/compat/string.h	121;"	d
+pj_native_sprintf	include/pj/compat/string.h	120;"	d
+pj_native_strcasecmp	include/pj/compat/string.h	116;"	d
+pj_native_strcat	include/pj/compat/string.h	113;"	d
+pj_native_strchr	include/pj/compat/string.h	115;"	d
+pj_native_strcmp	include/pj/compat/string.h	108;"	d
+pj_native_strcpy	include/pj/compat/string.h	111;"	d
+pj_native_stricmp	include/pj/compat/string.h	117;"	d
+pj_native_strlen	include/pj/compat/string.h	110;"	d
+pj_native_strncasecmp	include/pj/compat/string.h	118;"	d
+pj_native_strncmp	include/pj/compat/string.h	109;"	d
+pj_native_strncpy	include/pj/compat/string.h	112;"	d
+pj_native_strnicmp	include/pj/compat/string.h	119;"	d
+pj_native_strstr	include/pj/compat/string.h	114;"	d
+pj_native_vsnprintf	include/pj/compat/string.h	123;"	d
+pj_native_vsprintf	include/pj/compat/string.h	122;"	d
+pj_off_t	include/pj/types.h	/^typedef pj_int64_t pj_off_t;$/;"	t
+pj_off_t	include/pj/types.h	/^typedef pj_ssize_t pj_off_t;$/;"	t
+pj_os_err_type	include/pj/compat/errno.h	/^    typedef int pj_os_err_type;$/;"	t
+pj_os_err_type	include/pj/compat/errno.h	/^    typedef unsigned long pj_os_err_type;$/;"	t
+pj_oshandle_t	include/pj/types.h	/^typedef void *pj_oshandle_t;$/;"	t
+pj_parsed_time	include/pj/types.h	/^typedef struct pj_parsed_time$/;"	s
+pj_parsed_time	include/pj/types.h	/^} pj_parsed_time;$/;"	t	typeref:struct:pj_parsed_time
+pj_perror_wrapper_1	include/pj/errno.h	498;"	d
+pj_perror_wrapper_1	include/pj/errno.h	503;"	d
+pj_perror_wrapper_2	include/pj/errno.h	513;"	d
+pj_perror_wrapper_2	include/pj/errno.h	518;"	d
+pj_perror_wrapper_3	include/pj/errno.h	528;"	d
+pj_perror_wrapper_3	include/pj/errno.h	533;"	d
+pj_perror_wrapper_4	include/pj/errno.h	543;"	d
+pj_perror_wrapper_4	include/pj/errno.h	548;"	d
+pj_perror_wrapper_5	include/pj/errno.h	558;"	d
+pj_perror_wrapper_5	include/pj/errno.h	563;"	d
+pj_perror_wrapper_6	include/pj/errno.h	573;"	d
+pj_perror_wrapper_6	include/pj/errno.h	578;"	d
+pj_pipe_t	include/pj/types.h	/^typedef struct pj_pipe_t pj_pipe_t;$/;"	t	typeref:struct:pj_pipe_t
+pj_pool_alloc	include/pj/pool_alt.h	74;"	d
+pj_pool_alloc	include/pj/pool_i.h	/^PJ_IDEF(void*) pj_pool_alloc( pj_pool_t *pool, pj_size_t size)$/;"	f
+pj_pool_alloc_from_block	include/pj/pool_i.h	/^PJ_IDEF(void*) pj_pool_alloc_from_block( pj_pool_block *block, pj_size_t size )$/;"	f
+pj_pool_block	include/pj/pool.h	/^typedef struct pj_pool_block$/;"	s
+pj_pool_block	include/pj/pool.h	/^} pj_pool_block;$/;"	t	typeref:struct:pj_pool_block
+pj_pool_block	include/pj/pool_alt.h	/^typedef struct pj_pool_block$/;"	s
+pj_pool_block	include/pj/pool_alt.h	/^} pj_pool_block;$/;"	t	typeref:struct:pj_pool_block
+pj_pool_callback	include/pj/pool.h	/^typedef void pj_pool_callback(pj_pool_t *pool, pj_size_t size);$/;"	t
+pj_pool_callback	include/pj/pool_alt.h	/^typedef void pj_pool_callback(pj_pool_t *pool, pj_size_t size);$/;"	t
+pj_pool_calloc	include/pj/pool_alt.h	77;"	d
+pj_pool_calloc	include/pj/pool_i.h	/^PJ_IDEF(void*) pj_pool_calloc( pj_pool_t *pool, pj_size_t count, pj_size_t size)$/;"	f
+pj_pool_create	include/pj/pool_alt.h	66;"	d
+pj_pool_create	include/pj/pool_i.h	/^PJ_IDEF(pj_pool_t*) pj_pool_create( pj_pool_factory *f, $/;"	f
+pj_pool_factory	include/pj/pool.h	/^struct pj_pool_factory$/;"	s
+pj_pool_factory	include/pj/pool_alt.h	/^struct pj_pool_factory$/;"	s
+pj_pool_factory	include/pj/types.h	/^typedef struct pj_pool_factory pj_pool_factory;$/;"	t	typeref:struct:pj_pool_factory
+pj_pool_factory_dump	include/pj/pool.h	/^PJ_INLINE(void) pj_pool_factory_dump( pj_pool_factory *pf,$/;"	f
+pj_pool_factory_dump	include/pj/pool_alt.h	195;"	d
+pj_pool_factory_policy	include/pj/pool.h	/^typedef struct pj_pool_factory_policy$/;"	s
+pj_pool_factory_policy	include/pj/pool.h	/^} pj_pool_factory_policy;$/;"	t	typeref:struct:pj_pool_factory_policy
+pj_pool_factory_policy	include/pj/pool_alt.h	/^typedef struct pj_pool_factory_policy$/;"	s
+pj_pool_factory_policy	include/pj/pool_alt.h	/^} pj_pool_factory_policy;$/;"	t	typeref:struct:pj_pool_factory_policy
+pj_pool_get_capacity	include/pj/pool_alt.h	72;"	d
+pj_pool_get_capacity	include/pj/pool_i.h	/^PJ_IDEF(pj_size_t) pj_pool_get_capacity( pj_pool_t *pool )$/;"	f
+pj_pool_get_used_size	include/pj/pool_alt.h	73;"	d
+pj_pool_get_used_size	include/pj/pool_i.h	/^PJ_IDEF(pj_size_t) pj_pool_get_used_size( pj_pool_t *pool )$/;"	f
+pj_pool_getobjname	include/pj/pool_alt.h	70;"	d
+pj_pool_getobjname	include/pj/pool_i.h	/^PJ_IDEF(const char *) pj_pool_getobjname( const pj_pool_t *pool )$/;"	f
+pj_pool_mem	include/pj/pool_alt.h	/^struct pj_pool_mem$/;"	s
+pj_pool_release	include/pj/pool_alt.h	69;"	d
+pj_pool_release	include/pj/pool_i.h	/^PJ_IDEF(void) pj_pool_release( pj_pool_t *pool )$/;"	f
+pj_pool_reset	include/pj/pool_alt.h	71;"	d
+pj_pool_t	include/pj/pool.h	/^struct pj_pool_t$/;"	s
+pj_pool_t	include/pj/pool_alt.h	/^struct pj_pool_t$/;"	s
+pj_pool_t	include/pj/types.h	/^typedef struct pj_pool_t pj_pool_t;$/;"	t	typeref:struct:pj_pool_t
+pj_pool_zalloc	include/pj/pool.h	/^PJ_INLINE(void*) pj_pool_zalloc(pj_pool_t *pool, pj_size_t size)$/;"	f
+pj_pool_zalloc	include/pj/pool_alt.h	80;"	d
+pj_qos_flag	include/pj/sock_qos.h	/^typedef enum pj_qos_flag$/;"	g
+pj_qos_flag	include/pj/sock_qos.h	/^} pj_qos_flag;$/;"	t	typeref:enum:pj_qos_flag
+pj_qos_params	include/pj/sock_qos.h	/^typedef struct pj_qos_params$/;"	s
+pj_qos_params	include/pj/sock_qos.h	/^} pj_qos_params;$/;"	t	typeref:struct:pj_qos_params
+pj_qos_type	include/pj/sock_qos.h	/^typedef enum pj_qos_type$/;"	g
+pj_qos_type	include/pj/sock_qos.h	/^} pj_qos_type;$/;"	t	typeref:enum:pj_qos_type
+pj_qos_wmm_prio	include/pj/sock_qos.h	/^typedef enum pj_qos_wmm_prio$/;"	g
+pj_qos_wmm_prio	include/pj/sock_qos.h	/^} pj_qos_wmm_prio;$/;"	t	typeref:enum:pj_qos_wmm_prio
+pj_rbcolor_t	include/pj/rbtree.h	/^typedef enum pj_rbcolor_t$/;"	g
+pj_rbcolor_t	include/pj/rbtree.h	/^} pj_rbcolor_t;$/;"	t	typeref:enum:pj_rbcolor_t
+pj_rbtree	include/pj/rbtree.h	/^typedef struct pj_rbtree$/;"	s
+pj_rbtree	include/pj/rbtree.h	/^} pj_rbtree;$/;"	t	typeref:struct:pj_rbtree
+pj_rbtree_comp	include/pj/rbtree.h	/^typedef int pj_rbtree_comp(const void *key1, const void *key2);$/;"	t
+pj_rbtree_node	include/pj/rbtree.h	/^typedef struct pj_rbtree_node $/;"	s
+pj_rbtree_node	include/pj/rbtree.h	/^} pj_rbtree_node;$/;"	t	typeref:struct:pj_rbtree_node
+pj_rwmutex_t	include/pj/os.h	/^typedef struct pj_rwmutex_t pj_rwmutex_t;$/;"	t	typeref:struct:pj_rwmutex_t
+pj_sem_t	include/pj/types.h	/^typedef struct pj_sem_t pj_sem_t;$/;"	t	typeref:struct:pj_sem_t
+pj_set_timestamp32	include/pj/os.h	/^PJ_INLINE(void) pj_set_timestamp32(pj_timestamp *t, pj_uint32_t hi,$/;"	f
+pj_setjmp	include/pj/compat/setjmp.h	32;"	d
+pj_setjmp	include/pj/compat/setjmp.h	92;"	d
+pj_size_t	include/pj/types.h	/^typedef size_t		pj_size_t;$/;"	t
+pj_sock_t	include/pj/types.h	/^    typedef long pj_sock_t;$/;"	t
+pj_sock_t	include/pj/types.h	/^    typedef pj_int64_t pj_sock_t;$/;"	t
+pj_sockaddr	include/pj/sock.h	/^typedef union pj_sockaddr$/;"	u
+pj_sockaddr	include/pj/sock.h	/^} pj_sockaddr;$/;"	t	typeref:union:pj_sockaddr
+pj_sockaddr_in	include/pj/sock.h	/^struct pj_sockaddr_in$/;"	s
+pj_sockaddr_in	include/pj/types.h	/^typedef struct pj_sockaddr_in pj_sockaddr_in;$/;"	t	typeref:struct:pj_sockaddr_in
+pj_sockaddr_in6	include/pj/sock.h	/^typedef struct pj_sockaddr_in6$/;"	s
+pj_sockaddr_in6	include/pj/sock.h	/^} pj_sockaddr_in6;$/;"	t	typeref:struct:pj_sockaddr_in6
+pj_sockaddr_t	include/pj/types.h	/^typedef void pj_sockaddr_t;$/;"	t
+pj_socket_sd_type	include/pj/sock.h	/^typedef enum pj_socket_sd_type$/;"	g
+pj_socket_sd_type	include/pj/sock.h	/^} pj_socket_sd_type;$/;"	t	typeref:enum:pj_socket_sd_type
+pj_sockopt_params	include/pj/sock.h	/^typedef struct pj_sockopt_params$/;"	s
+pj_sockopt_params	include/pj/sock.h	/^} pj_sockopt_params;$/;"	t	typeref:struct:pj_sockopt_params
+pj_ssize_t	include/pj/types.h	/^    typedef long           pj_ssize_t;$/;"	t
+pj_ssize_t	include/pj/types.h	/^    typedef pj_int64_t     pj_ssize_t;$/;"	t
+pj_ssl_cert_info	include/pj/ssl_sock.h	/^typedef struct pj_ssl_cert_info {$/;"	s
+pj_ssl_cert_info	include/pj/ssl_sock.h	/^} pj_ssl_cert_info;$/;"	t	typeref:struct:pj_ssl_cert_info
+pj_ssl_cert_name_type	include/pj/ssl_sock.h	/^typedef enum pj_ssl_cert_name_type$/;"	g
+pj_ssl_cert_name_type	include/pj/ssl_sock.h	/^} pj_ssl_cert_name_type;$/;"	t	typeref:enum:pj_ssl_cert_name_type
+pj_ssl_cert_t	include/pj/ssl_sock.h	/^typedef struct pj_ssl_cert_t pj_ssl_cert_t;$/;"	t	typeref:struct:pj_ssl_cert_t
+pj_ssl_cert_verify_flag_t	include/pj/ssl_sock.h	/^typedef enum pj_ssl_cert_verify_flag_t$/;"	g
+pj_ssl_cert_verify_flag_t	include/pj/ssl_sock.h	/^} pj_ssl_cert_verify_flag_t;$/;"	t	typeref:enum:pj_ssl_cert_verify_flag_t
+pj_ssl_cipher	include/pj/ssl_sock.h	/^typedef enum pj_ssl_cipher {$/;"	g
+pj_ssl_cipher	include/pj/ssl_sock.h	/^} pj_ssl_cipher;$/;"	t	typeref:enum:pj_ssl_cipher
+pj_ssl_sock_cb	include/pj/ssl_sock.h	/^typedef struct pj_ssl_sock_cb$/;"	s
+pj_ssl_sock_cb	include/pj/ssl_sock.h	/^} pj_ssl_sock_cb;$/;"	t	typeref:struct:pj_ssl_sock_cb
+pj_ssl_sock_info	include/pj/ssl_sock.h	/^typedef struct pj_ssl_sock_info $/;"	s
+pj_ssl_sock_info	include/pj/ssl_sock.h	/^} pj_ssl_sock_info;$/;"	t	typeref:struct:pj_ssl_sock_info
+pj_ssl_sock_param	include/pj/ssl_sock.h	/^typedef struct pj_ssl_sock_param$/;"	s
+pj_ssl_sock_param	include/pj/ssl_sock.h	/^} pj_ssl_sock_param;$/;"	t	typeref:struct:pj_ssl_sock_param
+pj_ssl_sock_proto	include/pj/ssl_sock.h	/^typedef enum pj_ssl_sock_proto$/;"	g
+pj_ssl_sock_proto	include/pj/ssl_sock.h	/^} pj_ssl_sock_proto;$/;"	t	typeref:enum:pj_ssl_sock_proto
+pj_ssl_sock_t	include/pj/ssl_sock.h	/^typedef struct pj_ssl_sock_t pj_ssl_sock_t;$/;"	t	typeref:struct:pj_ssl_sock_t
+pj_status_t	include/pj/types.h	/^typedef int		pj_status_t;$/;"	t
+pj_str	include/pj/string_i.h	/^PJ_IDEF(pj_str_t) pj_str(char *str)$/;"	f
+pj_str_t	include/pj/types.h	/^struct pj_str_t$/;"	s
+pj_str_t	include/pj/types.h	/^typedef struct pj_str_t pj_str_t;$/;"	t	typeref:struct:pj_str_t
+pj_strassign	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strassign( pj_str_t *dst, pj_str_t *src )$/;"	f
+pj_strbuf	include/pj/string.h	/^PJ_INLINE(const char*) pj_strbuf( const pj_str_t *str )$/;"	f
+pj_strcat	include/pj/string_i.h	/^PJ_IDEF(void) pj_strcat(pj_str_t *dst, const pj_str_t *src)$/;"	f
+pj_strcat2	include/pj/string_i.h	/^PJ_IDEF(void) pj_strcat2(pj_str_t *dst, const char *str)$/;"	f
+pj_strchr	include/pj/string.h	/^PJ_INLINE(char*) pj_strchr( const pj_str_t *str, int chr)$/;"	f
+pj_strcmp	include/pj/string_i.h	/^PJ_IDEF(int) pj_strcmp( const pj_str_t *str1, const pj_str_t *str2)$/;"	f
+pj_strcmp2	include/pj/string_i.h	/^PJ_IDEF(int) pj_strcmp2( const pj_str_t *str1, const char *str2 )$/;"	f
+pj_strcpy	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strcpy(pj_str_t *dst, const pj_str_t *src)$/;"	f
+pj_strcpy2	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strcpy2(pj_str_t *dst, const char *src)$/;"	f
+pj_strdup	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strdup(pj_pool_t *pool,$/;"	f
+pj_strdup2	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strdup2(pj_pool_t *pool,$/;"	f
+pj_strdup2_with_null	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strdup2_with_null( pj_pool_t *pool,$/;"	f
+pj_strdup3	include/pj/string_i.h	/^PJ_IDEF(pj_str_t) pj_strdup3(pj_pool_t *pool, const char *src)$/;"	f
+pj_strdup_with_null	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strdup_with_null( pj_pool_t *pool,$/;"	f
+pj_stricmp	include/pj/string_i.h	/^PJ_IDEF(int) pj_stricmp( const pj_str_t *str1, const pj_str_t *str2)$/;"	f
+pj_stricmp2	include/pj/string_i.h	/^PJ_IDEF(int) pj_stricmp2( const pj_str_t *str1, const char *str2)$/;"	f
+pj_stricmp_alnum	include/pj/string.h	398;"	d
+pj_stricmp_alnum	include/pj/string_i.h	/^PJ_IDEF(int) pj_stricmp_alnum(const pj_str_t *str1, const pj_str_t *str2)$/;"	f
+pj_strlen	include/pj/string.h	/^PJ_INLINE(pj_size_t) pj_strlen( const pj_str_t *str )$/;"	f
+pj_strncmp	include/pj/string_i.h	/^PJ_IDEF(int) pj_strncmp( const pj_str_t *str1, const pj_str_t *str2, $/;"	f
+pj_strncmp2	include/pj/string_i.h	/^PJ_IDEF(int) pj_strncmp2( const pj_str_t *str1, const char *str2, $/;"	f
+pj_strncpy	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strncpy( pj_str_t *dst, const pj_str_t *src, $/;"	f
+pj_strncpy_with_null	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strncpy_with_null( pj_str_t *dst, const pj_str_t *src,$/;"	f
+pj_strnicmp	include/pj/string_i.h	/^PJ_IDEF(int) pj_strnicmp( const pj_str_t *str1, const pj_str_t *str2, $/;"	f
+pj_strnicmp2	include/pj/string_i.h	/^PJ_IDEF(int) pj_strnicmp2( const pj_str_t *str1, const char *str2, $/;"	f
+pj_strset	include/pj/string.h	/^PJ_INLINE(pj_str_t*) pj_strset( pj_str_t *str, char *ptr, pj_size_t length)$/;"	f
+pj_strset2	include/pj/string.h	/^PJ_INLINE(pj_str_t*) pj_strset2( pj_str_t *str, char *src)$/;"	f
+pj_strset3	include/pj/string.h	/^PJ_INLINE(pj_str_t*) pj_strset3( pj_str_t *str, char *begin, char *end )$/;"	f
+pj_strtrim	include/pj/string_i.h	/^PJ_IDEF(pj_str_t*) pj_strtrim( pj_str_t *str )$/;"	f
+pj_sub_timestamp	include/pj/os.h	/^PJ_INLINE(void) pj_sub_timestamp(pj_timestamp *t1, const pj_timestamp *t2)$/;"	f
+pj_sub_timestamp32	include/pj/os.h	/^PJ_INLINE(void) pj_sub_timestamp32(pj_timestamp *t1, pj_uint32_t t2)$/;"	f
+pj_swap16	include/pj/types.h	/^PJ_INLINE(pj_int16_t) pj_swap16(pj_int16_t val16)$/;"	f
+pj_swap32	include/pj/types.h	/^PJ_INLINE(pj_int32_t) pj_swap32(pj_int32_t val32)$/;"	f
+pj_symbianos_params	include/pj/os.h	/^typedef struct pj_symbianos_params $/;"	s
+pj_symbianos_params	include/pj/os.h	/^} pj_symbianos_params;$/;"	t	typeref:struct:pj_symbianos_params
+pj_sys_info	include/pj/os.h	/^typedef struct pj_sys_info$/;"	s
+pj_sys_info	include/pj/os.h	/^} pj_sys_info;$/;"	t	typeref:struct:pj_sys_info
+pj_sys_info_flag	include/pj/os.h	/^typedef enum pj_sys_info_flag$/;"	g
+pj_sys_info_flag	include/pj/os.h	/^} pj_sys_info_flag;$/;"	t	typeref:enum:pj_sys_info_flag
+pj_thread_create_flags	include/pj/os.h	/^typedef enum pj_thread_create_flags$/;"	g
+pj_thread_create_flags	include/pj/os.h	/^} pj_thread_create_flags;$/;"	t	typeref:enum:pj_thread_create_flags
+pj_thread_desc	include/pj/os.h	/^typedef long pj_thread_desc[PJ_THREAD_DESC_SIZE];$/;"	t
+pj_thread_get_stack_info	include/pj/os.h	377;"	d
+pj_thread_get_stack_max_usage	include/pj/os.h	375;"	d
+pj_thread_proc	include/pj/os.h	/^typedef int (PJ_THREAD_FUNC pj_thread_proc)(void*);$/;"	t
+pj_thread_t	include/pj/types.h	/^typedef struct pj_thread_t pj_thread_t;$/;"	t	typeref:struct:pj_thread_t
+pj_time_val	include/pj/types.h	/^typedef struct pj_time_val$/;"	s
+pj_time_val	include/pj/types.h	/^} pj_time_val;$/;"	t	typeref:struct:pj_time_val
+pj_timer_entry	include/pj/timer.h	/^typedef struct pj_timer_entry$/;"	s
+pj_timer_entry	include/pj/timer.h	/^} pj_timer_entry;$/;"	t	typeref:struct:pj_timer_entry
+pj_timer_heap_callback	include/pj/timer.h	/^typedef void pj_timer_heap_callback(pj_timer_heap_t *timer_heap,$/;"	t
+pj_timer_heap_schedule	include/pj/timer.h	233;"	d
+pj_timer_heap_schedule_w_grp_lock	include/pj/timer.h	263;"	d
+pj_timer_heap_t	include/pj/types.h	/^typedef struct pj_timer_heap_t pj_timer_heap_t;$/;"	t	typeref:struct:pj_timer_heap_t
+pj_timer_id_t	include/pj/timer.h	/^typedef int pj_timer_id_t;$/;"	t
+pj_timestamp	include/pj/types.h	/^typedef union pj_timestamp$/;"	u
+pj_timestamp	include/pj/types.h	/^} pj_timestamp;$/;"	t	typeref:union:pj_timestamp
+pj_timestamp_diff32	include/pj/os.h	/^PJ_INLINE(pj_int32_t) pj_timestamp_diff32(const pj_timestamp *t1,$/;"	f
+pj_tolower	include/pj/ctype.h	/^PJ_INLINE(int) pj_tolower(unsigned char c) { return tolower(c); }$/;"	f
+pj_toupper	include/pj/ctype.h	/^PJ_INLINE(int) pj_toupper(unsigned char c) { return toupper(c); }$/;"	f
+pj_uint16_t	include/pj/types.h	/^typedef unsigned short	pj_uint16_t;$/;"	t
+pj_uint32_t	include/pj/types.h	/^typedef unsigned int	pj_uint32_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_armcc.h	/^typedef unsigned long long pj_uint64_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_codew.h	/^typedef unsigned long long pj_uint64_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_gcc.h	/^  typedef uint64_t		pj_uint64_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_gcc.h	/^  typedef unsigned long long	pj_uint64_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_gcce.h	/^typedef unsigned long long pj_uint64_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_msvc.h	/^typedef unsigned __int64 pj_uint64_t;$/;"	t
+pj_uint64_t	include/pj/compat/cc_mwcc.h	/^typedef unsigned long long pj_uint64_t;$/;"	t
+pj_uint8_t	include/pj/types.h	/^typedef unsigned char	pj_uint8_t;$/;"	t
+pj_unicode_snprintf	include/pj/compat/string.h	103;"	d
+pj_unicode_sprintf	include/pj/compat/string.h	102;"	d
+pj_unicode_strcasecmp	include/pj/compat/string.h	98;"	d
+pj_unicode_strcat	include/pj/compat/string.h	95;"	d
+pj_unicode_strchr	include/pj/compat/string.h	97;"	d
+pj_unicode_strcmp	include/pj/compat/string.h	90;"	d
+pj_unicode_strcpy	include/pj/compat/string.h	93;"	d
+pj_unicode_stricmp	include/pj/compat/string.h	99;"	d
+pj_unicode_strlen	include/pj/compat/string.h	92;"	d
+pj_unicode_strncasecmp	include/pj/compat/string.h	100;"	d
+pj_unicode_strncmp	include/pj/compat/string.h	91;"	d
+pj_unicode_strncpy	include/pj/compat/string.h	94;"	d
+pj_unicode_strnicmp	include/pj/compat/string.h	101;"	d
+pj_unicode_strstr	include/pj/compat/string.h	96;"	d
+pj_unicode_vsnprintf	include/pj/compat/string.h	105;"	d
+pj_unicode_vsprintf	include/pj/compat/string.h	104;"	d
+pj_val_to_hex_digit	include/pj/ctype.h	/^PJ_INLINE(void) pj_val_to_hex_digit(unsigned value, char *p)$/;"	f
+platform_rand	include/pj/compat/rand.h	/^       PJ_INLINE(int) platform_rand(void)$/;"	f
+platform_rand	include/pj/compat/rand.h	/^   PJ_INLINE(int) platform_rand(void)$/;"	f
+platform_rand	include/pj/compat/rand.h	44;"	d
+platform_rand	include/pj/compat/rand.h	63;"	d
+platform_srand	include/pj/compat/rand.h	33;"	d
+platform_srand	include/pj/compat/rand.h	52;"	d
+platform_srand	include/pj/compat/rand.h	64;"	d
+policy	include/pj/pool.h	/^    pj_pool_factory_policy policy;$/;"	m	struct:pj_pool_factory
+policy	include/pj/pool_alt.h	/^    pj_pool_factory_policy policy;$/;"	m	struct:pj_pool_factory
+pool	include/pj/pool.h	/^PJ_DECL(void) pj_pool_destroy_int( pj_pool_t *pool );$/;"	v
+pool	include/pj/pool.h	/^PJ_DECL(void) pj_pool_reset( pj_pool_t *pool );$/;"	v
+pool	include/pj/pool.h	/^PJ_IDECL(const char *) pj_pool_getobjname( const pj_pool_t *pool );$/;"	v
+pool	include/pj/pool.h	/^PJ_IDECL(pj_size_t) pj_pool_get_capacity( pj_pool_t *pool );$/;"	v
+pool	include/pj/pool.h	/^PJ_IDECL(pj_size_t) pj_pool_get_used_size( pj_pool_t *pool );$/;"	v
+pool	include/pj/pool.h	/^PJ_IDECL(void) pj_pool_release( pj_pool_t *pool );$/;"	v
+pool	include/pj/pool_alt.h	/^PJ_DECL(const char*) pj_pool_getobjname_imp(pj_pool_t *pool);$/;"	v
+pool	include/pj/pool_alt.h	/^PJ_DECL(pj_size_t) pj_pool_get_capacity_imp(pj_pool_t *pool);$/;"	v
+pool	include/pj/pool_alt.h	/^PJ_DECL(pj_size_t) pj_pool_get_used_size_imp(pj_pool_t *pool);$/;"	v
+pool	include/pj/pool_alt.h	/^PJ_DECL(void) pj_pool_release_imp(pj_pool_t *pool);$/;"	v
+pool	include/pj/pool_alt.h	/^PJ_DECL(void) pj_pool_reset_imp(pj_pool_t *pool);$/;"	v
+pool_buf	include/pj/pool.h	/^    char	    pool_buf[256 * (sizeof(size_t) \/ 4)];$/;"	m	struct:pj_caching_pool
+prev	include/pj/except.h	/^    struct pj_exception_state_t *prev;  \/**< Previous state in the list. *\/$/;"	m	struct:pj_exception_state_t	typeref:struct:pj_exception_state_t::pj_exception_state_t
+prm	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_symbianos_set_params(pj_symbianos_params *prm);$/;"	v
+proto	include/pj/ssl_sock.h	/^    pj_ssl_sock_proto proto;$/;"	m	struct:pj_ssl_sock_info
+proto	include/pj/ssl_sock.h	/^    pj_ssl_sock_proto proto;$/;"	m	struct:pj_ssl_sock_param
+ptr	include/pj/types.h	/^    char       *ptr;$/;"	m	struct:pj_str_t
+qos_ignore_error	include/pj/ssl_sock.h	/^    pj_bool_t qos_ignore_error;$/;"	m	struct:pj_ssl_sock_param
+qos_params	include/pj/ssl_sock.h	/^    pj_qos_params qos_params;$/;"	m	struct:pj_ssl_sock_param
+qos_type	include/pj/ssl_sock.h	/^    pj_qos_type qos_type;$/;"	m	struct:pj_ssl_sock_param
+rconnection	include/pj/os.h	/^    void	*rconnection;$/;"	m	struct:pj_symbianos_params
+read_buffer_size	include/pj/ssl_sock.h	/^    pj_size_t read_buffer_size;$/;"	m	struct:pj_ssl_sock_param
+release_pool	include/pj/pool.h	/^    void (*release_pool)( pj_pool_factory *factory, pj_pool_t *pool );$/;"	m	struct:pj_pool_factory
+remote_addr	include/pj/ssl_sock.h	/^    pj_sockaddr remote_addr;$/;"	m	struct:pj_ssl_sock_info
+remote_cert_info	include/pj/ssl_sock.h	/^    pj_ssl_cert_info *remote_cert_info;$/;"	m	struct:pj_ssl_sock_info
+require_client_cert	include/pj/ssl_sock.h	/^    pj_bool_t require_client_cert;$/;"	m	struct:pj_ssl_sock_param
+reuse_addr	include/pj/ssl_sock.h	/^    pj_bool_t reuse_addr;$/;"	m	struct:pj_ssl_sock_param
+rhostresolver	include/pj/os.h	/^    void 	*rhostresolver;$/;"	m	struct:pj_symbianos_params
+rhostresolver6	include/pj/os.h	/^    void 	*rhostresolver6;$/;"	m	struct:pj_symbianos_params
+right	include/pj/rbtree.h	/^    struct pj_rbtree_node *parent, *left, *right;$/;"	m	struct:pj_rbtree_node	typeref:struct:pj_rbtree_node::
+root	include/pj/rbtree.h	/^    pj_rbtree_node *root;       \/**< Root tree node.                    *\/$/;"	m	struct:pj_rbtree
+rsocketserv	include/pj/os.h	/^    void	*rsocketserv;$/;"	m	struct:pj_symbianos_params
+s6_addr	include/pj/compat/socket.h	178;"	d
+s6_addr	include/pj/sock.h	/^    pj_uint8_t  s6_addr[16];   \/**< 8-bit array *\/$/;"	m	union:pj_in6_addr
+s6_addr	include/pj/sock.h	526;"	d
+s_addr	include/pj/compat/socket.h	177;"	d
+s_addr	include/pj/compat/socket.h	64;"	d
+s_addr	include/pj/sock.h	/^    pj_uint32_t	s_addr;		\/**< The 32bit IP address.	    *\/$/;"	m	struct:pj_in_addr
+s_addr	include/pj/sock.h	475;"	d
+sa_family	include/pj/sock.h	/^    pj_uint8_t  sa_family;$/;"	m	struct:pj_addr_hdr
+sa_zero_len	include/pj/sock.h	/^    pj_uint8_t  sa_zero_len;$/;"	m	struct:pj_addr_hdr
+sdk_name	include/pj/os.h	/^    pj_str_t	sdk_name;$/;"	m	struct:pj_sys_info
+sdk_ver	include/pj/os.h	/^    pj_uint32_t	sdk_ver;$/;"	m	struct:pj_sys_info
+sec	include/pj/types.h	/^    int sec;$/;"	m	struct:pj_parsed_time
+sec	include/pj/types.h	/^    long    sec;$/;"	m	struct:pj_time_val
+select	include/pj/compat/socket.h	/^    PJ_INLINE(int) select(int n, fd_set *inp, fd_set *outp, fd_set *exp,$/;"	f
+sem	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_sem_destroy(pj_sem_t *sem);$/;"	v
+sem	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_sem_post(pj_sem_t *sem);$/;"	v
+sem	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_sem_trywait(pj_sem_t *sem);$/;"	v
+sem	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_sem_wait(pj_sem_t *sem);$/;"	v
+send_buffer_size	include/pj/ssl_sock.h	/^    pj_size_t send_buffer_size;$/;"	m	struct:pj_ssl_sock_param
+serial_no	include/pj/ssl_sock.h	/^    pj_uint8_t	serial_no[20];	    \/**< Serial number, array of$/;"	m	struct:pj_ssl_cert_info
+server_name	include/pj/ssl_sock.h	/^    pj_str_t server_name;$/;"	m	struct:pj_ssl_sock_param
+sigjmp_buf	include/pj/compat/setjmp.h	/^    typedef jmp_buf sigjmp_buf;$/;"	t
+sin6_addr	include/pj/sock.h	/^    pj_in6_addr sin6_addr;	    \/**< IPv6 address.		    *\/$/;"	m	struct:pj_sockaddr_in6
+sin6_family	include/pj/sock.h	/^    pj_uint8_t  sin6_family;	    \/**< Address family.	   *\/$/;"	m	struct:pj_sockaddr_in6
+sin6_flowinfo	include/pj/sock.h	/^    pj_uint32_t	sin6_flowinfo;	    \/**< IPv6 flow information	    *\/$/;"	m	struct:pj_sockaddr_in6
+sin6_port	include/pj/sock.h	/^    pj_uint16_t	sin6_port;	    \/**< Transport layer port number. *\/$/;"	m	struct:pj_sockaddr_in6
+sin6_scope_id	include/pj/sock.h	/^    pj_uint32_t sin6_scope_id;	    \/**< Set of interfaces for a scope	*\/$/;"	m	struct:pj_sockaddr_in6
+sin6_zero_len	include/pj/sock.h	/^    pj_uint8_t  sin6_zero_len;	    \/**< Just ignore this.	   *\/$/;"	m	struct:pj_sockaddr_in6
+sin_addr	include/pj/sock.h	/^    pj_in_addr	sin_addr;	\/**< IP address.		    *\/$/;"	m	struct:pj_sockaddr_in
+sin_family	include/pj/sock.h	/^    pj_uint8_t  sin_family;	\/**< Address family.		    *\/$/;"	m	struct:pj_sockaddr_in
+sin_port	include/pj/sock.h	/^    pj_uint16_t	sin_port;	\/**< Transport layer port number.   *\/$/;"	m	struct:pj_sockaddr_in
+sin_zero	include/pj/compat/socket.h	179;"	d
+sin_zero	include/pj/sock.h	/^    char	sin_zero[PJ_SOCKADDR_IN_SIN_ZERO_LEN]; \/**< Padding.*\/$/;"	m	struct:pj_sockaddr_in
+sin_zero_len	include/pj/sock.h	/^    pj_uint8_t  sin_zero_len;	\/**< Just ignore this.		    *\/$/;"	m	struct:pj_sockaddr_in
+size	include/pj/file_access.h	/^    pj_off_t        size;   \/**< Total file size.               *\/$/;"	m	struct:pj_file_stat
+size	include/pj/rbtree.h	/^    unsigned size;              \/**< Number of elements in the tree.    *\/$/;"	m	struct:pj_rbtree
+slen	include/pj/types.h	/^    pj_ssize_t  slen;$/;"	m	struct:pj_str_t
+snprintf	include/pj/compat/string.h	49;"	d
+snwprintf	include/pj/compat/string.h	51;"	d
+so_prio	include/pj/sock_qos.h	/^    pj_uint8_t      so_prio;  \/**< SO_PRIORITY value		    *\/$/;"	m	struct:pj_qos_params
+sock_af	include/pj/ssl_sock.h	/^    int sock_af;$/;"	m	struct:pj_ssl_sock_param
+sock_type	include/pj/ssl_sock.h	/^    int sock_type;$/;"	m	struct:pj_ssl_sock_param
+sockfd	include/pj/sock.h	/^PJ_DECL(pj_status_t) pj_sock_close(pj_sock_t sockfd);$/;"	v
+socklen_t	include/pj/compat/os_auto.h	/^  typedef int socklen_t;$/;"	t
+socklen_t	include/pj/compat/os_rtems.h	/^typedef int socklen_t;$/;"	t
+socklen_t	include/pj/compat/os_symbian.h	/^typedef unsigned int socklen_t;$/;"	t
+socklen_t	include/pj/compat/socket.h	/^    typedef int socklen_t;$/;"	t
+sockopt_ignore_error	include/pj/ssl_sock.h	/^    pj_bool_t sockopt_ignore_error;$/;"	m	struct:pj_ssl_sock_param
+sockopt_params	include/pj/ssl_sock.h	/^    pj_sockopt_params sockopt_params;$/;"	m	struct:pj_ssl_sock_param
+src_file	include/pj/timer.h	/^    const char	*src_file;$/;"	m	struct:pj_timer_entry
+src_line	include/pj/timer.h	/^    int		 src_line;$/;"	m	struct:pj_timer_entry
+ssock	include/pj/ssl_sock.h	/^PJ_DECL(pj_status_t) pj_ssl_sock_close(pj_ssl_sock_t *ssock);$/;"	v
+ssock	include/pj/ssl_sock.h	/^PJ_DECL(pj_status_t) pj_ssl_sock_renegotiate(pj_ssl_sock_t *ssock);$/;"	v
+ssock	include/pj/ssl_sock.h	/^PJ_DECL(void*) pj_ssl_sock_get_user_data(pj_ssl_sock_t *ssock);$/;"	v
+start	include/pj/ssl_sock.h	/^	pj_time_val	start;	    \/**< Validity start		*\/$/;"	m	struct:pj_ssl_cert_info::__anon6
+state	include/pj/except.h	/^    pj_jmp_buf state;                   \/**< jmp_buf.                    *\/$/;"	m	struct:pj_exception_state_t
+str	include/pj/guid.h	/^PJ_DECL(pj_str_t*) pj_generate_unique_string(pj_str_t *str);$/;"	v
+str	include/pj/guid.h	/^PJ_DECL(pj_str_t*) pj_generate_unique_string_lower(pj_str_t *str);$/;"	v
+str	include/pj/string.h	/^PJ_DECL(float) pj_strtof(const pj_str_t *str);$/;"	v
+str	include/pj/string.h	/^PJ_DECL(long) pj_strtol(const pj_str_t *str);$/;"	v
+str	include/pj/string.h	/^PJ_DECL(pj_str_t*) pj_strltrim( pj_str_t *str );$/;"	v
+str	include/pj/string.h	/^PJ_DECL(pj_str_t*) pj_strrtrim( pj_str_t *str );$/;"	v
+str	include/pj/string.h	/^PJ_DECL(unsigned long) pj_strtoul(const pj_str_t *str);$/;"	v
+str	include/pj/string.h	/^PJ_IDECL(pj_str_t*) pj_strtrim( pj_str_t *str );$/;"	v
+strcasecmp	include/pj/compat/string.h	47;"	d
+stricmp	include/pj/compat/string.h	55;"	d
+strncasecmp	include/pj/compat/string.h	48;"	d
+strnicmp	include/pj/compat/string.h	56;"	d
+strnicmp_alnum	include/pj/string.h	377;"	d
+strnicmp_alnum	include/pj/string_i.h	/^PJ_IDEF(int) strnicmp_alnum( const char *str1, const char *str2,$/;"	f
+subj_alt_name	include/pj/ssl_sock.h	/^    } subj_alt_name;		    \/**< Subject alternative$/;"	m	struct:pj_ssl_cert_info	typeref:struct:pj_ssl_cert_info::__anon7
+subject	include/pj/ssl_sock.h	/^    } subject;			    \/**< Subject		*\/$/;"	m	struct:pj_ssl_cert_info	typeref:struct:pj_ssl_cert_info::__anon4
+t	include/pj/types.h	/^PJ_DECL(void) pj_time_val_normalize(pj_time_val *t);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(const char*) pj_thread_get_name(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(int) pj_thread_get_prio(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(int) pj_thread_get_prio_max(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(int) pj_thread_get_prio_min(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_thread_destroy(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_thread_join(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_thread_resume(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(pj_uint32_t) pj_thread_get_stack_max_usage(pj_thread_t *thread);$/;"	v
+thread	include/pj/os.h	/^PJ_DECL(void*) pj_thread_get_os_handle(pj_thread_t *thread);$/;"	v
+timeout	include/pj/ssl_sock.h	/^    pj_time_val	timeout;$/;"	m	struct:pj_ssl_sock_param
+timer_heap	include/pj/ssl_sock.h	/^    pj_timer_heap_t *timer_heap;$/;"	m	struct:pj_ssl_sock_param
+tolower	include/pj/compat/ctype.h	40;"	d
+toupper	include/pj/compat/ctype.h	41;"	d
+tree	include/pj/rbtree.h	/^PJ_DECL(pj_rbtree_node*) pj_rbtree_first( pj_rbtree *tree );$/;"	v
+tree	include/pj/rbtree.h	/^PJ_DECL(pj_rbtree_node*) pj_rbtree_last( pj_rbtree *tree );$/;"	v
+ts	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_get_timestamp(pj_timestamp *ts);$/;"	v
+tv	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_gettickcount(pj_time_val *tv);$/;"	v
+tv	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_gettimeofday(pj_time_val *tv);$/;"	v
+tv	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_time_gmt_to_local(pj_time_val *tv);$/;"	v
+tv	include/pj/os.h	/^PJ_DECL(pj_status_t) pj_time_local_to_gmt(pj_time_val *tv);$/;"	v
+type	include/pj/ssl_sock.h	/^	    pj_ssl_cert_name_type type;$/;"	m	struct:pj_ssl_cert_info::__anon7::__anon8
+u32	include/pj/types.h	/^    } u32;                  \/**< The 64-bit value as two 32-bit values. *\/$/;"	m	union:pj_timestamp	typeref:struct:pj_timestamp::__anon2
+u64	include/pj/types.h	/^    pj_uint64_t u64;        \/**< The whole 64-bit value, where available. *\/$/;"	m	union:pj_timestamp
+u6_addr32	include/pj/sock.h	/^    pj_uint32_t	u6_addr32[4];$/;"	m	union:pj_in6_addr
+ubegin	include/pj/fifobuf.h	/^    char *ubegin, *uend;$/;"	m	struct:pj_fifobuf_t
+uend	include/pj/fifobuf.h	/^    char *ubegin, *uend;$/;"	m	struct:pj_fifobuf_t
+up	include/pj/os.h	/^PJ_DECL(void) pj_symbianos_set_connection_status(pj_bool_t up);$/;"	v
+used_count	include/pj/pool.h	/^    pj_size_t       used_count;$/;"	m	struct:pj_caching_pool
+used_count	include/pj/pool_alt.h	/^    unsigned used_count;$/;"	m	struct:pj_caching_pool
+used_list	include/pj/pool.h	/^    pj_list	    used_list;$/;"	m	struct:pj_caching_pool
+used_size	include/pj/pool.h	/^    pj_size_t	    used_size;$/;"	m	struct:pj_caching_pool
+used_size	include/pj/pool_alt.h	/^    pj_size_t		used_size;$/;"	m	struct:pj_pool_t
+used_size	include/pj/pool_alt.h	/^    unsigned used_size;$/;"	m	struct:pj_caching_pool
+user_data	include/pj/ioqueue.h	/^    void *user_data;                \/**< Application data.          *\/$/;"	m	struct:pj_ioqueue_op_key_t
+user_data	include/pj/rbtree.h	/^    void *user_data;$/;"	m	struct:pj_rbtree_node
+user_data	include/pj/ssl_sock.h	/^    void *user_data;$/;"	m	struct:pj_ssl_sock_param
+user_data	include/pj/timer.h	/^    void *user_data;$/;"	m	struct:pj_timer_entry
+val	include/pj/activesock.h	/^PJ_DECL(void) pj_activesock_enable_iphone_os_bg(pj_bool_t val);$/;"	v
+validity	include/pj/ssl_sock.h	/^    } validity;			    \/**< Validity		*\/$/;"	m	struct:pj_ssl_cert_info	typeref:struct:pj_ssl_cert_info::__anon6
+verify_peer	include/pj/ssl_sock.h	/^    pj_bool_t verify_peer;$/;"	m	struct:pj_ssl_sock_param
+verify_status	include/pj/ssl_sock.h	/^    pj_uint32_t		verify_status;$/;"	m	struct:pj_ssl_sock_info
+version	include/pj/ssl_sock.h	/^    unsigned	version;	    \/**< Certificate version	*\/$/;"	m	struct:pj_ssl_cert_info
+vsnprintf	include/pj/compat/string.h	50;"	d
+wcsicmp	include/pj/compat/string.h	52;"	d
+wcsnicmp	include/pj/compat/string.h	53;"	d
+wday	include/pj/types.h	/^    int wday;$/;"	m	struct:pj_parsed_time
+whole_data	include/pj/activesock.h	/^    pj_bool_t whole_data;$/;"	m	struct:pj_activesock_cfg
+whole_data	include/pj/ssl_sock.h	/^    pj_bool_t whole_data;$/;"	m	struct:pj_ssl_sock_param
+wmm_prio	include/pj/sock_qos.h	/^    pj_qos_wmm_prio wmm_prio; \/**< WMM priority value		    *\/$/;"	m	struct:pj_qos_params
+year	include/pj/types.h	/^    int year;$/;"	m	struct:pj_parsed_time

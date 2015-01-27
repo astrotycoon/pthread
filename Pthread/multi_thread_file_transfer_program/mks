@@ -1,0 +1,25 @@
+# Makefile for server
+CC:= gcc
+OPTIONS:=-O3 -Wall -g -lpthread
+SUBOPTS:=-Wall -c -o
+OBJECTS:=server.o error.o record.o comfunc.o
+SOURCES:=server.c error.c record.c comfunc.c
+HEADS:=comfunc.h error.h record.h
+
+server: $(OBJECTS)
+	$(CC) $(OPTIONS) $^ -o $@
+server.o: server.c error.h record.h comfunc.h
+	$(CC) server.c $(SUBOPTS) $@
+error.o: error.c error.h
+	$(CC) error.c $(SUBOPTS) $@
+record.o: record.c record.h error.h comfunc.h 
+	$(CC) record.c $(SUBOPTS) $@
+comfunc.o: comfunc.c record.h error.h comfunc.h 
+	$(CC) comfunc.c $(SUBOPTS) $@
+
+.PHONY: clean server.tar
+clean:
+	rm -f *.o *.txt
+server.tar: $(SOURCES) $(HEADS)
+	tar -cvf $@ $^
+

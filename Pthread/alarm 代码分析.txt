@@ -1,0 +1,6 @@
+alarm_fork  : need free resources(wait),code in one place(confusion),hard to create so many process
+alarm_thread : no need; not in one place,malloc ,easy to create many threads
+alarm_mutex:one thread read commands,one server thread process a list of alarms
+	It was not responsive to new alarm commands.It had to finish waiting for one alarm before it 
+	could detect that another had been entered onto the list with an earlier expiration time.
+alarm_cond: uses a timed condition warit rather than sleep to wait for an alarm expiration time.

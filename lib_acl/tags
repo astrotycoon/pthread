@@ -1,0 +1,2298 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACL_ACCESS_INCLUDE_H	include/net/acl_access.h	2;"	d
+ACL_AIO	include/aio/acl_aio.h	/^typedef struct ACL_AIO ACL_AIO;$/;"	t	typeref:struct:ACL_AIO
+ACL_AIO_ACCEPT_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_ACCEPT_FN)(ACL_ASTREAM *cstream,	void *context);$/;"	t
+ACL_AIO_CLOSE_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_CLOSE_FN)(ACL_ASTREAM *astream, void *context);$/;"	t
+ACL_AIO_CONNECT_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_CONNECT_FN)(ACL_ASTREAM *cstream, void *context);$/;"	t
+ACL_AIO_CTL_ACCEPT_FN	include/aio/acl_aio.h	488;"	d
+ACL_AIO_CTL_CLOSE_HOOK_ADD	include/aio/acl_aio.h	501;"	d
+ACL_AIO_CTL_CLOSE_HOOK_DEL	include/aio/acl_aio.h	502;"	d
+ACL_AIO_CTL_CONNECT_HOOK_ADD	include/aio/acl_aio.h	505;"	d
+ACL_AIO_CTL_CONNECT_HOOK_DEL	include/aio/acl_aio.h	506;"	d
+ACL_AIO_CTL_CTX	include/aio/acl_aio.h	490;"	d
+ACL_AIO_CTL_END	include/aio/acl_aio.h	487;"	d
+ACL_AIO_CTL_KEEP_READ	include/aio/acl_aio.h	496;"	d
+ACL_AIO_CTL_LINE_LENGTH	include/aio/acl_aio.h	492;"	d
+ACL_AIO_CTL_LISTEN_FN	include/aio/acl_aio.h	489;"	d
+ACL_AIO_CTL_READ_HOOK_ADD	include/aio/acl_aio.h	497;"	d
+ACL_AIO_CTL_READ_HOOK_DEL	include/aio/acl_aio.h	498;"	d
+ACL_AIO_CTL_READ_NESTED	include/aio/acl_aio.h	494;"	d
+ACL_AIO_CTL_STREAM	include/aio/acl_aio.h	493;"	d
+ACL_AIO_CTL_TIMEOUT	include/aio/acl_aio.h	491;"	d
+ACL_AIO_CTL_TIMEO_HOOK_ADD	include/aio/acl_aio.h	503;"	d
+ACL_AIO_CTL_TIMEO_HOOK_DEL	include/aio/acl_aio.h	504;"	d
+ACL_AIO_CTL_WRITE_HOOK_ADD	include/aio/acl_aio.h	499;"	d
+ACL_AIO_CTL_WRITE_HOOK_DEL	include/aio/acl_aio.h	500;"	d
+ACL_AIO_CTL_WRITE_NESTED	include/aio/acl_aio.h	495;"	d
+ACL_AIO_FLAG_DEAD	include/aio/acl_aio.h	128;"	d
+ACL_AIO_FLAG_DELAY_CLOSE	include/aio/acl_aio.h	127;"	d
+ACL_AIO_FLAG_IOCP_CLOSE	include/aio/acl_aio.h	124;"	d
+ACL_AIO_FLAG_ISRD	include/aio/acl_aio.h	125;"	d
+ACL_AIO_FLAG_ISWR	include/aio/acl_aio.h	126;"	d
+ACL_AIO_INCLUDE_H	include/aio/acl_aio.h	10;"	d
+ACL_AIO_LISTEN_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_LISTEN_FN)(ACL_ASTREAM *sstream, void *context);$/;"	t
+ACL_AIO_NOTIFY_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_NOTIFY_FN)(ACL_ASTREAM *astream, void *context);$/;"	t
+ACL_AIO_PARAMS_INCLUDE_H	include/master/acl_aio_params.h	3;"	d
+ACL_AIO_READ_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_READ_FN)(ACL_ASTREAM *astream,$/;"	t
+ACL_AIO_RUN2_FN	include/master/acl_server_api.h	/^typedef int (*ACL_AIO_RUN2_FN)(ACL_SOCKET fd, void *run_ctx);$/;"	t
+ACL_AIO_RUN_FN	include/master/acl_server_api.h	/^typedef int (*ACL_AIO_RUN_FN)(ACL_ASTREAM *stream, void *run_ctx);$/;"	t
+ACL_AIO_SERVER2_FN	include/master/acl_server_api.h	/^typedef void (*ACL_AIO_SERVER2_FN) (ACL_SOCKET, void *);$/;"	t
+ACL_AIO_SERVER_FN	include/master/acl_server_api.h	/^typedef void (*ACL_AIO_SERVER_FN) (ACL_ASTREAM *, void *);$/;"	t
+ACL_AIO_SET_CTX	include/aio/acl_aio.h	177;"	d
+ACL_AIO_SET_TIMEOUT	include/aio/acl_aio.h	169;"	d
+ACL_AIO_TIMEO_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_TIMEO_FN)(ACL_ASTREAM *astream, void *context);$/;"	t
+ACL_AIO_WRITE_FN	include/aio/acl_aio.h	/^typedef int (*ACL_AIO_WRITE_FN)(ACL_ASTREAM *astream, void *context);$/;"	t
+ACL_ALLOCATOR	include/stdlib/acl_allocator.h	/^typedef struct ACL_ALLOCATOR ACL_ALLOCATOR;$/;"	t	typeref:struct:ACL_ALLOCATOR
+ACL_ALLOCATOR_CTL_END	include/stdlib/acl_allocator.h	58;"	d
+ACL_ALLOCATOR_CTL_MAX_SIZE	include/stdlib/acl_allocator.h	60;"	d
+ACL_ALLOCATOR_CTL_MIN_SIZE	include/stdlib/acl_allocator.h	59;"	d
+ACL_ALLOCATOR_INCLUDE_H	include/stdlib/acl_allocator.h	2;"	d
+ACL_API	include/stdlib/acl_define_unix.h	46;"	d
+ACL_API	include/stdlib/acl_define_win32.h	38;"	d
+ACL_API	include/stdlib/acl_define_win32.h	40;"	d
+ACL_API	include/stdlib/acl_define_win32.h	43;"	d
+ACL_APP_CTL_CFG_BOOL	include/master/acl_server_api.h	51;"	d
+ACL_APP_CTL_CFG_INT	include/master/acl_server_api.h	49;"	d
+ACL_APP_CTL_CFG_INT64	include/master/acl_server_api.h	52;"	d
+ACL_APP_CTL_CFG_STR	include/master/acl_server_api.h	50;"	d
+ACL_APP_CTL_DENY_INFO	include/master/acl_server_api.h	60;"	d
+ACL_APP_CTL_END	include/master/acl_server_api.h	48;"	d
+ACL_APP_CTL_EXIT_FN	include/master/acl_server_api.h	55;"	d
+ACL_APP_CTL_INIT_FN	include/master/acl_server_api.h	53;"	d
+ACL_APP_CTL_ON_ACCEPT	include/master/acl_server_api.h	61;"	d
+ACL_APP_CTL_ON_CLOSE	include/master/acl_server_api.h	62;"	d
+ACL_APP_CTL_ON_TIMEOUT	include/master/acl_server_api.h	63;"	d
+ACL_APP_CTL_PRE_JAIL	include/master/acl_server_api.h	54;"	d
+ACL_APP_CTL_THREAD_EXIT	include/master/acl_server_api.h	58;"	d
+ACL_APP_CTL_THREAD_EXIT_CTX	include/master/acl_server_api.h	59;"	d
+ACL_APP_CTL_THREAD_INIT	include/master/acl_server_api.h	56;"	d
+ACL_APP_CTL_THREAD_INIT_CTX	include/master/acl_server_api.h	57;"	d
+ACL_AQUEUE	include/msg/acl_aqueue.h	/^typedef struct ACL_AQUEUE ACL_AQUEUE;$/;"	t	typeref:struct:ACL_AQUEUE
+ACL_AQUEUE_ERR_COND_SIGNALE	include/msg/acl_aqueue.h	16;"	d
+ACL_AQUEUE_ERR_COND_WAIT	include/msg/acl_aqueue.h	15;"	d
+ACL_AQUEUE_ERR_LOCK	include/msg/acl_aqueue.h	12;"	d
+ACL_AQUEUE_ERR_TIMEOUT	include/msg/acl_aqueue.h	14;"	d
+ACL_AQUEUE_ERR_UNKNOWN	include/msg/acl_aqueue.h	10;"	d
+ACL_AQUEUE_ERR_UNLOCK	include/msg/acl_aqueue.h	13;"	d
+ACL_AQUEUE_FREE_FN	include/msg/acl_aqueue.h	/^typedef void (*ACL_AQUEUE_FREE_FN)(void *);$/;"	t
+ACL_AQUEUE_INCLUDE_H	include/msg/acl_aqueue.h	2;"	d
+ACL_AQUEUE_ITEM	include/msg/acl_aqueue.h	/^typedef struct ACL_AQUEUE_ITEM ACL_AQUEUE_ITEM;$/;"	t	typeref:struct:ACL_AQUEUE_ITEM
+ACL_AQUEUE_OK	include/msg/acl_aqueue.h	11;"	d
+ACL_ARGV	include/stdlib/acl_argv.h	/^typedef struct ACL_ARGV {$/;"	s
+ACL_ARGV	include/stdlib/acl_argv.h	/^} ACL_ARGV;$/;"	t	typeref:struct:ACL_ARGV
+ACL_ARGV_END	include/stdlib/acl_argv.h	175;"	d
+ACL_ARGV_INCLUDE_H	include/stdlib/acl_argv.h	2;"	d
+ACL_ARRAY	include/stdlib/acl_array.h	/^struct ACL_ARRAY{$/;"	s
+ACL_ARRAY	include/stdlib/acl_array.h	/^typedef	struct ACL_ARRAY ACL_ARRAY;$/;"	t	typeref:struct:ACL_ARRAY
+ACL_ARRAY_INCLUDE_H	include/stdlib/acl_array.h	2;"	d
+ACL_ASTREAM	include/aio/acl_aio.h	/^struct ACL_ASTREAM {$/;"	s
+ACL_ASTREAM	include/aio/acl_aio.h	/^typedef struct ACL_ASTREAM ACL_ASTREAM;$/;"	t	typeref:struct:ACL_ASTREAM
+ACL_AVL_H	include/stdlib/avl.h	27;"	d
+ACL_AVL_IMPL_H	include/stdlib/avl_impl.h	28;"	d
+ACL_BASE64_CODE_INCLUDE_H	include/code/acl_base64.h	2;"	d
+ACL_BCB_COMPILER	include/stdlib/acl_define_win32.h	22;"	d
+ACL_BINHASH	include/stdlib/acl_binhash.h	/^struct ACL_BINHASH {$/;"	s
+ACL_BINHASH	include/stdlib/acl_binhash.h	/^typedef struct ACL_BINHASH ACL_BINHASH;$/;"	t	typeref:struct:ACL_BINHASH
+ACL_BINHASH_FLAG_KEY_REUSE	include/stdlib/acl_binhash.h	79;"	d
+ACL_BINHASH_FLAG_SLICE1	include/stdlib/acl_binhash.h	81;"	d
+ACL_BINHASH_FLAG_SLICE2	include/stdlib/acl_binhash.h	82;"	d
+ACL_BINHASH_FLAG_SLICE3	include/stdlib/acl_binhash.h	83;"	d
+ACL_BINHASH_FLAG_SLICE_RTGC_OFF	include/stdlib/acl_binhash.h	80;"	d
+ACL_BINHASH_FOREACH	include/stdlib/acl_binhash.h	224;"	d
+ACL_BINHASH_FOREACH_REVERSE	include/stdlib/acl_binhash.h	229;"	d
+ACL_BINHASH_INCLUDE_H	include/stdlib/acl_binhash.h	2;"	d
+ACL_BINHASH_INFO	include/stdlib/acl_binhash.h	/^struct ACL_BINHASH_INFO {$/;"	s
+ACL_BINHASH_INFO	include/stdlib/acl_binhash.h	/^typedef struct ACL_BINHASH_INFO ACL_BINHASH_INFO;$/;"	t	typeref:struct:ACL_BINHASH_INFO
+ACL_BINHASH_ITER	include/stdlib/acl_binhash.h	/^typedef struct ACL_BINHASH_ITER {$/;"	s
+ACL_BINHASH_ITER	include/stdlib/acl_binhash.h	/^} ACL_BINHASH_ITER;$/;"	t	typeref:struct:ACL_BINHASH_ITER
+ACL_BINHASH_ITER_KEY	include/stdlib/acl_binhash.h	179;"	d
+ACL_BINHASH_ITER_VALUE	include/stdlib/acl_binhash.h	182;"	d
+ACL_BINHASH_STAT_DUPLEX_KEY	include/stdlib/acl_binhash.h	154;"	d
+ACL_BINHASH_STAT_INVAL	include/stdlib/acl_binhash.h	153;"	d
+ACL_BINHASH_STAT_NO_KEY	include/stdlib/acl_binhash.h	155;"	d
+ACL_BINHASH_STAT_OK	include/stdlib/acl_binhash.h	152;"	d
+ACL_BITS_MAP_INCLUDE_H	include/stdlib/acl_bits_map.h	2;"	d
+ACL_BITS_MASK	include/stdlib/acl_bits_map.h	/^typedef struct ACL_BITS_MASK {$/;"	s
+ACL_BITS_MASK	include/stdlib/acl_bits_map.h	/^} ACL_BITS_MASK;$/;"	t	typeref:struct:ACL_BITS_MASK
+ACL_BITS_MASK_ALLOC	include/stdlib/acl_bits_map.h	38;"	d
+ACL_BITS_MASK_BYTES_NEEDED	include/stdlib/acl_bits_map.h	25;"	d
+ACL_BITS_MASK_BYTE_COUNT	include/stdlib/acl_bits_map.h	27;"	d
+ACL_BITS_MASK_CLR	include/stdlib/acl_bits_map.h	98;"	d
+ACL_BITS_MASK_FD_BIT	include/stdlib/acl_bits_map.h	24;"	d
+ACL_BITS_MASK_FD_BYTE	include/stdlib/acl_bits_map.h	22;"	d
+ACL_BITS_MASK_FREE	include/stdlib/acl_bits_map.h	65;"	d
+ACL_BITS_MASK_ISSET	include/stdlib/acl_bits_map.h	90;"	d
+ACL_BITS_MASK_NBBY	include/stdlib/acl_bits_map.h	21;"	d
+ACL_BITS_MASK_REALLOC	include/stdlib/acl_bits_map.h	53;"	d
+ACL_BITS_MASK_SET	include/stdlib/acl_bits_map.h	81;"	d
+ACL_BITS_MASK_ZERO	include/stdlib/acl_bits_map.h	73;"	d
+ACL_BLOCKING	include/stdlib/acl_iostuff.h	14;"	d
+ACL_BTREE	include/stdlib/acl_btree.h	/^typedef struct ACL_BTREE ACL_BTREE;$/;"	t	typeref:struct:ACL_BTREE
+ACL_BTREE_INCLUDE_H	include/stdlib/acl_btree.h	2;"	d
+ACL_CACHE	include/stdlib/acl_cache.h	/^typedef struct ACL_CACHE { $/;"	s
+ACL_CACHE	include/stdlib/acl_cache.h	/^} ACL_CACHE;$/;"	t	typeref:struct:ACL_CACHE
+ACL_CACHE2	include/stdlib/acl_cache2.h	/^typedef struct ACL_CACHE2 { $/;"	s
+ACL_CACHE2	include/stdlib/acl_cache2.h	/^} ACL_CACHE2;$/;"	t	typeref:struct:ACL_CACHE2
+ACL_CACHE2_INCLUDE_H	include/stdlib/acl_cache2.h	2;"	d
+ACL_CACHE2_INFO	include/stdlib/acl_cache2.h	/^typedef struct ACL_CACHE2_INFO {$/;"	s
+ACL_CACHE2_INFO	include/stdlib/acl_cache2.h	/^} ACL_CACHE2_INFO;$/;"	t	typeref:struct:ACL_CACHE2_INFO
+ACL_CACHE_INCLUDE_H	include/stdlib/acl_cache.h	2;"	d
+ACL_CACHE_INFO	include/stdlib/acl_cache.h	/^typedef struct ACL_CACHE_INFO {$/;"	s
+ACL_CACHE_INFO	include/stdlib/acl_cache.h	/^} ACL_CACHE_INFO;$/;"	t	typeref:struct:ACL_CACHE_INFO
+ACL_CFG_BOOL_TABLE	include/stdlib/acl_xinetd_cfg.h	/^typedef struct ACL_CFG_BOOL_TABLE {$/;"	s
+ACL_CFG_BOOL_TABLE	include/stdlib/acl_xinetd_cfg.h	/^} ACL_CFG_BOOL_TABLE;$/;"	t	typeref:struct:ACL_CFG_BOOL_TABLE
+ACL_CFG_FN	include/stdlib/acl_loadcfg.h	/^typedef struct ACL_CFG_FN {$/;"	s
+ACL_CFG_FN	include/stdlib/acl_loadcfg.h	/^} ACL_CFG_FN;$/;"	t	typeref:struct:ACL_CFG_FN
+ACL_CFG_INT64_TABLE	include/stdlib/acl_xinetd_cfg.h	/^typedef struct ACL_CFG_INT64_TABLE {$/;"	s
+ACL_CFG_INT64_TABLE	include/stdlib/acl_xinetd_cfg.h	/^} ACL_CFG_INT64_TABLE;$/;"	t	typeref:struct:ACL_CFG_INT64_TABLE
+ACL_CFG_INT_TABLE	include/stdlib/acl_xinetd_cfg.h	/^typedef struct ACL_CFG_INT_TABLE {$/;"	s
+ACL_CFG_INT_TABLE	include/stdlib/acl_xinetd_cfg.h	/^} ACL_CFG_INT_TABLE;$/;"	t	typeref:struct:ACL_CFG_INT_TABLE
+ACL_CFG_LINE	include/stdlib/acl_loadcfg.h	/^typedef struct ACL_CFG_LINE {$/;"	s
+ACL_CFG_LINE	include/stdlib/acl_loadcfg.h	/^} ACL_CFG_LINE;$/;"	t	typeref:struct:ACL_CFG_LINE
+ACL_CFG_MACRO_INCLUDE_H	include/stdlib/acl_cfg_macro.h	2;"	d
+ACL_CFG_PARSER	include/stdlib/acl_loadcfg.h	/^typedef struct ACL_CFG_PARSER ACL_CFG_PARSER;$/;"	t	typeref:struct:ACL_CFG_PARSER
+ACL_CFG_SET_ITEM_INT	include/stdlib/acl_cfg_macro.h	44;"	d
+ACL_CFG_SET_ITEM_STR	include/stdlib/acl_cfg_macro.h	24;"	d
+ACL_CFG_STR_TABLE	include/stdlib/acl_xinetd_cfg.h	/^typedef struct ACL_CFG_STR_TABLE {$/;"	s
+ACL_CFG_STR_TABLE	include/stdlib/acl_xinetd_cfg.h	/^} ACL_CFG_STR_TABLE;$/;"	t	typeref:struct:ACL_CFG_STR_TABLE
+ACL_CFG_WALK_FN	include/stdlib/acl_loadcfg.h	/^typedef void (*ACL_CFG_WALK_FN)(void *arg);$/;"	t
+ACL_CHAIN	include/stdlib/acl_chunk_chain.h	/^typedef struct ACL_CHAIN ACL_CHAIN;$/;"	t	typeref:struct:ACL_CHAIN
+ACL_CHROOT_UID_INCLUDE_H	include/stdlib/unix/acl_chroot_uid.h	2;"	d
+ACL_CHUNK_CHAIN_INCLUDE_H	include/stdlib/acl_chunk_chain.h	2;"	d
+ACL_CLOSE_ON_EXEC	include/stdlib/acl_iostuff.h	11;"	d
+ACL_CODE_INCLUDE_H	include/code/acl_code.h	2;"	d
+ACL_CONFIG_BOOL_TABLE	include/master/acl_master_type.h	13;"	d
+ACL_CONFIG_INT64_TABLE	include/master/acl_master_type.h	11;"	d
+ACL_CONFIG_INT_TABLE	include/master/acl_master_type.h	10;"	d
+ACL_CONFIG_STR_TABLE	include/master/acl_master_type.h	12;"	d
+ACL_CONNECT_INCLUDE_H	include/net/acl_connect.h	2;"	d
+ACL_CORE_LIMIT_INCLUDE_H	include/stdlib/unix/acl_core_limit.h	2;"	d
+ACL_DBERR_INCLUDE_H	include/db/acl_dberr.h	2;"	d
+ACL_DBH_STATUS_INUSE	include/db/acl_dbpool.h	46;"	d
+ACL_DBH_STATUS_NULL	include/db/acl_dbpool.h	44;"	d
+ACL_DBH_STATUS_READY	include/db/acl_dbpool.h	45;"	d
+ACL_DBPOOL_INCLUDE_H	include/db/acl_dbpool.h	2;"	d
+ACL_DBSQL_INCLUDE_H	include/db/acl_dbsql.h	2;"	d
+ACL_DBUF_POOL	include/stdlib/acl_dbuf_pool.h	/^typedef struct ACL_DBUF_POOL ACL_DBUF_POOL;$/;"	t	typeref:struct:ACL_DBUF_POOL
+ACL_DBUF_POOL_INCLUDE_H	include/stdlib/acl_dbuf_pool.h	2;"	d
+ACL_DB_ATOU	include/db/acl_dbsql.h	12;"	d
+ACL_DB_AUTO_COMMIT	include/db/acl_dbpool.h	93;"	d
+ACL_DB_DEBUG_MEM	include/db/acl_dbpool.h	12;"	d
+ACL_DB_ERR_AFFECTED	include/db/acl_dberr.h	14;"	d
+ACL_DB_ERR_ALLOC	include/db/acl_dberr.h	15;"	d
+ACL_DB_ERR_CALLBACK	include/db/acl_dberr.h	9;"	d
+ACL_DB_ERR_EMPTY	include/db/acl_dberr.h	12;"	d
+ACL_DB_ERR_SELECT	include/db/acl_dberr.h	10;"	d
+ACL_DB_ERR_STORE	include/db/acl_dberr.h	13;"	d
+ACL_DB_ERR_UPDATE	include/db/acl_dberr.h	11;"	d
+ACL_DB_HANDLE	include/db/acl_dbpool.h	/^struct ACL_DB_HANDLE {$/;"	s
+ACL_DB_HANDLE	include/db/acl_dbpool.h	/^typedef struct ACL_DB_HANDLE ACL_DB_HANDLE;$/;"	t	typeref:struct:ACL_DB_HANDLE
+ACL_DB_INFO	include/db/acl_dbpool.h	/^typedef struct ACL_DB_INFO {$/;"	s
+ACL_DB_INFO	include/db/acl_dbpool.h	/^} ACL_DB_INFO;$/;"	t	typeref:struct:ACL_DB_INFO
+ACL_DB_OK	include/db/acl_dberr.h	8;"	d
+ACL_DB_POOL	include/db/acl_dbpool.h	/^struct ACL_DB_POOL {$/;"	s
+ACL_DB_POOL	include/db/acl_dbpool.h	/^typedef struct ACL_DB_POOL ACL_DB_POOL;$/;"	t	typeref:struct:ACL_DB_POOL
+ACL_DEBUG_EVENT	include/stdlib/acl_debug.h	15;"	d
+ACL_DEBUG_INCLUDE_H	include/stdlib/acl_debug.h	2;"	d
+ACL_DEBUG_INTER_BASE	include/stdlib/acl_debug.h	11;"	d
+ACL_DEBUG_MALLOC_INCLUDE_H	include/stdlib/acl_debug_malloc.h	2;"	d
+ACL_DEBUG_MEM	include/stdlib/acl_debug_malloc.h	/^typedef struct ACL_DEBUG_MEM ACL_DEBUG_MEM;$/;"	t	typeref:struct:ACL_DEBUG_MEM
+ACL_DEBUG_PROCTL	include/stdlib/acl_debug.h	13;"	d
+ACL_DEBUG_THR_POOL	include/stdlib/acl_debug.h	14;"	d
+ACL_DEBUG_WQ	include/stdlib/acl_debug.h	12;"	d
+ACL_DEFINE_BSD_INCLUDE_H	include/stdlib/acl_define_bsd.h	2;"	d
+ACL_DEFINE_INCLUDE_H	include/stdlib/acl_define.h	2;"	d
+ACL_DEFINE_LINUX_INCLUDE_H	include/stdlib/acl_define_linux.h	2;"	d
+ACL_DEFINE_SUNX86_INCLUDE_H	include/stdlib/acl_define_sunx86.h	2;"	d
+ACL_DEFINE_UNIX_INCLUDE_H	include/stdlib/acl_define_unix.h	2;"	d
+ACL_DEFINE_WIN32_INCLUDE_H	include/stdlib/acl_define_win32.h	2;"	d
+ACL_DEF_AIO_ACCEPT_ALONE	include/master/acl_aio_params.h	89;"	d
+ACL_DEF_AIO_ACCEPT_TIMER	include/master/acl_aio_params.h	101;"	d
+ACL_DEF_AIO_ACCESS_ALLOW	include/master/acl_aio_params.h	49;"	d
+ACL_DEF_AIO_BUF_SIZE	include/master/acl_aio_params.h	17;"	d
+ACL_DEF_AIO_DAEMON_TIMEOUT	include/master/acl_aio_params.h	69;"	d
+ACL_DEF_AIO_DELAY_SEC	include/master/acl_aio_params.h	57;"	d
+ACL_DEF_AIO_DELAY_USEC	include/master/acl_aio_params.h	61;"	d
+ACL_DEF_AIO_DENY_INFO	include/master/acl_aio_params.h	125;"	d
+ACL_DEF_AIO_DISPATCH_ADDR	include/master/acl_aio_params.h	117;"	d
+ACL_DEF_AIO_DISPATCH_TYPE	include/master/acl_aio_params.h	121;"	d
+ACL_DEF_AIO_ENABLE_CORE	include/master/acl_aio_params.h	93;"	d
+ACL_DEF_AIO_EVENT_MODE	include/master/acl_aio_params.h	65;"	d
+ACL_DEF_AIO_IDLE_LIMIT	include/master/acl_aio_params.h	37;"	d
+ACL_DEF_AIO_IN_FLOW_DELAY	include/master/acl_aio_params.h	25;"	d
+ACL_DEF_AIO_LOG_DEBUG	include/master/acl_aio_params.h	105;"	d
+ACL_DEF_AIO_MASTER_MAXPROC	include/master/acl_aio_params.h	77;"	d
+ACL_DEF_AIO_MAX_ACCEPT	include/master/acl_aio_params.h	81;"	d
+ACL_DEF_AIO_MAX_DEBUG	include/master/acl_aio_params.h	109;"	d
+ACL_DEF_AIO_MAX_THREADS	include/master/acl_aio_params.h	29;"	d
+ACL_DEF_AIO_MIN_NOTIFY	include/master/acl_aio_params.h	85;"	d
+ACL_DEF_AIO_OWNER	include/master/acl_aio_params.h	53;"	d
+ACL_DEF_AIO_PID_DIR	include/master/acl_aio_params.h	45;"	d
+ACL_DEF_AIO_QUEUE_DIR	include/master/acl_aio_params.h	41;"	d
+ACL_DEF_AIO_QUICK_ABORT	include/master/acl_aio_params.h	97;"	d
+ACL_DEF_AIO_RW_TIMEOUT	include/master/acl_aio_params.h	21;"	d
+ACL_DEF_AIO_STATUS_NOTIFY	include/master/acl_aio_params.h	113;"	d
+ACL_DEF_AIO_THREAD_IDLE_LIMIT	include/master/acl_aio_params.h	33;"	d
+ACL_DEF_AIO_USE_LIMIT	include/master/acl_aio_params.h	73;"	d
+ACL_DEF_IOCTL_ACCESS_ALLOW	include/master/acl_ioctl_params.h	52;"	d
+ACL_DEF_IOCTL_BUF_SIZE	include/master/acl_ioctl_params.h	16;"	d
+ACL_DEF_IOCTL_CHECK_INTER	include/master/acl_ioctl_params.h	112;"	d
+ACL_DEF_IOCTL_DAEMON_TIMEOUT	include/master/acl_ioctl_params.h	72;"	d
+ACL_DEF_IOCTL_DELAY_SEC	include/master/acl_ioctl_params.h	60;"	d
+ACL_DEF_IOCTL_DELAY_USEC	include/master/acl_ioctl_params.h	64;"	d
+ACL_DEF_IOCTL_ENABLE_CORE	include/master/acl_ioctl_params.h	96;"	d
+ACL_DEF_IOCTL_ENABLE_DOG	include/master/acl_ioctl_params.h	88;"	d
+ACL_DEF_IOCTL_EVENT_MODE	include/master/acl_ioctl_params.h	68;"	d
+ACL_DEF_IOCTL_IDLE_LIMIT	include/master/acl_ioctl_params.h	40;"	d
+ACL_DEF_IOCTL_IN_FLOW_DELAY	include/master/acl_ioctl_params.h	24;"	d
+ACL_DEF_IOCTL_LOG_DEBUG	include/master/acl_ioctl_params.h	100;"	d
+ACL_DEF_IOCTL_MASTER_MAXPROC	include/master/acl_ioctl_params.h	80;"	d
+ACL_DEF_IOCTL_MAX_ACCEPT	include/master/acl_ioctl_params.h	84;"	d
+ACL_DEF_IOCTL_MAX_DEBUG	include/master/acl_ioctl_params.h	104;"	d
+ACL_DEF_IOCTL_MAX_THREADS	include/master/acl_ioctl_params.h	28;"	d
+ACL_DEF_IOCTL_OWNER	include/master/acl_ioctl_params.h	56;"	d
+ACL_DEF_IOCTL_PID_DIR	include/master/acl_ioctl_params.h	48;"	d
+ACL_DEF_IOCTL_QUEUE_DIR	include/master/acl_ioctl_params.h	44;"	d
+ACL_DEF_IOCTL_QUICK_ABORT	include/master/acl_ioctl_params.h	92;"	d
+ACL_DEF_IOCTL_RW_TIMEOUT	include/master/acl_ioctl_params.h	20;"	d
+ACL_DEF_IOCTL_STACKSIZE	include/master/acl_ioctl_params.h	32;"	d
+ACL_DEF_IOCTL_STATUS_NOTIFY	include/master/acl_ioctl_params.h	108;"	d
+ACL_DEF_IOCTL_THREAD_IDLE_LIMIT	include/master/acl_ioctl_params.h	36;"	d
+ACL_DEF_IOCTL_USE_LIMIT	include/master/acl_ioctl_params.h	76;"	d
+ACL_DEF_MULTI_BUF_SIZE	include/master/acl_multi_params.h	16;"	d
+ACL_DEF_MULTI_DAEMON_TIMEOUT	include/master/acl_multi_params.h	52;"	d
+ACL_DEF_MULTI_DELAY_SEC	include/master/acl_multi_params.h	44;"	d
+ACL_DEF_MULTI_DELAY_USEC	include/master/acl_multi_params.h	48;"	d
+ACL_DEF_MULTI_ENABLE_CORE	include/master/acl_multi_params.h	60;"	d
+ACL_DEF_MULTI_IDLE_LIMIT	include/master/acl_multi_params.h	28;"	d
+ACL_DEF_MULTI_IN_FLOW_DELAY	include/master/acl_multi_params.h	24;"	d
+ACL_DEF_MULTI_LOG_DEBUG	include/master/acl_multi_params.h	64;"	d
+ACL_DEF_MULTI_MAX_DEBUG	include/master/acl_multi_params.h	68;"	d
+ACL_DEF_MULTI_OWNER	include/master/acl_multi_params.h	40;"	d
+ACL_DEF_MULTI_PID_DIR	include/master/acl_multi_params.h	36;"	d
+ACL_DEF_MULTI_QUEUE_DIR	include/master/acl_multi_params.h	32;"	d
+ACL_DEF_MULTI_RW_TIMEOUT	include/master/acl_multi_params.h	20;"	d
+ACL_DEF_MULTI_USE_LIMIT	include/master/acl_multi_params.h	56;"	d
+ACL_DEF_SINGLE_BUF_SIZE	include/master/acl_single_params.h	16;"	d
+ACL_DEF_SINGLE_DAEMON_TIMEOUT	include/master/acl_single_params.h	60;"	d
+ACL_DEF_SINGLE_DELAY_SEC	include/master/acl_single_params.h	48;"	d
+ACL_DEF_SINGLE_DELAY_USEC	include/master/acl_single_params.h	52;"	d
+ACL_DEF_SINGLE_ENABLE_CORE	include/master/acl_single_params.h	72;"	d
+ACL_DEF_SINGLE_IDLE_LIMIT	include/master/acl_single_params.h	32;"	d
+ACL_DEF_SINGLE_IN_FLOW_DELAY	include/master/acl_single_params.h	24;"	d
+ACL_DEF_SINGLE_LOG_DEBUG	include/master/acl_single_params.h	76;"	d
+ACL_DEF_SINGLE_MAX_DEBUG	include/master/acl_single_params.h	80;"	d
+ACL_DEF_SINGLE_OWNER	include/master/acl_single_params.h	44;"	d
+ACL_DEF_SINGLE_PID_DIR	include/master/acl_single_params.h	40;"	d
+ACL_DEF_SINGLE_QUEUE_DIR	include/master/acl_single_params.h	36;"	d
+ACL_DEF_SINGLE_RW_TIMEOUT	include/master/acl_single_params.h	20;"	d
+ACL_DEF_SINGLE_USE_LIMIT	include/master/acl_single_params.h	68;"	d
+ACL_DEF_THREADS_ACCESS_ALLOW	include/master/acl_threads_params.h	103;"	d
+ACL_DEF_THREADS_BATADD	include/master/acl_threads_params.h	107;"	d
+ACL_DEF_THREADS_BUF_SIZE	include/master/acl_threads_params.h	15;"	d
+ACL_DEF_THREADS_CHECK_INTER	include/master/acl_threads_params.h	119;"	d
+ACL_DEF_THREADS_DAEMON_TIMEOUT	include/master/acl_threads_params.h	63;"	d
+ACL_DEF_THREADS_DELAY_SEC	include/master/acl_threads_params.h	51;"	d
+ACL_DEF_THREADS_DELAY_USEC	include/master/acl_threads_params.h	55;"	d
+ACL_DEF_THREADS_DENY_BANNER	include/master/acl_threads_params.h	99;"	d
+ACL_DEF_THREADS_DISPATCH_ADDR	include/master/acl_threads_params.h	127;"	d
+ACL_DEF_THREADS_DISPATCH_TYPE	include/master/acl_threads_params.h	131;"	d
+ACL_DEF_THREADS_ENABLE_CORE	include/master/acl_threads_params.h	83;"	d
+ACL_DEF_THREADS_ENABLE_DOG	include/master/acl_threads_params.h	75;"	d
+ACL_DEF_THREADS_EVENT_MODE	include/master/acl_threads_params.h	59;"	d
+ACL_DEF_THREADS_IDLE_LIMIT	include/master/acl_threads_params.h	35;"	d
+ACL_DEF_THREADS_LOG_DEBUG	include/master/acl_threads_params.h	87;"	d
+ACL_DEF_THREADS_MASTER_MAXPROC	include/master/acl_threads_params.h	67;"	d
+ACL_DEF_THREADS_MAX_ACCEPT	include/master/acl_threads_params.h	71;"	d
+ACL_DEF_THREADS_MAX_DEBUG	include/master/acl_threads_params.h	91;"	d
+ACL_DEF_THREADS_OWNER	include/master/acl_threads_params.h	47;"	d
+ACL_DEF_THREADS_POOL_LIMIT	include/master/acl_threads_params.h	23;"	d
+ACL_DEF_THREADS_QLEN_WARN	include/master/acl_threads_params.h	123;"	d
+ACL_DEF_THREADS_QUEUE_DIR	include/master/acl_threads_params.h	43;"	d
+ACL_DEF_THREADS_QUICK_ABORT	include/master/acl_threads_params.h	79;"	d
+ACL_DEF_THREADS_RW_TIMEOUT	include/master/acl_threads_params.h	19;"	d
+ACL_DEF_THREADS_SCHEDULE_WAIT	include/master/acl_threads_params.h	115;"	d
+ACL_DEF_THREADS_SCHEDULE_WARN	include/master/acl_threads_params.h	111;"	d
+ACL_DEF_THREADS_STATUS_NOTIFY	include/master/acl_threads_params.h	95;"	d
+ACL_DEF_THREADS_THREAD_IDLE	include/master/acl_threads_params.h	31;"	d
+ACL_DEF_THREADS_THREAD_STACKSIZE	include/master/acl_threads_params.h	27;"	d
+ACL_DEF_THREADS_USE_LIMIT	include/master/acl_threads_params.h	39;"	d
+ACL_DEF_TRIGGER_BUF_SIZE	include/master/acl_trigger_params.h	16;"	d
+ACL_DEF_TRIGGER_DAEMON_TIMEOUT	include/master/acl_trigger_params.h	52;"	d
+ACL_DEF_TRIGGER_DELAY_SEC	include/master/acl_trigger_params.h	44;"	d
+ACL_DEF_TRIGGER_DELAY_USEC	include/master/acl_trigger_params.h	48;"	d
+ACL_DEF_TRIGGER_ENABLE_CORE	include/master/acl_trigger_params.h	60;"	d
+ACL_DEF_TRIGGER_IDLE_LIMIT	include/master/acl_trigger_params.h	28;"	d
+ACL_DEF_TRIGGER_IN_FLOW_DELAY	include/master/acl_trigger_params.h	24;"	d
+ACL_DEF_TRIGGER_LOG_DEBUG	include/master/acl_trigger_params.h	64;"	d
+ACL_DEF_TRIGGER_MAX_DEBUG	include/master/acl_trigger_params.h	68;"	d
+ACL_DEF_TRIGGER_OWNER	include/master/acl_trigger_params.h	40;"	d
+ACL_DEF_TRIGGER_PID_DIR	include/master/acl_trigger_params.h	36;"	d
+ACL_DEF_TRIGGER_QUEUE_DIR	include/master/acl_trigger_params.h	32;"	d
+ACL_DEF_TRIGGER_RW_TIMEOUT	include/master/acl_trigger_params.h	20;"	d
+ACL_DEF_TRIGGER_USE_LIMIT	include/master/acl_trigger_params.h	56;"	d
+ACL_DEF_UDP_ACCESS_ALLOW	include/master/acl_udp_params.h	37;"	d
+ACL_DEF_UDP_BUF_SIZE	include/master/acl_udp_params.h	17;"	d
+ACL_DEF_UDP_DAEMON_TIMEOUT	include/master/acl_udp_params.h	57;"	d
+ACL_DEF_UDP_DELAY_SEC	include/master/acl_udp_params.h	45;"	d
+ACL_DEF_UDP_DELAY_USEC	include/master/acl_udp_params.h	49;"	d
+ACL_DEF_UDP_ENABLE_CORE	include/master/acl_udp_params.h	65;"	d
+ACL_DEF_UDP_EVENT_MODE	include/master/acl_udp_params.h	53;"	d
+ACL_DEF_UDP_IDLE_LIMIT	include/master/acl_udp_params.h	25;"	d
+ACL_DEF_UDP_LOG_DEBUG	include/master/acl_udp_params.h	69;"	d
+ACL_DEF_UDP_MASTER_MAXPROC	include/master/acl_udp_params.h	61;"	d
+ACL_DEF_UDP_MAX_DEBUG	include/master/acl_udp_params.h	73;"	d
+ACL_DEF_UDP_OWNER	include/master/acl_udp_params.h	41;"	d
+ACL_DEF_UDP_PID_DIR	include/master/acl_udp_params.h	33;"	d
+ACL_DEF_UDP_QUEUE_DIR	include/master/acl_udp_params.h	29;"	d
+ACL_DEF_UDP_RW_TIMEOUT	include/master/acl_udp_params.h	21;"	d
+ACL_DEPRECATED	include/stdlib/acl_define.h	72;"	d
+ACL_DEPRECATED	include/stdlib/acl_define.h	74;"	d
+ACL_DEPRECATED	include/stdlib/acl_define.h	76;"	d
+ACL_DEPRECATED_FOR	include/stdlib/acl_define.h	80;"	d
+ACL_DEPRECATED_FOR	include/stdlib/acl_define.h	82;"	d
+ACL_DEPRECATED_FOR	include/stdlib/acl_define.h	84;"	d
+ACL_DIR_INCLUDE_H	include/stdlib/acl_dir.h	2;"	d
+ACL_DITEM	include/stdlib/acl_dlink.h	/^} ACL_DITEM;$/;"	t	typeref:struct:__anon6
+ACL_DLINK	include/stdlib/acl_dlink.h	/^typedef	struct ACL_DLINK {$/;"	s
+ACL_DLINK	include/stdlib/acl_dlink.h	/^} ACL_DLINK;$/;"	t	typeref:struct:ACL_DLINK
+ACL_DLINK_INCLUDE	include/stdlib/acl_dlink.h	2;"	d
+ACL_DLL_ENV	include/stdlib/acl_dll.h	/^typedef struct ACL_DLL_ENV {$/;"	s
+ACL_DLL_ENV	include/stdlib/acl_dll.h	/^} ACL_DLL_ENV;$/;"	t	typeref:struct:ACL_DLL_ENV
+ACL_DLL_FARPROC	include/stdlib/acl_define_unix.h	73;"	d
+ACL_DLL_FARPROC	include/stdlib/acl_define_win32.h	109;"	d
+ACL_DLL_HANDLE	include/stdlib/acl_define_unix.h	72;"	d
+ACL_DLL_HANDLE	include/stdlib/acl_define_win32.h	108;"	d
+ACL_DLL_INCLUDE_H	include/stdlib/acl_dll.h	2;"	d
+ACL_DNS	include/net/acl_dns.h	/^typedef struct ACL_DNS {$/;"	s
+ACL_DNS	include/net/acl_dns.h	/^} ACL_DNS;$/;"	t	typeref:struct:ACL_DNS
+ACL_DNS_ADDR	include/net/acl_dns.h	/^typedef struct ACL_DNS_ADDR {$/;"	s
+ACL_DNS_ADDR	include/net/acl_dns.h	/^} ACL_DNS_ADDR;$/;"	t	typeref:struct:ACL_DNS_ADDR
+ACL_DNS_DB	include/net/acl_netdb.h	/^typedef struct ACL_DNS_DB {$/;"	s
+ACL_DNS_DB	include/net/acl_netdb.h	/^} ACL_DNS_DB;$/;"	t	typeref:struct:ACL_DNS_DB
+ACL_DNS_ERR_BUILD_REQ	include/net/acl_dns.h	36;"	d
+ACL_DNS_ERR_DENY	include/net/acl_dns.h	27;"	d
+ACL_DNS_ERR_EXIST	include/net/acl_dns.h	35;"	d
+ACL_DNS_ERR_FMT	include/net/acl_dns.h	23;"	d
+ACL_DNS_ERR_NOT_ZONE	include/net/acl_dns.h	32;"	d
+ACL_DNS_ERR_NO_AUTH	include/net/acl_dns.h	31;"	d
+ACL_DNS_ERR_NO_EXIST	include/net/acl_dns.h	25;"	d
+ACL_DNS_ERR_NO_SUPPORT	include/net/acl_dns.h	26;"	d
+ACL_DNS_ERR_NXRR	include/net/acl_dns.h	30;"	d
+ACL_DNS_ERR_SVR	include/net/acl_dns.h	24;"	d
+ACL_DNS_ERR_TIMEOUT	include/net/acl_dns.h	34;"	d
+ACL_DNS_ERR_UNPACK	include/net/acl_dns.h	33;"	d
+ACL_DNS_ERR_YX	include/net/acl_dns.h	28;"	d
+ACL_DNS_ERR_YXRR	include/net/acl_dns.h	29;"	d
+ACL_DNS_FLAG_ALLOC	include/net/acl_dns.h	61;"	d
+ACL_DNS_FLAG_CHECK_DNS_IP	include/net/acl_dns.h	62;"	d
+ACL_DNS_FLAG_CHECK_DNS_NET	include/net/acl_dns.h	63;"	d
+ACL_DNS_INCLUDE_H	include/net/acl_dns.h	2;"	d
+ACL_DNS_OK	include/net/acl_dns.h	21;"	d
+ACL_DNS_OK_CACHE	include/net/acl_dns.h	22;"	d
+ACL_DNS_REQ	include/net/acl_dns.h	/^typedef struct ACL_DNS_REQ ACL_DNS_REQ;$/;"	t	typeref:struct:ACL_DNS_REQ
+ACL_DONT_GRIPE	include/net/acl_valid_hostname.h	14;"	d
+ACL_DO_GRIPE	include/net/acl_valid_hostname.h	15;"	d
+ACL_EAGAIN	include/stdlib/acl_define_unix.h	57;"	d
+ACL_EAGAIN	include/stdlib/acl_define_win32.h	97;"	d
+ACL_ECONNABORTED	include/stdlib/acl_define_unix.h	64;"	d
+ACL_ECONNABORTED	include/stdlib/acl_define_win32.h	99;"	d
+ACL_ECONNREFUSED	include/stdlib/acl_define_unix.h	52;"	d
+ACL_ECONNREFUSED	include/stdlib/acl_define_win32.h	87;"	d
+ACL_ECONNRESET	include/stdlib/acl_define_unix.h	53;"	d
+ACL_ECONNRESET	include/stdlib/acl_define_win32.h	88;"	d
+ACL_EHOSTDOWN	include/stdlib/acl_define_unix.h	54;"	d
+ACL_EHOSTDOWN	include/stdlib/acl_define_win32.h	89;"	d
+ACL_EHOSTUNREACH	include/stdlib/acl_define_unix.h	55;"	d
+ACL_EHOSTUNREACH	include/stdlib/acl_define_win32.h	90;"	d
+ACL_EINPROGRESS	include/stdlib/acl_define_unix.h	65;"	d
+ACL_EINPROGRESS	include/stdlib/acl_define_win32.h	100;"	d
+ACL_EINTR	include/stdlib/acl_define_unix.h	56;"	d
+ACL_EINTR	include/stdlib/acl_define_win32.h	91;"	d
+ACL_EINVAL	include/stdlib/acl_define_unix.h	50;"	d
+ACL_EINVAL	include/stdlib/acl_define_win32.h	85;"	d
+ACL_EISCONN	include/stdlib/acl_define_unix.h	61;"	d
+ACL_EISCONN	include/stdlib/acl_define_win32.h	95;"	d
+ACL_ENETDOWN	include/stdlib/acl_define_unix.h	58;"	d
+ACL_ENETDOWN	include/stdlib/acl_define_win32.h	92;"	d
+ACL_ENETUNREACH	include/stdlib/acl_define_unix.h	59;"	d
+ACL_ENETUNREACH	include/stdlib/acl_define_win32.h	93;"	d
+ACL_ENOBUFS	include/stdlib/acl_define_unix.h	63;"	d
+ACL_ENOBUFS	include/stdlib/acl_define_win32.h	98;"	d
+ACL_ENOMEM	include/stdlib/acl_define_unix.h	49;"	d
+ACL_ENOMEM	include/stdlib/acl_define_win32.h	84;"	d
+ACL_ENOTCONN	include/stdlib/acl_define_unix.h	60;"	d
+ACL_ENOTCONN	include/stdlib/acl_define_win32.h	94;"	d
+ACL_ENV_INCLUDE_H	include/stdlib/acl_env.h	2;"	d
+ACL_ETIMEDOUT	include/stdlib/acl_define_unix.h	48;"	d
+ACL_ETIMEDOUT	include/stdlib/acl_define_win32.h	83;"	d
+ACL_EVENT	include/event/acl_events.h	/^typedef	struct	ACL_EVENT		ACL_EVENT;$/;"	t	typeref:struct:ACL_EVENT
+ACL_EVENTS_H_INCLUDED	include/event/acl_events.h	2;"	d
+ACL_EVENT_ACCEPT	include/event/acl_events.h	16;"	d
+ACL_EVENT_CONNECT	include/event/acl_events.h	18;"	d
+ACL_EVENT_ERROR	include/event/acl_events.h	27;"	d
+ACL_EVENT_FDTABLE	include/event/acl_events.h	/^typedef	struct	ACL_EVENT_FDTABLE	ACL_EVENT_FDTABLE;$/;"	t	typeref:struct:ACL_EVENT_FDTABLE
+ACL_EVENT_FD_BUSY	include/event/acl_events.h	25;"	d
+ACL_EVENT_FD_IDLE	include/event/acl_events.h	24;"	d
+ACL_EVENT_KERNEL	include/event/acl_events.h	31;"	d
+ACL_EVENT_NOTIFY_RDWR	include/event/acl_events.h	/^typedef void (*ACL_EVENT_NOTIFY_RDWR)(int event_type, ACL_EVENT *event,$/;"	t
+ACL_EVENT_NOTIFY_TIME	include/event/acl_events.h	/^typedef void (*ACL_EVENT_NOTIFY_TIME)(int event_type, ACL_EVENT *event,$/;"	t
+ACL_EVENT_NULL_CONTEXT	include/event/acl_events.h	38;"	d
+ACL_EVENT_NULL_TYPE	include/event/acl_events.h	37;"	d
+ACL_EVENT_POLL	include/event/acl_events.h	30;"	d
+ACL_EVENT_READ	include/event/acl_events.h	15;"	d
+ACL_EVENT_RW_TIMEOUT	include/event/acl_events.h	21;"	d
+ACL_EVENT_SELECT	include/event/acl_events.h	29;"	d
+ACL_EVENT_TIME	include/event/acl_events.h	20;"	d
+ACL_EVENT_TIMEOUT	include/event/acl_events.h	22;"	d
+ACL_EVENT_TIMER	include/event/acl_events.h	/^typedef struct ACL_EVENT_TIMER ACL_EVENT_TIMER;$/;"	t	typeref:struct:ACL_EVENT_TIMER
+ACL_EVENT_WMSG	include/event/acl_events.h	32;"	d
+ACL_EVENT_WRITE	include/event/acl_events.h	17;"	d
+ACL_EVENT_XCPT	include/event/acl_events.h	19;"	d
+ACL_EWOULDBLOCK	include/stdlib/acl_define_unix.h	62;"	d
+ACL_EWOULDBLOCK	include/stdlib/acl_define_win32.h	96;"	d
+ACL_EXEC_COMMAND_INCLUDE_H	include/stdlib/acl_exec_command.h	2;"	d
+ACL_EXPERIMENT_INCLUDE_H	include/experiment/experiment.h	2;"	d
+ACL_FHANDLE	include/stdlib/acl_fhandle.h	/^struct ACL_FHANDLE {$/;"	s
+ACL_FHANDLE	include/stdlib/acl_fhandle.h	/^typedef struct ACL_FHANDLE	ACL_FHANDLE;$/;"	t	typeref:struct:ACL_FHANDLE
+ACL_FHANDLE_F_LOCK	include/stdlib/acl_fhandle.h	61;"	d
+ACL_FHANDLE_INCLUDE_H	include/stdlib/acl_fhandle.h	2;"	d
+ACL_FHANDLE_O_DIRECT	include/stdlib/acl_fhandle.h	38;"	d
+ACL_FHANDLE_O_EXCL	include/stdlib/acl_fhandle.h	40;"	d
+ACL_FHANDLE_O_FLOCK	include/stdlib/acl_fhandle.h	34;"	d
+ACL_FHANDLE_O_MKDIR	include/stdlib/acl_fhandle.h	36;"	d
+ACL_FHANDLE_O_MLOCK	include/stdlib/acl_fhandle.h	35;"	d
+ACL_FHANDLE_O_NOATIME	include/stdlib/acl_fhandle.h	37;"	d
+ACL_FHANDLE_O_SYNC	include/stdlib/acl_fhandle.h	39;"	d
+ACL_FHANDLE_PATH	include/stdlib/acl_fhandle.h	52;"	d
+ACL_FHANDLE_S_FLOCK_ON	include/stdlib/acl_fhandle.h	43;"	d
+ACL_FHANDLE_S_MUTEX_ON	include/stdlib/acl_fhandle.h	44;"	d
+ACL_FIFO	include/stdlib/acl_fifo.h	/^struct ACL_FIFO {$/;"	s
+ACL_FIFO	include/stdlib/acl_fifo.h	/^typedef struct ACL_FIFO ACL_FIFO;$/;"	t	typeref:struct:ACL_FIFO
+ACL_FIFO_FOREACH	include/stdlib/acl_fifo.h	205;"	d
+ACL_FIFO_FOREACH_REVERSE	include/stdlib/acl_fifo.h	239;"	d
+ACL_FIFO_INCLUDE_H	include/stdlib/acl_fifo.h	2;"	d
+ACL_FIFO_INFO	include/stdlib/acl_fifo.h	/^struct ACL_FIFO_INFO {$/;"	s
+ACL_FIFO_INFO	include/stdlib/acl_fifo.h	/^typedef struct ACL_FIFO_INFO ACL_FIFO_INFO;$/;"	t	typeref:struct:ACL_FIFO_INFO
+ACL_FIFO_ITER	include/stdlib/acl_fifo.h	/^struct ACL_FIFO_ITER {$/;"	s
+ACL_FIFO_ITER	include/stdlib/acl_fifo.h	/^typedef struct ACL_FIFO_ITER ACL_FIFO_ITER;$/;"	t	typeref:struct:ACL_FIFO_ITER
+ACL_FIFO_ITER_VALUE	include/stdlib/acl_fifo.h	158;"	d
+ACL_FILE	include/stdlib/acl_file.h	/^typedef struct ACL_FILE {$/;"	s
+ACL_FILE	include/stdlib/acl_file.h	/^} ACL_FILE;$/;"	t	typeref:struct:ACL_FILE
+ACL_FILEFD	include/stdlib/acl_define_unix.h	68;"	d
+ACL_FILEFD	include/stdlib/acl_define_win32.h	103;"	d
+ACL_FILE_EOF	include/stdlib/acl_file.h	18;"	d
+ACL_FILE_HANDLE	include/stdlib/acl_define_unix.h	70;"	d
+ACL_FILE_HANDLE	include/stdlib/acl_define_win32.h	106;"	d
+ACL_FILE_INCLUDE_H	include/stdlib/acl_file.h	2;"	d
+ACL_FILE_INVALID	include/stdlib/acl_define_unix.h	71;"	d
+ACL_FILE_INVALID	include/stdlib/acl_define_win32.h	107;"	d
+ACL_FIONREAD_IN_SYS_FILIO_H	include/stdlib/acl_define_sunx86.h	36;"	d
+ACL_FIONREAD_IN_TERMIOS_H	include/stdlib/acl_define_bsd.h	34;"	d
+ACL_FIONREAD_IN_TERMIOS_H	include/stdlib/acl_define_linux.h	53;"	d
+ACL_FIONREAD_IN_TERMIOS_H	include/stdlib/acl_define_macosx.h	34;"	d
+ACL_FLOCK_INCLUDE_H	include/stdlib/acl_myflock.h	2;"	d
+ACL_FLOCK_OP_BITS	include/stdlib/acl_myflock.h	42;"	d
+ACL_FLOCK_OP_EXCLUSIVE	include/stdlib/acl_myflock.h	31;"	d
+ACL_FLOCK_OP_NONE	include/stdlib/acl_myflock.h	29;"	d
+ACL_FLOCK_OP_NOWAIT	include/stdlib/acl_myflock.h	37;"	d
+ACL_FLOCK_OP_SHARED	include/stdlib/acl_myflock.h	30;"	d
+ACL_FLOCK_STYLE_FCNTL	include/stdlib/acl_myflock.h	24;"	d
+ACL_FLOCK_STYLE_FLOCK	include/stdlib/acl_myflock.h	23;"	d
+ACL_FMT_I64D	include/stdlib/acl_define_unix.h	77;"	d
+ACL_FMT_I64D	include/stdlib/acl_define_win32.h	118;"	d
+ACL_FMT_I64U	include/stdlib/acl_define_unix.h	78;"	d
+ACL_FMT_I64U	include/stdlib/acl_define_win32.h	119;"	d
+ACL_FOREACH	include/stdlib/acl_iterator.h	25;"	d
+ACL_FOREACH_REVERSE	include/stdlib/acl_iterator.h	36;"	d
+ACL_FPATH	include/stdlib/acl_file.h	22;"	d
+ACL_FREEBSD	include/stdlib/acl_define_bsd.h	6;"	d
+ACL_FSTREAM	include/stdlib/acl_file.h	23;"	d
+ACL_FSTREAM_RD_FN	include/stdlib/acl_vstream.h	/^typedef int (*ACL_FSTREAM_RD_FN)(ACL_FILE_HANDLE fh, void *buf, size_t size,$/;"	t
+ACL_FSTREAM_WR_FN	include/stdlib/acl_vstream.h	/^typedef int (*ACL_FSTREAM_WR_FN)(ACL_FILE_HANDLE fh, const void *buf,$/;"	t
+ACL_FSTREAM_WV_FN	include/stdlib/acl_vstream.h	/^typedef int (*ACL_FSTREAM_WV_FN)(ACL_FILE_HANDLE fh, const struct iovec *vec,$/;"	t
+ACL_GBCODE_INCLUDE_H	include/code/acl_gbcode.h	2;"	d
+ACL_GETOPT_INCLUDE_H	include/stdlib/acl_getopt.h	2;"	d
+ACL_HASH_FN	include/stdlib/acl_hash.h	/^typedef unsigned (*ACL_HASH_FN)(const void *buffer, size_t len);$/;"	t
+ACL_HASH_INCLUD_H	include/stdlib/acl_hash.h	2;"	d
+ACL_HAS_FCNTL_LOCK	include/stdlib/acl_define_bsd.h	11;"	d
+ACL_HAS_FCNTL_LOCK	include/stdlib/acl_define_linux.h	32;"	d
+ACL_HAS_FCNTL_LOCK	include/stdlib/acl_define_macosx.h	11;"	d
+ACL_HAS_FCNTL_LOCK	include/stdlib/acl_define_sunx86.h	22;"	d
+ACL_HAS_FLOCK_LOCK	include/stdlib/acl_define_bsd.h	10;"	d
+ACL_HAS_FLOCK_LOCK	include/stdlib/acl_define_linux.h	31;"	d
+ACL_HAS_FLOCK_LOCK	include/stdlib/acl_define_macosx.h	10;"	d
+ACL_HAS_PTHREAD	include/stdlib/acl_define_unix.h	35;"	d
+ACL_HAS_PTHREAD	include/stdlib/acl_define_win32.h	78;"	d
+ACL_HAS_SPINLOCK	include/stdlib/acl_define_linux.h	28;"	d
+ACL_HAVE_NO_RWLOCK	include/stdlib/acl_define_bsd.h	35;"	d
+ACL_HAVE_NO_RWLOCK	include/stdlib/acl_define_linux.h	54;"	d
+ACL_HAVE_NO_RWLOCK	include/stdlib/acl_define_macosx.h	35;"	d
+ACL_HAVE_NO_RWLOCK	include/thread/acl_pthread_rwlock.h	53;"	d
+ACL_HAVE_NO_STAT64	include/stdlib/acl_define_bsd.h	19;"	d
+ACL_HAVE_NO_STAT64	include/stdlib/acl_define_macosx.h	19;"	d
+ACL_HEX_CODE_INCLUDE_H	include/stdlib/acl_hex_code.h	2;"	d
+ACL_HOSTNAME	include/net/acl_netdb.h	/^typedef struct ACL_HOSTNAME {$/;"	s
+ACL_HOSTNAME	include/net/acl_netdb.h	/^} ACL_HOSTNAME;$/;"	t	typeref:struct:ACL_HOSTNAME
+ACL_HOST_INFO	include/net/acl_netdb.h	/^typedef struct ACL_HOSTNAME ACL_HOST_INFO;$/;"	t	typeref:struct:ACL_HOSTNAME
+ACL_HOST_PORT_INCLUDE_H	include/net/acl_host_port.h	2;"	d
+ACL_HTABLE	include/stdlib/acl_htable.h	/^struct ACL_HTABLE {$/;"	s
+ACL_HTABLE	include/stdlib/acl_htable.h	/^typedef struct ACL_HTABLE	ACL_HTABLE;$/;"	t	typeref:struct:ACL_HTABLE
+ACL_HTABLE_CTL_END	include/stdlib/acl_htable.h	99;"	d
+ACL_HTABLE_CTL_HASH_FN	include/stdlib/acl_htable.h	101;"	d
+ACL_HTABLE_CTL_RWLOCK	include/stdlib/acl_htable.h	100;"	d
+ACL_HTABLE_FLAG_KEY_LOWER	include/stdlib/acl_htable.h	86;"	d
+ACL_HTABLE_FLAG_KEY_REUSE	include/stdlib/acl_htable.h	83;"	d
+ACL_HTABLE_FLAG_MSLOOK	include/stdlib/acl_htable.h	85;"	d
+ACL_HTABLE_FLAG_USE_LOCK	include/stdlib/acl_htable.h	84;"	d
+ACL_HTABLE_FOREACH	include/stdlib/acl_htable.h	306;"	d
+ACL_HTABLE_FOREACH_REVERSE	include/stdlib/acl_htable.h	311;"	d
+ACL_HTABLE_INCLUDE_H	include/stdlib/acl_htable.h	2;"	d
+ACL_HTABLE_INFO	include/stdlib/acl_htable.h	/^struct ACL_HTABLE_INFO {$/;"	s
+ACL_HTABLE_INFO	include/stdlib/acl_htable.h	/^typedef struct ACL_HTABLE_INFO 	ACL_HTABLE_INFO;$/;"	t	typeref:struct:ACL_HTABLE_INFO
+ACL_HTABLE_ITER	include/stdlib/acl_htable.h	/^typedef struct ACL_HTABLE_ITER {$/;"	s
+ACL_HTABLE_ITER	include/stdlib/acl_htable.h	/^} ACL_HTABLE_ITER;$/;"	t	typeref:struct:ACL_HTABLE_ITER
+ACL_HTABLE_ITER_KEY	include/stdlib/acl_htable.h	261;"	d
+ACL_HTABLE_ITER_VALUE	include/stdlib/acl_htable.h	264;"	d
+ACL_HTABLE_STAT_DUPLEX_KEY	include/stdlib/acl_htable.h	111;"	d
+ACL_HTABLE_STAT_INVAL	include/stdlib/acl_htable.h	110;"	d
+ACL_HTABLE_STAT_OK	include/stdlib/acl_htable.h	109;"	d
+ACL_HTMLCODE_INCLUDE_H	include/code/acl_htmlcode.h	2;"	d
+ACL_IFADDR	include/net/acl_ifconf.h	/^typedef struct ACL_IFADDR {$/;"	s
+ACL_IFADDR	include/net/acl_ifconf.h	/^} ACL_IFADDR;$/;"	t	typeref:struct:ACL_IFADDR
+ACL_IFCONF	include/net/acl_ifconf.h	/^typedef struct ACL_IFCONF {$/;"	s
+ACL_IFCONF	include/net/acl_ifconf.h	/^} ACL_IFCONF;$/;"	t	typeref:struct:ACL_IFCONF
+ACL_IFCONF_INCLUDE_H	include/net/acl_ifconf.h	2;"	d
+ACL_IF_VSTREAM_ERR	include/stdlib/acl_vstream.h	899;"	d
+ACL_INIT_INCLUDE_H	include/init/acl_init.h	2;"	d
+ACL_INTERNAL_LOCK	include/stdlib/acl_define_bsd.h	12;"	d
+ACL_INTERNAL_LOCK	include/stdlib/acl_define_linux.h	33;"	d
+ACL_INTERNAL_LOCK	include/stdlib/acl_define_macosx.h	12;"	d
+ACL_INTERNAL_LOCK	include/stdlib/acl_define_sunx86.h	24;"	d
+ACL_INTERNAL_LOCK	include/stdlib/acl_define_win32.h	114;"	d
+ACL_IOCTL	include/ioctl/acl_ioctl.h	/^typedef struct ACL_IOCTL ACL_IOCTL;$/;"	t	typeref:struct:ACL_IOCTL
+ACL_IOCTL_CTL_DELAY_SEC	include/ioctl/acl_ioctl.h	73;"	d
+ACL_IOCTL_CTL_DELAY_USEC	include/ioctl/acl_ioctl.h	74;"	d
+ACL_IOCTL_CTL_END	include/ioctl/acl_ioctl.h	70;"	d
+ACL_IOCTL_CTL_EXIT_CTX	include/ioctl/acl_ioctl.h	78;"	d
+ACL_IOCTL_CTL_EXIT_FN	include/ioctl/acl_ioctl.h	76;"	d
+ACL_IOCTL_CTL_INIT_CTX	include/ioctl/acl_ioctl.h	77;"	d
+ACL_IOCTL_CTL_INIT_FN	include/ioctl/acl_ioctl.h	75;"	d
+ACL_IOCTL_CTL_THREAD_IDLE	include/ioctl/acl_ioctl.h	72;"	d
+ACL_IOCTL_CTL_THREAD_MAX	include/ioctl/acl_ioctl.h	71;"	d
+ACL_IOCTL_CTL_THREAD_STACKSIZE	include/ioctl/acl_ioctl.h	79;"	d
+ACL_IOCTL_INCLUDE_H	include/ioctl/acl_ioctl.h	2;"	d
+ACL_IOCTL_NOTIFY_FN	include/ioctl/acl_ioctl.h	/^typedef void (*ACL_IOCTL_NOTIFY_FN)(int event_type, ACL_IOCTL *ioc,$/;"	t
+ACL_IOCTL_PARAMS_INCLUDE_H	include/master/acl_ioctl_params.h	2;"	d
+ACL_IOCTL_SERVER_FN	include/master/acl_server_api.h	/^typedef void (*ACL_IOCTL_SERVER_FN) (ACL_IOCTL*, ACL_VSTREAM*, char*, char **);$/;"	t
+ACL_IOCTL_THREAD_EXIT_FN	include/ioctl/acl_ioctl.h	/^typedef void (*ACL_IOCTL_THREAD_EXIT_FN)(void *);$/;"	t
+ACL_IOCTL_THREAD_INIT_FN	include/ioctl/acl_ioctl.h	/^typedef void (*ACL_IOCTL_THREAD_INIT_FN)(void *);$/;"	t
+ACL_IOCTL_WORKER_FN	include/ioctl/acl_ioctl.h	/^typedef void (*ACL_IOCTL_WORKER_FN)(ACL_IOCTL *ioc, void *arg);$/;"	t
+ACL_IOSTUFF_INCLUDE_H	include/stdlib/acl_iostuff.h	2;"	d
+ACL_IPITEM	include/stdlib/acl_iplink.h	19;"	d
+ACL_IPLINK	include/stdlib/acl_iplink.h	20;"	d
+ACL_IPLINK_INCLUDE_H	include/stdlib/acl_iplink.h	9;"	d
+ACL_ISALNUM	include/stdlib/acl_define.h	21;"	d
+ACL_ISALNUM	include/stdlib/acl_define.h	35;"	d
+ACL_ISALPHA	include/stdlib/acl_define.h	22;"	d
+ACL_ISALPHA	include/stdlib/acl_define.h	36;"	d
+ACL_ISASCII	include/stdlib/acl_define.h	20;"	d
+ACL_ISASCII	include/stdlib/acl_define.h	34;"	d
+ACL_ISCNTRL	include/stdlib/acl_define.h	23;"	d
+ACL_ISCNTRL	include/stdlib/acl_define.h	37;"	d
+ACL_ISDIGIT	include/stdlib/acl_define.h	24;"	d
+ACL_ISDIGIT	include/stdlib/acl_define.h	38;"	d
+ACL_ISGRAPH	include/stdlib/acl_define.h	25;"	d
+ACL_ISGRAPH	include/stdlib/acl_define.h	39;"	d
+ACL_ISLOWER	include/stdlib/acl_define.h	26;"	d
+ACL_ISLOWER	include/stdlib/acl_define.h	40;"	d
+ACL_ISPRINT	include/stdlib/acl_define.h	27;"	d
+ACL_ISPRINT	include/stdlib/acl_define.h	41;"	d
+ACL_ISPUNCT	include/stdlib/acl_define.h	28;"	d
+ACL_ISPUNCT	include/stdlib/acl_define.h	42;"	d
+ACL_ISSPACE	include/stdlib/acl_define.h	29;"	d
+ACL_ISSPACE	include/stdlib/acl_define.h	43;"	d
+ACL_ISUPPER	include/stdlib/acl_define.h	30;"	d
+ACL_ISUPPER	include/stdlib/acl_define.h	44;"	d
+ACL_ITER	include/stdlib/acl_iterator.h	/^struct ACL_ITER {$/;"	s
+ACL_ITER	include/stdlib/acl_iterator.h	/^typedef struct ACL_ITER ACL_ITER;$/;"	t	typeref:struct:ACL_ITER
+ACL_ITERATOR_INCLUDE_H	include/stdlib/acl_iterator.h	2;"	d
+ACL_ITER_INFO	include/stdlib/acl_iterator.h	46;"	d
+ACL_JSON	include/json/acl_json.h	/^struct ACL_JSON {$/;"	s
+ACL_JSON	include/json/acl_json.h	/^typedef struct ACL_JSON ACL_JSON;$/;"	t	typeref:struct:ACL_JSON
+ACL_JSON_FLAG_PART_WORD	include/json/acl_json.h	82;"	d
+ACL_JSON_INCLUDE_H	include/json/acl_json.h	2;"	d
+ACL_JSON_NODE	include/json/acl_json.h	/^struct ACL_JSON_NODE {$/;"	s
+ACL_JSON_NODE	include/json/acl_json.h	/^typedef struct ACL_JSON_NODE ACL_JSON_NODE;$/;"	t	typeref:struct:ACL_JSON_NODE
+ACL_JSON_S_ARRAY	include/json/acl_json.h	/^	ACL_JSON_S_ARRAY,	\/**< json 结点 array *\/$/;"	e	enum:__anon1
+ACL_JSON_S_COLON	include/json/acl_json.h	/^	ACL_JSON_S_COLON,	\/**< 冒号 : *\/$/;"	e	enum:__anon1
+ACL_JSON_S_ELEMENT	include/json/acl_json.h	/^	ACL_JSON_S_ELEMENT,$/;"	e	enum:__anon1
+ACL_JSON_S_MEMBER	include/json/acl_json.h	/^	ACL_JSON_S_MEMBER,$/;"	e	enum:__anon1
+ACL_JSON_S_NEXT	include/json/acl_json.h	/^	ACL_JSON_S_NEXT,	\/**< 下一个结点 *\/$/;"	e	enum:__anon1
+ACL_JSON_S_OBJ	include/json/acl_json.h	/^	ACL_JSON_S_OBJ,		\/**< 标签对象值 *\/$/;"	e	enum:__anon1
+ACL_JSON_S_PAIR	include/json/acl_json.h	/^	ACL_JSON_S_PAIR,	\/**< name:value pair *\/$/;"	e	enum:__anon1
+ACL_JSON_S_ROOT	include/json/acl_json.h	/^	ACL_JSON_S_ROOT,	\/**< 根结点 *\/$/;"	e	enum:__anon1
+ACL_JSON_S_STREND	include/json/acl_json.h	/^	ACL_JSON_S_STREND$/;"	e	enum:__anon1
+ACL_JSON_S_STRING	include/json/acl_json.h	/^	ACL_JSON_S_STRING,$/;"	e	enum:__anon1
+ACL_JSON_S_TAG	include/json/acl_json.h	/^	ACL_JSON_S_TAG,		\/**< 对象标签名 *\/$/;"	e	enum:__anon1
+ACL_JSON_S_VALUE	include/json/acl_json.h	/^	ACL_JSON_S_VALUE,	\/**< 结点值处理过程 *\/$/;"	e	enum:__anon1
+ACL_JSON_T_ARRAY	include/json/acl_json.h	26;"	d
+ACL_JSON_T_A_BOOL	include/json/acl_json.h	23;"	d
+ACL_JSON_T_A_NUMBER	include/json/acl_json.h	22;"	d
+ACL_JSON_T_A_STRING	include/json/acl_json.h	21;"	d
+ACL_JSON_T_BOOL	include/json/acl_json.h	27;"	d
+ACL_JSON_T_ELEMENT	include/json/acl_json.h	34;"	d
+ACL_JSON_T_LEAF	include/json/acl_json.h	31;"	d
+ACL_JSON_T_MEMBER	include/json/acl_json.h	32;"	d
+ACL_JSON_T_NULL	include/json/acl_json.h	28;"	d
+ACL_JSON_T_NUMBER	include/json/acl_json.h	24;"	d
+ACL_JSON_T_OBJ	include/json/acl_json.h	25;"	d
+ACL_JSON_T_PAIR	include/json/acl_json.h	33;"	d
+ACL_JSON_T_TEXT	include/json/acl_json.h	30;"	d
+ACL_LINE_STATE	include/stdlib/acl_mystring.h	/^typedef struct ACL_LINE_STATE {$/;"	s
+ACL_LINE_STATE	include/stdlib/acl_mystring.h	/^} ACL_LINE_STATE;$/;"	t	typeref:struct:ACL_LINE_STATE
+ACL_LINUX	include/stdlib/acl_define_linux.h	5;"	d
+ACL_LISTEN_INCLUDE_H	include/net/acl_listen.h	2;"	d
+ACL_LOADCFG_INCLUDE_H	include/stdlib/acl_loadcfg.h	2;"	d
+ACL_LOG	include/stdlib/acl_mylog.h	/^typedef struct ACL_LOG ACL_LOG;$/;"	t	typeref:struct:ACL_LOG
+ACL_MACOSX	include/stdlib/acl_define_macosx.h	6;"	d
+ACL_MAKE_DIRS_INCLUDE_H	include/stdlib/acl_make_dirs.h	2;"	d
+ACL_MALLOC_INCLUDE_H	include/stdlib/acl_malloc.h	2;"	d
+ACL_MASK_ADDR_H_INCLUDED	include/net/acl_mask_addr.h	2;"	d
+ACL_MASTER_CONF_INCLUDE_H	include/master/acl_master_conf.h	2;"	d
+ACL_MASTER_SERVER_ACCEPT_FN	include/master/acl_server_api.h	/^typedef int  (*ACL_MASTER_SERVER_ACCEPT_FN) (ACL_VSTREAM *);$/;"	t
+ACL_MASTER_SERVER_API_INCLUDE_H	include/master/acl_server_api.h	2;"	d
+ACL_MASTER_SERVER_BOOL_TABLE	include/master/acl_server_api.h	22;"	d
+ACL_MASTER_SERVER_CTX	include/master/acl_server_api.h	43;"	d
+ACL_MASTER_SERVER_DENY_INFO	include/master/acl_server_api.h	44;"	d
+ACL_MASTER_SERVER_DISCONN_FN	include/master/acl_server_api.h	/^typedef void (*ACL_MASTER_SERVER_DISCONN_FN) (ACL_VSTREAM *, void *);$/;"	t
+ACL_MASTER_SERVER_END	include/master/acl_server_api.h	19;"	d
+ACL_MASTER_SERVER_EXIT	include/master/acl_server_api.h	31;"	d
+ACL_MASTER_SERVER_EXIT_FN	include/master/acl_server_api.h	/^typedef void (*ACL_MASTER_SERVER_EXIT_FN) (void *);$/;"	t
+ACL_MASTER_SERVER_EXIT_TIMER	include/master/acl_server_api.h	46;"	d
+ACL_MASTER_SERVER_EXIT_TIMER_FN	include/master/acl_server_api.h	/^typedef int  (*ACL_MASTER_SERVER_EXIT_TIMER_FN)(size_t, size_t);$/;"	t
+ACL_MASTER_SERVER_HANDSHAKE_FN	include/master/acl_server_api.h	/^typedef int  (*ACL_MASTER_SERVER_HANDSHAKE_FN) (ACL_VSTREAM *);$/;"	t
+ACL_MASTER_SERVER_INIT_FN	include/master/acl_server_api.h	/^typedef void (*ACL_MASTER_SERVER_INIT_FN) (void *);$/;"	t
+ACL_MASTER_SERVER_INT64_TABLE	include/master/acl_server_api.h	25;"	d
+ACL_MASTER_SERVER_INT_TABLE	include/master/acl_server_api.h	20;"	d
+ACL_MASTER_SERVER_IN_FLOW_DELAY	include/master/acl_server_api.h	26;"	d
+ACL_MASTER_SERVER_LOOP	include/master/acl_server_api.h	30;"	d
+ACL_MASTER_SERVER_LOOP_FN	include/master/acl_server_api.h	/^typedef int  (*ACL_MASTER_SERVER_LOOP_FN) (void *);$/;"	t
+ACL_MASTER_SERVER_ON_ACCEPT	include/master/acl_server_api.h	35;"	d
+ACL_MASTER_SERVER_ON_CLOSE	include/master/acl_server_api.h	34;"	d
+ACL_MASTER_SERVER_ON_HANDSHAKE	include/master/acl_server_api.h	37;"	d
+ACL_MASTER_SERVER_ON_TIMEOUT	include/master/acl_server_api.h	36;"	d
+ACL_MASTER_SERVER_POST_INIT	include/master/acl_server_api.h	29;"	d
+ACL_MASTER_SERVER_PRE_INIT	include/master/acl_server_api.h	28;"	d
+ACL_MASTER_SERVER_RAW_TABLE	include/master/acl_server_api.h	24;"	d
+ACL_MASTER_SERVER_SOLITARY	include/master/acl_server_api.h	32;"	d
+ACL_MASTER_SERVER_STR_TABLE	include/master/acl_server_api.h	21;"	d
+ACL_MASTER_SERVER_THREAD_EXIT	include/master/acl_server_api.h	41;"	d
+ACL_MASTER_SERVER_THREAD_EXIT_CTX	include/master/acl_server_api.h	42;"	d
+ACL_MASTER_SERVER_THREAD_EXIT_FN	include/master/acl_server_api.h	/^typedef void (*ACL_MASTER_SERVER_THREAD_EXIT_FN)(void *);$/;"	t
+ACL_MASTER_SERVER_THREAD_INIT	include/master/acl_server_api.h	39;"	d
+ACL_MASTER_SERVER_THREAD_INIT_CTX	include/master/acl_server_api.h	40;"	d
+ACL_MASTER_SERVER_THREAD_INIT_FN	include/master/acl_server_api.h	/^typedef int  (*ACL_MASTER_SERVER_THREAD_INIT_FN)(void *);$/;"	t
+ACL_MASTER_SERVER_TIMEOUT_FN	include/master/acl_server_api.h	/^typedef int  (*ACL_MASTER_SERVER_TIMEOUT_FN) (ACL_VSTREAM *, void *);$/;"	t
+ACL_MASTER_SERVER_TIME_TABLE	include/master/acl_server_api.h	23;"	d
+ACL_MASTER_SERVER_UNLIMITED	include/master/acl_server_api.h	33;"	d
+ACL_MASTER_TYPE_INCLUDE_H	include/master/acl_master_type.h	2;"	d
+ACL_MDB	include/db/acl_mdb.h	/^typedef struct ACL_MDB ACL_MDB;$/;"	t	typeref:struct:ACL_MDB
+ACL_MDT	include/db/acl_mdb.h	/^typedef struct ACL_MDT ACL_MDT;$/;"	t	typeref:struct:ACL_MDT
+ACL_MDT_FLAG_DMR	include/db/acl_mdb.h	22;"	d
+ACL_MDT_FLAG_KMR	include/db/acl_mdb.h	21;"	d
+ACL_MDT_FLAG_NUL	include/db/acl_mdb.h	19;"	d
+ACL_MDT_FLAG_SLICE1	include/db/acl_mdb.h	23;"	d
+ACL_MDT_FLAG_SLICE2	include/db/acl_mdb.h	24;"	d
+ACL_MDT_FLAG_SLICE3	include/db/acl_mdb.h	25;"	d
+ACL_MDT_FLAG_SLICE_RTGC_OFF	include/db/acl_mdb.h	26;"	d
+ACL_MDT_FLAG_UNI	include/db/acl_mdb.h	20;"	d
+ACL_MDT_IDX	include/db/acl_mdb.h	/^typedef struct ACL_MDT_IDX ACL_MDT_IDX;$/;"	t	typeref:struct:ACL_MDT_IDX
+ACL_MDT_NOD	include/db/acl_mdb.h	/^typedef struct ACL_MDT_NOD ACL_MDT_NOD;$/;"	t	typeref:struct:ACL_MDT_NOD
+ACL_MDT_REC	include/db/acl_mdb.h	/^typedef struct ACL_MDT_REC ACL_MDT_REC;$/;"	t	typeref:struct:ACL_MDT_REC
+ACL_MDT_REF	include/db/acl_mdb.h	/^typedef struct ACL_MDT_REF ACL_MDT_REF;$/;"	t	typeref:struct:ACL_MDT_REF
+ACL_MDT_RES	include/db/acl_mdb.h	/^typedef struct ACL_MDT_RES ACL_MDT_RES;$/;"	t	typeref:struct:ACL_MDT_RES
+ACL_MEMDB_INCLUDE_H	include/db/acl_mdb.h	2;"	d
+ACL_MEMPOOL_CTL_DISABLE	include/stdlib/acl_malloc.h	50;"	d
+ACL_MEMPOOL_CTL_END	include/stdlib/acl_malloc.h	48;"	d
+ACL_MEMPOOL_CTL_MUTEX	include/stdlib/acl_malloc.h	49;"	d
+ACL_MEM_HOOK_INCLUDE_H	include/stdlib/acl_mem_hook.h	2;"	d
+ACL_MEM_POOL	include/stdlib/acl_allocator.h	/^typedef struct ACL_MEM_POOL ACL_MEM_POOL;$/;"	t	typeref:struct:ACL_MEM_POOL
+ACL_MEM_SLICE	include/stdlib/acl_mem_slice.h	/^typedef struct ACL_MEM_SLICE ACL_MEM_SLICE;$/;"	t	typeref:struct:ACL_MEM_SLICE
+ACL_MEM_SLICE_INCLUDE_H	include/stdlib/acl_mem_slice.h	2;"	d
+ACL_MEM_TYPE_128K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_128K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_128_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_128_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_16K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_16K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_16_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_16_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_1K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_1K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_1M_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_1M_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_256K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_256K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_256_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_256_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_2K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_2K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_32K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_32K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_32_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_32_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_4K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_4K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_512K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_512K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_512_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_512_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_64K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_64K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_64_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_64_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_8K_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_8K_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_8_BUF	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_8_BUF,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_MAX	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_MAX$/;"	e	enum:__anon9
+ACL_MEM_TYPE_NONE	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_NONE,$/;"	e	enum:__anon9
+ACL_MEM_TYPE_VSTRING	include/stdlib/acl_allocator.h	/^	ACL_MEM_TYPE_VSTRING,$/;"	e	enum:__anon9
+ACL_METER_TIME	include/stdlib/acl_meter_time.h	10;"	d
+ACL_METER_TIME_INCLUDE_H	include/stdlib/acl_meter_time.h	2;"	d
+ACL_MISC_INCLUDE_H	include/stdlib/acl_timeops.h	9;"	d
+ACL_MSGIO	include/msg/acl_msgio.h	/^typedef struct ACL_MSGIO ACL_MSGIO;$/;"	t	typeref:struct:ACL_MSGIO
+ACL_MSGIO_CONNECT	include/msg/acl_msgio.h	25;"	d
+ACL_MSGIO_CONNECT_TIMEOUT	include/msg/acl_msgio.h	26;"	d
+ACL_MSGIO_EXCEPT	include/msg/acl_msgio.h	24;"	d
+ACL_MSGIO_INCLUDE_H	include/msg/acl_msgio.h	2;"	d
+ACL_MSGIO_INFO	include/msg/acl_msgio.h	/^struct ACL_MSGIO_INFO {$/;"	s
+ACL_MSGIO_INFO	include/msg/acl_msgio.h	/^typedef struct ACL_MSGIO_INFO ACL_MSGIO_INFO;$/;"	t	typeref:struct:ACL_MSGIO_INFO
+ACL_MSGIO_NOTIFY_FN	include/msg/acl_msgio.h	/^typedef int (*ACL_MSGIO_NOTIFY_FN)(int msg_type, ACL_MSGIO *peer,$/;"	t
+ACL_MSGIO_OK	include/msg/acl_msgio.h	22;"	d
+ACL_MSGIO_ON_MSG	include/msg/acl_msgio.h	66;"	d
+ACL_MSGIO_OPEN	include/msg/acl_msgio.h	28;"	d
+ACL_MSGIO_QUIT	include/msg/acl_msgio.h	27;"	d
+ACL_MSGIO_TIMEOUT	include/msg/acl_msgio.h	23;"	d
+ACL_MSGIO_USER	include/msg/acl_msgio.h	30;"	d
+ACL_MSG_CLOSE_FN	include/stdlib/acl_msg.h	/^typedef void (*ACL_MSG_CLOSE_FN) (void *ctx);$/;"	t
+ACL_MSG_INCLUDE_H	include/stdlib/acl_msg.h	2;"	d
+ACL_MSG_OPEN_FN	include/stdlib/acl_msg.h	/^typedef int (*ACL_MSG_OPEN_FN) (const char *file_name, void *ctx);$/;"	t
+ACL_MSG_PRE_WRITE_FN	include/stdlib/acl_msg.h	/^typedef void (*ACL_MSG_PRE_WRITE_FN)(void *ctx, const char *fmt, va_list ap);$/;"	t
+ACL_MSG_WRITE_FN	include/stdlib/acl_msg.h	/^typedef void (*ACL_MSG_WRITE_FN) (void *ctx, const char *fmt, va_list ap);$/;"	t
+ACL_MULTI_PARAMS_INCLUDE_H	include/master/acl_multi_params.h	2;"	d
+ACL_MULTI_SERVER_FN	include/master/acl_server_api.h	/^typedef void (*ACL_MULTI_SERVER_FN) (ACL_VSTREAM *, char *, char **);$/;"	t
+ACL_MUTEX_MAXWAIT	include/thread/acl_pthread.h	10;"	d
+ACL_MYCHOWN_INCLUDE_H	include/stdlib/unix/acl_mychown.h	2;"	d
+ACL_MYDB_INCLUDE_H	include/db/acl_db.h	2;"	d
+ACL_MYLOG_INCLUDE_H	include/stdlib/acl_mylog.h	2;"	d
+ACL_MYMALLOC_INCLUDE_H	include/stdlib/acl_mymalloc.h	13;"	d
+ACL_MYMASTER_INCLUDE_H	include/master/acl_master.h	2;"	d
+ACL_MYSTRING_INCLUDE_H	include/stdlib/acl_mystring.h	2;"	d
+ACL_NETDB_INCLUDE_H	include/net/acl_netdb.h	2;"	d
+ACL_NET_INCLUDE_H	include/net/acl_net.h	2;"	d
+ACL_NON_BLOCKING	include/stdlib/acl_iostuff.h	15;"	d
+ACL_NORETURN	include/stdlib/acl_define.h	62;"	d
+ACL_NORETURN	include/stdlib/acl_define.h	67;"	d
+ACL_NORMAL_EXIT_STATUS	include/stdlib/acl_define_bsd.h	31;"	d
+ACL_NORMAL_EXIT_STATUS	include/stdlib/acl_define_linux.h	50;"	d
+ACL_NORMAL_EXIT_STATUS	include/stdlib/acl_define_macosx.h	31;"	d
+ACL_NORMAL_EXIT_STATUS	include/stdlib/acl_define_sunx86.h	33;"	d
+ACL_OPEN_LOCK_INCLUDE_H	include/stdlib/unix/acl_open_lock.h	2;"	d
+ACL_PASS_ON_EXEC	include/stdlib/acl_iostuff.h	12;"	d
+ACL_PATH_BSHELL	include/stdlib/acl_define_bsd.h	15;"	d
+ACL_PATH_BSHELL	include/stdlib/acl_define_linux.h	36;"	d
+ACL_PATH_BSHELL	include/stdlib/acl_define_macosx.h	15;"	d
+ACL_PATH_BSHELL	include/stdlib/acl_define_unix.h	80;"	d
+ACL_PATH_DEFPATH	include/stdlib/acl_define_bsd.h	16;"	d
+ACL_PATH_DEFPATH	include/stdlib/acl_define_linux.h	37;"	d
+ACL_PATH_DEFPATH	include/stdlib/acl_define_macosx.h	16;"	d
+ACL_PATH_DEFPATH	include/stdlib/acl_define_sunx86.h	28;"	d
+ACL_PATH_MAILDIR	include/stdlib/acl_define_bsd.h	14;"	d
+ACL_PATH_MAILDIR	include/stdlib/acl_define_linux.h	35;"	d
+ACL_PATH_MAILDIR	include/stdlib/acl_define_macosx.h	14;"	d
+ACL_PATH_MAILDIR	include/stdlib/acl_define_sunx86.h	27;"	d
+ACL_PATH_STDPATH	include/stdlib/acl_define_bsd.h	17;"	d
+ACL_PATH_STDPATH	include/stdlib/acl_define_linux.h	38;"	d
+ACL_PATH_STDPATH	include/stdlib/acl_define_macosx.h	17;"	d
+ACL_PATH_STDPATH	include/stdlib/acl_define_sunx86.h	29;"	d
+ACL_PRINTF	include/stdlib/acl_define.h	58;"	d
+ACL_PRINTF	include/stdlib/acl_define.h	65;"	d
+ACL_PRINT_CHAR	include/stdlib/acl_token_tree.h	10;"	d
+ACL_PROCESS_INCLUDE_H	include/stdlib/acl_process.h	2;"	d
+ACL_PROCTL_INCLUDE_H	include/proctl/acl_proctl.h	2;"	d
+ACL_PTHREAD_CREATE_DETACHED	include/thread/acl_pthread.h	49;"	d
+ACL_PTHREAD_CREATE_DETACHED	include/thread/acl_pthread.h	65;"	d
+ACL_PTHREAD_CREATE_JOINABLE	include/thread/acl_pthread.h	50;"	d
+ACL_PTHREAD_CREATE_JOINABLE	include/thread/acl_pthread.h	66;"	d
+ACL_PTHREAD_KEYS_MAX	include/thread/acl_pthread.h	52;"	d
+ACL_PTHREAD_KEYS_MAX	include/thread/acl_pthread.h	68;"	d
+ACL_PTHREAD_ONCE_INIT	include/thread/acl_pthread.h	54;"	d
+ACL_PTHREAD_ONCE_INIT	include/thread/acl_pthread.h	56;"	d
+ACL_PTHREAD_ONCE_INIT	include/thread/acl_pthread.h	69;"	d
+ACL_PTHREAD_POOL_DEF_IDLE	include/thread/acl_pthread_pool.h	45;"	d
+ACL_PTHREAD_POOL_DEF_THREADS	include/thread/acl_pthread_pool.h	43;"	d
+ACL_PTHREAD_POOL_INCLUDE_H	include/thread/acl_pthread_pool.h	2;"	d
+ACL_PTHREAD_PROCESS_PRIVATE	include/thread/acl_pthread_rwlock.h	59;"	d
+ACL_PTHREAD_PROCESS_SHARED	include/thread/acl_pthread_rwlock.h	62;"	d
+ACL_PTHREAD_RWLOCK_H	include/thread/acl_pthread_rwlock.h	48;"	d
+ACL_PTHREAD_RWLOCK_INITIALIZER	include/thread/acl_pthread_rwlock.h	66;"	d
+ACL_PTHREAD_WIN32_INCLUDE_H	include/thread/acl_pthread.h	2;"	d
+ACL_READLINE_INCLUDE_H	include/stdlib/acl_readline.h	2;"	d
+ACL_RES	include/net/acl_res.h	/^typedef struct ACL_RES {$/;"	s
+ACL_RES	include/net/acl_res.h	/^} ACL_RES;$/;"	t	typeref:struct:ACL_RES
+ACL_RES_ERR_CONN	include/net/acl_res.h	25;"	d
+ACL_RES_ERR_NULL	include/net/acl_res.h	24;"	d
+ACL_RES_ERR_READ	include/net/acl_res.h	22;"	d
+ACL_RES_ERR_RTMO	include/net/acl_res.h	23;"	d
+ACL_RES_ERR_SEND	include/net/acl_res.h	21;"	d
+ACL_RES_INCLUDE_H	include/net/acl_res.h	2;"	d
+ACL_RES_USE_TCP	include/net/acl_res.h	29;"	d
+ACL_RES_USE_UDP	include/net/acl_res.h	28;"	d
+ACL_RING	include/stdlib/acl_ring.h	/^struct ACL_RING {$/;"	s
+ACL_RING	include/stdlib/acl_ring.h	/^typedef struct ACL_RING ACL_RING;$/;"	t	typeref:struct:ACL_RING
+ACL_RING_APPEND	include/stdlib/acl_ring.h	208;"	d
+ACL_RING_DETACH	include/stdlib/acl_ring.h	237;"	d
+ACL_RING_FIRST	include/stdlib/acl_ring.h	162;"	d
+ACL_RING_FIRST_APPL	include/stdlib/acl_ring.h	174;"	d
+ACL_RING_FOREACH	include/stdlib/acl_ring.h	140;"	d
+ACL_RING_FOREACH_REVERSE	include/stdlib/acl_ring.h	151;"	d
+ACL_RING_INCLUDE_H	include/stdlib/acl_ring.h	2;"	d
+ACL_RING_ITER	include/stdlib/acl_ring.h	/^typedef struct ACL_RING_ITER {$/;"	s
+ACL_RING_ITER	include/stdlib/acl_ring.h	/^} ACL_RING_ITER;$/;"	t	typeref:struct:ACL_RING_ITER
+ACL_RING_LAST	include/stdlib/acl_ring.h	185;"	d
+ACL_RING_LAST_APPL	include/stdlib/acl_ring.h	197;"	d
+ACL_RING_PRED	include/stdlib/acl_ring.h	86;"	d
+ACL_RING_PREPEND	include/stdlib/acl_ring.h	223;"	d
+ACL_RING_SUCC	include/stdlib/acl_ring.h	80;"	d
+ACL_RING_TO_APPL	include/stdlib/acl_ring.h	96;"	d
+ACL_ROOT_PATH	include/stdlib/acl_define_bsd.h	13;"	d
+ACL_ROOT_PATH	include/stdlib/acl_define_linux.h	34;"	d
+ACL_ROOT_PATH	include/stdlib/acl_define_macosx.h	13;"	d
+ACL_ROOT_PATH	include/stdlib/acl_define_sunx86.h	26;"	d
+ACL_SAFE_INCLUDE_H	include/stdlib/acl_safe.h	2;"	d
+ACL_SAFE_OPEN_H_INCLUDE_H	include/stdlib/unix/acl_safe_open.h	2;"	d
+ACL_SAFE_STRNCPY	include/stdlib/acl_mystring.h	20;"	d
+ACL_SAFE_STRNCPY	include/stdlib/acl_mystring.h	27;"	d
+ACL_SANE_BASENAME_INCLUDE_H	include/stdlib/acl_sane_basename.h	2;"	d
+ACL_SANE_INET_INCLUDE_H	include/net/acl_sane_inet.h	2;"	d
+ACL_SANE_SOCKETPAIR_H	include/stdlib/unix/acl_sane_socketpair.h	2;"	d
+ACL_SANE_SOCKET_INCLUDE_H	include/net/acl_sane_socket.h	2;"	d
+ACL_SCANF	include/stdlib/acl_define.h	60;"	d
+ACL_SCANF	include/stdlib/acl_define.h	66;"	d
+ACL_SCAN_CTL_CTX	include/stdlib/acl_scan_dir.h	52;"	d
+ACL_SCAN_CTL_END	include/stdlib/acl_scan_dir.h	50;"	d
+ACL_SCAN_CTL_FN	include/stdlib/acl_scan_dir.h	51;"	d
+ACL_SCAN_DIR	include/stdlib/acl_scan_dir.h	/^typedef struct ACL_SCAN_DIR ACL_SCAN_DIR;$/;"	t	typeref:struct:ACL_SCAN_DIR
+ACL_SCAN_DIR_FN	include/stdlib/acl_scan_dir.h	/^typedef int (*ACL_SCAN_DIR_FN)(ACL_SCAN_DIR *scan, void *ctx);$/;"	t
+ACL_SCAN_DIR_INCLUDE_H	include/stdlib/acl_scan_dir.h	2;"	d
+ACL_SEM	include/thread/acl_sem.h	/^struct ACL_SEM {$/;"	s
+ACL_SEM	include/thread/acl_sem.h	/^typedef struct ACL_SEM ACL_SEM;$/;"	t	typeref:struct:ACL_SEM
+ACL_SEM_INCLUDE_H	include/thread/acl_sem.h	2;"	d
+ACL_SET_EUGID_INCLUDE_H	include/stdlib/unix/acl_set_eugid.h	2;"	d
+ACL_SET_UGID_INCLUDE_H	include/stdlib/unix/acl_set_ugid.h	2;"	d
+ACL_SINGLE_PARAMS_INCLUDE_H	include/master/acl_single_params.h	2;"	d
+ACL_SINGLE_SERVER_FN	include/master/acl_server_api.h	/^typedef void (*ACL_SINGLE_SERVER_FN) (ACL_VSTREAM *, char *, char **);$/;"	t
+ACL_SLICE	include/stdlib/acl_slice.h	/^typedef struct ACL_SLICE ACL_SLICE;$/;"	t	typeref:struct:ACL_SLICE
+ACL_SLICE_FLAG_GC1	include/stdlib/acl_slice.h	11;"	d
+ACL_SLICE_FLAG_GC2	include/stdlib/acl_slice.h	12;"	d
+ACL_SLICE_FLAG_GC3	include/stdlib/acl_slice.h	13;"	d
+ACL_SLICE_FLAG_LP64_ALIGN	include/stdlib/acl_slice.h	15;"	d
+ACL_SLICE_FLAG_OFF	include/stdlib/acl_slice.h	10;"	d
+ACL_SLICE_FLAG_RTGC_OFF	include/stdlib/acl_slice.h	14;"	d
+ACL_SLICE_INCLUDE_H	include/stdlib/acl_slice.h	2;"	d
+ACL_SLICE_POOL	include/stdlib/acl_slice.h	/^typedef struct ACL_SLICE_POOL {$/;"	s
+ACL_SLICE_POOL	include/stdlib/acl_slice.h	/^} ACL_SLICE_POOL;$/;"	t	typeref:struct:ACL_SLICE_POOL
+ACL_SLICE_STAT	include/stdlib/acl_slice.h	/^typedef struct ACL_SLICE_STAT {$/;"	s
+ACL_SLICE_STAT	include/stdlib/acl_slice.h	/^} ACL_SLICE_STAT;$/;"	t	typeref:struct:ACL_SLICE_STAT
+ACL_SOCKET	include/stdlib/acl_define_unix.h	67;"	d
+ACL_SOCKET	include/stdlib/acl_define_win32.h	102;"	d
+ACL_SOCKET_INVALID	include/stdlib/acl_define_unix.h	69;"	d
+ACL_SOCKET_INVALID	include/stdlib/acl_define_win32.h	105;"	d
+ACL_SOCKET_RBUF_SIZE	include/net/acl_tcp_ctl.h	10;"	d
+ACL_SOCKET_WBUF_SIZE	include/net/acl_tcp_ctl.h	11;"	d
+ACL_SPLIT_AT_INCLUDE_H	include/stdlib/acl_split_at.h	2;"	d
+ACL_SPOOL	include/ioctl/acl_spool.h	12;"	d
+ACL_SPOOL_CTL_DELAY_SEC	include/ioctl/acl_spool.h	22;"	d
+ACL_SPOOL_CTL_DELAY_USEC	include/ioctl/acl_spool.h	23;"	d
+ACL_SPOOL_CTL_END	include/ioctl/acl_spool.h	19;"	d
+ACL_SPOOL_CTL_THREAD_IDLE	include/ioctl/acl_spool.h	21;"	d
+ACL_SPOOL_CTL_THREAD_MAX	include/ioctl/acl_spool.h	20;"	d
+ACL_SPOOL_INCLUDE_H	include/ioctl/acl_spool.h	2;"	d
+ACL_SPOOL_NOTIFY_FN	include/ioctl/acl_spool.h	13;"	d
+ACL_SPOOL_TIMER_FN	include/ioctl/acl_spool.h	14;"	d
+ACL_SPOOL_WORKER_FN	include/ioctl/acl_spool.h	15;"	d
+ACL_SQL_RES	include/db/acl_dbpool.h	/^struct ACL_SQL_RES {$/;"	s
+ACL_SQL_RES	include/db/acl_dbpool.h	/^typedef struct ACL_SQL_RES ACL_SQL_RES;$/;"	t	typeref:struct:ACL_SQL_RES
+ACL_STACK	include/stdlib/acl_stack.h	/^struct ACL_STACK {$/;"	s
+ACL_STACK	include/stdlib/acl_stack.h	/^typedef struct ACL_STACK ACL_STACK;$/;"	t	typeref:struct:ACL_STACK
+ACL_STACK_INCLUDE_H	include/stdlib/acl_stack.h	2;"	d
+ACL_STDLIB_INCLUDE_H	include/stdlib/acl_stdlib.h	2;"	d
+ACL_STRINGOPS_INCLUDE_H	include/stdlib/acl_stringops.h	2;"	d
+ACL_SUNOS5	include/stdlib/acl_define_sunx86.h	5;"	d
+ACL_SYS_PATCH_INCLUDE_H	include/stdlib/acl_sys_patch.h	2;"	d
+ACL_TCP_CTL_INCLUDE_H	include/net/acl_tcp_ctl.h	2;"	d
+ACL_TEST_GLOBAL_INCLUDE_H	include/unit_test/acl_test_global.h	2;"	d
+ACL_TEST_MACRO_INCLUDE_H	include/unit_test/acl_test_macro.h	2;"	d
+ACL_TEST_STRUCT_INCLUDE_H	include/unit_test/acl_test_struct.h	2;"	d
+ACL_TEST_VAR_INCLUDE_H	include/unit_test/acl_test_var.h	2;"	d
+ACL_THREADS_PARAMS_INCLUDE_H	include/master/acl_threads_params.h	2;"	d
+ACL_THREADS_SERVER_FN	include/master/acl_server_api.h	/^typedef int (*ACL_THREADS_SERVER_FN) (ACL_VSTREAM*, void*);$/;"	t
+ACL_THREAD_INCLUDE_H	include/thread/acl_thread.h	2;"	d
+ACL_TIMED_WAIT_INCLUDE_H	include/stdlib/unix/acl_timed_wait.h	2;"	d
+ACL_TIMER	include/event/acl_timer.h	/^struct ACL_TIMER {$/;"	s
+ACL_TIMER	include/event/acl_timer.h	/^typedef struct ACL_TIMER ACL_TIMER;$/;"	t	typeref:struct:ACL_TIMER
+ACL_TIMER_INCLUDE_H	include/event/acl_timer.h	2;"	d
+ACL_TIMER_INFO	include/event/acl_timer.h	/^typedef struct ACL_TIMER_INFO {               $/;"	s
+ACL_TIMER_INFO	include/event/acl_timer.h	/^} ACL_TIMER_INFO;$/;"	t	typeref:struct:ACL_TIMER_INFO
+ACL_TLS_OUT_OF_INDEXES	include/thread/acl_pthread.h	51;"	d
+ACL_TLS_OUT_OF_INDEXES	include/thread/acl_pthread.h	67;"	d
+ACL_TOKEN	include/stdlib/acl_token_tree.h	/^typedef struct ACL_TOKEN {$/;"	s
+ACL_TOKEN	include/stdlib/acl_token_tree.h	/^} ACL_TOKEN;$/;"	t	typeref:struct:ACL_TOKEN
+ACL_TOKEN_F_DENY	include/stdlib/acl_token_tree.h	34;"	d
+ACL_TOKEN_F_NONE	include/stdlib/acl_token_tree.h	31;"	d
+ACL_TOKEN_F_PASS	include/stdlib/acl_token_tree.h	33;"	d
+ACL_TOKEN_F_STOP	include/stdlib/acl_token_tree.h	32;"	d
+ACL_TOKEN_F_UTF8	include/stdlib/acl_token_tree.h	35;"	d
+ACL_TOKEN_TREE_INCLUDE_H	include/stdlib/acl_token_tree.h	2;"	d
+ACL_TOKEN_TREE_MATCH	include/stdlib/acl_token_tree.h	43;"	d
+ACL_TOKEN_WIDTH	include/stdlib/acl_token_tree.h	37;"	d
+ACL_TOLOWER	include/stdlib/acl_define.h	31;"	d
+ACL_TOLOWER	include/stdlib/acl_define.h	45;"	d
+ACL_TOUPPER	include/stdlib/acl_define.h	32;"	d
+ACL_TOUPPER	include/stdlib/acl_define.h	46;"	d
+ACL_TRACE_INCLUDE_H	include/stdlib/unix/acl_trace.h	2;"	d
+ACL_TRANSFER_FD_INCLUDE_H	include/stdlib/unix/acl_transfer_fd.h	2;"	d
+ACL_TRIGGER_BUF_SIZE	include/master/acl_server_api.h	191;"	d
+ACL_TRIGGER_PARAMS_INCLUDE_H	include/master/acl_trigger_params.h	2;"	d
+ACL_TRIGGER_SERVER_FN	include/master/acl_server_api.h	/^typedef void (*ACL_TRIGGER_SERVER_FN) (char *, int, char *, char **);$/;"	t
+ACL_UDP_SERVER_FN	include/master/acl_server_api.h	/^typedef void (*ACL_UDP_SERVER_FN) (ACL_VSTREAM *, char *, char **);$/;"	t
+ACL_UNIT_TEST_INCLUDE_H	include/unit_test/acl_unit_test.h	2;"	d
+ACL_UNIX	include/stdlib/acl_define_bsd.h	5;"	d
+ACL_UNIX	include/stdlib/acl_define_linux.h	6;"	d
+ACL_UNIX	include/stdlib/acl_define_macosx.h	5;"	d
+ACL_UNIX	include/stdlib/acl_define_sunx86.h	6;"	d
+ACL_UNIX_INCLUDE_H	include/stdlib/unix/acl_unix.h	2;"	d
+ACL_UNUSED	include/stdlib/acl_define.h	63;"	d
+ACL_UNUSED	include/stdlib/acl_define.h	68;"	d
+ACL_URLCODE_INCLUDE_H	include/code/acl_urlcode.h	2;"	d
+ACL_USERNAME_INCLUDE_H	include/stdlib/unix/acl_username.h	2;"	d
+ACL_USE_PATHS_H	include/stdlib/acl_define_bsd.h	9;"	d
+ACL_USE_PATHS_H	include/stdlib/acl_define_linux.h	30;"	d
+ACL_USE_PATHS_H	include/stdlib/acl_define_macosx.h	9;"	d
+ACL_USE_PATHS_H	include/stdlib/acl_define_sunx86.h	19;"	d
+ACL_VALID_HOSTNAME_INCLUDE_H	include/net/acl_valid_hostname.h	2;"	d
+ACL_VALID_HOSTNAME_LEN	include/net/acl_valid_hostname.h	11;"	d
+ACL_VALID_LABEL_LEN	include/net/acl_valid_hostname.h	12;"	d
+ACL_VAR_AIO_ACCEPT_ALONE	include/master/acl_aio_params.h	88;"	d
+ACL_VAR_AIO_ACCEPT_TIMER	include/master/acl_aio_params.h	100;"	d
+ACL_VAR_AIO_ACCESS_ALLOW	include/master/acl_aio_params.h	48;"	d
+ACL_VAR_AIO_BUF_SIZE	include/master/acl_aio_params.h	16;"	d
+ACL_VAR_AIO_DAEMON_TIMEOUT	include/master/acl_aio_params.h	68;"	d
+ACL_VAR_AIO_DELAY_SEC	include/master/acl_aio_params.h	56;"	d
+ACL_VAR_AIO_DELAY_USEC	include/master/acl_aio_params.h	60;"	d
+ACL_VAR_AIO_DENY_INFO	include/master/acl_aio_params.h	124;"	d
+ACL_VAR_AIO_DISPATCH_ADDR	include/master/acl_aio_params.h	116;"	d
+ACL_VAR_AIO_DISPATCH_TYPE	include/master/acl_aio_params.h	120;"	d
+ACL_VAR_AIO_ENABLE_CORE	include/master/acl_aio_params.h	92;"	d
+ACL_VAR_AIO_EVENT_MODE	include/master/acl_aio_params.h	64;"	d
+ACL_VAR_AIO_IDLE_LIMIT	include/master/acl_aio_params.h	36;"	d
+ACL_VAR_AIO_IN_FLOW_DELAY	include/master/acl_aio_params.h	24;"	d
+ACL_VAR_AIO_LOG_DEBUG	include/master/acl_aio_params.h	104;"	d
+ACL_VAR_AIO_MASTER_MAXPROC	include/master/acl_aio_params.h	76;"	d
+ACL_VAR_AIO_MAX_ACCEPT	include/master/acl_aio_params.h	80;"	d
+ACL_VAR_AIO_MAX_DEBUG	include/master/acl_aio_params.h	108;"	d
+ACL_VAR_AIO_MAX_THREADS	include/master/acl_aio_params.h	28;"	d
+ACL_VAR_AIO_MIN_NOTIFY	include/master/acl_aio_params.h	84;"	d
+ACL_VAR_AIO_OWNER	include/master/acl_aio_params.h	52;"	d
+ACL_VAR_AIO_PID_DIR	include/master/acl_aio_params.h	44;"	d
+ACL_VAR_AIO_QUEUE_DIR	include/master/acl_aio_params.h	40;"	d
+ACL_VAR_AIO_QUICK_ABORT	include/master/acl_aio_params.h	96;"	d
+ACL_VAR_AIO_RW_TIMEOUT	include/master/acl_aio_params.h	20;"	d
+ACL_VAR_AIO_STATUS_NOTIFY	include/master/acl_aio_params.h	112;"	d
+ACL_VAR_AIO_THREAD_IDLE_LIMIT	include/master/acl_aio_params.h	32;"	d
+ACL_VAR_AIO_USE_LIMIT	include/master/acl_aio_params.h	72;"	d
+ACL_VAR_IOCTL_ACCESS_ALLOW	include/master/acl_ioctl_params.h	51;"	d
+ACL_VAR_IOCTL_BUF_SIZE	include/master/acl_ioctl_params.h	15;"	d
+ACL_VAR_IOCTL_CHECK_INTER	include/master/acl_ioctl_params.h	111;"	d
+ACL_VAR_IOCTL_DAEMON_TIMEOUT	include/master/acl_ioctl_params.h	71;"	d
+ACL_VAR_IOCTL_DELAY_SEC	include/master/acl_ioctl_params.h	59;"	d
+ACL_VAR_IOCTL_DELAY_USEC	include/master/acl_ioctl_params.h	63;"	d
+ACL_VAR_IOCTL_ENABLE_CORE	include/master/acl_ioctl_params.h	95;"	d
+ACL_VAR_IOCTL_ENABLE_DOG	include/master/acl_ioctl_params.h	87;"	d
+ACL_VAR_IOCTL_EVENT_MODE	include/master/acl_ioctl_params.h	67;"	d
+ACL_VAR_IOCTL_IDLE_LIMIT	include/master/acl_ioctl_params.h	39;"	d
+ACL_VAR_IOCTL_IN_FLOW_DELAY	include/master/acl_ioctl_params.h	23;"	d
+ACL_VAR_IOCTL_LOG_DEBUG	include/master/acl_ioctl_params.h	99;"	d
+ACL_VAR_IOCTL_MASTER_MAXPROC	include/master/acl_ioctl_params.h	79;"	d
+ACL_VAR_IOCTL_MAX_ACCEPT	include/master/acl_ioctl_params.h	83;"	d
+ACL_VAR_IOCTL_MAX_DEBUG	include/master/acl_ioctl_params.h	103;"	d
+ACL_VAR_IOCTL_MAX_THREADS	include/master/acl_ioctl_params.h	27;"	d
+ACL_VAR_IOCTL_OWNER	include/master/acl_ioctl_params.h	55;"	d
+ACL_VAR_IOCTL_PID_DIR	include/master/acl_ioctl_params.h	47;"	d
+ACL_VAR_IOCTL_QUEUE_DIR	include/master/acl_ioctl_params.h	43;"	d
+ACL_VAR_IOCTL_QUICK_ABORT	include/master/acl_ioctl_params.h	91;"	d
+ACL_VAR_IOCTL_RW_TIMEOUT	include/master/acl_ioctl_params.h	19;"	d
+ACL_VAR_IOCTL_STACKSIZE	include/master/acl_ioctl_params.h	31;"	d
+ACL_VAR_IOCTL_STATUS_NOTIFY	include/master/acl_ioctl_params.h	107;"	d
+ACL_VAR_IOCTL_THREAD_IDLE_LIMIT	include/master/acl_ioctl_params.h	35;"	d
+ACL_VAR_IOCTL_USE_LIMIT	include/master/acl_ioctl_params.h	75;"	d
+ACL_VAR_MULTI_BUF_SIZE	include/master/acl_multi_params.h	15;"	d
+ACL_VAR_MULTI_DAEMON_TIMEOUT	include/master/acl_multi_params.h	51;"	d
+ACL_VAR_MULTI_DELAY_SEC	include/master/acl_multi_params.h	43;"	d
+ACL_VAR_MULTI_DELAY_USEC	include/master/acl_multi_params.h	47;"	d
+ACL_VAR_MULTI_ENABLE_CORE	include/master/acl_multi_params.h	59;"	d
+ACL_VAR_MULTI_IDLE_LIMIT	include/master/acl_multi_params.h	27;"	d
+ACL_VAR_MULTI_IN_FLOW_DELAY	include/master/acl_multi_params.h	23;"	d
+ACL_VAR_MULTI_LOG_DEBUG	include/master/acl_multi_params.h	63;"	d
+ACL_VAR_MULTI_MAX_DEBUG	include/master/acl_multi_params.h	67;"	d
+ACL_VAR_MULTI_OWNER	include/master/acl_multi_params.h	39;"	d
+ACL_VAR_MULTI_PID_DIR	include/master/acl_multi_params.h	35;"	d
+ACL_VAR_MULTI_QUEUE_DIR	include/master/acl_multi_params.h	31;"	d
+ACL_VAR_MULTI_RW_TIMEOUT	include/master/acl_multi_params.h	19;"	d
+ACL_VAR_MULTI_USE_LIMIT	include/master/acl_multi_params.h	55;"	d
+ACL_VAR_SINGLE_BUF_SIZE	include/master/acl_single_params.h	15;"	d
+ACL_VAR_SINGLE_DAEMON_TIMEOUT	include/master/acl_single_params.h	59;"	d
+ACL_VAR_SINGLE_DELAY_SEC	include/master/acl_single_params.h	47;"	d
+ACL_VAR_SINGLE_DELAY_USEC	include/master/acl_single_params.h	51;"	d
+ACL_VAR_SINGLE_ENABLE_CORE	include/master/acl_single_params.h	71;"	d
+ACL_VAR_SINGLE_IDLE_LIMIT	include/master/acl_single_params.h	31;"	d
+ACL_VAR_SINGLE_IN_FLOW_DELAY	include/master/acl_single_params.h	23;"	d
+ACL_VAR_SINGLE_LOG_DEBUG	include/master/acl_single_params.h	75;"	d
+ACL_VAR_SINGLE_MAX_DEBUG	include/master/acl_single_params.h	79;"	d
+ACL_VAR_SINGLE_OWNER	include/master/acl_single_params.h	43;"	d
+ACL_VAR_SINGLE_PID_DIR	include/master/acl_single_params.h	39;"	d
+ACL_VAR_SINGLE_QUEUE_DIR	include/master/acl_single_params.h	35;"	d
+ACL_VAR_SINGLE_RW_TIMEOUT	include/master/acl_single_params.h	19;"	d
+ACL_VAR_SINGLE_USE_LIMIT	include/master/acl_single_params.h	67;"	d
+ACL_VAR_THREADS_ACCESS_ALLOW	include/master/acl_threads_params.h	102;"	d
+ACL_VAR_THREADS_BATADD	include/master/acl_threads_params.h	106;"	d
+ACL_VAR_THREADS_BUF_SIZE	include/master/acl_threads_params.h	14;"	d
+ACL_VAR_THREADS_CHECK_INTER	include/master/acl_threads_params.h	118;"	d
+ACL_VAR_THREADS_DAEMON_TIMEOUT	include/master/acl_threads_params.h	62;"	d
+ACL_VAR_THREADS_DELAY_SEC	include/master/acl_threads_params.h	50;"	d
+ACL_VAR_THREADS_DELAY_USEC	include/master/acl_threads_params.h	54;"	d
+ACL_VAR_THREADS_DENY_BANNER	include/master/acl_threads_params.h	98;"	d
+ACL_VAR_THREADS_DISPATCH_ADDR	include/master/acl_threads_params.h	126;"	d
+ACL_VAR_THREADS_DISPATCH_TYPE	include/master/acl_threads_params.h	130;"	d
+ACL_VAR_THREADS_ENABLE_CORE	include/master/acl_threads_params.h	82;"	d
+ACL_VAR_THREADS_ENABLE_DOG	include/master/acl_threads_params.h	74;"	d
+ACL_VAR_THREADS_EVENT_MODE	include/master/acl_threads_params.h	58;"	d
+ACL_VAR_THREADS_IDLE_LIMIT	include/master/acl_threads_params.h	34;"	d
+ACL_VAR_THREADS_LOG_DEBUG	include/master/acl_threads_params.h	86;"	d
+ACL_VAR_THREADS_MASTER_MAXPROC	include/master/acl_threads_params.h	66;"	d
+ACL_VAR_THREADS_MAX_ACCEPT	include/master/acl_threads_params.h	70;"	d
+ACL_VAR_THREADS_MAX_DEBUG	include/master/acl_threads_params.h	90;"	d
+ACL_VAR_THREADS_OWNER	include/master/acl_threads_params.h	46;"	d
+ACL_VAR_THREADS_POOL_LIMIT	include/master/acl_threads_params.h	22;"	d
+ACL_VAR_THREADS_QLEN_WARN	include/master/acl_threads_params.h	122;"	d
+ACL_VAR_THREADS_QUEUE_DIR	include/master/acl_threads_params.h	42;"	d
+ACL_VAR_THREADS_QUICK_ABORT	include/master/acl_threads_params.h	78;"	d
+ACL_VAR_THREADS_RW_TIMEOUT	include/master/acl_threads_params.h	18;"	d
+ACL_VAR_THREADS_SCHEDULE_WAIT	include/master/acl_threads_params.h	114;"	d
+ACL_VAR_THREADS_SCHEDULE_WARN	include/master/acl_threads_params.h	110;"	d
+ACL_VAR_THREADS_STATUS_NOTIFY	include/master/acl_threads_params.h	94;"	d
+ACL_VAR_THREADS_THREAD_IDLE	include/master/acl_threads_params.h	30;"	d
+ACL_VAR_THREADS_THREAD_STACKSIZE	include/master/acl_threads_params.h	26;"	d
+ACL_VAR_THREADS_USE_LIMIT	include/master/acl_threads_params.h	38;"	d
+ACL_VAR_TRIGGER_BUF_SIZE	include/master/acl_trigger_params.h	15;"	d
+ACL_VAR_TRIGGER_DAEMON_TIMEOUT	include/master/acl_trigger_params.h	51;"	d
+ACL_VAR_TRIGGER_DELAY_SEC	include/master/acl_trigger_params.h	43;"	d
+ACL_VAR_TRIGGER_DELAY_USEC	include/master/acl_trigger_params.h	47;"	d
+ACL_VAR_TRIGGER_ENABLE_CORE	include/master/acl_trigger_params.h	59;"	d
+ACL_VAR_TRIGGER_IDLE_LIMIT	include/master/acl_trigger_params.h	27;"	d
+ACL_VAR_TRIGGER_IN_FLOW_DELAY	include/master/acl_trigger_params.h	23;"	d
+ACL_VAR_TRIGGER_LOG_DEBUG	include/master/acl_trigger_params.h	63;"	d
+ACL_VAR_TRIGGER_MAX_DEBUG	include/master/acl_trigger_params.h	67;"	d
+ACL_VAR_TRIGGER_OWNER	include/master/acl_trigger_params.h	39;"	d
+ACL_VAR_TRIGGER_PID_DIR	include/master/acl_trigger_params.h	35;"	d
+ACL_VAR_TRIGGER_QUEUE_DIR	include/master/acl_trigger_params.h	31;"	d
+ACL_VAR_TRIGGER_RW_TIMEOUT	include/master/acl_trigger_params.h	19;"	d
+ACL_VAR_TRIGGER_USE_LIMIT	include/master/acl_trigger_params.h	55;"	d
+ACL_VAR_UDP_ACCESS_ALLOW	include/master/acl_udp_params.h	36;"	d
+ACL_VAR_UDP_BUF_SIZE	include/master/acl_udp_params.h	16;"	d
+ACL_VAR_UDP_DAEMON_TIMEOUT	include/master/acl_udp_params.h	56;"	d
+ACL_VAR_UDP_DELAY_SEC	include/master/acl_udp_params.h	44;"	d
+ACL_VAR_UDP_DELAY_USEC	include/master/acl_udp_params.h	48;"	d
+ACL_VAR_UDP_ENABLE_CORE	include/master/acl_udp_params.h	64;"	d
+ACL_VAR_UDP_EVENT_MODE	include/master/acl_udp_params.h	52;"	d
+ACL_VAR_UDP_IDLE_LIMIT	include/master/acl_udp_params.h	24;"	d
+ACL_VAR_UDP_LOG_DEBUG	include/master/acl_udp_params.h	68;"	d
+ACL_VAR_UDP_MASTER_MAXPROC	include/master/acl_udp_params.h	60;"	d
+ACL_VAR_UDP_MAX_DEBUG	include/master/acl_udp_params.h	72;"	d
+ACL_VAR_UDP_OWNER	include/master/acl_udp_params.h	40;"	d
+ACL_VAR_UDP_PID_DIR	include/master/acl_udp_params.h	32;"	d
+ACL_VAR_UDP_QUEUE_DIR	include/master/acl_udp_params.h	28;"	d
+ACL_VAR_UDP_RW_TIMEOUT	include/master/acl_udp_params.h	20;"	d
+ACL_VBUF	include/stdlib/acl_vbuf.h	/^struct ACL_VBUF {$/;"	s
+ACL_VBUF	include/stdlib/acl_vbuf.h	/^typedef struct ACL_VBUF ACL_VBUF;$/;"	t	typeref:struct:ACL_VBUF
+ACL_VBUF_CHARAT	include/stdlib/acl_vbuf.h	61;"	d
+ACL_VBUF_EOF	include/stdlib/acl_vbuf.h	63;"	d
+ACL_VBUF_FLAG_BAD	include/stdlib/acl_vbuf.h	44;"	d
+ACL_VBUF_FLAG_EOF	include/stdlib/acl_vbuf.h	42;"	d
+ACL_VBUF_FLAG_ERR	include/stdlib/acl_vbuf.h	41;"	d
+ACL_VBUF_FLAG_FIXED	include/stdlib/acl_vbuf.h	45;"	d
+ACL_VBUF_FLAG_TIMEOUT	include/stdlib/acl_vbuf.h	43;"	d
+ACL_VBUF_GET	include/stdlib/acl_vbuf.h	55;"	d
+ACL_VBUF_GET_READY_FN	include/stdlib/acl_vbuf.h	/^typedef int (*ACL_VBUF_GET_READY_FN) (ACL_VBUF *);$/;"	t
+ACL_VBUF_INCLUDE_H	include/stdlib/acl_vbuf.h	2;"	d
+ACL_VBUF_PRINT_INCLUDE_H	include/stdlib/acl_vbuf_print.h	2;"	d
+ACL_VBUF_PUT	include/stdlib/acl_vbuf.h	57;"	d
+ACL_VBUF_PUT_READY_FN	include/stdlib/acl_vbuf.h	/^typedef int (*ACL_VBUF_PUT_READY_FN) (ACL_VBUF *);$/;"	t
+ACL_VBUF_SPACE	include/stdlib/acl_vbuf.h	59;"	d
+ACL_VBUF_SPACE_FN	include/stdlib/acl_vbuf.h	/^typedef int (*ACL_VBUF_SPACE_FN) (ACL_VBUF *, int);$/;"	t
+ACL_VBUF_TO_APPL	include/stdlib/acl_vbuf.h	35;"	d
+ACL_VSPRINTF_INCLUDE_H	include/stdlib/acl_vsprintf.h	2;"	d
+ACL_VSTREAM	include/stdlib/acl_vstream.h	/^struct ACL_VSTREAM {$/;"	s
+ACL_VSTREAM	include/stdlib/acl_vstream.h	/^typedef struct ACL_VSTREAM	ACL_VSTREAM;$/;"	t	typeref:struct:ACL_VSTREAM
+ACL_VSTREAM_BFRD_CNT	include/stdlib/acl_vstream.h	872;"	d
+ACL_VSTREAM_BUFSIZE	include/stdlib/acl_vstream.h	38;"	d
+ACL_VSTREAM_CLOSE_HANDLE	include/stdlib/acl_vstream.h	/^typedef struct ACL_VSTREAM_CLOSE_HANDLE {$/;"	s
+ACL_VSTREAM_CLOSE_HANDLE	include/stdlib/acl_vstream.h	/^} ACL_VSTREAM_CLOSE_HANDLE;$/;"	t	typeref:struct:ACL_VSTREAM_CLOSE_HANDLE
+ACL_VSTREAM_CTL_CACHE_SEEK	include/stdlib/acl_vstream.h	287;"	d
+ACL_VSTREAM_CTL_CONTEXT	include/stdlib/acl_vstream.h	285;"	d
+ACL_VSTREAM_CTL_CTX	include/stdlib/acl_vstream.h	286;"	d
+ACL_VSTREAM_CTL_END	include/stdlib/acl_vstream.h	279;"	d
+ACL_VSTREAM_CTL_FD	include/stdlib/acl_vstream.h	283;"	d
+ACL_VSTREAM_CTL_PATH	include/stdlib/acl_vstream.h	282;"	d
+ACL_VSTREAM_CTL_READ_FN	include/stdlib/acl_vstream.h	280;"	d
+ACL_VSTREAM_CTL_TIMEOUT	include/stdlib/acl_vstream.h	284;"	d
+ACL_VSTREAM_CTL_WRITE_FN	include/stdlib/acl_vstream.h	281;"	d
+ACL_VSTREAM_EOF	include/stdlib/acl_vstream.h	24;"	d
+ACL_VSTREAM_ERR	include/stdlib/acl_vstream.h	178;"	d
+ACL_VSTREAM_ERRNO	include/stdlib/acl_vstream.h	911;"	d
+ACL_VSTREAM_FILE	include/stdlib/acl_vstream.h	786;"	d
+ACL_VSTREAM_FLAG_BAD	include/stdlib/acl_vstream.h	110;"	d
+ACL_VSTREAM_FLAG_CACHE_SEEK	include/stdlib/acl_vstream.h	103;"	d
+ACL_VSTREAM_FLAG_CLIENT	include/stdlib/acl_vstream.h	113;"	d
+ACL_VSTREAM_FLAG_CONNECT	include/stdlib/acl_vstream.h	114;"	d
+ACL_VSTREAM_FLAG_CONNECTING	include/stdlib/acl_vstream.h	120;"	d
+ACL_VSTREAM_FLAG_DEFER_FREE	include/stdlib/acl_vstream.h	104;"	d
+ACL_VSTREAM_FLAG_EOF	include/stdlib/acl_vstream.h	107;"	d
+ACL_VSTREAM_FLAG_ERR	include/stdlib/acl_vstream.h	106;"	d
+ACL_VSTREAM_FLAG_PREREAD	include/stdlib/acl_vstream.h	121;"	d
+ACL_VSTREAM_FLAG_RDSHORT	include/stdlib/acl_vstream.h	109;"	d
+ACL_VSTREAM_FLAG_READ	include/stdlib/acl_vstream.h	100;"	d
+ACL_VSTREAM_FLAG_RW	include/stdlib/acl_vstream.h	102;"	d
+ACL_VSTREAM_FLAG_SOCKPAIR	include/stdlib/acl_vstream.h	115;"	d
+ACL_VSTREAM_FLAG_TAGNO	include/stdlib/acl_vstream.h	118;"	d
+ACL_VSTREAM_FLAG_TAGYES	include/stdlib/acl_vstream.h	117;"	d
+ACL_VSTREAM_FLAG_TIMEOUT	include/stdlib/acl_vstream.h	108;"	d
+ACL_VSTREAM_FLAG_WRITE	include/stdlib/acl_vstream.h	101;"	d
+ACL_VSTREAM_GETC	include/stdlib/acl_vstream.h	754;"	d
+ACL_VSTREAM_IN	include/stdlib/acl_vstream.h	176;"	d
+ACL_VSTREAM_INCLUDE_H	include/stdlib/acl_vstream.h	2;"	d
+ACL_VSTREAM_LOCAL	include/stdlib/acl_vstream.h	824;"	d
+ACL_VSTREAM_NET_INCLUDE_H	include/net/acl_vstream_net.h	2;"	d
+ACL_VSTREAM_OUT	include/stdlib/acl_vstream.h	177;"	d
+ACL_VSTREAM_PATH	include/stdlib/acl_vstream.h	792;"	d
+ACL_VSTREAM_PEER	include/stdlib/acl_vstream.h	804;"	d
+ACL_VSTREAM_POPEN_ARGV	include/stdlib/acl_vstream_popen.h	22;"	d
+ACL_VSTREAM_POPEN_COMMAND	include/stdlib/acl_vstream_popen.h	21;"	d
+ACL_VSTREAM_POPEN_END	include/stdlib/acl_vstream_popen.h	20;"	d
+ACL_VSTREAM_POPEN_ENV	include/stdlib/acl_vstream_popen.h	25;"	d
+ACL_VSTREAM_POPEN_EXPORT	include/stdlib/acl_vstream_popen.h	28;"	d
+ACL_VSTREAM_POPEN_GID	include/stdlib/acl_vstream_popen.h	24;"	d
+ACL_VSTREAM_POPEN_INCLUDE_H	include/stdlib/acl_vstream_popen.h	2;"	d
+ACL_VSTREAM_POPEN_SHELL	include/stdlib/acl_vstream_popen.h	26;"	d
+ACL_VSTREAM_POPEN_UID	include/stdlib/acl_vstream_popen.h	23;"	d
+ACL_VSTREAM_POPEN_WAITPID_FN	include/stdlib/acl_vstream_popen.h	27;"	d
+ACL_VSTREAM_PUTC	include/stdlib/acl_vstream.h	766;"	d
+ACL_VSTREAM_RD_FN	include/stdlib/acl_vstream.h	/^typedef int (*ACL_VSTREAM_RD_FN)(ACL_SOCKET fd, void *buf, size_t size,$/;"	t
+ACL_VSTREAM_SET_EOF	include/stdlib/acl_vstream.h	889;"	d
+ACL_VSTREAM_SET_FILE	include/stdlib/acl_vstream.h	860;"	d
+ACL_VSTREAM_SET_RWTIMO	include/stdlib/acl_vstream.h	880;"	d
+ACL_VSTREAM_SET_SOCK	include/stdlib/acl_vstream.h	850;"	d
+ACL_VSTREAM_SOCK	include/stdlib/acl_vstream.h	780;"	d
+ACL_VSTREAM_TYPE_FILE	include/stdlib/acl_vstream.h	73;"	d
+ACL_VSTREAM_TYPE_LISTEN	include/stdlib/acl_vstream.h	74;"	d
+ACL_VSTREAM_TYPE_LISTEN_INET	include/stdlib/acl_vstream.h	75;"	d
+ACL_VSTREAM_TYPE_LISTEN_IOCP	include/stdlib/acl_vstream.h	77;"	d
+ACL_VSTREAM_TYPE_LISTEN_UNIX	include/stdlib/acl_vstream.h	76;"	d
+ACL_VSTREAM_TYPE_SOCK	include/stdlib/acl_vstream.h	72;"	d
+ACL_VSTREAM_WR_FN	include/stdlib/acl_vstream.h	/^typedef int (*ACL_VSTREAM_WR_FN)(ACL_SOCKET fd, const void *buf,$/;"	t
+ACL_VSTREAM_WV_FN	include/stdlib/acl_vstream.h	/^typedef int (*ACL_VSTREAM_WV_FN)(ACL_SOCKET fd, const struct iovec *vec,$/;"	t
+ACL_VSTRING	include/stdlib/acl_vstring.h	/^typedef struct ACL_VSTRING {$/;"	s
+ACL_VSTRING	include/stdlib/acl_vstring.h	/^} ACL_VSTRING;$/;"	t	typeref:struct:ACL_VSTRING
+ACL_VSTRING_ADDCH	include/stdlib/acl_vstring.h	385;"	d
+ACL_VSTRING_AT_OFFSET	include/stdlib/acl_vstring.h	406;"	d
+ACL_VSTRING_BASE64_CODE_INCLUDE_H	include/code/acl_vstring_base64.h	2;"	d
+ACL_VSTRING_CTL_END	include/stdlib/acl_vstring.h	62;"	d
+ACL_VSTRING_CTL_MAXLEN	include/stdlib/acl_vstring.h	61;"	d
+ACL_VSTRING_INCLUDE_H	include/stdlib/acl_vstring.h	2;"	d
+ACL_VSTRING_LEN	include/stdlib/acl_vstring.h	344;"	d
+ACL_VSTRING_RESET	include/stdlib/acl_vstring.h	375;"	d
+ACL_VSTRING_SIZE	include/stdlib/acl_vstring.h	351;"	d
+ACL_VSTRING_SKIP	include/stdlib/acl_vstring.h	391;"	d
+ACL_VSTRING_SPACE	include/stdlib/acl_vstring.h	330;"	d
+ACL_VSTRING_TERMINATE	include/stdlib/acl_vstring.h	364;"	d
+ACL_VSTRING_VSTREAM_INCLUDE_H	include/stdlib/acl_vstring_vstream.h	2;"	d
+ACL_WAIT_STATUS_T	include/stdlib/acl_define_bsd.h	/^   typedef int ACL_WAIT_STATUS_T;$/;"	t
+ACL_WAIT_STATUS_T	include/stdlib/acl_define_linux.h	/^   typedef int ACL_WAIT_STATUS_T;$/;"	t
+ACL_WAIT_STATUS_T	include/stdlib/acl_define_macosx.h	/^   typedef int ACL_WAIT_STATUS_T;$/;"	t
+ACL_WAIT_STATUS_T	include/stdlib/acl_define_sunx86.h	/^   typedef int ACL_WAIT_STATUS_T;$/;"	t
+ACL_WATCHDOG	include/stdlib/unix/acl_watchdog.h	/^typedef struct ACL_WATCHDOG ACL_WATCHDOG;$/;"	t	typeref:struct:ACL_WATCHDOG
+ACL_WATCHDOG_FN	include/stdlib/unix/acl_watchdog.h	/^typedef void (*ACL_WATCHDOG_FN) (ACL_WATCHDOG *, char *);$/;"	t
+ACL_WATCHDOG_INCLUDE_H	include/stdlib/unix/acl_watchdog.h	2;"	d
+ACL_WIN32_STDC	include/stdlib/acl_define_win32.h	51;"	d
+ACL_XINETD_CFG_INCLUDE_H	include/stdlib/acl_xinetd_cfg.h	2;"	d
+ACL_XINETD_CFG_PARSER	include/stdlib/acl_xinetd_cfg.h	/^typedef struct ACL_XINETD_CFG_PARSER ACL_XINETD_CFG_PARSER;$/;"	t	typeref:struct:ACL_XINETD_CFG_PARSER
+ACL_XML	include/xml/acl_xml.h	/^struct ACL_XML {$/;"	s
+ACL_XML	include/xml/acl_xml.h	/^typedef struct ACL_XML	ACL_XML;$/;"	t	typeref:struct:ACL_XML
+ACL_XML_ATTR	include/xml/acl_xml.h	/^struct ACL_XML_ATTR {$/;"	s
+ACL_XML_ATTR	include/xml/acl_xml.h	/^typedef struct ACL_XML_ATTR	ACL_XML_ATTR;$/;"	t	typeref:struct:ACL_XML_ATTR
+ACL_XML_FLAG_IGNORE_SLASH	include/xml/acl_xml.h	106;"	d
+ACL_XML_FLAG_PART_WORD	include/xml/acl_xml.h	105;"	d
+ACL_XML_F_LEAF	include/xml/acl_xml.h	55;"	d
+ACL_XML_F_META	include/xml/acl_xml.h	58;"	d
+ACL_XML_F_META_CM	include/xml/acl_xml.h	52;"	d
+ACL_XML_F_META_EM	include/xml/acl_xml.h	53;"	d
+ACL_XML_F_META_QM	include/xml/acl_xml.h	51;"	d
+ACL_XML_F_SELF_CL	include/xml/acl_xml.h	54;"	d
+ACL_XML_INCLUDE_H	include/xml/acl_xml.h	2;"	d
+ACL_XML_IS_COMMENT	include/xml/acl_xml.h	120;"	d
+ACL_XML_NODE	include/xml/acl_xml.h	/^struct ACL_XML_NODE {$/;"	s
+ACL_XML_NODE	include/xml/acl_xml.h	/^typedef struct ACL_XML_NODE	ACL_XML_NODE;$/;"	t	typeref:struct:ACL_XML_NODE
+ACL_XML_S_ATTR	include/xml/acl_xml.h	71;"	d
+ACL_XML_S_AVAL	include/xml/acl_xml.h	72;"	d
+ACL_XML_S_LCH	include/xml/acl_xml.h	65;"	d
+ACL_XML_S_LEM	include/xml/acl_xml.h	66;"	d
+ACL_XML_S_LGT	include/xml/acl_xml.h	64;"	d
+ACL_XML_S_LLT	include/xml/acl_xml.h	63;"	d
+ACL_XML_S_LTAG	include/xml/acl_xml.h	67;"	d
+ACL_XML_S_MCMT	include/xml/acl_xml.h	76;"	d
+ACL_XML_S_MEND	include/xml/acl_xml.h	77;"	d
+ACL_XML_S_MTAG	include/xml/acl_xml.h	74;"	d
+ACL_XML_S_MTXT	include/xml/acl_xml.h	75;"	d
+ACL_XML_S_NXT	include/xml/acl_xml.h	62;"	d
+ACL_XML_S_RGT	include/xml/acl_xml.h	69;"	d
+ACL_XML_S_RLT	include/xml/acl_xml.h	68;"	d
+ACL_XML_S_RTAG	include/xml/acl_xml.h	70;"	d
+ACL_XML_S_TXT	include/xml/acl_xml.h	73;"	d
+ACL_ZDB_INCLUDE_H	include/db/zdb.h	2;"	d
+ALIGN_TYPE	include/stdlib/acl_malloc.h	17;"	d
+ALIGN_TYPE	include/stdlib/acl_malloc.h	19;"	d
+ALIGN_TYPE	include/stdlib/acl_malloc.h	21;"	d
+AUT_ARG_ITEM	include/unit_test/acl_test_struct.h	/^} AUT_ARG_ITEM;$/;"	t	typeref:struct:__anon2
+AUT_CMD_TOKEN	include/unit_test/acl_test_struct.h	/^} AUT_CMD_TOKEN;$/;"	t	typeref:struct:__anon3
+AUT_FLAG_ELIF	include/unit_test/acl_test_struct.h	74;"	d
+AUT_FLAG_ELSE	include/unit_test/acl_test_struct.h	73;"	d
+AUT_FLAG_ENDIF	include/unit_test/acl_test_struct.h	75;"	d
+AUT_FLAG_IF	include/unit_test/acl_test_struct.h	72;"	d
+AUT_FLAG_LOOP_BEGIN	include/unit_test/acl_test_struct.h	67;"	d
+AUT_FLAG_LOOP_BREAK	include/unit_test/acl_test_struct.h	68;"	d
+AUT_FLAG_LOOP_CONTINUE	include/unit_test/acl_test_struct.h	69;"	d
+AUT_FLAG_LOOP_END	include/unit_test/acl_test_struct.h	70;"	d
+AUT_FLAG_STOP	include/unit_test/acl_test_struct.h	77;"	d
+AUT_FN	include/unit_test/acl_test_struct.h	/^typedef int (*AUT_FN) (AUT_LINE *test_line, void *arg);$/;"	t
+AUT_FN_ITEM	include/unit_test/acl_test_struct.h	/^typedef struct AUT_FN_ITEM {$/;"	s
+AUT_FN_ITEM	include/unit_test/acl_test_struct.h	/^} AUT_FN_ITEM;$/;"	t	typeref:struct:AUT_FN_ITEM
+AUT_LINE	include/unit_test/acl_test_struct.h	/^typedef struct AUT_LINE {$/;"	s
+AUT_LINE	include/unit_test/acl_test_struct.h	/^} AUT_LINE;$/;"	t	typeref:struct:AUT_LINE
+AUT_LOOP_BREAK	include/unit_test/acl_test_struct.h	83;"	d
+AUT_OBJ_INNER	include/unit_test/acl_test_struct.h	65;"	d
+AUT_OBJ_OUTER	include/unit_test/acl_test_struct.h	64;"	d
+AUT_RETURN_ERROR	include/unit_test/acl_test_macro.h	30;"	d
+AUT_SET_INT	include/unit_test/acl_test_macro.h	18;"	d
+AUT_SET_STR	include/unit_test/acl_test_macro.h	8;"	d
+AUT_STAT_BUSY	include/unit_test/acl_test_struct.h	80;"	d
+AUT_STAT_FREE	include/unit_test/acl_test_struct.h	79;"	d
+AVL_AFTER	include/stdlib/avl.h	133;"	d
+AVL_BEFORE	include/stdlib/avl.h	132;"	d
+AVL_DATA2NODE	include/stdlib/avl_impl.h	154;"	d
+AVL_INDEX2CHILD	include/stdlib/avl_impl.h	160;"	d
+AVL_INDEX2NODE	include/stdlib/avl_impl.h	159;"	d
+AVL_MKINDEX	include/stdlib/avl_impl.h	161;"	d
+AVL_NEXT	include/stdlib/avl.h	212;"	d
+AVL_NODE2DATA	include/stdlib/avl_impl.h	153;"	d
+AVL_PREV	include/stdlib/avl.h	213;"	d
+AVL_SETBALANCE	include/stdlib/avl_impl.h	142;"	d
+AVL_SETBALANCE	include/stdlib/avl_impl.h	99;"	d
+AVL_SETCHILD	include/stdlib/avl_impl.h	133;"	d
+AVL_SETCHILD	include/stdlib/avl_impl.h	96;"	d
+AVL_SETPARENT	include/stdlib/avl_impl.h	126;"	d
+AVL_SETPARENT	include/stdlib/avl_impl.h	93;"	d
+AVL_XBALANCE	include/stdlib/avl_impl.h	141;"	d
+AVL_XBALANCE	include/stdlib/avl_impl.h	98;"	d
+AVL_XCHILD	include/stdlib/avl_impl.h	132;"	d
+AVL_XCHILD	include/stdlib/avl_impl.h	95;"	d
+AVL_XPARENT	include/stdlib/avl_impl.h	125;"	d
+AVL_XPARENT	include/stdlib/avl_impl.h	92;"	d
+B_FALSE	include/stdlib/avl_impl.h	61;"	d
+B_TRUE	include/stdlib/avl_impl.h	62;"	d
+CMSG_LEN	include/stdlib/unix/acl_transfer_fd.h	22;"	d
+CMSG_SPACE	include/stdlib/unix/acl_transfer_fd.h	26;"	d
+DIR	include/stdlib/acl_dir.h	/^} DIR;$/;"	t	typeref:struct:__anon7
+DUP2	include/stdlib/acl_vstream_popen.h	12;"	d
+EXPERIMENT	include/experiment/experiment.h	8;"	d
+FD_SETSIZE	include/stdlib/acl_define_win32.h	54;"	d
+HAS_DUPLEX_PIPE	include/stdlib/acl_define_unix.h	12;"	d
+HAS_DUPLEX_PIPE	include/stdlib/acl_define_unix.h	16;"	d
+HAS_ISSETUGID	include/stdlib/acl_define_unix.h	17;"	d
+HAS_UINTPTR	include/stdlib/avl_impl.h	40;"	d
+HAS_UINTPTR	include/stdlib/avl_impl.h	43;"	d
+HAS_UINTPTR	include/stdlib/avl_impl.h	47;"	d
+HAVE_MSGHDR_MSG_CONTROL	include/stdlib/unix/acl_transfer_fd.h	16;"	d
+HAVE_MSGHDR_MSG_CONTROL	include/stdlib/unix/acl_transfer_fd.h	18;"	d
+LIB_ACL_INCLUDE_H	include/lib_acl.h	2;"	d
+O_RDONLY	include/stdlib/acl_vstream.h	28;"	d
+O_RDWR	include/stdlib/acl_vstream.h	34;"	d
+O_WRONLY	include/stdlib/acl_vstream.h	31;"	d
+PATH_SEP_C	include/stdlib/acl_define_unix.h	26;"	d
+PATH_SEP_C	include/stdlib/acl_define_win32.h	72;"	d
+PATH_SEP_S	include/stdlib/acl_define_unix.h	29;"	d
+PATH_SEP_S	include/stdlib/acl_define_win32.h	75;"	d
+STORE_FLAG_DAT	include/db/zdb.h	215;"	d
+STORE_FLAG_IO_SLICE	include/db/zdb.h	216;"	d
+STORE_FLAG_KEY	include/db/zdb.h	214;"	d
+USE_PRINTF_MACRO	include/stdlib/acl_msg.h	12;"	d
+VAR_AUT_ELSE	include/unit_test/acl_test_struct.h	117;"	d
+VAR_AUT_ENDIF	include/unit_test/acl_test_struct.h	120;"	d
+VAR_AUT_GOTO	include/unit_test/acl_test_struct.h	123;"	d
+VAR_AUT_IF	include/unit_test/acl_test_struct.h	114;"	d
+VAR_AUT_ITEM_COUNT	include/unit_test/acl_test_struct.h	133;"	d
+VAR_AUT_LOG	include/unit_test/acl_test_struct.h	90;"	d
+VAR_AUT_LOG_FPRINT	include/unit_test/acl_test_struct.h	86;"	d
+VAR_AUT_LOG_PRINT	include/unit_test/acl_test_struct.h	85;"	d
+VAR_AUT_LOOP_BEGIN	include/unit_test/acl_test_struct.h	102;"	d
+VAR_AUT_LOOP_BREAK	include/unit_test/acl_test_struct.h	108;"	d
+VAR_AUT_LOOP_CONTINUE	include/unit_test/acl_test_struct.h	111;"	d
+VAR_AUT_LOOP_END	include/unit_test/acl_test_struct.h	105;"	d
+VAR_AUT_PAUSE	include/unit_test/acl_test_struct.h	99;"	d
+VAR_AUT_SLEEP	include/unit_test/acl_test_struct.h	96;"	d
+VAR_AUT_STOP	include/unit_test/acl_test_struct.h	93;"	d
+VLDDisable	include/vld.h	96;"	d
+VLDEnable	include/vld.h	95;"	d
+ZDB	include/db/zdb.h	/^struct ZDB {$/;"	s
+ZDB	include/db/zdb.h	/^typedef struct ZDB ZDB;$/;"	t	typeref:struct:ZDB
+ZDB_BLK	include/db/zdb.h	/^struct ZDB_BLK {$/;"	s
+ZDB_BLK	include/db/zdb.h	/^typedef struct ZDB_BLK ZDB_BLK;$/;"	t	typeref:struct:ZDB_BLK
+ZDB_BLK_HDR	include/db/zdb.h	/^typedef struct ZDB_BLK_HDR {$/;"	s
+ZDB_BLK_HDR	include/db/zdb.h	/^} ZDB_BLK_HDR;$/;"	t	typeref:struct:ZDB_BLK_HDR
+ZDB_BLK_OFF	include/db/zdb.h	/^struct ZDB_BLK_OFF {$/;"	s
+ZDB_BLK_OFF	include/db/zdb.h	/^typedef struct ZDB_BLK_OFF ZDB_BLK_OFF;$/;"	t	typeref:struct:ZDB_BLK_OFF
+ZDB_CFG	include/db/zdb.h	/^typedef struct ZDB_CFG {$/;"	s
+ZDB_CFG	include/db/zdb.h	/^} ZDB_CFG;$/;"	t	typeref:struct:ZDB_CFG
+ZDB_DAT_HDR	include/db/zdb.h	/^struct ZDB_DAT_HDR {$/;"	s
+ZDB_DAT_HDR	include/db/zdb.h	/^typedef struct ZDB_DAT_HDR ZDB_DAT_HDR;$/;"	t	typeref:struct:ZDB_DAT_HDR
+ZDB_DAT_STORE	include/db/zdb.h	/^struct ZDB_DAT_STORE {$/;"	s
+ZDB_DAT_STORE	include/db/zdb.h	/^typedef struct ZDB_DAT_STORE ZDB_DAT_STORE;$/;"	t	typeref:struct:ZDB_DAT_STORE
+ZDB_DISK	include/db/zdb.h	/^typedef struct ZDB_DISK {$/;"	s
+ZDB_DISK	include/db/zdb.h	/^} ZDB_DISK;$/;"	t	typeref:struct:ZDB_DISK
+ZDB_FLAG_CACHE_DAT	include/db/zdb.h	64;"	d
+ZDB_FLAG_CACHE_KEY	include/db/zdb.h	65;"	d
+ZDB_FLAG_LINK_BUSY	include/db/zdb.h	62;"	d
+ZDB_FLAG_OPEN_LOCK	include/db/zdb.h	63;"	d
+ZDB_FLAG_SLICE_DAT	include/db/zdb.h	67;"	d
+ZDB_FLAG_SLICE_KEY	include/db/zdb.h	66;"	d
+ZDB_IO	include/db/zdb.h	/^typedef struct ZDB_IO ZDB_IO;$/;"	t	typeref:struct:ZDB_IO
+ZDB_KEY_HDR	include/db/zdb.h	/^struct ZDB_KEY_HDR {$/;"	s
+ZDB_KEY_HDR	include/db/zdb.h	/^typedef struct ZDB_KEY_HDR ZDB_KEY_HDR;$/;"	t	typeref:struct:ZDB_KEY_HDR
+ZDB_KEY_STORE	include/db/zdb.h	/^struct ZDB_KEY_STORE {$/;"	s
+ZDB_KEY_STORE	include/db/zdb.h	/^typedef struct ZDB_KEY_STORE ZDB_KEY_STORE;$/;"	t	typeref:struct:ZDB_KEY_STORE
+ZDB_STAT_KEY_NEW	include/db/zdb.h	70;"	d
+ZDB_STORE	include/db/zdb.h	/^typedef struct ZDB_STORE {$/;"	s
+ZDB_STORE	include/db/zdb.h	/^} ZDB_STORE;$/;"	t	typeref:struct:ZDB_STORE
+_ACL_UCHAR_	include/stdlib/acl_define.h	17;"	d
+_CRT_SECURE_NO_WARNINGS	include/stdlib/acl_define_win32.h	18;"	d
+_FILE_OFFSET_BITS	include/stdlib/acl_define_linux.h	16;"	d
+_LARGEFILE64_SOURCE	include/stdlib/acl_define_linux.h	13;"	d
+_UINTPTR_T_DEFINED	include/stdlib/avl_impl.h	48;"	d
+_USE_FAST_MACRO	include/stdlib/acl_define_win32.h	68;"	d
+_USE_HTABLE_SEARCH	include/stdlib/acl_define_win32.h	69;"	d
+__ACL_DEFINE_MACOSX_INCLUDE_H__	include/stdlib/acl_define_macosx.h	2;"	d
+__ACL_UDP_PARAMS_INCLUDE_H_	include/master/acl_udp_params.h	3;"	d
+__ACL_XMLCODE_INCLUDE_H__	include/code/acl_xmlcode.h	2;"	d
+__LIB_UTIL_INCLUDE_H__	include/lib_util.h	2;"	d
+__thread	include/stdlib/acl_define_win32.h	137;"	d
+__thread	include/stdlib/acl_define_win32.h	139;"	d
+_d_buf	include/stdlib/acl_dir.h	/^    char          _d_buf[sizeof(WIN32_FIND_DATA)];  \/**< buffer for a single file *\/$/;"	m	struct:__anon7
+_d_buf	include/stdlib/acl_dir.h	/^    char          _d_buf[sizeof(WIN32_FIND_DATA)];  \/**< buffer for a single file *\/$/;"	m	struct:__anon8
+_d_dirname	include/stdlib/acl_dir.h	/^    char         *_d_dirname;           \/**< directory name *\/$/;"	m	struct:__anon7
+_d_dirname	include/stdlib/acl_dir.h	/^    wchar_t      *_d_dirname;           \/**< directory name *\/$/;"	m	struct:__anon8
+_d_hdir	include/stdlib/acl_dir.h	/^    unsigned long _d_hdir;              \/**< directory handle *\/$/;"	m	struct:__anon7
+_d_hdir	include/stdlib/acl_dir.h	/^    unsigned long _d_hdir;              \/**< directory handle *\/$/;"	m	struct:__anon8
+_d_magic	include/stdlib/acl_dir.h	/^    unsigned      _d_magic;             \/**< magic cookie for verifying handle *\/$/;"	m	struct:__anon7
+_d_magic	include/stdlib/acl_dir.h	/^    unsigned      _d_magic;             \/**< magic cookie for verifying handle *\/$/;"	m	struct:__anon8
+_d_nfiles	include/stdlib/acl_dir.h	/^    unsigned      _d_nfiles;            \/**< no. of files remaining in buf *\/$/;"	m	struct:__anon7
+_d_nfiles	include/stdlib/acl_dir.h	/^    unsigned      _d_nfiles;            \/**< no. of files remaining in buf *\/$/;"	m	struct:__anon8
+_tDIR	include/stdlib/acl_dir.h	47;"	d
+_tDIR	include/stdlib/acl_dir.h	77;"	d
+_tclosedir	include/stdlib/acl_dir.h	46;"	d
+_tclosedir	include/stdlib/acl_dir.h	76;"	d
+_tdirent	include/stdlib/acl_dir.h	48;"	d
+_tdirent	include/stdlib/acl_dir.h	78;"	d
+_topendir	include/stdlib/acl_dir.h	43;"	d
+_topendir	include/stdlib/acl_dir.h	73;"	d
+_treaddir	include/stdlib/acl_dir.h	44;"	d
+_treaddir	include/stdlib/acl_dir.h	74;"	d
+_trewinddir	include/stdlib/acl_dir.h	45;"	d
+_trewinddir	include/stdlib/acl_dir.h	75;"	d
+accept_fn	include/aio/acl_aio.h	/^	ACL_AIO_ACCEPT_FN  accept_fn;	\/**< accept 完成时的回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+accept_nloop	include/aio/acl_aio.h	/^	int   accept_nloop;	\/**<  acl_aio_accept 内部循环 accept 的最大次数 *\/$/;"	m	struct:ACL_ASTREAM
+acl_array_destroy	include/stdlib/acl_array.h	63;"	d
+acl_array_insert	include/stdlib/acl_array.h	98;"	d
+acl_assert	include/stdlib/acl_define_unix.h	43;"	d
+acl_assert	include/stdlib/acl_define_win32.h	28;"	d
+acl_assert	include/stdlib/acl_define_win32.h	30;"	d
+acl_binhash_foreach	include/stdlib/acl_binhash.h	236;"	d
+acl_binhash_foreach_reverse	include/stdlib/acl_binhash.h	237;"	d
+acl_binhash_iter_key	include/stdlib/acl_binhash.h	180;"	d
+acl_binhash_iter_value	include/stdlib/acl_binhash.h	183;"	d
+acl_debug	include/stdlib/acl_debug.h	22;"	d
+acl_fifo_foreach	include/stdlib/acl_fifo.h	207;"	d
+acl_fifo_foreach_reverse	include/stdlib/acl_fifo.h	241;"	d
+acl_fifo_iter_value	include/stdlib/acl_fifo.h	159;"	d
+acl_fifo_pop	include/stdlib/acl_fifo.h	119;"	d
+acl_fifo_push	include/stdlib/acl_fifo.h	108;"	d
+acl_fifo_push_info	include/stdlib/acl_fifo.h	110;"	d
+acl_foreach	include/stdlib/acl_iterator.h	50;"	d
+acl_foreach_reverse	include/stdlib/acl_iterator.h	49;"	d
+acl_fputc	include/stdlib/acl_file.h	174;"	d
+acl_fstat	include/stdlib/acl_define_bsd.h	23;"	d
+acl_fstat	include/stdlib/acl_define_bsd.h	26;"	d
+acl_fstat	include/stdlib/acl_define_linux.h	42;"	d
+acl_fstat	include/stdlib/acl_define_linux.h	45;"	d
+acl_fstat	include/stdlib/acl_define_macosx.h	23;"	d
+acl_fstat	include/stdlib/acl_define_macosx.h	26;"	d
+acl_fstat	include/stdlib/acl_define_sunx86.h	13;"	d
+acl_fstat	include/stdlib/acl_define_sunx86.h	16;"	d
+acl_fstat	include/stdlib/acl_define_win32.h	127;"	d
+acl_getc	include/stdlib/acl_file.h	91;"	d
+acl_htable_delete_r	include/stdlib/acl_htable.h	198;"	d
+acl_htable_foreach	include/stdlib/acl_htable.h	318;"	d
+acl_htable_foreach_reverse	include/stdlib/acl_htable.h	319;"	d
+acl_htable_iter_key	include/stdlib/acl_htable.h	262;"	d
+acl_htable_iter_value	include/stdlib/acl_htable.h	265;"	d
+acl_htable_reset_r	include/stdlib/acl_htable.h	214;"	d
+acl_htable_stat_r	include/stdlib/acl_htable.h	251;"	d
+acl_htable_walk_r	include/stdlib/acl_htable.h	223;"	d
+acl_int64	include/stdlib/acl_define_unix.h	75;"	d
+acl_int64	include/stdlib/acl_define_win32.h	116;"	d
+acl_ioctl_app_main	include/master/acl_server_api.h	121;"	d
+acl_iter_info	include/stdlib/acl_iterator.h	51;"	d
+acl_json_create_leaf	include/json/acl_json.h	287;"	d
+acl_mem_type	include/stdlib/acl_allocator.h	/^} acl_mem_type;$/;"	t	typeref:enum:__anon9
+acl_msg_error	include/stdlib/acl_msg.h	217;"	d
+acl_msg_error	include/stdlib/acl_msg.h	223;"	d
+acl_msg_fatal	include/stdlib/acl_msg.h	218;"	d
+acl_msg_fatal	include/stdlib/acl_msg.h	224;"	d
+acl_msg_info	include/stdlib/acl_msg.h	215;"	d
+acl_msg_info	include/stdlib/acl_msg.h	221;"	d
+acl_msg_panic	include/stdlib/acl_msg.h	219;"	d
+acl_msg_panic	include/stdlib/acl_msg.h	225;"	d
+acl_msg_warn	include/stdlib/acl_msg.h	216;"	d
+acl_msg_warn	include/stdlib/acl_msg.h	222;"	d
+acl_mycalloc	include/stdlib/acl_mymalloc.h	35;"	d
+acl_myfree	include/stdlib/acl_mymalloc.h	72;"	d
+acl_myfree_fn	include/stdlib/acl_mymalloc.h	80;"	d
+acl_mymalloc	include/stdlib/acl_mymalloc.h	27;"	d
+acl_mymemdup	include/stdlib/acl_mymalloc.h	66;"	d
+acl_myrealloc	include/stdlib/acl_mymalloc.h	43;"	d
+acl_mystrdup	include/stdlib/acl_mymalloc.h	50;"	d
+acl_mystrndup	include/stdlib/acl_mymalloc.h	58;"	d
+acl_off_t	include/stdlib/acl_define.h	/^typedef	acl_int64	acl_off_t;$/;"	t
+acl_pthread_attr_destroy	include/thread/acl_pthread.h	27;"	d
+acl_pthread_attr_init	include/thread/acl_pthread.h	24;"	d
+acl_pthread_attr_setdetachstate	include/thread/acl_pthread.h	26;"	d
+acl_pthread_attr_setstacksize	include/thread/acl_pthread.h	25;"	d
+acl_pthread_attr_t	include/thread/acl_pthread.h	/^struct acl_pthread_attr_t {$/;"	s
+acl_pthread_attr_t	include/thread/acl_pthread.h	/^typedef pthread_attr_t acl_pthread_attr_t;$/;"	t
+acl_pthread_attr_t	include/thread/acl_pthread.h	/^typedef struct acl_pthread_attr_t acl_pthread_attr_t;$/;"	t	typeref:struct:acl_pthread_attr_t
+acl_pthread_cond_broadcast	include/thread/acl_pthread.h	42;"	d
+acl_pthread_cond_destroy	include/thread/acl_pthread.h	40;"	d
+acl_pthread_cond_init	include/thread/acl_pthread.h	38;"	d
+acl_pthread_cond_signal	include/thread/acl_pthread.h	41;"	d
+acl_pthread_cond_t	include/thread/acl_pthread.h	/^struct acl_pthread_cond_t {$/;"	s
+acl_pthread_cond_t	include/thread/acl_pthread.h	/^typedef pthread_cond_t acl_pthread_cond_t;$/;"	t
+acl_pthread_cond_t	include/thread/acl_pthread.h	/^typedef struct acl_pthread_cond_t acl_pthread_cond_t;$/;"	t	typeref:struct:acl_pthread_cond_t
+acl_pthread_cond_timedwait	include/thread/acl_pthread.h	43;"	d
+acl_pthread_cond_wait	include/thread/acl_pthread.h	44;"	d
+acl_pthread_condattr_t	include/thread/acl_pthread.h	/^struct acl_pthread_condattr_t {$/;"	s
+acl_pthread_condattr_t	include/thread/acl_pthread.h	/^typedef pthread_condattr_t acl_pthread_condattr_t;$/;"	t
+acl_pthread_condattr_t	include/thread/acl_pthread.h	/^typedef struct acl_pthread_condattr_t acl_pthread_condattr_t;$/;"	t	typeref:struct:acl_pthread_condattr_t
+acl_pthread_create	include/thread/acl_pthread.h	29;"	d
+acl_pthread_detach	include/thread/acl_pthread.h	30;"	d
+acl_pthread_getspecific	include/thread/acl_pthread.h	46;"	d
+acl_pthread_job_t	include/thread/acl_pthread_pool.h	/^typedef struct acl_pthread_job_t acl_pthread_job_t;$/;"	t	typeref:struct:acl_pthread_job_t
+acl_pthread_join	include/thread/acl_pthread.h	32;"	d
+acl_pthread_key_create	include/thread/acl_pthread.h	45;"	d
+acl_pthread_key_t	include/thread/acl_pthread.h	/^typedef int acl_pthread_key_t;$/;"	t
+acl_pthread_key_t	include/thread/acl_pthread.h	/^typedef pthread_key_t acl_pthread_key_t;$/;"	t
+acl_pthread_mutex_destroy	include/thread/acl_pthread.h	33;"	d
+acl_pthread_mutex_init	include/thread/acl_pthread.h	34;"	d
+acl_pthread_mutex_lock	include/thread/acl_pthread.h	35;"	d
+acl_pthread_mutex_t	include/thread/acl_pthread.h	/^struct acl_pthread_mutex_t {$/;"	s
+acl_pthread_mutex_t	include/thread/acl_pthread.h	/^typedef pthread_mutex_t acl_pthread_mutex_t;$/;"	t
+acl_pthread_mutex_t	include/thread/acl_pthread.h	/^typedef struct acl_pthread_mutex_t acl_pthread_mutex_t;$/;"	t	typeref:struct:acl_pthread_mutex_t
+acl_pthread_mutex_trylock	include/thread/acl_pthread.h	149;"	d
+acl_pthread_mutex_trylock	include/thread/acl_pthread.h	37;"	d
+acl_pthread_mutex_unlock	include/thread/acl_pthread.h	36;"	d
+acl_pthread_mutexattr_t	include/thread/acl_pthread.h	/^struct acl_pthread_mutexattr_t {$/;"	s
+acl_pthread_mutexattr_t	include/thread/acl_pthread.h	/^typedef pthread_mutexattr_t acl_pthread_mutexattr_t;$/;"	t
+acl_pthread_mutexattr_t	include/thread/acl_pthread.h	/^typedef struct acl_pthread_mutexattr_t acl_pthread_mutexattr_t;$/;"	t	typeref:struct:acl_pthread_mutexattr_t
+acl_pthread_once	include/thread/acl_pthread.h	31;"	d
+acl_pthread_once_t	include/thread/acl_pthread.h	/^typedef int acl_pthread_once_t;$/;"	t
+acl_pthread_once_t	include/thread/acl_pthread.h	/^typedef pthread_once_t acl_pthread_once_t;$/;"	t
+acl_pthread_pool_add	include/thread/acl_pthread_pool.h	120;"	d
+acl_pthread_pool_attr_t	include/thread/acl_pthread_pool.h	/^typedef struct acl_pthread_pool_attr_t {$/;"	s
+acl_pthread_pool_attr_t	include/thread/acl_pthread_pool.h	/^} acl_pthread_pool_attr_t;$/;"	t	typeref:struct:acl_pthread_pool_attr_t
+acl_pthread_pool_t	include/thread/acl_pthread_pool.h	/^typedef struct acl_pthread_pool_t acl_pthread_pool_t;$/;"	t	typeref:struct:acl_pthread_pool_t
+acl_pthread_rwlock	include/thread/acl_pthread_rwlock.h	/^struct	acl_pthread_rwlock {$/;"	s
+acl_pthread_rwlock_t	include/thread/acl_pthread_rwlock.h	/^typedef	struct	acl_pthread_rwlock		*acl_pthread_rwlock_t;$/;"	t	typeref:struct:acl_pthread_rwlock
+acl_pthread_rwlockattr	include/thread/acl_pthread_rwlock.h	/^struct acl_pthread_rwlockattr {$/;"	s
+acl_pthread_rwlockattr_t	include/thread/acl_pthread_rwlock.h	/^typedef	struct	acl_pthread_rwlockattr	*acl_pthread_rwlockattr_t;$/;"	t	typeref:struct:acl_pthread_rwlockattr
+acl_pthread_self	include/thread/acl_pthread.h	28;"	d
+acl_pthread_setspecific	include/thread/acl_pthread.h	47;"	d
+acl_pthread_t	include/thread/acl_pthread.h	/^struct acl_pthread_t {$/;"	s
+acl_pthread_t	include/thread/acl_pthread.h	/^typedef pthread_t acl_pthread_t;$/;"	t
+acl_pthread_t	include/thread/acl_pthread.h	/^typedef struct acl_pthread_t acl_pthread_t;$/;"	t	typeref:struct:acl_pthread_t
+acl_ring_first	include/stdlib/acl_ring.h	165;"	d
+acl_ring_first_appl	include/stdlib/acl_ring.h	178;"	d
+acl_ring_foreach	include/stdlib/acl_ring.h	144;"	d
+acl_ring_foreach_reverse	include/stdlib/acl_ring.h	155;"	d
+acl_ring_last	include/stdlib/acl_ring.h	188;"	d
+acl_ring_last_appl	include/stdlib/acl_ring.h	201;"	d
+acl_ring_pred	include/stdlib/acl_ring.h	87;"	d
+acl_ring_succ	include/stdlib/acl_ring.h	81;"	d
+acl_ring_to_appl	include/stdlib/acl_ring.h	99;"	d
+acl_spool_accept	include/ioctl/acl_spool.h	38;"	d
+acl_spool_add	include/ioctl/acl_spool.h	41;"	d
+acl_spool_cancel_timer	include/ioctl/acl_spool.h	40;"	d
+acl_spool_connect	include/ioctl/acl_spool.h	35;"	d
+acl_spool_create	include/ioctl/acl_spool.h	16;"	d
+acl_spool_create_ex	include/ioctl/acl_spool.h	17;"	d
+acl_spool_ctl	include/ioctl/acl_spool.h	18;"	d
+acl_spool_disable_readwrite	include/ioctl/acl_spool.h	27;"	d
+acl_spool_enable_connect	include/ioctl/acl_spool.h	33;"	d
+acl_spool_enable_listen	include/ioctl/acl_spool.h	34;"	d
+acl_spool_enable_read	include/ioctl/acl_spool.h	31;"	d
+acl_spool_enable_write	include/ioctl/acl_spool.h	32;"	d
+acl_spool_free	include/ioctl/acl_spool.h	24;"	d
+acl_spool_isrset	include/ioctl/acl_spool.h	29;"	d
+acl_spool_isset	include/ioctl/acl_spool.h	28;"	d
+acl_spool_iswset	include/ioctl/acl_spool.h	30;"	d
+acl_spool_listen	include/ioctl/acl_spool.h	36;"	d
+acl_spool_listen_ex	include/ioctl/acl_spool.h	37;"	d
+acl_spool_loop	include/ioctl/acl_spool.h	26;"	d
+acl_spool_nworker	include/ioctl/acl_spool.h	42;"	d
+acl_spool_request_timer	include/ioctl/acl_spool.h	39;"	d
+acl_spool_start	include/ioctl/acl_spool.h	25;"	d
+acl_stack_push	include/stdlib/acl_stack.h	80;"	d
+acl_stat	include/stdlib/acl_define_bsd.h	22;"	d
+acl_stat	include/stdlib/acl_define_bsd.h	25;"	d
+acl_stat	include/stdlib/acl_define_linux.h	41;"	d
+acl_stat	include/stdlib/acl_define_linux.h	44;"	d
+acl_stat	include/stdlib/acl_define_macosx.h	22;"	d
+acl_stat	include/stdlib/acl_define_macosx.h	25;"	d
+acl_stat	include/stdlib/acl_define_sunx86.h	12;"	d
+acl_stat	include/stdlib/acl_define_sunx86.h	15;"	d
+acl_stat	include/stdlib/acl_define_win32.h	123;"	d
+acl_stat	include/stdlib/acl_define_win32.h	126;"	d
+acl_stat	include/stdlib/acl_define_win32.h	129;"	d
+acl_stat_t	include/stdlib/acl_define.h	/^typedef struct acl_stat acl_stat_t;$/;"	t	typeref:struct:acl_stat
+acl_uint64	include/stdlib/acl_define_unix.h	76;"	d
+acl_uint64	include/stdlib/acl_define_win32.h	117;"	d
+acl_unused	include/stdlib/acl_define.h	51;"	d
+acl_unused	include/stdlib/acl_define.h	53;"	d
+acl_vbuf_clearerr	include/stdlib/acl_vbuf.h	50;"	d
+acl_vbuf_eof	include/stdlib/acl_vbuf.h	48;"	d
+acl_vbuf_error	include/stdlib/acl_vbuf.h	47;"	d
+acl_vbuf_timeout	include/stdlib/acl_vbuf.h	49;"	d
+acl_vstream_buffed_fwrite	include/stdlib/acl_vstream.h	563;"	d
+acl_vstream_fclose	include/stdlib/acl_vstream.h	703;"	d
+acl_vstream_fgets	include/stdlib/acl_vstream.h	411;"	d
+acl_vstream_ftimeout	include/stdlib/acl_vstream.h	918;"	d
+acl_vstream_fwrite	include/stdlib/acl_vstream.h	690;"	d
+acl_vstream_get_char	include/stdlib/acl_vstream.h	356;"	d
+acl_vstream_ispipe	include/stdlib/acl_vstream_popen.h	18;"	d
+acl_vstream_readline	include/stdlib/acl_vstream.h	410;"	d
+acl_vstring_avail	include/stdlib/acl_vstring.h	400;"	d
+acl_vstring_end	include/stdlib/acl_vstring.h	358;"	d
+acl_vstring_fgets	include/stdlib/acl_vstring_vstream.h	69;"	d
+acl_vstring_fgets_bound	include/stdlib/acl_vstring_vstream.h	75;"	d
+acl_vstring_fgets_nonl	include/stdlib/acl_vstring_vstream.h	71;"	d
+acl_vstring_fgets_nonl_bound	include/stdlib/acl_vstring_vstream.h	77;"	d
+acl_vstring_fgets_null	include/stdlib/acl_vstring_vstream.h	73;"	d
+acl_vstring_str	include/stdlib/acl_vstring.h	337;"	d
+acl_xml_parse	include/xml/acl_xml.h	214;"	d
+addr	include/net/acl_dns.h	/^	struct sockaddr_in addr;	\/* DNS 地址 *\/$/;"	m	struct:ACL_DNS_ADDR	typeref:struct:ACL_DNS_ADDR::sockaddr_in
+addr	include/net/acl_ifconf.h	/^	unsigned int addr;	\/* 网络字节序的 32 位 IP 地址 *\/$/;"	m	struct:ACL_IFADDR
+addr_from	include/net/acl_dns.h	/^	ACL_DNS_ADDR addr_from;		\/* 来源 DNS 地址 *\/$/;"	m	struct:ACL_DNS
+addr_len	include/net/acl_dns.h	/^	int   addr_len;			\/* addr 大小 *\/$/;"	m	struct:ACL_DNS_ADDR
+addr_local	include/stdlib/acl_vstream.h	/^	char *addr_local;               \/**< the local addr of the fp *\/$/;"	m	struct:ACL_VSTREAM
+addr_peer	include/stdlib/acl_vstream.h	/^	char *addr_peer;                \/**< the peer addr of the fp *\/$/;"	m	struct:ACL_VSTREAM
+addrs	include/net/acl_ifconf.h	/^	ACL_IFADDR *addrs;	\/* ACL_IFADDR 数组 *\/$/;"	m	struct:ACL_IFCONF
+aio	include/aio/acl_aio.h	/^	ACL_AIO *aio;		\/**< 异步流事件句柄 *\/$/;"	m	struct:ACL_ASTREAM
+aio	include/net/acl_dns.h	/^	ACL_AIO *aio;			\/* 异步IO句柄 *\/$/;"	m	struct:ACL_DNS
+arg	include/unit_test/acl_test_struct.h	/^	void *arg;			\/* 测试回调函数所用的参数 *\/$/;"	m	struct:AUT_FN_ITEM
+arg_inner	include/unit_test/acl_test_struct.h	/^	void *arg_inner;	\/* 内部注册自己的参数到该结构中 *\/$/;"	m	struct:AUT_LINE
+arg_outer	include/unit_test/acl_test_struct.h	/^	void *arg_outer;	\/* 外部应用注册自己的参数到该结构中 *\/$/;"	m	struct:AUT_LINE
+argc	include/stdlib/acl_argv.h	/^	int     argc;			\/**< array elements in use *\/$/;"	m	struct:ACL_ARGV
+argc	include/unit_test/acl_test_struct.h	/^	int   argc;		\/* 参数个数 *\/$/;"	m	struct:AUT_LINE
+args_str	include/unit_test/acl_test_struct.h	/^	char *args_str;		\/* 参数列表的备份 *\/$/;"	m	struct:AUT_LINE
+argv	include/stdlib/acl_argv.h	/^	char  **argv;			\/**< string array *\/$/;"	m	struct:ACL_ARGV
+argv	include/unit_test/acl_test_struct.h	/^	ACL_ARRAY *argv;	\/* 参数列表 *\/$/;"	m	struct:AUT_LINE
+astream	include/net/acl_dns.h	/^	ACL_ASTREAM *astream;		\/* 异步流 *\/$/;"	m	struct:ACL_DNS
+attr	include/thread/acl_pthread.h	/^	SECURITY_ATTRIBUTES attr;$/;"	m	struct:acl_pthread_attr_t
+attr	include/thread/acl_pthread.h	/^	SECURITY_ATTRIBUTES attr;$/;"	m	struct:acl_pthread_mutexattr_t
+attr_list	include/xml/acl_xml.h	/^	ACL_ARRAY *attr_list;       \/**< 属性(ACL_XML_ATTR)列表 *\/$/;"	m	struct:ACL_XML_NODE
+auto_commit	include/db/acl_dbpool.h	/^	int   auto_commit;	\/* (mysql) 是否启用自动提交过程 *\/$/;"	m	struct:ACL_DB_INFO
+avl_balance	include/stdlib/avl_impl.h	/^	short avl_balance;		\/* balance value: -1, 0, +1 *\/$/;"	m	struct:avl_node
+avl_child	include/stdlib/avl_impl.h	/^	struct avl_node *avl_child[2];	\/* left\/right children *\/$/;"	m	struct:avl_node	typeref:struct:avl_node::avl_node
+avl_child	include/stdlib/avl_impl.h	/^	struct avl_node *avl_child[2];	\/* left\/right children nodes *\/$/;"	m	struct:avl_node	typeref:struct:avl_node::avl_node
+avl_child_index	include/stdlib/avl_impl.h	/^	unsigned short avl_child_index;	\/* my index in parent's avl_child[] *\/$/;"	m	struct:avl_node
+avl_compar	include/stdlib/avl_impl.h	/^	int (*avl_compar)(const void *, const void *);$/;"	m	struct:avl_tree
+avl_index_t	include/stdlib/avl.h	/^typedef uintptr_t avl_index_t;$/;"	t
+avl_node	include/stdlib/avl_impl.h	/^struct avl_node {$/;"	s
+avl_node_t	include/stdlib/avl.h	/^typedef struct avl_node avl_node_t;$/;"	t	typeref:struct:avl_node
+avl_numnodes	include/stdlib/avl_impl.h	/^	ulong_t avl_numnodes;		\/* number of nodes in the tree *\/$/;"	m	struct:avl_tree
+avl_offset	include/stdlib/avl_impl.h	/^	size_t avl_offset;		\/* offsetof(type, avl_link_t field) *\/$/;"	m	struct:avl_tree
+avl_parent	include/stdlib/avl_impl.h	/^	struct avl_node *avl_parent;	\/* this node's parent *\/$/;"	m	struct:avl_node	typeref:struct:avl_node::avl_node
+avl_pcb	include/stdlib/avl_impl.h	/^	uintptr_t avl_pcb;		\/* parent, child_index, balance *\/$/;"	m	struct:avl_node
+avl_root	include/stdlib/avl_impl.h	/^	struct avl_node *avl_root;	\/* root node in tree *\/$/;"	m	struct:avl_tree	typeref:struct:avl_tree::avl_node
+avl_size	include/stdlib/avl_impl.h	/^	size_t avl_size;		\/* sizeof user type struct *\/$/;"	m	struct:avl_tree
+avl_tree	include/stdlib/avl_impl.h	/^struct avl_tree {$/;"	s
+avl_tree_t	include/stdlib/avl.h	/^typedef struct avl_tree avl_tree_t;$/;"	t	typeref:struct:avl_tree
+backslash	include/json/acl_json.h	/^	int   backslash;            \/**< 转义字符 \\ *\/$/;"	m	struct:ACL_JSON_NODE
+backslash	include/xml/acl_xml.h	/^	int   backslash;            \/**< 转义字符 \\ *\/$/;"	m	struct:ACL_XML_ATTR
+base	include/stdlib/acl_slice.h	/^	int   base;			\/* the base byte size *\/$/;"	m	struct:ACL_SLICE_POOL
+begin	include/stdlib/acl_dlink.h	/^	acl_uint64 begin;$/;"	m	struct:__anon6
+blk_count	include/db/zdb.h	/^	int   blk_count;	\/* 该值存储中的数据块中基础块个数 *\/$/;"	m	struct:ZDB_DAT_HDR
+blk_count_tmp	include/db/zdb.h	/^	int   blk_count_tmp;	\/* 临时用的块数, 主要为了参数传递 *\/$/;"	m	struct:ZDB
+blk_dlen	include/db/zdb.h	/^	int   blk_dlen;		\/* 值存储中数据块中每个基础块单元长度 *\/$/;"	m	struct:ZDB
+blk_dlen	include/db/zdb.h	/^	int   blk_dlen;		\/* 值存储中数据块中每个基础块单元长度 *\/$/;"	m	struct:ZDB_DAT_HDR
+blk_dlen	include/db/zdb.h	/^	int   blk_dlen;		\/* 值存储中数据块中数据部分的长度(等于用户数据长度) *\/$/;"	m	struct:ZDB_CFG
+blk_hdr_dlen	include/db/zdb.h	/^	int   blk_hdr_dlen;	\/* 值存储中每块数据的头部长度: ZDB_BLK_HDR.sizeof *\/$/;"	m	struct:ZDB_DAT_HDR
+blk_ilnk	include/db/zdb.h	/^	zdb_lnk_t  blk_ilnk;$/;"	m	struct:ZDB_BLK_HDR
+blocked_writers	include/thread/acl_pthread_rwlock.h	/^	int   blocked_writers;$/;"	m	struct:acl_pthread_rwlock
+body	include/msg/acl_msgio.h	/^	} body;$/;"	m	struct:ACL_MSGIO_INFO	typeref:struct:ACL_MSGIO_INFO::__anon12
+boolean_t	include/stdlib/avl_impl.h	/^typedef char boolean_t;$/;"	t
+buf	include/msg/acl_msgio.h	/^		ACL_VSTRING *buf;$/;"	m	struct:ACL_MSGIO_INFO::__anon12
+buf_size	include/db/acl_dbpool.h	/^	int   buf_size;		\/* (null) IO缓冲区大小 *\/$/;"	m	struct:ACL_DB_INFO
+c_key	include/stdlib/acl_binhash.h	/^		const void *c_key;$/;"	m	union:ACL_BINHASH_INFO::__anon10
+c_key	include/stdlib/acl_htable.h	/^		const char *c_key;$/;"	m	union:ACL_HTABLE_INFO::__anon4
+cache_max	include/db/zdb.h	/^	int   cache_max;	\/* 启用存储 IO 缓存时的最大缓存数据块个数 *\/$/;"	m	struct:ZDB_STORE
+cache_timeout	include/db/zdb.h	/^	int   cache_timeout;	\/* 启用存储 IO 缓存时每个缓存块的过期时间 *\/$/;"	m	struct:ZDB_STORE
+call_back_data	include/stdlib/acl_dlink.h	/^	void *call_back_data;$/;"	m	struct:ACL_DLINK
+can_read_ctx	include/aio/acl_aio.h	/^	void *can_read_ctx;		\/**< can_read_fn 参数之一 *\/$/;"	m	struct:ACL_ASTREAM
+can_read_fn	include/aio/acl_aio.h	/^	ACL_AIO_NOTIFY_FN  can_read_fn; \/**< 可以读时的回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+can_write_ctx	include/aio/acl_aio.h	/^	void *can_write_ctx;		\/**< can_write_fn 参数之一 *\/$/;"	m	struct:ACL_ASTREAM
+can_write_fn	include/aio/acl_aio.h	/^	ACL_AIO_NOTIFY_FN  can_write_fn; \/**< 可以写时的回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+cancel	include/event/acl_timer.h	/^        acl_int64 (*cancel)(ACL_TIMER *timer, void *obj);$/;"	m	struct:ACL_TIMER
+capacity	include/stdlib/acl_array.h	/^	int     capacity;	\/**< items 数组空间大小 *\/$/;"	m	struct:ACL_ARRAY
+capacity	include/stdlib/acl_stack.h	/^	int   capacity;$/;"	m	struct:ACL_STACK
+ch	include/stdlib/acl_token_tree.h	/^	unsigned char  ch;$/;"	m	struct:ACL_TOKEN
+children	include/json/acl_json.h	/^	ACL_RING children;          \/**< 子结点集合 *\/$/;"	m	struct:ACL_JSON_NODE
+children	include/xml/acl_xml.h	/^	ACL_RING children;          \/**< 子结点集合 *\/$/;"	m	struct:ACL_XML_NODE
+close_fn	include/stdlib/acl_vstream.h	/^	int (*close_fn)(ACL_SOCKET);    \/**< system socket close API *\/$/;"	m	struct:ACL_VSTREAM
+close_fn	include/stdlib/acl_vstream.h	/^	void (*close_fn)(ACL_VSTREAM*, void*);$/;"	m	struct:ACL_VSTREAM_CLOSE_HANDLE
+close_handle_lnk	include/stdlib/acl_vstream.h	/^	ACL_ARRAY *close_handle_lnk;    \/**< before this fp is free,$/;"	m	struct:ACL_VSTREAM
+close_handles	include/aio/acl_aio.h	/^	ACL_ARRAY *close_handles;	\/**< 关闭时的辅助回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+cmd_name	include/unit_test/acl_test_struct.h	/^	char  cmd_name[128];	\/* 命令函数名称 *\/$/;"	m	struct:AUT_LINE
+cmd_name	include/unit_test/acl_test_struct.h	/^	const char *cmd_name;		\/* 命令字名称 *\/$/;"	m	struct:AUT_FN_ITEM
+cnt	include/stdlib/acl_fifo.h	/^	int   cnt;$/;"	m	struct:ACL_FIFO
+cnt	include/stdlib/acl_vbuf.h	/^    int     cnt;			\/* bytes left to read\/write *\/$/;"	m	struct:ACL_VBUF
+conn_timeout	include/db/acl_dbpool.h	/^	int   conn_timeout;	\/* (mysql\/null) 连接超时时间 *\/$/;"	m	struct:ACL_DB_INFO
+conn_timeout	include/net/acl_res.h	/^	int   conn_timeout;             \/**< TCP 传输时的连接超时时间, 默认为10秒 *\/$/;"	m	struct:ACL_RES
+connect_handles	include/aio/acl_aio.h	/^	ACL_ARRAY *connect_handles;	\/**< 连接成功时辅助回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+context	include/aio/acl_aio.h	/^	void *context;			\/**< 用户设置的参数 *\/$/;"	m	struct:ACL_ASTREAM
+context	include/stdlib/acl_vstream.h	/^	void *context;                  \/**< the application's special data *\/$/;"	m	struct:ACL_VSTREAM
+context	include/stdlib/acl_vstream.h	/^	void *context;$/;"	m	struct:ACL_VSTREAM_CLOSE_HANDLE
+count	include/aio/acl_aio.h	/^	int   count;		\/**< 调用 acl_aio_readn()\/2 时设置的第二个参数值 *\/$/;"	m	struct:ACL_ASTREAM
+count	include/db/zdb.h	/^	acl_int64  count;	\/* 当前值存储中的总数 *\/$/;"	m	struct:ZDB_DAT_HDR
+count	include/db/zdb.h	/^	acl_int64 count;	\/* 目前该分区已分配数量 *\/$/;"	m	struct:ZDB_DISK
+count	include/stdlib/acl_array.h	/^	int     count;		\/**< items 中含有元素的个数 *\/$/;"	m	struct:ACL_ARRAY
+count	include/stdlib/acl_stack.h	/^	int   count;$/;"	m	struct:ACL_STACK
+count	include/thread/acl_sem.h	/^	unsigned int volatile count;$/;"	m	struct:ACL_SEM
+ctx	include/db/acl_dbpool.h	/^	void *ctx;		\/* db_before_connect\/db_after_connect 参数之一 *\/$/;"	m	struct:ACL_DB_INFO
+ctx	include/stdlib/acl_token_tree.h	/^	const void *ctx;$/;"	m	struct:ACL_TOKEN
+ctx	include/stdlib/acl_vbuf.h	/^    void   *ctx;$/;"	m	struct:ACL_VBUF
+cur_qid	include/net/acl_res.h	/^	unsigned short cur_qid;         \/**< 内部变量，数据包的标识 *\/$/;"	m	struct:ACL_RES
+curr_attr	include/xml/acl_xml.h	/^	ACL_XML_ATTR *curr_attr;    \/**< 当前正在解析的属性 *\/$/;"	m	struct:ACL_XML_NODE
+curr_node	include/json/acl_json.h	/^	ACL_JSON_NODE *curr_node;   \/**< 当前正在处理的 json 结点 *\/$/;"	m	struct:ACL_JSON
+curr_node	include/xml/acl_xml.h	/^	ACL_XML_NODE *curr_node;    \/**< 当前正在处理的 XML 结点 *\/$/;"	m	struct:ACL_XML
+d_name	include/stdlib/acl_dir.h	/^	char d_name[260];$/;"	m	struct:dirent
+d_name	include/stdlib/acl_dir.h	/^	wchar_t d_name[260];$/;"	m	struct:wdirent
+dat	include/db/zdb.h	/^	char  dat[1];		\/* 值存储中每块数据的体数据 *\/$/;"	m	struct:ZDB_BLK
+dat_add	include/db/zdb.h	/^	int   (*dat_add)(ZDB*, zdb_key_t, const void*, int);$/;"	m	struct:ZDB
+dat_cache_max	include/db/zdb.h	/^	int   dat_cache_max;	\/* 启用值存储 IO 缓存时的最大缓存数据块个数 *\/$/;"	m	struct:ZDB
+dat_cache_max	include/db/zdb.h	/^	int   dat_cache_max;	\/* 启用值存储 IO 缓存时的最大缓存数据块个数 *\/$/;"	m	struct:ZDB_CFG
+dat_cache_timeout	include/db/zdb.h	/^	int   dat_cache_timeout; \/* 启用值存储 IO 缓存时每个缓存块的过期时间 *\/$/;"	m	struct:ZDB
+dat_cache_timeout	include/db/zdb.h	/^	int   dat_cache_timeout; \/* 启用值存储 IO 缓存时每个缓存块的过期时间 *\/$/;"	m	struct:ZDB_CFG
+dat_disks	include/db/zdb.h	/^	ZDB_DISK *dat_disks;	\/* 值存储磁盘分区数组 *\/$/;"	m	struct:ZDB
+dat_get	include/db/zdb.h	/^	ZDB_BLK *(*dat_get)(ZDB*, const ZDB_BLK_OFF*, zdb_key_t*, size_t*);$/;"	m	struct:ZDB
+dat_ifiles	include/db/zdb.h	/^	int  *dat_ifiles;	\/* 当前可用的 dat_ifile 值存储文件索引号 *\/$/;"	m	struct:ZDB_DISK
+dat_ifiles_size	include/db/zdb.h	/^	int   dat_ifiles_size;	\/* dat_ifiles 的大小 *\/$/;"	m	struct:ZDB_DISK
+dat_limit	include/db/zdb.h	/^	acl_int64 dat_limit;	\/* 每个值存储文件中数据的最大个数 *\/$/;"	m	struct:ZDB_CFG
+dat_limit	include/db/zdb.h	/^	acl_int64 dat_limit;	\/* 值存储中值对象存储个数限制 *\/$/;"	m	struct:ZDB
+dat_nstep	include/db/zdb.h	/^	int   dat_nstep;	\/* 值存储中每次增加数据块的个数 *\/$/;"	m	struct:ZDB
+dat_nstep	include/db/zdb.h	/^	int   dat_nstep;	\/* 值存储中增加数据块时的步进值 *\/$/;"	m	struct:ZDB_CFG
+dat_update	include/db/zdb.h	/^	int   (*dat_update)(ZDB*, zdb_key_t, const ZDB_BLK_OFF*,$/;"	m	struct:ZDB
+dat_wback_max	include/db/zdb.h	/^	int   dat_wback_max;	\/* 启用值存储 IO 缓存时写缓存的最大缓存数据块个数 *\/$/;"	m	struct:ZDB
+dat_wback_max	include/db/zdb.h	/^	int   dat_wback_max;	\/* 启用值存储 IO 缓存时写缓存的最大缓存数据块个数 *\/$/;"	m	struct:ZDB_CFG
+data	include/stdlib/acl_binhash.h	/^	ACL_BINHASH_INFO **data;        \/**< entries array, auto-resized *\/$/;"	m	struct:ACL_BINHASH
+data	include/stdlib/acl_bits_map.h	/^	char   *data;		\/**< bit mask *\/$/;"	m	struct:ACL_BITS_MASK
+data	include/stdlib/acl_fifo.h	/^	void *data;     $/;"	m	struct:ACL_FIFO_INFO
+data	include/stdlib/acl_htable.h	/^	ACL_HTABLE_INFO **data;         \/* entries array, auto-resized *\/$/;"	m	struct:ACL_HTABLE
+data	include/stdlib/acl_iterator.h	/^	void *data;		\/**< 用户数据指针 *\/$/;"	m	struct:ACL_ITER
+data	include/stdlib/acl_vbuf.h	/^    unsigned char *data;		\/* variable-length buffer *\/$/;"	m	struct:ACL_VBUF
+data_len	include/stdlib/acl_bits_map.h	/^	size_t  data_len;	\/**< data byte count *\/$/;"	m	struct:ACL_BITS_MASK
+db	include/db/zdb.h	/^	ZDB *db;		\/* 引用对象 *\/$/;"	m	struct:ZDB_STORE
+db_addr	include/db/acl_dbpool.h	/^	char  db_addr[256];	\/* 数据库服务地址 *\/$/;"	m	struct:ACL_DB_INFO
+db_after_connect	include/db/acl_dbpool.h	/^	int  (*db_after_connect)(ACL_DB_HANDLE* db_handle, void *ctx);$/;"	m	struct:ACL_DB_INFO
+db_before_connect	include/db/acl_dbpool.h	/^	int  (*db_before_connect)(ACL_DB_HANDLE* db_handle, void *ctx);$/;"	m	struct:ACL_DB_INFO
+db_flags	include/db/acl_dbpool.h	/^	unsigned long db_flags;	\/* (mysql) 连接标志位 *\/$/;"	m	struct:ACL_DB_INFO
+db_info	include/db/acl_dbpool.h	/^	ACL_DB_INFO db_info;$/;"	m	struct:ACL_DB_POOL
+db_inuse	include/db/acl_dbpool.h	/^	int  db_inuse;$/;"	m	struct:ACL_DB_POOL
+db_max	include/db/acl_dbpool.h	/^	int   db_max;		\/* 连接池最大连接数 *\/$/;"	m	struct:ACL_DB_INFO
+db_max	include/db/acl_dbpool.h	/^	int  db_max;$/;"	m	struct:ACL_DB_POOL
+db_name	include/db/acl_dbpool.h	/^	char  db_name[256];	\/* 数据库名称 *\/$/;"	m	struct:ACL_DB_INFO
+db_pass	include/db/acl_dbpool.h	/^	char  db_pass[256];	\/* 帐号密码 *\/$/;"	m	struct:ACL_DB_INFO
+db_ready	include/db/acl_dbpool.h	/^	int  db_ready;$/;"	m	struct:ACL_DB_POOL
+db_user	include/db/acl_dbpool.h	/^	char  db_user[256];	\/* 数据库帐号 *\/$/;"	m	struct:ACL_DB_INFO
+dbh_check	include/db/acl_dbpool.h	/^	void  (*dbh_check)(ACL_DB_POOL *);$/;"	m	struct:ACL_DB_POOL
+dbh_close	include/db/acl_dbpool.h	/^	void  (*dbh_close)(ACL_DB_HANDLE *);$/;"	m	struct:ACL_DB_POOL
+dbh_export	include/db/acl_dbpool.h	/^	void *(*dbh_export)(ACL_DB_HANDLE *);$/;"	m	struct:ACL_DB_POOL
+dbh_peek	include/db/acl_dbpool.h	/^	ACL_DB_HANDLE *(*dbh_peek)(ACL_DB_POOL *);$/;"	m	struct:ACL_DB_POOL
+dbh_ping	include/db/acl_dbpool.h	/^	int   (*dbh_ping)(ACL_DB_HANDLE *);$/;"	m	struct:ACL_DB_POOL
+dbh_release	include/db/acl_dbpool.h	/^	void  (*dbh_release)(ACL_DB_HANDLE *);$/;"	m	struct:ACL_DB_POOL
+dbname	include/db/zdb.h	/^	char *dbname;		\/* 数据库名 *\/$/;"	m	struct:ZDB
+debug_flag	include/db/acl_dbpool.h	/^	int   debug_flag;	\/* 调试标志位 *\/$/;"	m	struct:ACL_DB_INFO
+defval	include/stdlib/acl_xinetd_cfg.h	/^	acl_int64  defval;$/;"	m	struct:ACL_CFG_INT64_TABLE
+defval	include/stdlib/acl_xinetd_cfg.h	/^	const char *defval;$/;"	m	struct:ACL_CFG_STR_TABLE
+defval	include/stdlib/acl_xinetd_cfg.h	/^	int   defval;$/;"	m	struct:ACL_CFG_BOOL_TABLE
+defval	include/stdlib/acl_xinetd_cfg.h	/^	int  defval;$/;"	m	struct:ACL_CFG_INT_TABLE
+depth	include/json/acl_json.h	/^	int   depth;                \/**< 最大深度 *\/$/;"	m	struct:ACL_JSON
+depth	include/json/acl_json.h	/^	int  depth;                 \/**< 当前结点的深度 *\/$/;"	m	struct:ACL_JSON_NODE
+depth	include/xml/acl_xml.h	/^	int   depth;                \/**< 最大深度 *\/$/;"	m	struct:ACL_XML
+depth	include/xml/acl_xml.h	/^	int  depth;                 \/**< 当前结点的深度 *\/$/;"	m	struct:ACL_XML_NODE
+desc	include/net/acl_ifconf.h	/^	char *desc;		\/* 接口描述 *\/$/;"	m	struct:ACL_IFADDR
+destroy	include/db/acl_dbpool.h	/^	void  (*destroy)(ACL_DB_POOL *);$/;"	m	struct:ACL_DB_POOL
+detached	include/thread/acl_pthread.h	/^	char   detached;$/;"	m	struct:acl_pthread_attr_t
+detached	include/thread/acl_pthread.h	/^	char  detached;$/;"	m	struct:acl_pthread_t
+dirent	include/stdlib/acl_dir.h	/^struct dirent {$/;"	s
+dlen	include/msg/acl_msgio.h	/^		int   dlen;$/;"	m	struct:ACL_MSGIO_INFO::__anon11
+dlen	include/stdlib/acl_iterator.h	/^	int   dlen;		\/**< 用户数据长度, 实现者可设置此值也可不设置 *\/$/;"	m	struct:ACL_ITER
+dns_cache	include/net/acl_dns.h	/^	ACL_CACHE2 *dns_cache;		\/* 用于缓存DNS查询结果 *\/$/;"	m	struct:ACL_DNS
+dns_idx	include/net/acl_dns.h	/^	int   dns_idx;			\/* 当前使用的 dns_list 数组下标 *\/$/;"	m	struct:ACL_DNS
+dns_ip	include/net/acl_res.h	/^	char dns_ip[64];                \/**< DNS的IP地址 *\/$/;"	m	struct:ACL_RES
+dns_list	include/net/acl_dns.h	/^	ACL_ARRAY *dns_list;		\/* DNS 服务器地址列表 *\/$/;"	m	struct:ACL_DNS
+dns_port	include/net/acl_res.h	/^	unsigned short dns_port;        \/**< DNS的Port *\/$/;"	m	struct:ACL_RES
+dummy	include/db/zdb.h	/^	int   dummy;		\/* 保证8字节对齐 *\/$/;"	m	struct:ZDB_DAT_HDR
+dynamic	include/thread/acl_pthread.h	/^	char  dynamic;	$/;"	m	struct:acl_pthread_cond_t
+dynamic	include/thread/acl_pthread.h	/^	char  dynamic;$/;"	m	struct:acl_pthread_mutex_t
+end	include/stdlib/acl_dlink.h	/^	acl_uint64 end;$/;"	m	struct:__anon6
+entry	include/event/acl_timer.h	/^	ACL_RING entry;         \/**< 内部用的定时链 *\/$/;"	m	struct:ACL_TIMER_INFO
+entry	include/stdlib/acl_cache.h	/^	ACL_RING entry;		\/**< 内部数据链成员 *\/$/;"	m	struct:ACL_CACHE_INFO
+errbuf	include/stdlib/acl_vstream.h	/^	char  errbuf[128];              \/**< error info *\/$/;"	m	struct:ACL_VSTREAM
+errnum	include/net/acl_res.h	/^	int   errnum;$/;"	m	struct:ACL_RES
+errnum	include/stdlib/acl_file.h	/^	int   errnum;		\/**< 文件流的出错错误号 *\/$/;"	m	struct:ACL_FILE
+errnum	include/stdlib/acl_vstream.h	/^	int   errnum;                   \/**< record the system errno here *\/$/;"	m	struct:ACL_VSTREAM
+error	include/aio/acl_aio.h	/^	int   error;		\/**< 当前套接口的错误号 *\/$/;"	m	struct:ACL_ASTREAM
+event_read_callback	include/aio/acl_aio.h	/^	void (*event_read_callback)(int event_type, ACL_ASTREAM *astream);$/;"	m	struct:ACL_ASTREAM
+fclose_fn	include/stdlib/acl_vstream.h	/^	int (*fclose_fn)(ACL_FILE_HANDLE);  \/**< system file close API *\/$/;"	m	struct:ACL_VSTREAM
+fd	include/stdlib/acl_vstream.h	/^	} fd;$/;"	m	struct:ACL_VSTREAM	typeref:union:ACL_VSTREAM::__anon5
+fdp	include/stdlib/acl_vstream.h	/^	void *fdp;                      \/**< only for event *\/$/;"	m	struct:ACL_VSTREAM
+fhandle	include/db/zdb.h	/^	ACL_FHANDLE fhandle;	\/* 文件句柄 *\/$/;"	m	struct:ZDB_STORE
+finish	include/json/acl_json.h	/^	int   finish;               \/**< 是否分析结束 *\/$/;"	m	struct:ACL_JSON
+finish	include/stdlib/acl_mystring.h	/^	char  finish;		\/* 是否成功找到了一个空行 *\/$/;"	m	struct:ACL_LINE_STATE
+flag	include/aio/acl_aio.h	/^	int   flag;		\/**< 标志位 *\/$/;"	m	struct:ACL_ASTREAM
+flag	include/db/zdb.h	/^	unsigned int flag;	\/* 标志位 *\/$/;"	m	struct:ZDB_STORE
+flag	include/json/acl_json.h	/^	unsigned flag;              \/**< 标志位 *\/$/;"	m	struct:ACL_JSON
+flag	include/net/acl_dns.h	/^	unsigned int flag;		\/* 标志位 *\/$/;"	m	struct:ACL_DNS
+flag	include/stdlib/acl_binhash.h	/^	unsigned int flag;              \/**< the hash table's properties flag *\/$/;"	m	struct:ACL_BINHASH
+flag	include/stdlib/acl_htable.h	/^	unsigned int flag;              \/* properties flag *\/$/;"	m	struct:ACL_HTABLE
+flag	include/stdlib/acl_slice.h	/^	unsigned int flag;	\/**< same as the ACL_SLICE's flag been set when created *\/$/;"	m	struct:ACL_SLICE_STAT
+flag	include/stdlib/acl_token_tree.h	/^	unsigned int  flag;$/;"	m	struct:ACL_TOKEN
+flag	include/stdlib/acl_vstream.h	/^	unsigned int flag;              \/**< defined as: ACL_VSTREAM_FLAG_XXX *\/$/;"	m	struct:ACL_VSTREAM
+flag	include/unit_test/acl_test_struct.h	/^	int flag;			\/* define as: AUT_FLAG_ *\/$/;"	m	struct:__anon3
+flag	include/xml/acl_xml.h	/^	unsigned flag;              \/**< 标志位: ACL_XML_FLAG_xxx *\/ $/;"	m	struct:ACL_XML
+flag	include/xml/acl_xml.h	/^	unsigned int flag;$/;"	m	struct:ACL_XML_NODE
+flags	include/stdlib/acl_vbuf.h	/^    int     flags;			\/* status, see below *\/$/;"	m	struct:ACL_VBUF
+fn_callback	include/unit_test/acl_test_struct.h	/^	AUT_FN fn_callback;		\/* 测试用回调函数 *\/$/;"	m	struct:AUT_FN_ITEM
+fn_name	include/unit_test/acl_test_struct.h	/^	const char *fn_name;		\/* 函数名称 *\/$/;"	m	struct:AUT_FN_ITEM
+fp	include/stdlib/acl_fhandle.h	/^	ACL_VSTREAM *fp;			\/**< 存储文件句柄 *\/$/;"	m	struct:ACL_FHANDLE
+fp	include/stdlib/acl_file.h	/^	ACL_VSTREAM *fp;	\/**< 流指针 *\/$/;"	m	struct:ACL_FILE
+fread_fn	include/stdlib/acl_vstream.h	/^	ACL_FSTREAM_RD_FN fread_fn;     \/**< system file read API *\/$/;"	m	struct:ACL_VSTREAM
+free_arg_inner	include/unit_test/acl_test_struct.h	/^	void (*free_arg_inner)(void*);$/;"	m	struct:AUT_LINE
+free_fn	include/stdlib/acl_cache.h	/^	void  (*free_fn)(const ACL_CACHE_INFO*, void *);$/;"	m	struct:ACL_CACHE
+free_fn	include/stdlib/acl_cache2.h	/^	void  (*free_fn)(const ACL_CACHE2_INFO*, void *);$/;"	m	struct:ACL_CACHE2
+free_result	include/db/acl_dbpool.h	/^	void (*free_result)(ACL_SQL_RES *res);$/;"	m	struct:ACL_DB_HANDLE
+fsize	include/stdlib/acl_fhandle.h	/^	acl_int64 fsize;			\/**< 存储文件大小 *\/$/;"	m	struct:ACL_FHANDLE
+func	include/stdlib/acl_loadcfg.h	/^	int   (*func)(const ACL_CFG_LINE *);$/;"	m	struct:ACL_CFG_FN
+fwrite_fn	include/stdlib/acl_vstream.h	/^	ACL_FSTREAM_WR_FN fwrite_fn;    \/**< system file write API *\/$/;"	m	struct:ACL_VSTREAM
+fwritev_fn	include/stdlib/acl_vstream.h	/^	ACL_FSTREAM_WV_FN fwritev_fn;   \/**< system file writev API *\/$/;"	m	struct:ACL_VSTREAM
+get_ready	include/stdlib/acl_vbuf.h	/^    ACL_VBUF_GET_READY_FN get_ready;	\/* read buffer empty action *\/$/;"	m	struct:ACL_VBUF
+getopt	include/stdlib/acl_getopt.h	20;"	d
+getopt_init	include/stdlib/acl_getopt.h	19;"	d
+groups	include/net/acl_dns.h	/^	ACL_ARRAY *groups;		\/* 域名组列表 *\/$/;"	m	struct:ACL_DNS
+h	include/stdlib/acl_binhash.h	/^	ACL_BINHASH_INFO **h;$/;"	m	struct:ACL_BINHASH_ITER
+h	include/stdlib/acl_htable.h	/^	ACL_HTABLE_INFO **h;$/;"	m	struct:ACL_HTABLE_ITER
+h_db	include/net/acl_netdb.h	/^	ACL_ARRAY *h_db;$/;"	m	struct:ACL_DNS_DB
+h_file	include/stdlib/acl_vstream.h	/^		ACL_FILE_HANDLE h_file; \/**< the file handle *\/$/;"	m	union:ACL_VSTREAM::__anon5
+handle	include/thread/acl_pthread.h	/^	HANDLE handle;$/;"	m	struct:acl_pthread_t
+hash_fn	include/stdlib/acl_binhash.h	/^	ACL_HASH_FN hash_fn;            \/**< hash function *\/$/;"	m	struct:ACL_BINHASH
+hash_fn	include/stdlib/acl_htable.h	/^	ACL_HASH_FN  hash_fn;           \/* hash function *\/$/;"	m	struct:ACL_HTABLE
+hdr	include/db/zdb.h	/^	ZDB_BLK_HDR hdr;$/;"	m	struct:ZDB_BLK
+hdr	include/db/zdb.h	/^	ZDB_DAT_HDR hdr;	\/* 值存储头 *\/$/;"	m	struct:ZDB_DAT_STORE
+hdr	include/db/zdb.h	/^	ZDB_KEY_HDR hdr;	\/* 键存储头 *\/$/;"	m	struct:ZDB_KEY_STORE
+hdr	include/msg/acl_msgio.h	/^	} hdr;$/;"	m	struct:ACL_MSGIO_INFO	typeref:struct:ACL_MSGIO_INFO::__anon11
+head	include/stdlib/acl_fifo.h	/^	ACL_FIFO_INFO *head;$/;"	m	struct:ACL_FIFO
+hport	include/net/acl_netdb.h	/^	int   hport;$/;"	m	struct:ACL_HOSTNAME
+hproc	include/stdlib/acl_vstream.h	/^	HANDLE hproc;$/;"	m	struct:ACL_VSTREAM
+i	include/stdlib/acl_binhash.h	/^	int  i;$/;"	m	struct:ACL_BINHASH_ITER
+i	include/stdlib/acl_htable.h	/^	int  i;$/;"	m	struct:ACL_HTABLE_ITER
+i	include/stdlib/acl_iterator.h	/^	int   i;		\/**< 当前迭代器在容器中的位置索引 *\/$/;"	m	struct:ACL_ITER
+id	include/thread/acl_pthread.h	/^	HANDLE id;$/;"	m	struct:acl_pthread_mutex_t
+id	include/thread/acl_pthread.h	/^	unsigned long id;$/;"	m	struct:acl_pthread_t
+id	include/thread/acl_sem.h	/^	HANDLE id;$/;"	m	struct:ACL_SEM
+id	include/xml/acl_xml.h	/^	const ACL_VSTRING *id;      \/**< ID标识符, 只有在 xml->id_table 存在的结点的 id 才非空 *\/$/;"	m	struct:ACL_XML_NODE
+id_table	include/xml/acl_xml.h	/^	ACL_HTABLE *id_table;       \/**< id 标识符哈希表 *\/$/;"	m	struct:ACL_XML
+idisk	include/db/zdb.h	/^	int   idisk;		\/* 该磁盘分区号 *\/$/;"	m	struct:ZDB_DISK
+idle_timeout	include/thread/acl_pthread_pool.h	/^	int   idle_timeout;                 \/**< 工作线程空闲超时时间(秒) *\/$/;"	m	struct:acl_pthread_pool_attr_t
+ihead_busy	include/db/zdb.h	/^	zdb_lnk_t ihead_busy;$/;"	m	struct:ZDB_DAT_HDR
+ihead_idle	include/db/zdb.h	/^	zdb_lnk_t ihead_idle;$/;"	m	struct:ZDB_DAT_HDR
+in	include/net/acl_dns.h	/^	struct in_addr in;		\/* addr 的网段地址 *\/$/;"	m	struct:ACL_DNS_ADDR	typeref:struct:ACL_DNS_ADDR::in_addr
+inext_busy	include/db/zdb.h	/^	zdb_lnk_t  inext_busy;$/;"	m	struct:ZDB_BLK_HDR
+inext_idle	include/db/zdb.h	/^	zdb_lnk_t  inext_idle;$/;"	m	struct:ZDB_BLK_HDR
+init_size	include/stdlib/acl_htable.h	/^	int     init_size;              \/* length of initial entryies array *\/$/;"	m	struct:ACL_HTABLE
+inner	include/unit_test/acl_test_struct.h	/^	int   inner;			\/* 是否是内部的命令 *\/$/;"	m	struct:AUT_FN_ITEM
+inode	include/db/zdb.h	/^	int   inode;		\/* 路径信息 *\/$/;"	m	struct:ZDB_BLK_OFF
+inode_tmp	include/db/zdb.h	/^	int   inode_tmp;	\/* 临时用的相对路径号，主要为了参数传递 *\/$/;"	m	struct:ZDB
+io	include/db/zdb.h	/^	ZDB_IO *io;		\/* IO 句柄对象 *\/$/;"	m	struct:ZDB_STORE
+iocp_sock	include/stdlib/acl_vstream.h	/^	ACL_SOCKET iocp_sock;$/;"	m	struct:ACL_VSTREAM
+ioctl_read_ctx	include/stdlib/acl_vstream.h	/^	void *ioctl_read_ctx;           \/**< only for acl_ioctl_xxx in acl_ioctl.c *\/$/;"	m	struct:ACL_VSTREAM
+ioctl_write_ctx	include/stdlib/acl_vstream.h	/^	void *ioctl_write_ctx;          \/**< only for acl_ioctl_xxx in acl_ioctl.c *\/$/;"	m	struct:ACL_VSTREAM
+iov_base	include/stdlib/acl_sys_patch.h	/^	void *iov_base;   \/**< Starting address *\/$/;"	m	struct:iovec
+iov_len	include/stdlib/acl_sys_patch.h	/^	size_t iov_len;   \/**< Number of bytes *\/$/;"	m	struct:iovec
+iovec	include/stdlib/acl_sys_patch.h	/^struct iovec {$/;"	s
+ip	include/net/acl_dns.h	/^	char  ip[64];			\/* DNS 服务器地址 *\/$/;"	m	struct:ACL_DNS_ADDR
+ip	include/net/acl_ifconf.h	/^	char  ip[32];		\/* 以字符串表示的IP地址 *\/$/;"	m	struct:ACL_IFADDR
+ip	include/net/acl_netdb.h	/^	char  ip[64];                   \/**< the ip addr of the HOST *\/$/;"	m	struct:ACL_HOSTNAME
+iprev_busy	include/db/zdb.h	/^	zdb_lnk_t  iprev_busy;$/;"	m	struct:ZDB_BLK_HDR
+is_nonblock	include/stdlib/acl_vstream.h	/^	int   is_nonblock;              \/**< just for WINDOWS, because the ioctlsocket is too weak *\/$/;"	m	struct:ACL_VSTREAM
+islots	include/stdlib/acl_slice.h	/^	int   islots;           \/**< current position of free slots slice *\/$/;"	m	struct:ACL_SLICE_STAT
+itail_busy	include/db/zdb.h	/^	zdb_lnk_t itail_busy;$/;"	m	struct:ZDB_DAT_HDR
+items	include/stdlib/acl_array.h	/^	void    **items;	\/**< 动态数组 *\/$/;"	m	struct:ACL_ARRAY
+items	include/stdlib/acl_stack.h	/^	void **items;$/;"	m	struct:ACL_STACK
+iter_head	include/db/acl_dbpool.h	/^	const void *(*iter_head)(ACL_ITER*, struct ACL_SQL_RES*);$/;"	m	struct:ACL_SQL_RES
+iter_head	include/db/zdb.h	/^	const void *(*iter_head)(ACL_ITER*, struct ZDB_STORE*);$/;"	m	struct:ZDB_STORE
+iter_head	include/event/acl_timer.h	/^	const void *(*iter_head)(ACL_ITER*, struct ACL_TIMER*);$/;"	m	struct:ACL_TIMER
+iter_head	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_head)(ACL_ITER*, ACL_JSON*);$/;"	m	struct:ACL_JSON
+iter_head	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_head)(ACL_ITER*, ACL_JSON_NODE*);$/;"	m	struct:ACL_JSON_NODE
+iter_head	include/net/acl_ifconf.h	/^	const ACL_IFADDR *(*iter_head)(ACL_ITER*, struct ACL_IFCONF*);$/;"	m	struct:ACL_IFCONF
+iter_head	include/net/acl_netdb.h	/^	const ACL_HOST_INFO *(*iter_head)(ACL_ITER*, struct ACL_DNS_DB*);$/;"	m	struct:ACL_DNS_DB
+iter_head	include/stdlib/acl_argv.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_ARGV*);$/;"	m	struct:ACL_ARGV
+iter_head	include/stdlib/acl_array.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_ARRAY*);$/;"	m	struct:ACL_ARRAY
+iter_head	include/stdlib/acl_binhash.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_BINHASH*);$/;"	m	struct:ACL_BINHASH
+iter_head	include/stdlib/acl_cache.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_CACHE*);$/;"	m	struct:ACL_CACHE
+iter_head	include/stdlib/acl_cache2.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_CACHE2*);$/;"	m	struct:ACL_CACHE2
+iter_head	include/stdlib/acl_dlink.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_DLINK*);$/;"	m	struct:ACL_DLINK
+iter_head	include/stdlib/acl_fifo.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+iter_head	include/stdlib/acl_htable.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_HTABLE*);$/;"	m	struct:ACL_HTABLE
+iter_head	include/stdlib/acl_stack.h	/^	void *(*iter_head)(ACL_ITER*, struct ACL_STACK*);$/;"	m	struct:ACL_STACK
+iter_head	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_head)(ACL_ITER*, ACL_XML*);$/;"	m	struct:ACL_XML
+iter_head	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_head)(ACL_ITER*, ACL_XML_NODE*);$/;"	m	struct:ACL_XML_NODE
+iter_info	include/event/acl_timer.h	/^	const ACL_TIMER_INFO *(*iter_info)(ACL_ITER*, struct ACL_TIMER*);$/;"	m	struct:ACL_TIMER
+iter_info	include/net/acl_netdb.h	/^	const ACL_HOST_INFO *(*iter_info)(ACL_ITER*, struct ACL_DNS_DB*);$/;"	m	struct:ACL_DNS_DB
+iter_info	include/stdlib/acl_binhash.h	/^	ACL_BINHASH_INFO *(*iter_info)(ACL_ITER*, struct ACL_BINHASH*);$/;"	m	struct:ACL_BINHASH
+iter_info	include/stdlib/acl_cache.h	/^	ACL_CACHE_INFO *(*iter_info)(ACL_ITER*, struct ACL_CACHE*);$/;"	m	struct:ACL_CACHE
+iter_info	include/stdlib/acl_cache2.h	/^	ACL_CACHE2_INFO *(*iter_info)(ACL_ITER*, struct ACL_CACHE2*);$/;"	m	struct:ACL_CACHE2
+iter_info	include/stdlib/acl_fifo.h	/^	ACL_FIFO_INFO *(*iter_info)(ACL_ITER*, struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+iter_info	include/stdlib/acl_htable.h	/^	ACL_HTABLE_INFO *(*iter_info)(ACL_ITER*, struct ACL_HTABLE*);$/;"	m	struct:ACL_HTABLE
+iter_next	include/db/acl_dbpool.h	/^	const void *(*iter_next)(ACL_ITER*, struct ACL_SQL_RES*);$/;"	m	struct:ACL_SQL_RES
+iter_next	include/db/zdb.h	/^	const void *(*iter_next)(ACL_ITER*, struct ZDB_STORE*);$/;"	m	struct:ZDB_STORE
+iter_next	include/event/acl_timer.h	/^	const void *(*iter_next)(ACL_ITER*, struct ACL_TIMER*);$/;"	m	struct:ACL_TIMER
+iter_next	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_next)(ACL_ITER*, ACL_JSON*);$/;"	m	struct:ACL_JSON
+iter_next	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_next)(ACL_ITER*, ACL_JSON_NODE*);$/;"	m	struct:ACL_JSON_NODE
+iter_next	include/net/acl_ifconf.h	/^	const ACL_IFADDR *(*iter_next)(ACL_ITER*, struct ACL_IFCONF*);$/;"	m	struct:ACL_IFCONF
+iter_next	include/net/acl_netdb.h	/^	const ACL_HOST_INFO *(*iter_next)(ACL_ITER*, struct ACL_DNS_DB*);$/;"	m	struct:ACL_DNS_DB
+iter_next	include/stdlib/acl_argv.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_ARGV*);$/;"	m	struct:ACL_ARGV
+iter_next	include/stdlib/acl_array.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_ARRAY*);$/;"	m	struct:ACL_ARRAY
+iter_next	include/stdlib/acl_binhash.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_BINHASH*);$/;"	m	struct:ACL_BINHASH
+iter_next	include/stdlib/acl_cache.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_CACHE*);$/;"	m	struct:ACL_CACHE
+iter_next	include/stdlib/acl_cache2.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_CACHE2*);$/;"	m	struct:ACL_CACHE2
+iter_next	include/stdlib/acl_dlink.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_DLINK*);$/;"	m	struct:ACL_DLINK
+iter_next	include/stdlib/acl_fifo.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+iter_next	include/stdlib/acl_htable.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_HTABLE*);$/;"	m	struct:ACL_HTABLE
+iter_next	include/stdlib/acl_stack.h	/^	void *(*iter_next)(ACL_ITER*, struct ACL_STACK*);$/;"	m	struct:ACL_STACK
+iter_next	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_next)(ACL_ITER*, ACL_XML*);$/;"	m	struct:ACL_XML
+iter_next	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_next)(ACL_ITER*, ACL_XML_NODE*);$/;"	m	struct:ACL_XML_NODE
+iter_prev	include/event/acl_timer.h	/^	const void *(*iter_prev)(ACL_ITER*, struct ACL_TIMER*);$/;"	m	struct:ACL_TIMER
+iter_prev	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_prev)(ACL_ITER*, ACL_JSON*);$/;"	m	struct:ACL_JSON
+iter_prev	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_prev)(ACL_ITER*, ACL_JSON_NODE*);$/;"	m	struct:ACL_JSON_NODE
+iter_prev	include/net/acl_ifconf.h	/^	const ACL_IFADDR *(*iter_prev)(ACL_ITER*, struct ACL_IFCONF*);$/;"	m	struct:ACL_IFCONF
+iter_prev	include/net/acl_netdb.h	/^	const ACL_HOST_INFO *(*iter_prev)(ACL_ITER*, struct ACL_DNS_DB*);$/;"	m	struct:ACL_DNS_DB
+iter_prev	include/stdlib/acl_argv.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_ARGV*);$/;"	m	struct:ACL_ARGV
+iter_prev	include/stdlib/acl_array.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_ARRAY*);$/;"	m	struct:ACL_ARRAY
+iter_prev	include/stdlib/acl_binhash.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_BINHASH*);$/;"	m	struct:ACL_BINHASH
+iter_prev	include/stdlib/acl_cache.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_CACHE*);$/;"	m	struct:ACL_CACHE
+iter_prev	include/stdlib/acl_cache2.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_CACHE2*);$/;"	m	struct:ACL_CACHE2
+iter_prev	include/stdlib/acl_dlink.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_DLINK*);$/;"	m	struct:ACL_DLINK
+iter_prev	include/stdlib/acl_fifo.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+iter_prev	include/stdlib/acl_htable.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_HTABLE*);$/;"	m	struct:ACL_HTABLE
+iter_prev	include/stdlib/acl_stack.h	/^	void *(*iter_prev)(ACL_ITER*, struct ACL_STACK*);$/;"	m	struct:ACL_STACK
+iter_prev	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_prev)(ACL_ITER*, ACL_XML*);$/;"	m	struct:ACL_XML
+iter_prev	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_prev)(ACL_ITER*, ACL_XML_NODE*);$/;"	m	struct:ACL_XML_NODE
+iter_tail	include/event/acl_timer.h	/^	const void *(*iter_tail)(ACL_ITER*, struct ACL_TIMER*);$/;"	m	struct:ACL_TIMER
+iter_tail	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_tail)(ACL_ITER*, ACL_JSON*);$/;"	m	struct:ACL_JSON
+iter_tail	include/json/acl_json.h	/^	ACL_JSON_NODE *(*iter_tail)(ACL_ITER*, ACL_JSON_NODE*);$/;"	m	struct:ACL_JSON_NODE
+iter_tail	include/net/acl_ifconf.h	/^	const ACL_IFADDR *(*iter_tail)(ACL_ITER*, struct ACL_IFCONF*);$/;"	m	struct:ACL_IFCONF
+iter_tail	include/net/acl_netdb.h	/^	const ACL_HOST_INFO *(*iter_tail)(ACL_ITER*, struct ACL_DNS_DB*);$/;"	m	struct:ACL_DNS_DB
+iter_tail	include/stdlib/acl_argv.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_ARGV*);$/;"	m	struct:ACL_ARGV
+iter_tail	include/stdlib/acl_array.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_ARRAY*);$/;"	m	struct:ACL_ARRAY
+iter_tail	include/stdlib/acl_binhash.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_BINHASH*);$/;"	m	struct:ACL_BINHASH
+iter_tail	include/stdlib/acl_cache.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_CACHE*);$/;"	m	struct:ACL_CACHE
+iter_tail	include/stdlib/acl_cache2.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_CACHE2*);$/;"	m	struct:ACL_CACHE2
+iter_tail	include/stdlib/acl_dlink.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_DLINK*);$/;"	m	struct:ACL_DLINK
+iter_tail	include/stdlib/acl_fifo.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+iter_tail	include/stdlib/acl_htable.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_HTABLE*);$/;"	m	struct:ACL_HTABLE
+iter_tail	include/stdlib/acl_stack.h	/^	void *(*iter_tail)(ACL_ITER*, struct ACL_STACK*);$/;"	m	struct:ACL_STACK
+iter_tail	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_tail)(ACL_ITER*, ACL_XML*);$/;"	m	struct:ACL_XML
+iter_tail	include/xml/acl_xml.h	/^	ACL_XML_NODE *(*iter_tail)(ACL_ITER*, ACL_XML_NODE*);$/;"	m	struct:ACL_XML_NODE
+json	include/json/acl_json.h	/^	ACL_JSON *json;             \/**< json 对象 *\/$/;"	m	struct:ACL_JSON_NODE
+keep_read	include/aio/acl_aio.h	/^	int   keep_read;	\/**< 是否启用持续性读 *\/$/;"	m	struct:ACL_ASTREAM
+key	include/db/zdb.h	/^	zdb_key_t  key;		\/* 对应于键存储中的键 *\/$/;"	m	struct:ZDB_BLK_HDR
+key	include/stdlib/acl_binhash.h	/^		void *key;$/;"	m	union:ACL_BINHASH_INFO::__anon10
+key	include/stdlib/acl_binhash.h	/^	} key;				\/**$/;"	m	struct:ACL_BINHASH_INFO	typeref:union:ACL_BINHASH_INFO::__anon10
+key	include/stdlib/acl_cache.h	/^	char *key;		\/**< 健值 *\/$/;"	m	struct:ACL_CACHE_INFO
+key	include/stdlib/acl_cache2.h	/^	char *key;		\/**< 健值 *\/$/;"	m	struct:ACL_CACHE2_INFO
+key	include/stdlib/acl_htable.h	/^		char *key;$/;"	m	union:ACL_HTABLE_INFO::__anon4
+key	include/stdlib/acl_htable.h	/^	} key;				\/**$/;"	m	struct:ACL_HTABLE_INFO	typeref:union:ACL_HTABLE_INFO::__anon4
+key	include/stdlib/acl_iterator.h	/^	const char *key;	\/**< 若为哈希表的迭代器, 则为哈希键值地址 *\/$/;"	m	struct:ACL_ITER
+key_begin	include/db/zdb.h	/^	zdb_key_t  key_begin;	\/* 键的起始值 *\/$/;"	m	struct:ZDB_KEY_HDR
+key_begin	include/db/zdb.h	/^	zdb_key_t key_begin;	\/* 键值的起始值 *\/$/;"	m	struct:ZDB_CFG
+key_begin	include/db/zdb.h	/^	zdb_key_t key_begin;	\/* 所有键存储的起始值 *\/$/;"	m	struct:ZDB
+key_cache_max	include/db/zdb.h	/^	int   key_cache_max;	\/* 启用键存储 IO 缓存时的最大缓存数据块个数 *\/$/;"	m	struct:ZDB
+key_cache_max	include/db/zdb.h	/^	int   key_cache_max;	\/* 启用键存储 IO 缓存时的最大缓存数据块个数 *\/$/;"	m	struct:ZDB_CFG
+key_cache_timeout	include/db/zdb.h	/^	int   key_cache_timeout; \/* 启用键存储 IO 缓存时每个缓存块的过期时间 *\/$/;"	m	struct:ZDB
+key_cache_timeout	include/db/zdb.h	/^	int   key_cache_timeout; \/* 启用键存储 IO 缓存时每个缓存块的过期时间 *\/$/;"	m	struct:ZDB_CFG
+key_count	include/db/zdb.h	/^	zdb_key_t  key_count;	\/* 当前所有键的总数 *\/$/;"	m	struct:ZDB_KEY_HDR
+key_get	include/db/zdb.h	/^	int   (*key_get)(ZDB*, zdb_key_t, ZDB_BLK_OFF*);$/;"	m	struct:ZDB
+key_len	include/stdlib/acl_binhash.h	/^	int     key_len;                \/**< 哈希键长度 *\/$/;"	m	struct:ACL_BINHASH_INFO
+key_limit	include/db/zdb.h	/^	zdb_key_t  key_limit;	\/* 该键存储的最大容量 *\/$/;"	m	struct:ZDB_KEY_HDR
+key_limit	include/db/zdb.h	/^	zdb_key_t key_limit;	\/* 每个键存储文件中键的最大个数 *\/$/;"	m	struct:ZDB_CFG
+key_limit	include/db/zdb.h	/^	zdb_key_t key_limit;	\/* 每个键存储中键的个数的最大值 *\/$/;"	m	struct:ZDB
+key_path	include/db/zdb.h	/^	char *key_path;		\/* ZDB 的key存储路径 *\/$/;"	m	struct:ZDB
+key_path	include/db/zdb.h	/^	const char *key_path;	\/* 键存储所在的根目录 *\/$/;"	m	struct:ZDB_CFG
+key_set	include/db/zdb.h	/^	int   (*key_set) (ZDB*, zdb_key_t, const ZDB_BLK_OFF*);$/;"	m	struct:ZDB
+key_wback_max	include/db/zdb.h	/^	int   key_wback_max;	\/* 启用键存储 IO 缓存时写缓存的最大缓存数据块个数 *\/$/;"	m	struct:ZDB
+key_wback_max	include/db/zdb.h	/^	int   key_wback_max;	\/* 启用键存储 IO 缓存时写缓存的最大缓存数据块个数 *\/$/;"	m	struct:ZDB_CFG
+klen	include/stdlib/acl_iterator.h	/^	int   klen;		\/**< 若为ACL_BINHASH迭代器, 则为键长度 *\/$/;"	m	struct:ACL_ITER
+last_ch	include/stdlib/acl_mystring.h	/^	char  last_ch;		\/* 解析器存放的最后一个字符 *\/$/;"	m	struct:ACL_LINE_STATE
+last_ch	include/xml/acl_xml.h	/^	int   last_ch;              \/**< 所记录本结点的前一个字节值 *\/$/;"	m	struct:ACL_XML_NODE
+last_lf	include/stdlib/acl_mystring.h	/^	char  last_lf;		\/* 解析器上一个字符是否为换行符 LF *\/$/;"	m	struct:ACL_LINE_STATE
+left_ch	include/json/acl_json.h	/^	int   left_ch;              \/**< 本结点的第一个字符: { or [ *\/$/;"	m	struct:ACL_JSON_NODE
+len	include/stdlib/acl_argv.h	/^	int     len;			\/**< number of array elements *\/$/;"	m	struct:ACL_ARGV
+len	include/stdlib/acl_ring.h	/^	int   len;                  \/**< the count in the ring *\/$/;"	m	struct:ACL_RING
+len	include/stdlib/acl_vbuf.h	/^    int     len;			\/* buffer length *\/$/;"	m	struct:ACL_VBUF
+length	include/net/acl_ifconf.h	/^	int  length;		\/* ACL_IFADDR 数组长度 *\/$/;"	m	struct:ACL_IFCONF
+length	include/stdlib/acl_slice.h	/^	acl_uint64 length;      \/**< total size of all MEM_BUF's buf *\/$/;"	m	struct:ACL_SLICE_STAT
+limit	include/db/zdb.h	/^	acl_int64  limit;	\/* 值存储中值对象存储个数限制 *\/$/;"	m	struct:ZDB_DAT_HDR
+limit	include/db/zdb.h	/^	acl_int64 limit;	\/* 该分区的总数限制 *\/$/;"	m	struct:ZDB_DISK
+line_length	include/aio/acl_aio.h	/^	int   line_length;	\/**< 当以行为单位读数据时该值限制每行最大长度 *\/$/;"	m	struct:ACL_ASTREAM
+line_number	include/stdlib/acl_loadcfg.h	/^	int   line_number;	\/* 该行在配置文件中的行号 *\/$/;"	m	struct:ACL_CFG_LINE
+line_number	include/unit_test/acl_test_struct.h	/^	int   line_number;	\/* 该有效配置行在配置文件中的行号 *\/$/;"	m	struct:AUT_LINE
+listen_fn	include/aio/acl_aio.h	/^	ACL_AIO_LISTEN_FN  listen_fn;	\/**< 有新连接到达时的回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+lock	include/stdlib/acl_cache.h	/^	acl_pthread_mutex_t lock;	\/**< 缓存池锁 *\/$/;"	m	struct:ACL_CACHE
+lock	include/thread/acl_pthread.h	/^	acl_pthread_mutex_t *lock;$/;"	m	struct:acl_pthread_cond_t
+lock	include/thread/acl_pthread_rwlock.h	/^	acl_pthread_mutex_t lock; \/* monitor lock acl_pthread_mutex_t *\/$/;"	m	struct:acl_pthread_rwlock
+lock_mutex_tid	include/stdlib/acl_fhandle.h	/^	acl_pthread_t lock_mutex_tid;		\/**< 加线程锁的线程号 *\/$/;"	m	struct:ACL_FHANDLE
+lock_mutex_tid	include/stdlib/acl_fhandle.h	/^	unsigned long lock_mutex_tid;		\/**< 加线程锁的线程号 *\/$/;"	m	struct:ACL_FHANDLE
+logfp	include/stdlib/acl_dll.h	/^	ACL_VSTREAM *logfp;$/;"	m	struct:ACL_DLL_ENV
+lookup_table	include/net/acl_dns.h	/^	ACL_HTABLE *lookup_table;	\/* 查询对象表 *\/$/;"	m	struct:ACL_DNS
+lookup_timeout	include/net/acl_dns.h	/^	ACL_EVENT_NOTIFY_TIME lookup_timeout;$/;"	m	struct:ACL_DNS
+loop_sleep	include/unit_test/acl_test_struct.h	/^	int loop_sleep;			\/* 循环执行时的休息 *\/$/;"	m	struct:__anon3
+ltag	include/json/acl_json.h	/^	ACL_VSTRING *ltag;          \/**< 标签名 *\/$/;"	m	struct:ACL_JSON_NODE
+ltag	include/xml/acl_xml.h	/^	ACL_VSTRING *ltag;          \/**< 左标签名 *\/$/;"	m	struct:ACL_XML_NODE
+mask_length	include/net/acl_dns.h	/^	int   mask_length;		\/* DNS 服务器所在网络的掩码长度(> 0 && < 32) *\/$/;"	m	struct:ACL_DNS_ADDR
+match_number	include/unit_test/acl_test_struct.h	/^	int match_number;		\/* 成对命令中相互间的匹配号,$/;"	m	struct:__anon3
+max	include/stdlib/acl_xinetd_cfg.h	/^	acl_int64  max;$/;"	m	struct:ACL_CFG_INT64_TABLE
+max	include/stdlib/acl_xinetd_cfg.h	/^	int  max;$/;"	m	struct:ACL_CFG_INT_TABLE
+max_cache	include/json/acl_json.h	/^	int   max_cache;            \/**< json 结点缓存池的最大容量 *\/$/;"	m	struct:ACL_JSON
+max_cache	include/xml/acl_xml.h	/^	int   max_cache;            \/**< XML结点缓存池的最大容量 *\/$/;"	m	struct:ACL_XML
+max_size	include/stdlib/acl_cache.h	/^	int   max_size;		\/**< 缓存池容量大小限制值 *\/$/;"	m	struct:ACL_CACHE
+max_size	include/stdlib/acl_cache2.h	/^	int   max_size;		\/**< 缓存池容量大小限制值 *\/$/;"	m	struct:ACL_CACHE2
+maxlen	include/stdlib/acl_vstring.h	/^    int       maxlen;$/;"	m	struct:ACL_VSTRING
+mem_slice	include/stdlib/acl_dll.h	/^	ACL_MEM_SLICE *mem_slice;$/;"	m	struct:ACL_DLL_ENV
+meta	include/xml/acl_xml.h	/^	char  meta[3];              \/**< 元数据临时缓冲区 *\/$/;"	m	struct:ACL_XML_NODE
+min	include/stdlib/acl_xinetd_cfg.h	/^	acl_int64  min;$/;"	m	struct:ACL_CFG_INT64_TABLE
+min	include/stdlib/acl_xinetd_cfg.h	/^	int  min;$/;"	m	struct:ACL_CFG_INT_TABLE
+mmd	include/stdlib/acl_dll.h	/^	ACL_DEBUG_MEM *mmd;$/;"	m	struct:ACL_DLL_ENV
+mutex	include/stdlib/acl_fhandle.h	/^	acl_pthread_mutex_t mutex;		\/**< 线程锁 *\/$/;"	m	struct:ACL_FHANDLE
+name	include/net/acl_ifconf.h	/^	char *name;		\/* 接口名称 *\/$/;"	m	struct:ACL_IFADDR
+name	include/net/acl_netdb.h	/^	char  name[256];$/;"	m	struct:ACL_DNS_DB
+name	include/stdlib/acl_loadcfg.h	/^	const char  *name;$/;"	m	struct:ACL_CFG_FN
+name	include/stdlib/acl_xinetd_cfg.h	/^	const char *name;$/;"	m	struct:ACL_CFG_BOOL_TABLE
+name	include/stdlib/acl_xinetd_cfg.h	/^	const char *name;$/;"	m	struct:ACL_CFG_INT64_TABLE
+name	include/stdlib/acl_xinetd_cfg.h	/^	const char *name;$/;"	m	struct:ACL_CFG_INT_TABLE
+name	include/stdlib/acl_xinetd_cfg.h	/^	const char *name;$/;"	m	struct:ACL_CFG_STR_TABLE
+name	include/unit_test/acl_test_struct.h	/^	char *name;$/;"	m	struct:__anon2
+name	include/xml/acl_xml.h	/^	ACL_VSTRING *name;          \/**< 属性名 *\/$/;"	m	struct:ACL_XML_ATTR
+nbuf	include/stdlib/acl_slice.h	/^	int   nbuf;             \/**< count of MEM_BUF allocated *\/$/;"	m	struct:ACL_SLICE_STAT
+ncount	include/stdlib/acl_loadcfg.h	/^	int   ncount;	\/* how many values in this line data,$/;"	m	struct:ACL_CFG_LINE
+next	include/stdlib/acl_binhash.h	/^	struct ACL_BINHASH_INFO *next;  \/**< colliding entry *\/$/;"	m	struct:ACL_BINHASH_INFO	typeref:struct:ACL_BINHASH_INFO::ACL_BINHASH_INFO
+next	include/stdlib/acl_fifo.h	/^	ACL_FIFO_INFO *next;$/;"	m	struct:ACL_FIFO_INFO
+next	include/stdlib/acl_htable.h	/^	struct ACL_HTABLE_INFO *next;	\/**< colliding entry *\/$/;"	m	struct:ACL_HTABLE_INFO	typeref:struct:ACL_HTABLE_INFO::ACL_HTABLE_INFO
+nloop_cur	include/unit_test/acl_test_struct.h	/^	int nloop_cur;			\/* 当前循环的次数 *\/$/;"	m	struct:__anon3
+nloop_max	include/unit_test/acl_test_struct.h	/^	int nloop_max;			\/* 最大循环次数, 由配置文件中获得 *\/$/;"	m	struct:__anon3
+nlt	include/xml/acl_xml.h	/^	int   nlt;                  \/**< '<' 个数 *\/$/;"	m	struct:ACL_XML_NODE
+node	include/json/acl_json.h	/^	ACL_RING node;              \/**< 当前结点 *\/$/;"	m	struct:ACL_JSON_NODE
+node	include/xml/acl_xml.h	/^	ACL_RING node;              \/**< 当前结点 *\/$/;"	m	struct:ACL_XML_NODE
+node	include/xml/acl_xml.h	/^	ACL_XML_NODE *node;         \/**< 所属结点 *\/$/;"	m	struct:ACL_XML_ATTR
+node_cache	include/json/acl_json.h	/^	ACL_ARRAY *node_cache;      \/**< json 结点缓存池 *\/$/;"	m	struct:ACL_JSON
+node_cache	include/xml/acl_xml.h	/^	ACL_ARRAY *node_cache;      \/**< XML结点缓存池 *\/$/;"	m	struct:ACL_XML
+node_cnt	include/json/acl_json.h	/^	int   node_cnt;             \/**< 结点总数, 包括 root 结点 *\/$/;"	m	struct:ACL_JSON
+node_cnt	include/xml/acl_xml.h	/^	int   node_cnt;             \/**< 结点总数, 包括 root 结点 *\/$/;"	m	struct:ACL_XML
+nrefer	include/aio/acl_aio.h	/^	int   nrefer;		\/**< 通过此引用计数防止流被提前关闭 *\/$/;"	m	struct:ACL_ASTREAM
+nrefer	include/net/acl_netdb.h	/^	unsigned int nrefer;            \/**< refer number to this HOST *\/$/;"	m	struct:ACL_HOSTNAME
+nrefer	include/stdlib/acl_cache.h	/^	int   nrefer;		\/**< 引用计数 *\/$/;"	m	struct:ACL_CACHE_INFO
+nrefer	include/stdlib/acl_cache2.h	/^	int   nrefer;		\/**< 引用计数 *\/$/;"	m	struct:ACL_CACHE2_INFO
+nrefer	include/stdlib/acl_fhandle.h	/^	int   nrefer;				\/**< 该存储句柄被引用的计数值 *\/$/;"	m	struct:ACL_FHANDLE
+nrefer	include/stdlib/acl_vstream.h	/^	int   nrefer;                   \/**< refer count, used for engine moudle *\/$/;"	m	struct:ACL_VSTREAM
+nslice	include/stdlib/acl_slice.h	/^	int   nslice;			\/* the max number of base size *\/$/;"	m	struct:ACL_SLICE_POOL
+nslots	include/stdlib/acl_slice.h	/^	int   nslots;           \/**< total slice count free in slots *\/$/;"	m	struct:ACL_SLICE_STAT
+nstep	include/db/zdb.h	/^	int   nstep;		\/* 每次增加时值存储文件大小时的步进值大小 *\/$/;"	m	struct:ZDB_DAT_HDR
+num	include/db/acl_dbpool.h	/^	int   num;$/;"	m	struct:ACL_SQL_RES
+obj	include/event/acl_timer.h	/^	void *obj;              \/**< 用户的数据对象指针 *\/$/;"	m	struct:ACL_TIMER_INFO
+obj_type	include/unit_test/acl_test_struct.h	/^	int   obj_type;		\/* 是内部命令对象还是外部命令对象标志位,$/;"	m	struct:AUT_LINE
+objs_table	include/stdlib/acl_vstream.h	/^	ACL_HTABLE *objs_table;$/;"	m	struct:ACL_VSTREAM
+offset	include/db/zdb.h	/^	zdb_off_t offset;	\/* 偏移量信息 *\/$/;"	m	struct:ZDB_BLK_OFF
+offset	include/stdlib/acl_mystring.h	/^	int   offset;		\/* 解析器的当前偏移量 *\/$/;"	m	struct:ACL_LINE_STATE
+offset	include/stdlib/acl_vstream.h	/^	acl_off_t offset;               \/**< cached seek info *\/$/;"	m	struct:ACL_VSTREAM
+offset_valid_line_idx	include/unit_test/acl_test_struct.h	/^	int offset_valid_line_idx;	\/* 相对有效配置行下标索引 *\/$/;"	m	struct:__anon3
+oflags	include/db/zdb.h	/^	unsigned int oflags;	\/* 打开时的标志位 *\/$/;"	m	struct:ZDB
+oflags	include/stdlib/acl_fhandle.h	/^	unsigned int oflags;			\/**< 打开时的标志位 *\/$/;"	m	struct:ACL_FHANDLE
+oflags	include/stdlib/acl_vstream.h	/^	unsigned int oflags;            \/**< the system's open flags *\/$/;"	m	struct:ACL_VSTREAM
+on_close	include/stdlib/acl_fhandle.h	/^	void (*on_close)(ACL_FHANDLE*);		\/**< 当该文件缓存句柄真正关闭时的回调函数，可以为空 *\/$/;"	m	struct:ACL_FHANDLE
+optarg	include/stdlib/acl_getopt.h	18;"	d
+optind	include/stdlib/acl_getopt.h	17;"	d
+page_nslots	include/stdlib/acl_slice.h	/^	int   page_nslots;      \/**< count slice of each page *\/$/;"	m	struct:ACL_SLICE_STAT
+page_size	include/stdlib/acl_slice.h	/^	int   page_size;        \/**< length of each malloc *\/$/;"	m	struct:ACL_SLICE_STAT
+parent	include/db/acl_dbpool.h	/^	ACL_DB_POOL *parent;$/;"	m	struct:ACL_DB_HANDLE
+parent	include/json/acl_json.h	/^	ACL_JSON_NODE *parent;      \/**< 父结点 *\/$/;"	m	struct:ACL_JSON_NODE
+parent	include/stdlib/acl_ring.h	/^	ACL_RING   *parent;         \/**< the header of all the rings *\/$/;"	m	struct:ACL_RING
+parent	include/stdlib/acl_token_tree.h	/^	struct ACL_TOKEN *parent;$/;"	m	struct:ACL_TOKEN	typeref:struct:ACL_TOKEN::ACL_TOKEN
+parent	include/xml/acl_xml.h	/^	ACL_XML_NODE *parent;       \/**< 父结点 *\/$/;"	m	struct:ACL_XML_NODE
+parray	include/stdlib/acl_dlink.h	/^	ACL_ARRAY *parray;$/;"	m	struct:ACL_DLINK
+part_word	include/json/acl_json.h	/^	int   part_word;            \/**< 半个汉字的情况处理标志位 *\/$/;"	m	struct:ACL_JSON_NODE
+part_word	include/xml/acl_xml.h	/^	int   part_word;            \/**< 半个汉字的情况处理标志位 *\/$/;"	m	struct:ACL_XML_ATTR
+path	include/db/zdb.h	/^	char *path;		\/* 磁盘分区路径 *\/$/;"	m	struct:ZDB_DISK
+path	include/stdlib/acl_vstream.h	/^	char *path;                     \/**< the path just for file operation *\/$/;"	m	struct:ACL_VSTREAM
+path_tmp	include/db/zdb.h	/^	ACL_VSTRING *path_tmp;	\/* 临时用的存储文件的全路径, 主要为了参数传递 *\/$/;"	m	struct:ZDB
+pdata	include/stdlib/acl_loadcfg.h	/^	char *pdata;	\/* point to the beginning of the line data *\/$/;"	m	struct:ACL_CFG_LINE
+peer	include/unit_test/acl_test_struct.h	/^	AUT_LINE *peer;			\/* 与该有效配置行成对的另一个对象 *\/$/;"	m	struct:__anon3
+pid	include/stdlib/acl_vstream.h	/^	int   pid;$/;"	m	struct:ACL_VSTREAM
+pid	include/stdlib/acl_vstream.h	/^	pid_t pid;$/;"	m	struct:ACL_VSTREAM
+ping	include/db/acl_dbpool.h	/^	time_t ping;$/;"	m	struct:ACL_DB_HANDLE
+ping_inter	include/db/acl_dbpool.h	/^	int   ping_inter;	\/* 探测数据库连接的时间间隔 *\/$/;"	m	struct:ACL_DB_INFO
+pnode	include/stdlib/acl_dlink.h	/^	void *pnode;$/;"	m	struct:__anon6
+pop_back	include/stdlib/acl_argv.h	/^	char *(*pop_back)(struct ACL_ARGV*);$/;"	m	struct:ACL_ARGV
+pop_back	include/stdlib/acl_array.h	/^	void *(*pop_back)(struct ACL_ARRAY*);$/;"	m	struct:ACL_ARRAY
+pop_back	include/stdlib/acl_fifo.h	/^	void *(*pop_back)(struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+pop_back	include/stdlib/acl_stack.h	/^	void *(*pop_back)(struct ACL_STACK*);$/;"	m	struct:ACL_STACK
+pop_front	include/stdlib/acl_argv.h	/^	char *(*pop_front)(struct ACL_ARGV*);$/;"	m	struct:ACL_ARGV
+pop_front	include/stdlib/acl_array.h	/^	void *(*pop_front)(struct ACL_ARRAY*);$/;"	m	struct:ACL_ARRAY
+pop_front	include/stdlib/acl_fifo.h	/^	void *(*pop_front)(struct ACL_FIFO*);$/;"	m	struct:ACL_FIFO
+pop_front	include/stdlib/acl_stack.h	/^	void *(*pop_front)(struct ACL_STACK*);$/;"	m	struct:ACL_STACK
+popup	include/event/acl_timer.h	/^        void* (*popup)(ACL_TIMER* timer);$/;"	m	struct:ACL_TIMER
+port	include/net/acl_dns.h	/^	unsigned short port;		\/* DNS 服务器端口 *\/$/;"	m	struct:ACL_DNS_ADDR
+pred	include/stdlib/acl_ring.h	/^	ACL_RING   *pred;           \/**< predecessor *\/$/;"	m	struct:ACL_RING
+present	include/event/acl_timer.h	/^        acl_int64 present;$/;"	m	struct:ACL_TIMER
+prev	include/stdlib/acl_binhash.h	/^	struct ACL_BINHASH_INFO *prev;  \/**< colliding entry *\/$/;"	m	struct:ACL_BINHASH_INFO	typeref:struct:ACL_BINHASH_INFO::ACL_BINHASH_INFO
+prev	include/stdlib/acl_fifo.h	/^	ACL_FIFO_INFO *prev;    $/;"	m	struct:ACL_FIFO_INFO
+prev	include/stdlib/acl_htable.h	/^	struct ACL_HTABLE_INFO *prev;	\/**< colliding entry *\/$/;"	m	struct:ACL_HTABLE_INFO	typeref:struct:ACL_HTABLE_INFO::ACL_HTABLE_INFO
+priority	include/db/zdb.h	/^	int   priority;		\/* 权重优先级 *\/$/;"	m	struct:ZDB_DISK
+pshared	include/thread/acl_pthread_rwlock.h	/^        int   pshared;$/;"	m	struct:acl_pthread_rwlockattr
+ptr	include/stdlib/acl_binhash.h	/^	ACL_BINHASH_INFO *ptr;$/;"	m	struct:ACL_BINHASH_ITER
+ptr	include/stdlib/acl_fifo.h	/^	ACL_FIFO_INFO *ptr;$/;"	m	struct:ACL_FIFO_ITER
+ptr	include/stdlib/acl_htable.h	/^	ACL_HTABLE_INFO *ptr;$/;"	m	struct:ACL_HTABLE_ITER
+ptr	include/stdlib/acl_iterator.h	/^	void *ptr;		\/**< 迭代器指针, 与容器相关 *\/$/;"	m	struct:ACL_ITER
+ptr	include/stdlib/acl_ring.h	/^	ACL_RING *ptr;$/;"	m	struct:ACL_RING_ITER
+ptr	include/stdlib/acl_vbuf.h	/^    unsigned char *ptr;			\/* read\/write position *\/$/;"	m	struct:ACL_VBUF
+push_back	include/stdlib/acl_argv.h	/^	void  (*push_back)(struct ACL_ARGV*, const char*);$/;"	m	struct:ACL_ARGV
+push_back	include/stdlib/acl_array.h	/^	void  (*push_back)(struct ACL_ARRAY*, void*);$/;"	m	struct:ACL_ARRAY
+push_back	include/stdlib/acl_fifo.h	/^	void  (*push_back)(struct ACL_FIFO*, void*);$/;"	m	struct:ACL_FIFO
+push_back	include/stdlib/acl_stack.h	/^	void  (*push_back)(struct ACL_STACK*, void*);$/;"	m	struct:ACL_STACK
+push_front	include/stdlib/acl_argv.h	/^	void  (*push_front)(struct ACL_ARGV*, const char*);$/;"	m	struct:ACL_ARGV
+push_front	include/stdlib/acl_array.h	/^	void  (*push_front)(struct ACL_ARRAY*, void*);$/;"	m	struct:ACL_ARRAY
+push_front	include/stdlib/acl_fifo.h	/^	void  (*push_front)(struct ACL_FIFO*, void*);$/;"	m	struct:ACL_FIFO
+push_front	include/stdlib/acl_stack.h	/^	void  (*push_front)(struct ACL_STACK*, void*);$/;"	m	struct:ACL_STACK
+put_ready	include/stdlib/acl_vbuf.h	/^    ACL_VBUF_PUT_READY_FN put_ready;	\/* write buffer full action *\/$/;"	m	struct:ACL_VBUF
+qid	include/net/acl_dns.h	/^	unsigned short qid;		\/* 发送请求的ID标识号 *\/$/;"	m	struct:ACL_DNS
+quote	include/json/acl_json.h	/^	int   quote;                \/**< 非 0 表示 ' 或 " *\/$/;"	m	struct:ACL_JSON_NODE
+quote	include/xml/acl_xml.h	/^	int   quote;                \/**< 非 0 表示 ' 或 " *\/$/;"	m	struct:ACL_XML_ATTR
+quote	include/xml/acl_xml.h	/^	int   quote;                \/**< 非 0 表示 ' 或 " *\/$/;"	m	struct:ACL_XML_NODE
+read_buf	include/stdlib/acl_vstream.h	/^	unsigned char *read_buf;        \/**< read buff *\/$/;"	m	struct:ACL_VSTREAM
+read_buf_len	include/stdlib/acl_vstream.h	/^	int   read_buf_len;             \/**< read_buf's capacity *\/$/;"	m	struct:ACL_VSTREAM
+read_cnt	include/stdlib/acl_vstream.h	/^	int   read_cnt;                 \/**< data's length in read_buf *\/$/;"	m	struct:ACL_VSTREAM
+read_fn	include/stdlib/acl_vstream.h	/^	ACL_VSTREAM_RD_FN read_fn;      \/**< system socket read API *\/$/;"	m	struct:ACL_VSTREAM
+read_handles	include/aio/acl_aio.h	/^	ACL_ARRAY *read_handles;	\/**< 读完成时的辅助回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+read_nested	include/aio/acl_aio.h	/^	int   read_nested;	\/**< 读时的嵌套层数 *\/$/;"	m	struct:ACL_ASTREAM
+read_nested_limit	include/aio/acl_aio.h	/^	int   read_nested_limit;  \/**< 读时的嵌套层数限制 *\/$/;"	m	struct:ACL_ASTREAM
+read_ptr	include/stdlib/acl_vstream.h	/^	unsigned char *read_ptr;        \/**< pointer to next position in read_buf *\/$/;"	m	struct:ACL_VSTREAM
+read_ready_fn	include/aio/acl_aio.h	/^	int   (*read_ready_fn) (ACL_VSTREAM *, ACL_VSTRING *, int *);$/;"	m	struct:ACL_ASTREAM
+read_signal	include/thread/acl_pthread_rwlock.h	/^	acl_pthread_cond_t read_signal;$/;"	m	struct:acl_pthread_rwlock
+reader_fifo	include/aio/acl_aio.h	/^	ACL_FIFO   reader_fifo;		\/**< 临时存放回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+request	include/event/acl_timer.h	/^        acl_int64 (*request)(ACL_TIMER *timer, void *obj, acl_int64 delay);$/;"	m	struct:ACL_TIMER
+res	include/db/acl_dbpool.h	/^	void *res;$/;"	m	struct:ACL_SQL_RES
+reserv1	include/db/zdb.h	/^	acl_int64  reserv1;	\/* 保留字段 *\/$/;"	m	struct:ZDB_DAT_HDR
+reserv1	include/db/zdb.h	/^	acl_int64  reserv1;	\/* 保留字段 *\/$/;"	m	struct:ZDB_KEY_HDR
+reserv2	include/db/zdb.h	/^	acl_int64  reserv2;	\/* 保留字段 *\/$/;"	m	struct:ZDB_DAT_HDR
+reserv2	include/db/zdb.h	/^	acl_int64  reserv2;	\/* 保留字段 *\/$/;"	m	struct:ZDB_KEY_HDR
+reserv3	include/db/zdb.h	/^	acl_int64  reserv3;	\/* 保留字段 *\/$/;"	m	struct:ZDB_DAT_HDR
+reserv3	include/db/zdb.h	/^	acl_int64  reserv3;	\/* 保留字段 *\/$/;"	m	struct:ZDB_KEY_HDR
+reserv4	include/db/zdb.h	/^	acl_int64  reserv4;	\/* 保留字段 *\/$/;"	m	struct:ZDB_DAT_HDR
+reserv4	include/db/zdb.h	/^	acl_int64  reserv4;	\/* 保留字段 *\/$/;"	m	struct:ZDB_KEY_HDR
+result	include/unit_test/acl_test_struct.h	/^	int   result;		\/* 执行结果 *\/$/;"	m	struct:AUT_LINE
+retry_limit	include/net/acl_dns.h	/^	int   retry_limit;		\/* 查询超时时重试的次数限制 *\/$/;"	m	struct:ACL_DNS
+right_ch	include/json/acl_json.h	/^	int   right_ch;             \/**< 本结点的最后一个字符: } or ] *\/$/;"	m	struct:ACL_JSON_NODE
+ring	include/stdlib/acl_cache.h	/^	ACL_RING ring;		\/**< 将被删除的对象的数据链表 *\/$/;"	m	struct:ACL_CACHE
+ring	include/stdlib/acl_fhandle.h	/^	ACL_RING ring;				\/**< 缓存数据结点 *\/$/;"	m	struct:ACL_FHANDLE
+root	include/json/acl_json.h	/^	ACL_JSON_NODE *root;        \/**< json 根结点 *\/$/;"	m	struct:ACL_JSON
+root	include/xml/acl_xml.h	/^	ACL_XML_NODE *root;         \/**< XML 根结点 *\/$/;"	m	struct:ACL_XML
+routine_arg	include/thread/acl_pthread.h	/^	void *routine_arg;$/;"	m	struct:acl_pthread_t
+rtag	include/xml/acl_xml.h	/^	ACL_VSTRING *rtag;          \/**< 右标签名 *\/$/;"	m	struct:ACL_XML_NODE
+rw_timeout	include/db/acl_dbpool.h	/^	int   rw_timeout;	\/* (mysql\/null) IO读写超时时间 *\/$/;"	m	struct:ACL_DB_INFO
+rw_timeout	include/net/acl_res.h	/^	int   rw_timeout;               \/**< TCP\/UDP 传输的IO超时时间, 默认为10秒 *\/$/;"	m	struct:ACL_RES
+rw_timeout	include/stdlib/acl_vstream.h	/^	int   rw_timeout;               \/**< read\/write timeout *\/$/;"	m	struct:ACL_VSTREAM
+rwlock	include/stdlib/acl_htable.h	/^	acl_pthread_mutex_t *rwlock;$/;"	m	struct:ACL_HTABLE
+sa_local	include/stdlib/acl_vstream.h	/^	struct sockaddr_in *sa_local;$/;"	m	struct:ACL_VSTREAM	typeref:struct:ACL_VSTREAM::sockaddr_in
+sa_local_len	include/stdlib/acl_vstream.h	/^	size_t sa_local_len;$/;"	m	struct:ACL_VSTREAM
+sa_local_size	include/stdlib/acl_vstream.h	/^	size_t sa_local_size;$/;"	m	struct:ACL_VSTREAM
+sa_peer	include/stdlib/acl_vstream.h	/^	struct sockaddr_in *sa_peer;$/;"	m	struct:ACL_VSTREAM	typeref:struct:ACL_VSTREAM::sockaddr_in
+sa_peer_len	include/stdlib/acl_vstream.h	/^	size_t sa_peer_len;$/;"	m	struct:ACL_VSTREAM
+sa_peer_size	include/stdlib/acl_vstream.h	/^	size_t sa_peer_size;$/;"	m	struct:ACL_VSTREAM
+saddr	include/net/acl_netdb.h	/^	struct sockaddr_in saddr;	\/**< ip addr in sockaddr_in *\/$/;"	m	struct:ACL_HOSTNAME	typeref:struct:ACL_HOSTNAME::sockaddr_in
+signals	include/thread/acl_pthread.h	/^	int signals;$/;"	m	struct:acl_pthread_cond_t
+size	include/db/zdb.h	/^	acl_int64  size;	\/* 当前值存储文件已经分配的对象存储的个数 *\/$/;"	m	struct:ZDB_DAT_HDR
+size	include/net/acl_netdb.h	/^	int   size;$/;"	m	struct:ACL_DNS_DB
+size	include/stdlib/acl_binhash.h	/^	int     size;                   \/**< length of entries array *\/$/;"	m	struct:ACL_BINHASH
+size	include/stdlib/acl_binhash.h	/^	int  size;$/;"	m	struct:ACL_BINHASH_ITER
+size	include/stdlib/acl_cache.h	/^	int   size;		\/**< 当前缓存池中的缓存对象个数 *\/$/;"	m	struct:ACL_CACHE
+size	include/stdlib/acl_cache2.h	/^	int   size;		\/**< 当前缓存池中的缓存对象个数 *\/$/;"	m	struct:ACL_CACHE2
+size	include/stdlib/acl_fhandle.h	/^	size_t size;				\/**< 该 ACL_FHANDLE 对象的实际大小 >= sizeof(ACL_FHANDLE) *\/$/;"	m	struct:ACL_FHANDLE
+size	include/stdlib/acl_htable.h	/^	int     size;                   \/* length of entries array *\/$/;"	m	struct:ACL_HTABLE
+size	include/stdlib/acl_htable.h	/^	int  size;$/;"	m	struct:ACL_HTABLE_ITER
+size	include/stdlib/acl_iterator.h	/^	int   size;		\/**< 当前容器中元素总个数 *\/$/;"	m	struct:ACL_ITER
+slash	include/xml/acl_xml.h	/^	int   slash;                \/**< 是否有 '\/' 标志位设定 *\/$/;"	m	struct:ACL_XML_ATTR
+slice	include/json/acl_json.h	/^	ACL_SLICE_POOL *slice;      \/**< 内存池对象 *\/$/;"	m	struct:ACL_JSON
+slice	include/stdlib/acl_argv.h	/^	ACL_SLICE_POOL *slice;$/;"	m	struct:ACL_ARGV
+slice	include/stdlib/acl_binhash.h	/^	ACL_SLICE *slice;               \/**< memory slice *\/$/;"	m	struct:ACL_BINHASH
+slice	include/stdlib/acl_cache.h	/^	ACL_SLICE *slice;		\/**< 内存切片对象 *\/$/;"	m	struct:ACL_CACHE
+slice	include/stdlib/acl_fifo.h	/^	ACL_SLICE_POOL *slice;$/;"	m	struct:ACL_FIFO
+slice	include/stdlib/acl_htable.h	/^	ACL_SLICE_POOL *slice;$/;"	m	struct:ACL_HTABLE
+slice	include/stdlib/acl_vstring.h	/^    ACL_SLICE_POOL *slice;$/;"	m	struct:ACL_VSTRING
+slice	include/xml/acl_xml.h	/^	ACL_SLICE_POOL *slice;      \/**< 内存池对象 *\/$/;"	m	struct:ACL_XML
+slice_flag	include/stdlib/acl_slice.h	/^	unsigned int slice_flag;	\/* flag: ACL_SLICE_FLAG_GC2[3] | ACL_SLICE_FLAG_RTGC_OFF *\/$/;"	m	struct:ACL_SLICE_POOL
+slice_length	include/stdlib/acl_slice.h	/^	int   slice_length;	\/**< length of each slice from user's set *\/$/;"	m	struct:ACL_SLICE_STAT
+slice_size	include/stdlib/acl_slice.h	/^	int   slice_size;       \/**< length of each slice really allocated *\/$/;"	m	struct:ACL_SLICE_STAT
+slices	include/stdlib/acl_slice.h	/^	ACL_SLICE **slices;		\/* the slice array *\/$/;"	m	struct:ACL_SLICE_POOL
+sock	include/stdlib/acl_vstream.h	/^		ACL_SOCKET      sock;   \/**< the master socket *\/$/;"	m	union:ACL_VSTREAM::__anon5
+socklen_t	include/stdlib/acl_define_win32.h	104;"	d
+space	include/stdlib/acl_vbuf.h	/^    ACL_VBUF_SPACE_FN space;		\/* request for buffer space *\/$/;"	m	struct:ACL_VBUF
+sql_result	include/db/acl_dbpool.h	/^	int (*sql_result)(ACL_DB_HANDLE *handle, const char *sql, int  *error,$/;"	m	struct:ACL_DB_HANDLE
+sql_results	include/db/acl_dbpool.h	/^	int (*sql_results)(ACL_DB_HANDLE *handle, const char *sql, int  *error,$/;"	m	struct:ACL_DB_HANDLE
+sql_select	include/db/acl_dbpool.h	/^	ACL_SQL_RES *(*sql_select)(ACL_DB_HANDLE *handle, const char *sql, int *error);$/;"	m	struct:ACL_DB_HANDLE
+sql_update	include/db/acl_dbpool.h	/^	int (*sql_update)(ACL_DB_HANDLE *handle, const char *sql, int  *error);$/;"	m	struct:ACL_DB_HANDLE
+ssize_t	include/stdlib/acl_define_win32.h	111;"	d
+stack_size	include/thread/acl_pthread_pool.h	/^	size_t stack_size;                  \/**< 工作线程的堆栈大小(字节) *\/$/;"	m	struct:acl_pthread_pool_attr_t
+stacksize	include/thread/acl_pthread.h	/^	size_t stacksize;$/;"	m	struct:acl_pthread_attr_t
+start_routine	include/thread/acl_pthread.h	/^	void *(*start_routine)(void *);$/;"	m	struct:acl_pthread_t
+state	include/thread/acl_pthread_rwlock.h	/^	int   state;              \/* 0 = idle  >0 = # of readers  -1 = writer *\/$/;"	m	struct:acl_pthread_rwlock
+status	include/db/acl_dbpool.h	/^	int    status;$/;"	m	struct:ACL_DB_HANDLE
+status	include/db/zdb.h	/^	unsigned int status;	\/* 状态位 *\/$/;"	m	struct:ZDB
+status	include/json/acl_json.h	/^	int   status;                   \/**< 状态机当前解析状态 *\/$/;"	m	struct:ACL_JSON
+status	include/stdlib/acl_binhash.h	/^	int     status;                 \/**< the hash tables' operation status *\/$/;"	m	struct:ACL_BINHASH
+status	include/stdlib/acl_fhandle.h	/^	unsigned int status;			\/**< 该存储文件句柄的状态 *\/$/;"	m	struct:ACL_FHANDLE
+status	include/stdlib/acl_file.h	/^	unsigned int status;	\/**< 文件流状态 *\/$/;"	m	struct:ACL_FILE
+status	include/stdlib/acl_htable.h	/^	int     status;                 \/* the operator's status on the htable *\/$/;"	m	struct:ACL_HTABLE
+status	include/unit_test/acl_test_struct.h	/^	int status;			\/* define as: AUT_STAT_ *\/$/;"	m	struct:__anon3
+status	include/xml/acl_xml.h	/^	int   status;               \/**< 状态机当前解析状态 *\/$/;"	m	struct:ACL_XML_NODE
+store	include/db/zdb.h	/^	ZDB_STORE store;$/;"	m	struct:ZDB_DAT_STORE
+store	include/db/zdb.h	/^	ZDB_STORE store;$/;"	m	struct:ZDB_KEY_STORE
+strbuf	include/aio/acl_aio.h	/^	ACL_VSTRING strbuf;	\/**< 内部缓冲区 *\/$/;"	m	struct:ACL_ASTREAM
+strcasecmp	include/stdlib/acl_mystring.h	212;"	d
+strcasestr	include/stdlib/acl_mystring.h	209;"	d
+stream	include/aio/acl_aio.h	/^	ACL_VSTREAM *stream;	\/**< 同步流 *\/$/;"	m	struct:ACL_ASTREAM
+strncasecmp	include/stdlib/acl_mystring.h	215;"	d
+strrncasecmp	include/stdlib/acl_mystring.h	220;"	d
+strrncmp	include/stdlib/acl_mystring.h	223;"	d
+succ	include/stdlib/acl_ring.h	/^	ACL_RING   *succ;           \/**< successor *\/$/;"	m	struct:ACL_RING
+sys_getc	include/stdlib/acl_vstream.h	/^	int (*sys_getc)(ACL_VSTREAM*);  \/**< called by ACL_VSTREAM_GETC()\/1 *\/$/;"	m	struct:ACL_VSTREAM
+sys_offset	include/stdlib/acl_vstream.h	/^	acl_off_t sys_offset;           \/**< cached seek info *\/$/;"	m	struct:ACL_VSTREAM
+sys_read_ready	include/stdlib/acl_vstream.h	/^	int   sys_read_ready;           \/**< if the system buffer has some data *\/$/;"	m	struct:ACL_VSTREAM
+table	include/stdlib/acl_cache.h	/^	ACL_HTABLE *table;	\/**< 哈希表 *\/$/;"	m	struct:ACL_CACHE
+tag_node	include/json/acl_json.h	/^	ACL_JSON_NODE *tag_node;    \/**< 当标签值为 json 结点时此项非空 *\/$/;"	m	struct:ACL_JSON_NODE
+tail	include/stdlib/acl_fifo.h	/^	ACL_FIFO_INFO *tail;$/;"	m	struct:ACL_FIFO
+target	include/stdlib/acl_xinetd_cfg.h	/^	acl_int64 *target;$/;"	m	struct:ACL_CFG_INT64_TABLE
+target	include/stdlib/acl_xinetd_cfg.h	/^	char **target;$/;"	m	struct:ACL_CFG_STR_TABLE
+target	include/stdlib/acl_xinetd_cfg.h	/^	int  *target;$/;"	m	struct:ACL_CFG_BOOL_TABLE
+target	include/stdlib/acl_xinetd_cfg.h	/^	int *target;$/;"	m	struct:ACL_CFG_INT_TABLE
+text	include/json/acl_json.h	/^	ACL_VSTRING *text;          \/**< 当结点为叶结点时该文本内容非空 *\/$/;"	m	struct:ACL_JSON_NODE
+text	include/xml/acl_xml.h	/^	ACL_VSTRING *text;          \/**< 文本显示内容 *\/$/;"	m	struct:ACL_XML_NODE
+threads_limit	include/thread/acl_pthread_pool.h	/^	int   threads_limit;	\/**< 线程池最大线程数限制 *\/$/;"	m	struct:acl_pthread_pool_attr_t
+tid	include/stdlib/acl_fhandle.h	/^	acl_pthread_t tid;			\/**< 打开该存储的线程号 *\/$/;"	m	struct:ACL_FHANDLE
+tid	include/stdlib/acl_fhandle.h	/^	unsigned long tid;			\/**< 打开该存储的线程号 *\/$/;"	m	struct:ACL_FHANDLE
+time_left	include/event/acl_timer.h	/^        acl_int64 time_left;$/;"	m	struct:ACL_TIMER
+timeo_handles	include/aio/acl_aio.h	/^	ACL_ARRAY *timeo_handles;	\/**< 超时时的辅助回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+timeout	include/aio/acl_aio.h	/^	int   timeout;		\/**< IO超时时间 *\/$/;"	m	struct:ACL_ASTREAM
+timeout	include/db/acl_dbpool.h	/^	time_t timeout;$/;"	m	struct:ACL_DB_HANDLE
+timeout	include/net/acl_dns.h	/^	int   timeout;			\/* 每次查询的超时时间值(秒) *\/$/;"	m	struct:ACL_DNS
+timeout	include/stdlib/acl_cache.h	/^	int   timeout;		\/**< 每个缓存对象的生存时长(秒) *\/$/;"	m	struct:ACL_CACHE
+timeout_inter	include/db/acl_dbpool.h	/^	int   timeout_inter;	\/* 数据库连接的空闲超时时间 *\/$/;"	m	struct:ACL_DB_INFO
+timer_header	include/event/acl_timer.h	/^        ACL_RING timer_header;$/;"	m	struct:ACL_TIMER
+timespec	include/thread/acl_pthread.h	/^struct timespec {$/;"	s
+timeval	include/stdlib/acl_sys_patch.h	/^struct timeval {$/;"	s
+timezone	include/stdlib/acl_sys_patch.h	/^struct timezone {$/;"	s
+tm_spent	include/net/acl_res.h	/^	time_t tm_spent;                \/**< 查询时间耗费(秒) *\/$/;"	m	struct:ACL_RES
+tokens	include/stdlib/acl_token_tree.h	/^	struct ACL_TOKEN *tokens[ACL_TOKEN_WIDTH];$/;"	m	struct:ACL_TOKEN	typeref:struct:ACL_TOKEN::ACL_TOKEN
+total_read_cnt	include/stdlib/acl_vstream.h	/^	acl_off_t total_read_cnt;       \/**< total read count of the fp *\/$/;"	m	struct:ACL_VSTREAM
+total_write_cnt	include/stdlib/acl_vstream.h	/^	acl_off_t total_write_cnt;      \/**< total write count of the fp *\/$/;"	m	struct:ACL_VSTREAM
+transfer	include/net/acl_res.h	/^	int transfer;                   \/**< TCP\/UDP 传输模式 *\/$/;"	m	struct:ACL_RES
+ttl	include/net/acl_netdb.h	/^	unsigned int ttl;               \/**< the HOST's ip timeout(second) *\/$/;"	m	struct:ACL_HOSTNAME
+tv_nsec	include/thread/acl_pthread.h	/^	long int tv_nsec;	\/* Nanoseconds. *\/$/;"	m	struct:timespec
+tv_sec	include/stdlib/acl_sys_patch.h	/^	long tv_sec;      \/**< seconds *\/$/;"	m	struct:timeval
+tv_sec	include/thread/acl_pthread.h	/^	time_t tv_sec;		\/* Seconds. *\/$/;"	m	struct:timespec
+tv_usec	include/stdlib/acl_sys_patch.h	/^	long tv_usec;     \/**< microseconds *\/$/;"	m	struct:timeval
+type	include/json/acl_json.h	/^	int   type;                 \/**< 结点类型 *\/$/;"	m	struct:ACL_JSON_NODE
+type	include/msg/acl_msgio.h	/^		int   type;$/;"	m	struct:ACL_MSGIO_INFO::__anon11
+type	include/stdlib/acl_vstream.h	/^	int   type;                     \/**< defined as: ACL_VSTREAM_TYPE_XXX *\/$/;"	m	struct:ACL_VSTREAM
+tz_dsttime	include/stdlib/acl_sys_patch.h	/^	int tz_dsttime;     \/**< type of dst correction *\/$/;"	m	struct:timezone
+tz_minuteswest	include/stdlib/acl_sys_patch.h	/^	int tz_minuteswest; \/**< minutes W of Greenwich *\/$/;"	m	struct:timezone
+uintptr_t	include/stdlib/avl.h	/^typedef unsigned int uintptr_t;$/;"	t
+uintptr_t	include/stdlib/avl_impl.h	/^typedef unsigned int uintptr_t;$/;"	t
+uintptr_t	include/stdlib/avl_impl.h	/^typedef unsigned long int uintptr_t;$/;"	t
+ulong_t	include/stdlib/avl_impl.h	/^typedef unsigned int ulong_t;$/;"	t
+unused_name	include/thread/acl_pthread.h	/^	char  unused_name[1];$/;"	m	struct:acl_pthread_condattr_t
+used	include/stdlib/acl_binhash.h	/^	int     used;                   \/**< number of entries in table *\/$/;"	m	struct:ACL_BINHASH
+used	include/stdlib/acl_htable.h	/^	int     used;                   \/* number of entries in table *\/$/;"	m	struct:ACL_HTABLE
+used_length	include/stdlib/acl_slice.h	/^	acl_uint64 used_length; \/**< total size of used *\/$/;"	m	struct:ACL_SLICE_STAT
+valid_line_idx	include/unit_test/acl_test_struct.h	/^	int   valid_line_idx;	\/* 该有效配置行在所有有效配置行中的行号 *\/$/;"	m	struct:AUT_LINE
+valid_line_idx	include/unit_test/acl_test_struct.h	/^	int valid_line_idx;		\/* 在所有有效配置行中的下标位置 *\/$/;"	m	struct:__anon3
+value	include/stdlib/acl_binhash.h	/^	void   *value;                  \/**< 哈希键所对应的用户数据 *\/$/;"	m	struct:ACL_BINHASH_INFO
+value	include/stdlib/acl_cache.h	/^	void *value;		\/**< 用户动态对象 *\/$/;"	m	struct:ACL_CACHE_INFO
+value	include/stdlib/acl_cache2.h	/^	void *value;		\/**< 用户动态对象 *\/$/;"	m	struct:ACL_CACHE2_INFO
+value	include/stdlib/acl_htable.h	/^	void   *value;			\/**< associated value *\/$/;"	m	struct:ACL_HTABLE_INFO
+value	include/stdlib/acl_loadcfg.h	/^	char **value;	\/* store the separated values of the line *\/$/;"	m	struct:ACL_CFG_LINE
+value	include/unit_test/acl_test_struct.h	/^	char *value;$/;"	m	struct:__anon2
+value	include/xml/acl_xml.h	/^	ACL_VSTRING *value;         \/**< 属性值 *\/$/;"	m	struct:ACL_XML_ATTR
+vbuf	include/stdlib/acl_vstring.h	/^    ACL_VBUF  vbuf;$/;"	m	struct:ACL_VSTRING
+wDIR	include/stdlib/acl_dir.h	/^} wDIR;$/;"	t	typeref:struct:__anon8
+wait_done	include/thread/acl_pthread.h	/^	ACL_SEM *wait_done;$/;"	m	struct:acl_pthread_cond_t
+wait_sem	include/thread/acl_pthread.h	/^	ACL_SEM *wait_sem;$/;"	m	struct:acl_pthread_cond_t
+waiting	include/thread/acl_pthread.h	/^	int waiting;$/;"	m	struct:acl_pthread_cond_t
+wback_max	include/db/zdb.h	/^	int   wback_max;	\/* 写缓存中数据块的限制 *\/$/;"	m	struct:ZDB_STORE
+wbuf	include/stdlib/acl_vstream.h	/^	unsigned char *wbuf;            \/**< used when call acl_vstream_buffed_writen *\/$/;"	m	struct:ACL_VSTREAM
+wbuf_dlen	include/stdlib/acl_vstream.h	/^	int   wbuf_dlen;                \/**< used when call acl_vstream_buffed_writen *\/$/;"	m	struct:ACL_VSTREAM
+wbuf_size	include/stdlib/acl_vstream.h	/^	int   wbuf_size;                \/**< used when call acl_vstream_buffed_writen *\/$/;"	m	struct:ACL_VSTREAM
+wdirent	include/stdlib/acl_dir.h	/^struct wdirent {$/;"	s
+when	include/event/acl_timer.h	/^	acl_int64 when;         \/**< 被触发的时间截(微妙级) *\/$/;"	m	struct:ACL_TIMER_INFO
+when_free	include/stdlib/acl_fhandle.h	/^	time_t  when_free;			\/**< 在延迟关闭缓存队列中存活的时间截 *\/$/;"	m	struct:ACL_FHANDLE
+when_timeout	include/stdlib/acl_cache.h	/^	time_t when_timeout;	\/**< 过期时间截 *\/$/;"	m	struct:ACL_CACHE_INFO
+when_timeout	include/stdlib/acl_cache2.h	/^	time_t when_timeout;	\/**< 过期时间截 *\/$/;"	m	struct:ACL_CACHE2_INFO
+write_fifo	include/aio/acl_aio.h	/^	ACL_FIFO write_fifo;	\/**< 异步写时的先进先出队列数据 *\/$/;"	m	struct:ACL_ASTREAM
+write_fn	include/stdlib/acl_vstream.h	/^	ACL_VSTREAM_WR_FN write_fn;     \/**< system socket write API *\/$/;"	m	struct:ACL_VSTREAM
+write_handles	include/aio/acl_aio.h	/^	ACL_ARRAY *write_handles;	\/**< 写完成时的辅助回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+write_left	include/aio/acl_aio.h	/^	int   write_left;	\/**< 写缓冲中未写完的数据量 *\/$/;"	m	struct:ACL_ASTREAM
+write_nested	include/aio/acl_aio.h	/^	int   write_nested;	\/**< 写时的嵌套层数 *\/$/;"	m	struct:ACL_ASTREAM
+write_nested_limit	include/aio/acl_aio.h	/^	int   write_nested_limit;  \/**< 写时的嵌套层数限制 *\/$/;"	m	struct:ACL_ASTREAM
+write_offset	include/aio/acl_aio.h	/^	int   write_offset;	\/**< 写缓冲中的下一个位置偏移 *\/$/;"	m	struct:ACL_ASTREAM
+write_signal	include/thread/acl_pthread_rwlock.h	/^	acl_pthread_cond_t write_signal;$/;"	m	struct:acl_pthread_rwlock
+writer_fifo	include/aio/acl_aio.h	/^	ACL_FIFO   writer_fifo;		\/**< 临时存放回调函数 *\/$/;"	m	struct:ACL_ASTREAM
+writev_fn	include/stdlib/acl_vstream.h	/^	ACL_VSTREAM_WV_FN writev_fn;    \/**< system socket writev API *\/$/;"	m	struct:ACL_VSTREAM
+xml	include/xml/acl_xml.h	/^	ACL_XML *xml;               \/**< xml 对象 *\/$/;"	m	struct:ACL_XML_NODE
+zdb_blk_data	include/db/zdb.h	308;"	d
+zdb_blk_free	include/db/zdb.h	314;"	d
+zdb_key_t	include/db/zdb.h	/^typedef acl_int64 zdb_key_t;$/;"	t
+zdb_lnk_t	include/db/zdb.h	/^typedef int zdb_lnk_t;$/;"	t
+zdb_off_t	include/db/zdb.h	/^typedef acl_int64 zdb_off_t;$/;"	t

@@ -1,0 +1,6 @@
+#Makefile for client
+CC: = gcc OPTIONS: = -O3 - Wall - g - lpthread SUBOPTS: = -Wall - c - o OBJECTS: = client.o error.o record.o comfunc.o SOURCES: = client.c error.c record.c comfunc.c HEADS: = comfunc.h error.h record.h client: $(OBJECTS) $(CC) $(OPTIONS) $ ^ -o $ @ client.o:client.c error.h record.h comfunc.h
+$(CC) client.c $(SUBOPTS) $ @
+error.o:error.c error.h
+$(CC) error.c $(SUBOPTS) $ @
+record.o:record.c record.h error.h comfunc.h $(CC) record.c $(SUBOPTS) $ @ comfunc.o:comfunc.c record.h error.h comfunc.h $(CC) comfunc.c $(SUBOPTS) $ @.PHONY:clean client.tar clean:rm - f *.o *.txt client.tar:$(SOURCES) $(HEADS) tar - cvf $ @ $ ^

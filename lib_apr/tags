@@ -1,0 +1,1393 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APRMAXHOSTLEN	include/apr/apr_network_io.h	51;"	d
+APR_ALIGN	include/apr/apr_general.h	136;"	d
+APR_ALIGN_DEFAULT	include/apr/apr_general.h	140;"	d
+APR_ALLOCATOR_H	include/apr/apr_allocator.h	18;"	d
+APR_ALLOCATOR_MAX_FREE_UNLIMITED	include/apr/apr_allocator.h	67;"	d
+APR_ANONYMOUS	include/apr/apr_errno.h	468;"	d
+APR_ANYADDR	include/apr/apr_network_io.h	56;"	d
+APR_APPEND	include/apr/apr_file_io.h	96;"	d
+APR_ARRAY_IDX	include/apr/apr_tables.h	141;"	d
+APR_ARRAY_PUSH	include/apr/apr_tables.h	150;"	d
+APR_ASCII_BLANK	include/apr/apr_general.h	59;"	d
+APR_ASCII_CR	include/apr/apr_general.h	61;"	d
+APR_ASCII_LF	include/apr/apr_general.h	63;"	d
+APR_ASCII_TAB	include/apr/apr_general.h	65;"	d
+APR_ATOMIC_H	include/apr/apr_atomic.h	18;"	d
+APR_BADARG	include/apr/apr_errno.h	459;"	d
+APR_BADCH	include/apr/apr_errno.h	457;"	d
+APR_BEGIN_DECLS	include/apr/apr.h	438;"	d
+APR_BEGIN_DECLS	include/apr/apr.h	441;"	d
+APR_BINARY	include/apr/apr_file_io.h	98;"	d
+APR_BLK	include/apr/apr_file_info.h	/^    APR_BLK,            \/**< a block device *\/$/;"	e	enum:__anon6
+APR_BUFFERED	include/apr/apr_file_io.h	100;"	d
+APR_CHARSET_EBCDIC	include/apr/apr.h	292;"	d
+APR_CHILD_BLOCK	include/apr/apr_thread_proc.h	87;"	d
+APR_CHILD_DONE	include/apr/apr_errno.h	446;"	d
+APR_CHILD_NOTDONE	include/apr/apr_errno.h	448;"	d
+APR_CHR	include/apr/apr_file_info.h	/^    APR_CHR,            \/**< a character device *\/$/;"	e	enum:__anon6
+APR_COPYRIGHT	include/apr/apr_version.h	41;"	d
+APR_CREATE	include/apr/apr_file_io.h	95;"	d
+APR_CTIME_LEN	include/apr/apr_time.h	196;"	d
+APR_CUR	include/apr/apr_file_io.h	147;"	d
+APR_DECLARE	include/apr/apr.h	479;"	d
+APR_DECLARE	include/apr/apr.h	511;"	d
+APR_DECLARE	include/apr/apr.h	515;"	d
+APR_DECLARE	include/apr/apr.h	519;"	d
+APR_DECLARE_DATA	include/apr/apr.h	508;"	d
+APR_DECLARE_DATA	include/apr/apr.h	513;"	d
+APR_DECLARE_DATA	include/apr/apr.h	517;"	d
+APR_DECLARE_DATA	include/apr/apr.h	521;"	d
+APR_DECLARE_INHERIT_SET	include/apr/apr_inherit.h	35;"	d
+APR_DECLARE_INHERIT_UNSET	include/apr/apr_inherit.h	47;"	d
+APR_DECLARE_NONSTD	include/apr/apr.h	492;"	d
+APR_DECLARE_NONSTD	include/apr/apr.h	512;"	d
+APR_DECLARE_NONSTD	include/apr/apr.h	516;"	d
+APR_DECLARE_NONSTD	include/apr/apr.h	520;"	d
+APR_DELONCLOSE	include/apr/apr_file_io.h	101;"	d
+APR_DETACH	include/apr/apr_errno.h	442;"	d
+APR_DIR	include/apr/apr_file_info.h	/^    APR_DIR,            \/**< a directory *\/$/;"	e	enum:__anon6
+APR_DSOPATH	include/apr/apr.h	616;"	d
+APR_DSO_DOT_H	include/apr/apr_dso.h	18;"	d
+APR_EABOVEROOT	include/apr/apr_errno.h	330;"	d
+APR_EABSOLUTE	include/apr/apr_errno.h	324;"	d
+APR_EACCES	include/apr/apr_errno.h	639;"	d
+APR_EACCES	include/apr/apr_errno.h	641;"	d
+APR_EAFNOSUPPORT	include/apr/apr_errno.h	831;"	d
+APR_EAFNOSUPPORT	include/apr/apr_errno.h	833;"	d
+APR_EAGAIN	include/apr/apr_errno.h	726;"	d
+APR_EAGAIN	include/apr/apr_errno.h	728;"	d
+APR_EAGAIN	include/apr/apr_errno.h	730;"	d
+APR_EBADDATE	include/apr/apr_errno.h	293;"	d
+APR_EBADF	include/apr/apr_errno.h	702;"	d
+APR_EBADF	include/apr/apr_errno.h	704;"	d
+APR_EBADIP	include/apr/apr_errno.h	317;"	d
+APR_EBADMASK	include/apr/apr_errno.h	319;"	d
+APR_EBADPATH	include/apr/apr_errno.h	332;"	d
+APR_EBUSY	include/apr/apr_errno.h	480;"	d
+APR_ECONNABORTED	include/apr/apr_errno.h	767;"	d
+APR_ECONNABORTED	include/apr/apr_errno.h	769;"	d
+APR_ECONNREFUSED	include/apr/apr_errno.h	749;"	d
+APR_ECONNREFUSED	include/apr/apr_errno.h	751;"	d
+APR_ECONNRESET	include/apr/apr_errno.h	774;"	d
+APR_ECONNRESET	include/apr/apr_errno.h	776;"	d
+APR_EDSOOPEN	include/apr/apr_errno.h	322;"	d
+APR_EEXIST	include/apr/apr_errno.h	646;"	d
+APR_EEXIST	include/apr/apr_errno.h	648;"	d
+APR_EFTYPE	include/apr/apr_errno.h	803;"	d
+APR_EFTYPE	include/apr/apr_errno.h	805;"	d
+APR_EGENERAL	include/apr/apr_errno.h	313;"	d
+APR_EHOSTUNREACH	include/apr/apr_errno.h	789;"	d
+APR_EHOSTUNREACH	include/apr/apr_errno.h	791;"	d
+APR_EINCOMPLETE	include/apr/apr_errno.h	328;"	d
+APR_EINIT	include/apr/apr_errno.h	474;"	d
+APR_EINPROGRESS	include/apr/apr_errno.h	756;"	d
+APR_EINPROGRESS	include/apr/apr_errno.h	758;"	d
+APR_EINTR	include/apr/apr_errno.h	735;"	d
+APR_EINTR	include/apr/apr_errno.h	737;"	d
+APR_EINVAL	include/apr/apr_errno.h	709;"	d
+APR_EINVAL	include/apr/apr_errno.h	711;"	d
+APR_EINVALSOCK	include/apr/apr_errno.h	295;"	d
+APR_EMFILE	include/apr/apr_errno.h	688;"	d
+APR_EMFILE	include/apr/apr_errno.h	690;"	d
+APR_EMISMATCH	include/apr/apr_errno.h	478;"	d
+APR_ENAMETOOLONG	include/apr/apr_errno.h	653;"	d
+APR_ENAMETOOLONG	include/apr/apr_errno.h	655;"	d
+APR_END	include/apr/apr_file_io.h	149;"	d
+APR_END_DECLS	include/apr/apr.h	439;"	d
+APR_END_DECLS	include/apr/apr.h	442;"	d
+APR_ENETUNREACH	include/apr/apr_errno.h	796;"	d
+APR_ENETUNREACH	include/apr/apr_errno.h	798;"	d
+APR_ENFILE	include/apr/apr_errno.h	695;"	d
+APR_ENFILE	include/apr/apr_errno.h	697;"	d
+APR_ENODIR	include/apr/apr_errno.h	301;"	d
+APR_ENOENT	include/apr/apr_errno.h	660;"	d
+APR_ENOENT	include/apr/apr_errno.h	662;"	d
+APR_ENOLOCK	include/apr/apr_errno.h	303;"	d
+APR_ENOMEM	include/apr/apr_errno.h	681;"	d
+APR_ENOMEM	include/apr/apr_errno.h	683;"	d
+APR_ENOPOLL	include/apr/apr_errno.h	305;"	d
+APR_ENOPOOL	include/apr/apr_errno.h	290;"	d
+APR_ENOPROC	include/apr/apr_errno.h	297;"	d
+APR_ENOSHMAVAIL	include/apr/apr_errno.h	315;"	d
+APR_ENOSOCKET	include/apr/apr_errno.h	307;"	d
+APR_ENOSPC	include/apr/apr_errno.h	674;"	d
+APR_ENOSPC	include/apr/apr_errno.h	676;"	d
+APR_ENOSTAT	include/apr/apr_errno.h	288;"	d
+APR_ENOTDIR	include/apr/apr_errno.h	667;"	d
+APR_ENOTDIR	include/apr/apr_errno.h	669;"	d
+APR_ENOTEMPTY	include/apr/apr_errno.h	824;"	d
+APR_ENOTEMPTY	include/apr/apr_errno.h	826;"	d
+APR_ENOTENOUGHENTROPY	include/apr/apr_errno.h	340;"	d
+APR_ENOTHDKEY	include/apr/apr_errno.h	311;"	d
+APR_ENOTHREAD	include/apr/apr_errno.h	309;"	d
+APR_ENOTIME	include/apr/apr_errno.h	299;"	d
+APR_ENOTIMPL	include/apr/apr_errno.h	476;"	d
+APR_ENOTSOCK	include/apr/apr_errno.h	742;"	d
+APR_ENOTSOCK	include/apr/apr_errno.h	744;"	d
+APR_ENV_H	include/apr/apr_env.h	18;"	d
+APR_EOF	include/apr/apr_errno.h	461;"	d
+APR_EOL_STR	include/apr/apr.h	594;"	d
+APR_EPATHWILD	include/apr/apr_errno.h	334;"	d
+APR_EPIPE	include/apr/apr_errno.h	810;"	d
+APR_EPIPE	include/apr/apr_errno.h	812;"	d
+APR_EPROC_UNKNOWN	include/apr/apr_errno.h	338;"	d
+APR_ERELATIVE	include/apr/apr_errno.h	326;"	d
+APR_ERRNO_H	include/apr/apr_errno.h	18;"	d
+APR_ESCAPE_H	include/apr/apr_escape.h	21;"	d
+APR_ESCAPE_STRING	include/apr/apr_escape.h	43;"	d
+APR_ESPIPE	include/apr/apr_errno.h	716;"	d
+APR_ESPIPE	include/apr/apr_errno.h	718;"	d
+APR_ESYMNOTFOUND	include/apr/apr_errno.h	336;"	d
+APR_ETIMEDOUT	include/apr/apr_errno.h	782;"	d
+APR_ETIMEDOUT	include/apr/apr_errno.h	784;"	d
+APR_EXCL	include/apr/apr_file_io.h	99;"	d
+APR_EXDEV	include/apr/apr_errno.h	817;"	d
+APR_EXDEV	include/apr/apr_errno.h	819;"	d
+APR_FILEBASED	include/apr/apr_errno.h	470;"	d
+APR_FILEPATH_ENCODING_LOCALE	include/apr/apr_file_info.h	407;"	d
+APR_FILEPATH_ENCODING_UNKNOWN	include/apr/apr_file_info.h	404;"	d
+APR_FILEPATH_ENCODING_UTF8	include/apr/apr_file_info.h	410;"	d
+APR_FILEPATH_NATIVE	include/apr/apr_file_info.h	305;"	d
+APR_FILEPATH_NOTABOVEROOT	include/apr/apr_file_info.h	287;"	d
+APR_FILEPATH_NOTABSOLUTE	include/apr/apr_file_info.h	301;"	d
+APR_FILEPATH_NOTRELATIVE	include/apr/apr_file_info.h	298;"	d
+APR_FILEPATH_SECUREROOT	include/apr/apr_file_info.h	295;"	d
+APR_FILEPATH_SECUREROOTTEST	include/apr/apr_file_info.h	290;"	d
+APR_FILEPATH_TRUENAME	include/apr/apr_file_info.h	311;"	d
+APR_FILES_AS_SOCKETS	include/apr/apr.h	288;"	d
+APR_FILE_ATTR_EXECUTABLE	include/apr/apr_file_io.h	159;"	d
+APR_FILE_ATTR_HIDDEN	include/apr/apr_file_io.h	160;"	d
+APR_FILE_ATTR_READONLY	include/apr/apr_file_io.h	158;"	d
+APR_FILE_INFO_H	include/apr/apr_file_info.h	18;"	d
+APR_FILE_IO_H	include/apr/apr_file_io.h	18;"	d
+APR_FILE_NOCLEANUP	include/apr/apr_file_io.h	104;"	d
+APR_FILE_SOURCE_PERMS	include/apr/apr_file_info.h	113;"	d
+APR_FINFO_ATIME	include/apr/apr_file_info.h	148;"	d
+APR_FINFO_CSIZE	include/apr/apr_file_info.h	150;"	d
+APR_FINFO_CTIME	include/apr/apr_file_info.h	147;"	d
+APR_FINFO_DEV	include/apr/apr_file_info.h	151;"	d
+APR_FINFO_DIRENT	include/apr/apr_file_info.h	168;"	d
+APR_FINFO_GPROT	include/apr/apr_file_info.h	158;"	d
+APR_FINFO_GROUP	include/apr/apr_file_info.h	156;"	d
+APR_FINFO_ICASE	include/apr/apr_file_info.h	160;"	d
+APR_FINFO_IDENT	include/apr/apr_file_info.h	164;"	d
+APR_FINFO_INODE	include/apr/apr_file_info.h	152;"	d
+APR_FINFO_LINK	include/apr/apr_file_info.h	145;"	d
+APR_FINFO_MIN	include/apr/apr_file_info.h	163;"	d
+APR_FINFO_MTIME	include/apr/apr_file_info.h	146;"	d
+APR_FINFO_NAME	include/apr/apr_file_info.h	161;"	d
+APR_FINFO_NLINK	include/apr/apr_file_info.h	153;"	d
+APR_FINFO_NORM	include/apr/apr_file_info.h	167;"	d
+APR_FINFO_OWNER	include/apr/apr_file_info.h	165;"	d
+APR_FINFO_PROT	include/apr/apr_file_info.h	166;"	d
+APR_FINFO_SIZE	include/apr/apr_file_info.h	149;"	d
+APR_FINFO_TYPE	include/apr/apr_file_info.h	154;"	d
+APR_FINFO_UPROT	include/apr/apr_file_info.h	157;"	d
+APR_FINFO_USER	include/apr/apr_file_info.h	155;"	d
+APR_FINFO_WPROT	include/apr/apr_file_info.h	159;"	d
+APR_FLOCK_EXCLUSIVE	include/apr/apr_file_io.h	202;"	d
+APR_FLOCK_NONBLOCK	include/apr/apr_file_io.h	208;"	d
+APR_FLOCK_SHARED	include/apr/apr_file_io.h	196;"	d
+APR_FLOCK_TYPEMASK	include/apr/apr_file_io.h	207;"	d
+APR_FNM_CASE_BLIND	include/apr/apr_fnmatch.h	63;"	d
+APR_FNM_NOESCAPE	include/apr/apr_fnmatch.h	60;"	d
+APR_FNM_NOMATCH	include/apr/apr_fnmatch.h	58;"	d
+APR_FNM_PATHNAME	include/apr/apr_fnmatch.h	61;"	d
+APR_FNM_PERIOD	include/apr/apr_fnmatch.h	62;"	d
+APR_FOPEN_APPEND	include/apr/apr_file_io.h	57;"	d
+APR_FOPEN_BINARY	include/apr/apr_file_io.h	60;"	d
+APR_FOPEN_BUFFERED	include/apr/apr_file_io.h	65;"	d
+APR_FOPEN_CREATE	include/apr/apr_file_io.h	56;"	d
+APR_FOPEN_DELONCLOSE	include/apr/apr_file_io.h	66;"	d
+APR_FOPEN_EXCL	include/apr/apr_file_io.h	63;"	d
+APR_FOPEN_LARGEFILE	include/apr/apr_file_io.h	82;"	d
+APR_FOPEN_NOCLEANUP	include/apr/apr_file_io.h	74;"	d
+APR_FOPEN_NONBLOCK	include/apr/apr_file_io.h	88;"	d
+APR_FOPEN_READ	include/apr/apr_file_io.h	54;"	d
+APR_FOPEN_SENDFILE_ENABLED	include/apr/apr_file_io.h	79;"	d
+APR_FOPEN_SHARELOCK	include/apr/apr_file_io.h	70;"	d
+APR_FOPEN_SPARSE	include/apr/apr_file_io.h	85;"	d
+APR_FOPEN_TRUNCATE	include/apr/apr_file_io.h	58;"	d
+APR_FOPEN_WRITE	include/apr/apr_file_io.h	55;"	d
+APR_FOPEN_XTHREAD	include/apr/apr_file_io.h	67;"	d
+APR_FPROT_FILE_SOURCE_PERMS	include/apr/apr_file_info.h	97;"	d
+APR_FPROT_GEXECUTE	include/apr/apr_file_info.h	87;"	d
+APR_FPROT_GREAD	include/apr/apr_file_info.h	85;"	d
+APR_FPROT_GSETID	include/apr/apr_file_info.h	84;"	d
+APR_FPROT_GWRITE	include/apr/apr_file_info.h	86;"	d
+APR_FPROT_OS_DEFAULT	include/apr/apr_file_info.h	94;"	d
+APR_FPROT_UEXECUTE	include/apr/apr_file_info.h	82;"	d
+APR_FPROT_UREAD	include/apr/apr_file_info.h	80;"	d
+APR_FPROT_USETID	include/apr/apr_file_info.h	79;"	d
+APR_FPROT_UWRITE	include/apr/apr_file_info.h	81;"	d
+APR_FPROT_WEXECUTE	include/apr/apr_file_info.h	92;"	d
+APR_FPROT_WREAD	include/apr/apr_file_info.h	90;"	d
+APR_FPROT_WSTICKY	include/apr/apr_file_info.h	89;"	d
+APR_FPROT_WWRITE	include/apr/apr_file_info.h	91;"	d
+APR_FROM_OS_ERROR	include/apr/apr_errno.h	1012;"	d
+APR_FROM_OS_ERROR	include/apr/apr_errno.h	1128;"	d
+APR_FROM_OS_ERROR	include/apr/apr_errno.h	1192;"	d
+APR_FROM_OS_ERROR	include/apr/apr_errno.h	64;"	d
+APR_FROM_OS_ERROR	include/apr/apr_errno.h	840;"	d
+APR_FULL_BLOCK	include/apr/apr_thread_proc.h	81;"	d
+APR_FULL_NONBLOCK	include/apr/apr_thread_proc.h	83;"	d
+APR_GENERAL_H	include/apr/apr_general.h	18;"	d
+APR_GETOPT_H	include/apr/apr_getopt.h	18;"	d
+APR_GEXECUTE	include/apr/apr_file_info.h	107;"	d
+APR_GLOBAL_MUTEX_H	include/apr/apr_global_mutex.h	18;"	d
+APR_GREAD	include/apr/apr_file_info.h	105;"	d
+APR_GSETID	include/apr/apr_file_info.h	104;"	d
+APR_GWRITE	include/apr/apr_file_info.h	106;"	d
+APR_H	include/apr/apr.h	19;"	d
+APR_HASH_H	include/apr/apr_hash.h	18;"	d
+APR_HASH_KEY_STRING	include/apr/apr_hash.h	47;"	d
+APR_HAS_DSO	include/apr/apr.h	274;"	d
+APR_HAS_FCNTL_SERIALIZE	include/apr/apr.h	237;"	d
+APR_HAS_FLOCK_SERIALIZE	include/apr/apr.h	234;"	d
+APR_HAS_FORK	include/apr/apr.h	271;"	d
+APR_HAS_INLINE	include/apr/apr.h	66;"	d
+APR_HAS_INLINE	include/apr/apr.h	69;"	d
+APR_HAS_LARGE_FILES	include/apr/apr.h	279;"	d
+APR_HAS_LARGE_FILES	include/apr/apr.h	558;"	d
+APR_HAS_LARGE_FILES	include/apr/apr.h	565;"	d
+APR_HAS_LARGE_FILES	include/apr/apr.h	571;"	d
+APR_HAS_MMAP	include/apr/apr.h	270;"	d
+APR_HAS_OS_UUID	include/apr/apr.h	281;"	d
+APR_HAS_OTHER_CHILD	include/apr/apr.h	273;"	d
+APR_HAS_POSIXSEM_SERIALIZE	include/apr/apr.h	236;"	d
+APR_HAS_PROC_INVOKED	include/apr/apr.h	277;"	d
+APR_HAS_PROC_PTHREAD_SERIALIZE	include/apr/apr.h	238;"	d
+APR_HAS_RANDOM	include/apr/apr.h	272;"	d
+APR_HAS_SENDFILE	include/apr/apr.h	269;"	d
+APR_HAS_SHARED_MEMORY	include/apr/apr.h	267;"	d
+APR_HAS_SO_ACCEPTFILTER	include/apr/apr.h	275;"	d
+APR_HAS_SYSVSEM_SERIALIZE	include/apr/apr.h	235;"	d
+APR_HAS_THREADS	include/apr/apr.h	268;"	d
+APR_HAS_UNICODE_FS	include/apr/apr.h	276;"	d
+APR_HAS_USER	include/apr/apr.h	278;"	d
+APR_HAS_XTHREAD_FILES	include/apr/apr.h	280;"	d
+APR_HAVE_ARPA_INET_H	include/apr/apr.h	72;"	d
+APR_HAVE_CONIO_H	include/apr/apr.h	73;"	d
+APR_HAVE_CORKABLE_TCP	include/apr/apr.h	242;"	d
+APR_HAVE_CRYPT_H	include/apr/apr.h	74;"	d
+APR_HAVE_CTYPE_H	include/apr/apr.h	75;"	d
+APR_HAVE_DIRENT_H	include/apr/apr.h	76;"	d
+APR_HAVE_ERRNO_H	include/apr/apr.h	77;"	d
+APR_HAVE_FCNTL_H	include/apr/apr.h	78;"	d
+APR_HAVE_GETRLIMIT	include/apr/apr.h	243;"	d
+APR_HAVE_INET_ADDR	include/apr/apr.h	245;"	d
+APR_HAVE_INET_NETWORK	include/apr/apr.h	246;"	d
+APR_HAVE_IN_ADDR	include/apr/apr.h	244;"	d
+APR_HAVE_IOVEC	include/apr/apr.h	264;"	d
+APR_HAVE_IO_H	include/apr/apr.h	79;"	d
+APR_HAVE_IPV6	include/apr/apr.h	247;"	d
+APR_HAVE_LIMITS_H	include/apr/apr.h	80;"	d
+APR_HAVE_MEMCHR	include/apr/apr.h	260;"	d
+APR_HAVE_MEMMOVE	include/apr/apr.h	248;"	d
+APR_HAVE_NETDB_H	include/apr/apr.h	81;"	d
+APR_HAVE_NETINET_IN_H	include/apr/apr.h	82;"	d
+APR_HAVE_NETINET_SCTP_H	include/apr/apr.h	83;"	d
+APR_HAVE_NETINET_SCTP_UIO_H	include/apr/apr.h	84;"	d
+APR_HAVE_NETINET_TCP_H	include/apr/apr.h	85;"	d
+APR_HAVE_PROCESS_H	include/apr/apr.h	86;"	d
+APR_HAVE_PTHREAD_H	include/apr/apr.h	87;"	d
+APR_HAVE_SA_STORAGE	include/apr/apr.h	253;"	d
+APR_HAVE_SCTP	include/apr/apr.h	263;"	d
+APR_HAVE_SEMAPHORE_H	include/apr/apr.h	88;"	d
+APR_HAVE_SETRLIMIT	include/apr/apr.h	249;"	d
+APR_HAVE_SHMEM_BEOS	include/apr/apr.h	217;"	d
+APR_HAVE_SHMEM_MMAP_ANON	include/apr/apr.h	216;"	d
+APR_HAVE_SHMEM_MMAP_SHM	include/apr/apr.h	212;"	d
+APR_HAVE_SHMEM_MMAP_TMP	include/apr/apr.h	211;"	d
+APR_HAVE_SHMEM_MMAP_ZERO	include/apr/apr.h	213;"	d
+APR_HAVE_SHMEM_SHMGET	include/apr/apr.h	215;"	d
+APR_HAVE_SHMEM_SHMGET_ANON	include/apr/apr.h	214;"	d
+APR_HAVE_SIGACTION	include/apr/apr.h	250;"	d
+APR_HAVE_SIGNAL_H	include/apr/apr.h	89;"	d
+APR_HAVE_SIGSUSPEND	include/apr/apr.h	251;"	d
+APR_HAVE_SIGWAIT	include/apr/apr.h	252;"	d
+APR_HAVE_STDARG_H	include/apr/apr.h	90;"	d
+APR_HAVE_STDINT_H	include/apr/apr.h	91;"	d
+APR_HAVE_STDIO_H	include/apr/apr.h	92;"	d
+APR_HAVE_STDLIB_H	include/apr/apr.h	93;"	d
+APR_HAVE_STRCASECMP	include/apr/apr.h	254;"	d
+APR_HAVE_STRDUP	include/apr/apr.h	255;"	d
+APR_HAVE_STRICMP	include/apr/apr.h	256;"	d
+APR_HAVE_STRINGS_H	include/apr/apr.h	95;"	d
+APR_HAVE_STRING_H	include/apr/apr.h	94;"	d
+APR_HAVE_STRNCASECMP	include/apr/apr.h	257;"	d
+APR_HAVE_STRNICMP	include/apr/apr.h	258;"	d
+APR_HAVE_STRSTR	include/apr/apr.h	259;"	d
+APR_HAVE_STRUCT_RLIMIT	include/apr/apr.h	261;"	d
+APR_HAVE_SYS_IOCTL_H	include/apr/apr.h	96;"	d
+APR_HAVE_SYS_SENDFILE_H	include/apr/apr.h	97;"	d
+APR_HAVE_SYS_SIGNAL_H	include/apr/apr.h	98;"	d
+APR_HAVE_SYS_SOCKET_H	include/apr/apr.h	99;"	d
+APR_HAVE_SYS_SOCKIO_H	include/apr/apr.h	100;"	d
+APR_HAVE_SYS_SYSLIMITS_H	include/apr/apr.h	101;"	d
+APR_HAVE_SYS_TIME_H	include/apr/apr.h	102;"	d
+APR_HAVE_SYS_TYPES_H	include/apr/apr.h	103;"	d
+APR_HAVE_SYS_UIO_H	include/apr/apr.h	104;"	d
+APR_HAVE_SYS_UN_H	include/apr/apr.h	105;"	d
+APR_HAVE_SYS_WAIT_H	include/apr/apr.h	106;"	d
+APR_HAVE_TIME_H	include/apr/apr.h	107;"	d
+APR_HAVE_UNION_SEMUN	include/apr/apr.h	262;"	d
+APR_HAVE_UNISTD_H	include/apr/apr.h	108;"	d
+APR_HAVE_WINDOWS_H	include/apr/apr.h	109;"	d
+APR_HAVE_WINSOCK2_H	include/apr/apr.h	110;"	d
+APR_INADDR_NONE	include/apr/apr_network_io.h	132;"	d
+APR_INADDR_NONE	include/apr/apr_network_io.h	134;"	d
+APR_INCHILD	include/apr/apr_errno.h	438;"	d
+APR_INCOMPLETE	include/apr/apr_errno.h	452;"	d
+APR_INCOMPLETE_READ	include/apr/apr_network_io.h	81;"	d
+APR_INCOMPLETE_WRITE	include/apr/apr_network_io.h	92;"	d
+APR_INET	include/apr/apr_network_io.h	142;"	d
+APR_INET6	include/apr/apr_network_io.h	156;"	d
+APR_INHERIT_H	include/apr/apr_inherit.h	18;"	d
+APR_INLINE	include/apr/apr.h	65;"	d
+APR_INLINE	include/apr/apr.h	68;"	d
+APR_INPARENT	include/apr/apr_errno.h	440;"	d
+APR_INT16_MAX	include/apr/apr.h	382;"	d
+APR_INT16_MAX	include/apr/apr.h	384;"	d
+APR_INT16_MIN	include/apr/apr.h	376;"	d
+APR_INT16_MIN	include/apr/apr.h	378;"	d
+APR_INT32_MAX	include/apr/apr.h	400;"	d
+APR_INT32_MAX	include/apr/apr.h	402;"	d
+APR_INT32_MIN	include/apr/apr.h	394;"	d
+APR_INT32_MIN	include/apr/apr.h	396;"	d
+APR_INT64_C	include/apr/apr.h	372;"	d
+APR_INT64_MAX	include/apr/apr.h	418;"	d
+APR_INT64_MAX	include/apr/apr.h	420;"	d
+APR_INT64_MIN	include/apr/apr.h	412;"	d
+APR_INT64_MIN	include/apr/apr.h	414;"	d
+APR_INT64_T_FMT	include/apr/apr.h	545;"	d
+APR_INT64_T_FMT	include/apr/apr.h	560;"	d
+APR_INT64_T_FMT	include/apr/apr.h	567;"	d
+APR_INT64_T_FMT	include/apr/apr.h	573;"	d
+APR_IOVEC_DEFINED	include/apr/apr_want.h	93;"	d
+APR_IPV4_ADDR_OK	include/apr/apr_network_io.h	114;"	d
+APR_IPV6_ADDR_OK	include/apr/apr_network_io.h	115;"	d
+APR_IPV6_V6ONLY	include/apr/apr_network_io.h	95;"	d
+APR_IS_BIGENDIAN	include/apr/apr.h	369;"	d
+APR_IS_BIGENDIAN	include/apr/apr.h	578;"	d
+APR_IS_BIGENDIAN	include/apr/apr.h	580;"	d
+APR_IS_BIGENDIAN	include/apr/apr.h	582;"	d
+APR_IS_DEV_STRING	include/apr/apr_version.h	94;"	d
+APR_IS_DEV_STRING	include/apr/apr_version.h	97;"	d
+APR_JUST_WAIT	include/apr/apr_thread_proc.h	/^    APR_JUST_WAIT,              \/**< wait forever for the process to complete *\/$/;"	e	enum:__anon13
+APR_KEYBASED	include/apr/apr_errno.h	472;"	d
+APR_KILL_AFTER_TIMEOUT	include/apr/apr_thread_proc.h	/^    APR_KILL_AFTER_TIMEOUT,     \/**< SIGTERM, wait 3 seconds, SIGKILL *\/$/;"	e	enum:__anon13
+APR_KILL_ALWAYS	include/apr/apr_thread_proc.h	/^    APR_KILL_ALWAYS,            \/**< process is sent SIGKILL on apr_pool_t cleanup *\/$/;"	e	enum:__anon13
+APR_KILL_NEVER	include/apr/apr_thread_proc.h	/^    APR_KILL_NEVER,             \/**< process is never killed (i.e., never sent$/;"	e	enum:__anon13
+APR_KILL_ONLY_ONCE	include/apr/apr_thread_proc.h	/^    APR_KILL_ONLY_ONCE          \/**< send SIGTERM and then wait *\/$/;"	e	enum:__anon13
+APR_LARGEFILE	include/apr/apr_file_io.h	106;"	d
+APR_LIB_H	include/apr/apr_lib.h	18;"	d
+APR_LIMIT_CPU	include/apr/apr_thread_proc.h	102;"	d
+APR_LIMIT_MEM	include/apr/apr_thread_proc.h	104;"	d
+APR_LIMIT_NOFILE	include/apr/apr_thread_proc.h	108;"	d
+APR_LIMIT_NPROC	include/apr/apr_thread_proc.h	106;"	d
+APR_LNK	include/apr/apr_file_info.h	/^    APR_LNK,            \/**< a symbolic link *\/$/;"	e	enum:__anon6
+APR_LOCAL	include/apr/apr_network_io.h	/^    APR_LOCAL,   \/**< Socket information for local end of connection *\/$/;"	e	enum:__anon4
+APR_LOCK_DEFAULT	include/apr/apr_proc_mutex.h	/^    APR_LOCK_DEFAULT        \/**< Use the default process lock *\/$/;"	e	enum:__anon1
+APR_LOCK_FCNTL	include/apr/apr_proc_mutex.h	/^    APR_LOCK_FCNTL,         \/**< fcntl() *\/$/;"	e	enum:__anon1
+APR_LOCK_FLOCK	include/apr/apr_proc_mutex.h	/^    APR_LOCK_FLOCK,         \/**< flock() *\/$/;"	e	enum:__anon1
+APR_LOCK_POSIXSEM	include/apr/apr_proc_mutex.h	/^    APR_LOCK_POSIXSEM,      \/**< POSIX semaphore process-based locking *\/$/;"	e	enum:__anon1
+APR_LOCK_PROC_PTHREAD	include/apr/apr_proc_mutex.h	/^    APR_LOCK_PROC_PTHREAD,  \/**< POSIX pthread process-based locking *\/$/;"	e	enum:__anon1
+APR_LOCK_SYSVSEM	include/apr/apr_proc_mutex.h	/^    APR_LOCK_SYSVSEM,       \/**< System V Semaphores *\/$/;"	e	enum:__anon1
+APR_MAJOR_VERSION	include/apr/apr_version.h	53;"	d
+APR_MAX_IOVEC_SIZE	include/apr/apr_file_io.h	168;"	d
+APR_MAX_IOVEC_SIZE	include/apr/apr_file_io.h	171;"	d
+APR_MAX_IOVEC_SIZE	include/apr/apr_file_io.h	173;"	d
+APR_MAX_IOVEC_SIZE	include/apr/apr_file_io.h	175;"	d
+APR_MAX_SECS_TO_LINGER	include/apr/apr_network_io.h	46;"	d
+APR_MEMNODE_T_SIZE	include/apr/apr_allocator.h	64;"	d
+APR_MINOR_VERSION	include/apr/apr_version.h	59;"	d
+APR_MMAP_CANDIDATE	include/apr/apr_mmap.h	115;"	d
+APR_MMAP_H	include/apr/apr_mmap.h	18;"	d
+APR_MMAP_LIMIT	include/apr/apr_mmap.h	109;"	d
+APR_MMAP_LIMIT	include/apr/apr_mmap.h	111;"	d
+APR_MMAP_READ	include/apr/apr_mmap.h	46;"	d
+APR_MMAP_THRESHOLD	include/apr/apr_mmap.h	101;"	d
+APR_MMAP_THRESHOLD	include/apr/apr_mmap.h	96;"	d
+APR_MMAP_THRESHOLD	include/apr/apr_mmap.h	99;"	d
+APR_MMAP_WRITE	include/apr/apr_mmap.h	48;"	d
+APR_NETWORK_IO_H	include/apr/apr_network_io.h	18;"	d
+APR_NOFILE	include/apr/apr_file_info.h	/^    APR_NOFILE = 0,     \/**< no file type determined *\/$/;"	e	enum:__anon6
+APR_NOTDETACH	include/apr/apr_errno.h	444;"	d
+APR_NOTFOUND	include/apr/apr_errno.h	463;"	d
+APR_NOWAIT	include/apr/apr_thread_proc.h	/^    APR_NOWAIT          \/**< do not wait -- just see if it has finished *\/$/;"	e	enum:__anon11
+APR_NO_DESC	include/apr/apr_poll.h	/^    APR_NO_DESC,                \/**< nothing here *\/$/;"	e	enum:__anon8
+APR_NO_FILE	include/apr/apr_thread_proc.h	89;"	d
+APR_NO_FILE	include/apr/apr_thread_proc.h	99;"	d
+APR_NO_PIPE	include/apr/apr_thread_proc.h	79;"	d
+APR_OC_REASON_DEATH	include/apr/apr_thread_proc.h	114;"	d
+APR_OC_REASON_LOST	include/apr/apr_thread_proc.h	124;"	d
+APR_OC_REASON_RESTART	include/apr/apr_thread_proc.h	117;"	d
+APR_OC_REASON_RUNNING	include/apr/apr_thread_proc.h	126;"	d
+APR_OC_REASON_UNREGISTER	include/apr/apr_thread_proc.h	121;"	d
+APR_OC_REASON_UNWRITABLE	include/apr/apr_thread_proc.h	116;"	d
+APR_OFFSET	include/apr/apr_general.h	81;"	d
+APR_OFFSET	include/apr/apr_general.h	84;"	d
+APR_OFFSET	include/apr/apr_general.h	89;"	d
+APR_OFFSET	include/apr/apr_general.h	95;"	d
+APR_OFFSETOF	include/apr/apr_general.h	107;"	d
+APR_OFFSETOF	include/apr/apr_general.h	109;"	d
+APR_OFF_T_FMT	include/apr/apr.h	539;"	d
+APR_OFF_T_FMT	include/apr/apr.h	585;"	d
+APR_OFF_T_FMT	include/apr/apr.h	586;"	d
+APR_OS2_STATUS	include/apr/apr_errno.h	862;"	d
+APR_OS_DEFAULT	include/apr/apr_file_info.h	112;"	d
+APR_OS_ERRSPACE_SIZE	include/apr/apr_errno.h	123;"	d
+APR_OS_START_CANONERR	include/apr/apr_errno.h	174;"	d
+APR_OS_START_EAIERR	include/apr/apr_errno.h	180;"	d
+APR_OS_START_ERROR	include/apr/apr_errno.h	117;"	d
+APR_OS_START_STATUS	include/apr/apr_errno.h	136;"	d
+APR_OS_START_SYSERR	include/apr/apr_errno.h	185;"	d
+APR_OS_START_USEERR	include/apr/apr_errno.h	169;"	d
+APR_OS_START_USERERR	include/apr/apr_errno.h	164;"	d
+APR_OVERLAP_TABLES_MERGE	include/apr/apr_tables.h	438;"	d
+APR_OVERLAP_TABLES_SET	include/apr/apr_tables.h	436;"	d
+APR_O_NONBLOCK_INHERITED	include/apr/apr.h	305;"	d
+APR_PARENT_BLOCK	include/apr/apr_thread_proc.h	85;"	d
+APR_PATCH_VERSION	include/apr/apr_version.h	65;"	d
+APR_PATH_MAX	include/apr/apr.h	609;"	d
+APR_PATH_MAX	include/apr/apr.h	611;"	d
+APR_PID_T_FMT	include/apr/apr.h	542;"	d
+APR_PIPE	include/apr/apr_file_info.h	/^    APR_PIPE,           \/**< a FIFO \/ pipe *\/$/;"	e	enum:__anon6
+APR_POLLERR	include/apr/apr_poll.h	52;"	d
+APR_POLLHUP	include/apr/apr_poll.h	53;"	d
+APR_POLLIN	include/apr/apr_poll.h	49;"	d
+APR_POLLNVAL	include/apr/apr_poll.h	54;"	d
+APR_POLLOUT	include/apr/apr_poll.h	51;"	d
+APR_POLLPRI	include/apr/apr_poll.h	50;"	d
+APR_POLLSET_AIO_MSGQ	include/apr/apr_poll.h	/^    APR_POLLSET_AIO_MSGQ        \/**< Poll uses z\/OS asio method *\/$/;"	e	enum:__anon7
+APR_POLLSET_DEFAULT	include/apr/apr_poll.h	/^    APR_POLLSET_DEFAULT,        \/**< Platform default poll method *\/$/;"	e	enum:__anon7
+APR_POLLSET_EPOLL	include/apr/apr_poll.h	/^    APR_POLLSET_EPOLL,          \/**< Poll uses epoll method *\/$/;"	e	enum:__anon7
+APR_POLLSET_KQUEUE	include/apr/apr_poll.h	/^    APR_POLLSET_KQUEUE,         \/**< Poll uses kqueue method *\/$/;"	e	enum:__anon7
+APR_POLLSET_NOCOPY	include/apr/apr_poll.h	65;"	d
+APR_POLLSET_NODEFAULT	include/apr/apr_poll.h	71;"	d
+APR_POLLSET_POLL	include/apr/apr_poll.h	/^    APR_POLLSET_POLL,           \/**< Poll uses poll method *\/$/;"	e	enum:__anon7
+APR_POLLSET_PORT	include/apr/apr_poll.h	/^    APR_POLLSET_PORT,           \/**< Poll uses Solaris event port method *\/$/;"	e	enum:__anon7
+APR_POLLSET_SELECT	include/apr/apr_poll.h	/^    APR_POLLSET_SELECT,         \/**< Poll uses select method *\/$/;"	e	enum:__anon7
+APR_POLLSET_THREADSAFE	include/apr/apr_poll.h	62;"	d
+APR_POLLSET_WAKEABLE	include/apr/apr_poll.h	68;"	d
+APR_POLL_FILE	include/apr/apr_poll.h	/^    APR_POLL_FILE,              \/**< descriptor refers to a file *\/$/;"	e	enum:__anon8
+APR_POLL_H	include/apr/apr_poll.h	18;"	d
+APR_POLL_LASTDESC	include/apr/apr_poll.h	/^    APR_POLL_LASTDESC           \/**< @deprecated descriptor is the last one in the list *\/$/;"	e	enum:__anon8
+APR_POLL_SOCKET	include/apr/apr_poll.h	/^    APR_POLL_SOCKET,            \/**< descriptor refers to a socket *\/$/;"	e	enum:__anon8
+APR_POOLS_H	include/apr/apr_pools.h	18;"	d
+APR_POOL_DEBUG	include/apr/apr_pools.h	135;"	d
+APR_POOL_DEBUG	include/apr/apr_pools.h	136;"	d
+APR_POOL_DEBUG	include/apr/apr_pools.h	139;"	d
+APR_POOL_DECLARE_ACCESSOR	include/apr/apr_pools.h	81;"	d
+APR_POOL_IMPLEMENT_ACCESSOR	include/apr/apr_pools.h	91;"	d
+APR_POOL__FILE_LINE__	include/apr/apr_pools.h	143;"	d
+APR_PORTABLE_H	include/apr/apr_portable.h	22;"	d
+APR_PROCATTR_USER_SET_REQUIRES_PASSWORD	include/apr/apr.h	283;"	d
+APR_PROCESS_LOCK_IS_GLOBAL	include/apr/apr.h	240;"	d
+APR_PROC_CHECK_CORE_DUMP	include/apr/apr_thread_proc.h	76;"	d
+APR_PROC_CHECK_EXIT	include/apr/apr_thread_proc.h	72;"	d
+APR_PROC_CHECK_SIGNALED	include/apr/apr_thread_proc.h	74;"	d
+APR_PROC_DETACH_DAEMONIZE	include/apr/apr_thread_proc.h	680;"	d
+APR_PROC_DETACH_FOREGROUND	include/apr/apr_thread_proc.h	679;"	d
+APR_PROC_EXIT	include/apr/apr_thread_proc.h	/^    APR_PROC_EXIT = 1,          \/**< process exited normally *\/$/;"	e	enum:__anon12
+APR_PROC_MUTEX_H	include/apr/apr_proc_mutex.h	18;"	d
+APR_PROC_MUTEX_IS_GLOBAL	include/apr/apr.h	591;"	d
+APR_PROC_SIGNAL	include/apr/apr_thread_proc.h	/^    APR_PROC_SIGNAL = 2,        \/**< process exited due to a signal *\/$/;"	e	enum:__anon12
+APR_PROC_SIGNAL_CORE	include/apr/apr_thread_proc.h	/^    APR_PROC_SIGNAL_CORE = 4    \/**< process exited and dumped a core file *\/$/;"	e	enum:__anon12
+APR_PROGRAM	include/apr/apr_thread_proc.h	/^    APR_PROGRAM,            \/**< invoke the program directly, no copied env *\/$/;"	e	enum:__anon10
+APR_PROGRAM_ENV	include/apr/apr_thread_proc.h	/^    APR_PROGRAM_ENV,        \/**< invoke the program, replicating our environment *\/$/;"	e	enum:__anon10
+APR_PROGRAM_PATH	include/apr/apr_thread_proc.h	/^    APR_PROGRAM_PATH,       \/**< find program on PATH, use our environment *\/$/;"	e	enum:__anon10
+APR_PROTO_SCTP	include/apr/apr_network_io.h	165;"	d
+APR_PROTO_TCP	include/apr/apr_network_io.h	163;"	d
+APR_PROTO_UDP	include/apr/apr_network_io.h	164;"	d
+APR_RANDOM_H	include/apr/apr_random.h	18;"	d
+APR_READ	include/apr/apr_file_io.h	93;"	d
+APR_READ_BLOCK	include/apr/apr_thread_proc.h	92;"	d
+APR_REG	include/apr/apr_file_info.h	/^    APR_REG,            \/**< a regular file *\/$/;"	e	enum:__anon6
+APR_REMOTE	include/apr/apr_network_io.h	/^    APR_REMOTE   \/**< Socket information for remote end of connection *\/$/;"	e	enum:__anon4
+APR_RESET_NODELAY	include/apr/apr_network_io.h	75;"	d
+APR_RFC822_DATE_LEN	include/apr/apr_time.h	184;"	d
+APR_RING_CHECK	include/apr/apr_ring.h	414;"	d
+APR_RING_CHECK	include/apr/apr_ring.h	476;"	d
+APR_RING_CHECK_CONSISTENCY	include/apr/apr_ring.h	444;"	d
+APR_RING_CHECK_CONSISTENCY	include/apr/apr_ring.h	486;"	d
+APR_RING_CHECK_ELEM	include/apr/apr_ring.h	417;"	d
+APR_RING_CHECK_ELEM	include/apr/apr_ring.h	497;"	d
+APR_RING_CHECK_ELEM_CONSISTENCY	include/apr/apr_ring.h	448;"	d
+APR_RING_CHECK_ELEM_CONSISTENCY	include/apr/apr_ring.h	508;"	d
+APR_RING_CHECK_ONE	include/apr/apr_ring.h	411;"	d
+APR_RING_CHECK_ONE	include/apr/apr_ring.h	465;"	d
+APR_RING_CONCAT	include/apr/apr_ring.h	332;"	d
+APR_RING_ELEM_INIT	include/apr/apr_ring.h	212;"	d
+APR_RING_EMPTY	include/apr/apr_ring.h	204;"	d
+APR_RING_ENTRY	include/apr/apr_ring.h	70;"	d
+APR_RING_FIRST	include/apr/apr_ring.h	166;"	d
+APR_RING_FOREACH	include/apr/apr_ring.h	387;"	d
+APR_RING_FOREACH_SAFE	include/apr/apr_ring.h	400;"	d
+APR_RING_H	include/apr/apr_ring.h	28;"	d
+APR_RING_HEAD	include/apr/apr_ring.h	91;"	d
+APR_RING_INIT	include/apr/apr_ring.h	192;"	d
+APR_RING_INSERT_AFTER	include/apr/apr_ring.h	273;"	d
+APR_RING_INSERT_BEFORE	include/apr/apr_ring.h	261;"	d
+APR_RING_INSERT_HEAD	include/apr/apr_ring.h	311;"	d
+APR_RING_INSERT_TAIL	include/apr/apr_ring.h	322;"	d
+APR_RING_LAST	include/apr/apr_ring.h	171;"	d
+APR_RING_NEXT	include/apr/apr_ring.h	177;"	d
+APR_RING_PREPEND	include/apr/apr_ring.h	348;"	d
+APR_RING_PREV	include/apr/apr_ring.h	183;"	d
+APR_RING_REMOVE	include/apr/apr_ring.h	377;"	d
+APR_RING_SENTINEL	include/apr/apr_ring.h	159;"	d
+APR_RING_SPLICE_AFTER	include/apr/apr_ring.h	245;"	d
+APR_RING_SPLICE_BEFORE	include/apr/apr_ring.h	228;"	d
+APR_RING_SPLICE_HEAD	include/apr/apr_ring.h	286;"	d
+APR_RING_SPLICE_TAIL	include/apr/apr_ring.h	299;"	d
+APR_RING_UNSPLICE	include/apr/apr_ring.h	364;"	d
+APR_SENDFILE_DISCONNECT_SOCKET	include/apr/apr_network_io.h	259;"	d
+APR_SENDFILE_ENABLED	include/apr/apr_file_io.h	105;"	d
+APR_SET	include/apr/apr_file_io.h	145;"	d
+APR_SHARELOCK	include/apr/apr_file_io.h	103;"	d
+APR_SHELLCMD	include/apr/apr_thread_proc.h	/^    APR_SHELLCMD,           \/**< use the shell to invoke the program *\/$/;"	e	enum:__anon10
+APR_SHELLCMD_ENV	include/apr/apr_thread_proc.h	/^    APR_SHELLCMD_ENV        \/**< use the shell to invoke the program,$/;"	e	enum:__anon10
+APR_SHM_H	include/apr/apr_shm.h	18;"	d
+APR_SHM_NS_GLOBAL	include/apr/apr_shm.h	84;"	d
+APR_SHM_NS_LOCAL	include/apr/apr_shm.h	77;"	d
+APR_SHUTDOWN_READ	include/apr/apr_network_io.h	/^    APR_SHUTDOWN_READ,          \/**< no longer allow read request *\/$/;"	e	enum:__anon3
+APR_SHUTDOWN_READWRITE	include/apr/apr_network_io.h	/^    APR_SHUTDOWN_READWRITE      \/**< no longer allow read or write requests *\/$/;"	e	enum:__anon3
+APR_SHUTDOWN_WRITE	include/apr/apr_network_io.h	/^    APR_SHUTDOWN_WRITE,         \/**< no longer allow write requests *\/$/;"	e	enum:__anon3
+APR_SIGNAL_H	include/apr/apr_signal.h	18;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	317;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	335;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	341;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	347;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	559;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	566;"	d
+APR_SIZEOF_VOIDP	include/apr/apr.h	572;"	d
+APR_SIZE_MAX	include/apr/apr.h	429;"	d
+APR_SIZE_T_FMT	include/apr/apr.h	536;"	d
+APR_SKIPLIST_H	include/apr/apr_skiplist.h	18;"	d
+APR_SOCK	include/apr/apr_file_info.h	/^    APR_SOCK,           \/**< a [unix domain] socket *\/$/;"	e	enum:__anon6
+APR_SO_BROADCAST	include/apr/apr_network_io.h	102;"	d
+APR_SO_DEBUG	include/apr/apr_network_io.h	65;"	d
+APR_SO_DISCONNECTED	include/apr/apr_network_io.h	70;"	d
+APR_SO_KEEPALIVE	include/apr/apr_network_io.h	64;"	d
+APR_SO_LINGER	include/apr/apr_network_io.h	63;"	d
+APR_SO_NONBLOCK	include/apr/apr_network_io.h	66;"	d
+APR_SO_RCVBUF	include/apr/apr_network_io.h	69;"	d
+APR_SO_REUSEADDR	include/apr/apr_network_io.h	67;"	d
+APR_SO_SNDBUF	include/apr/apr_network_io.h	68;"	d
+APR_SSIZE_T_FMT	include/apr/apr.h	533;"	d
+APR_STATUS_IS_ANONYMOUS	include/apr/apr_errno.h	584;"	d
+APR_STATUS_IS_BADARG	include/apr/apr_errno.h	560;"	d
+APR_STATUS_IS_BADCH	include/apr/apr_errno.h	552;"	d
+APR_STATUS_IS_CHILD_DONE	include/apr/apr_errno.h	520;"	d
+APR_STATUS_IS_CHILD_NOTDONE	include/apr/apr_errno.h	527;"	d
+APR_STATUS_IS_DETACH	include/apr/apr_errno.h	506;"	d
+APR_STATUS_IS_EABOVEROOT	include/apr/apr_errno.h	412;"	d
+APR_STATUS_IS_EABSOLUTE	include/apr/apr_errno.h	406;"	d
+APR_STATUS_IS_EACCES	include/apr/apr_errno.h	1024;"	d
+APR_STATUS_IS_EACCES	include/apr/apr_errno.h	1139;"	d
+APR_STATUS_IS_EACCES	include/apr/apr_errno.h	1209;"	d
+APR_STATUS_IS_EACCES	include/apr/apr_errno.h	913;"	d
+APR_STATUS_IS_EAFNOSUPPORT	include/apr/apr_errno.h	1123;"	d
+APR_STATUS_IS_EAFNOSUPPORT	include/apr/apr_errno.h	1184;"	d
+APR_STATUS_IS_EAFNOSUPPORT	include/apr/apr_errno.h	1304;"	d
+APR_STATUS_IS_EAFNOSUPPORT	include/apr/apr_errno.h	978;"	d
+APR_STATUS_IS_EAGAIN	include/apr/apr_errno.h	1077;"	d
+APR_STATUS_IS_EAGAIN	include/apr/apr_errno.h	1152;"	d
+APR_STATUS_IS_EAGAIN	include/apr/apr_errno.h	1250;"	d
+APR_STATUS_IS_EAGAIN	include/apr/apr_errno.h	1252;"	d
+APR_STATUS_IS_EAGAIN	include/apr/apr_errno.h	1254;"	d
+APR_STATUS_IS_EAGAIN	include/apr/apr_errno.h	943;"	d
+APR_STATUS_IS_EBADDATE	include/apr/apr_errno.h	367;"	d
+APR_STATUS_IS_EBADF	include/apr/apr_errno.h	1064;"	d
+APR_STATUS_IS_EBADF	include/apr/apr_errno.h	1148;"	d
+APR_STATUS_IS_EBADF	include/apr/apr_errno.h	1242;"	d
+APR_STATUS_IS_EBADF	include/apr/apr_errno.h	936;"	d
+APR_STATUS_IS_EBADIP	include/apr/apr_errno.h	391;"	d
+APR_STATUS_IS_EBADMASK	include/apr/apr_errno.h	393;"	d
+APR_STATUS_IS_EBADPATH	include/apr/apr_errno.h	414;"	d
+APR_STATUS_IS_EBUSY	include/apr/apr_errno.h	628;"	d
+APR_STATUS_IS_ECONNABORTED	include/apr/apr_errno.h	1092;"	d
+APR_STATUS_IS_ECONNABORTED	include/apr/apr_errno.h	1163;"	d
+APR_STATUS_IS_ECONNABORTED	include/apr/apr_errno.h	1279;"	d
+APR_STATUS_IS_ECONNABORTED	include/apr/apr_errno.h	1282;"	d
+APR_STATUS_IS_ECONNABORTED	include/apr/apr_errno.h	955;"	d
+APR_STATUS_IS_ECONNREFUSED	include/apr/apr_errno.h	1088;"	d
+APR_STATUS_IS_ECONNREFUSED	include/apr/apr_errno.h	1159;"	d
+APR_STATUS_IS_ECONNREFUSED	include/apr/apr_errno.h	1263;"	d
+APR_STATUS_IS_ECONNREFUSED	include/apr/apr_errno.h	951;"	d
+APR_STATUS_IS_ECONNRESET	include/apr/apr_errno.h	1094;"	d
+APR_STATUS_IS_ECONNRESET	include/apr/apr_errno.h	1165;"	d
+APR_STATUS_IS_ECONNRESET	include/apr/apr_errno.h	1286;"	d
+APR_STATUS_IS_ECONNRESET	include/apr/apr_errno.h	957;"	d
+APR_STATUS_IS_EDSOOPEN	include/apr/apr_errno.h	400;"	d
+APR_STATUS_IS_EDSOOPEN	include/apr/apr_errno.h	403;"	d
+APR_STATUS_IS_EEXIST	include/apr/apr_errno.h	1035;"	d
+APR_STATUS_IS_EEXIST	include/apr/apr_errno.h	1140;"	d
+APR_STATUS_IS_EEXIST	include/apr/apr_errno.h	1211;"	d
+APR_STATUS_IS_EEXIST	include/apr/apr_errno.h	916;"	d
+APR_STATUS_IS_EFTYPE	include/apr/apr_errno.h	1109;"	d
+APR_STATUS_IS_EFTYPE	include/apr/apr_errno.h	1180;"	d
+APR_STATUS_IS_EFTYPE	include/apr/apr_errno.h	1295;"	d
+APR_STATUS_IS_EFTYPE	include/apr/apr_errno.h	969;"	d
+APR_STATUS_IS_EGENERAL	include/apr/apr_errno.h	387;"	d
+APR_STATUS_IS_EHOSTUNREACH	include/apr/apr_errno.h	1105;"	d
+APR_STATUS_IS_EHOSTUNREACH	include/apr/apr_errno.h	1175;"	d
+APR_STATUS_IS_EHOSTUNREACH	include/apr/apr_errno.h	1291;"	d
+APR_STATUS_IS_EHOSTUNREACH	include/apr/apr_errno.h	965;"	d
+APR_STATUS_IS_EINCOMPLETE	include/apr/apr_errno.h	410;"	d
+APR_STATUS_IS_EINIT	include/apr/apr_errno.h	606;"	d
+APR_STATUS_IS_EINPROGRESS	include/apr/apr_errno.h	1090;"	d
+APR_STATUS_IS_EINPROGRESS	include/apr/apr_errno.h	1161;"	d
+APR_STATUS_IS_EINPROGRESS	include/apr/apr_errno.h	1265;"	d
+APR_STATUS_IS_EINPROGRESS	include/apr/apr_errno.h	953;"	d
+APR_STATUS_IS_EINTR	include/apr/apr_errno.h	1084;"	d
+APR_STATUS_IS_EINTR	include/apr/apr_errno.h	1155;"	d
+APR_STATUS_IS_EINTR	include/apr/apr_errno.h	1259;"	d
+APR_STATUS_IS_EINTR	include/apr/apr_errno.h	947;"	d
+APR_STATUS_IS_EINVAL	include/apr/apr_errno.h	1067;"	d
+APR_STATUS_IS_EINVAL	include/apr/apr_errno.h	1149;"	d
+APR_STATUS_IS_EINVAL	include/apr/apr_errno.h	1244;"	d
+APR_STATUS_IS_EINVAL	include/apr/apr_errno.h	938;"	d
+APR_STATUS_IS_EINVALSOCK	include/apr/apr_errno.h	369;"	d
+APR_STATUS_IS_EMFILE	include/apr/apr_errno.h	1061;"	d
+APR_STATUS_IS_EMFILE	include/apr/apr_errno.h	1146;"	d
+APR_STATUS_IS_EMFILE	include/apr/apr_errno.h	1238;"	d
+APR_STATUS_IS_EMFILE	include/apr/apr_errno.h	933;"	d
+APR_STATUS_IS_EMISMATCH	include/apr/apr_errno.h	622;"	d
+APR_STATUS_IS_ENAMETOOLONG	include/apr/apr_errno.h	1038;"	d
+APR_STATUS_IS_ENAMETOOLONG	include/apr/apr_errno.h	1141;"	d
+APR_STATUS_IS_ENAMETOOLONG	include/apr/apr_errno.h	1213;"	d
+APR_STATUS_IS_ENAMETOOLONG	include/apr/apr_errno.h	921;"	d
+APR_STATUS_IS_ENETDOWN	include/apr/apr_errno.h	1179;"	d
+APR_STATUS_IS_ENETUNREACH	include/apr/apr_errno.h	1107;"	d
+APR_STATUS_IS_ENETUNREACH	include/apr/apr_errno.h	1177;"	d
+APR_STATUS_IS_ENETUNREACH	include/apr/apr_errno.h	1293;"	d
+APR_STATUS_IS_ENETUNREACH	include/apr/apr_errno.h	967;"	d
+APR_STATUS_IS_ENFILE	include/apr/apr_errno.h	1063;"	d
+APR_STATUS_IS_ENFILE	include/apr/apr_errno.h	1147;"	d
+APR_STATUS_IS_ENFILE	include/apr/apr_errno.h	1240;"	d
+APR_STATUS_IS_ENFILE	include/apr/apr_errno.h	935;"	d
+APR_STATUS_IS_ENODIR	include/apr/apr_errno.h	375;"	d
+APR_STATUS_IS_ENOENT	include/apr/apr_errno.h	1041;"	d
+APR_STATUS_IS_ENOENT	include/apr/apr_errno.h	1142;"	d
+APR_STATUS_IS_ENOENT	include/apr/apr_errno.h	1221;"	d
+APR_STATUS_IS_ENOENT	include/apr/apr_errno.h	1224;"	d
+APR_STATUS_IS_ENOENT	include/apr/apr_errno.h	924;"	d
+APR_STATUS_IS_ENOLOCK	include/apr/apr_errno.h	377;"	d
+APR_STATUS_IS_ENOMEM	include/apr/apr_errno.h	1055;"	d
+APR_STATUS_IS_ENOMEM	include/apr/apr_errno.h	1145;"	d
+APR_STATUS_IS_ENOMEM	include/apr/apr_errno.h	1236;"	d
+APR_STATUS_IS_ENOMEM	include/apr/apr_errno.h	932;"	d
+APR_STATUS_IS_ENOPOLL	include/apr/apr_errno.h	379;"	d
+APR_STATUS_IS_ENOPOOL	include/apr/apr_errno.h	365;"	d
+APR_STATUS_IS_ENOPROC	include/apr/apr_errno.h	371;"	d
+APR_STATUS_IS_ENOSHMAVAIL	include/apr/apr_errno.h	389;"	d
+APR_STATUS_IS_ENOSOCKET	include/apr/apr_errno.h	381;"	d
+APR_STATUS_IS_ENOSPC	include/apr/apr_errno.h	1053;"	d
+APR_STATUS_IS_ENOSPC	include/apr/apr_errno.h	1144;"	d
+APR_STATUS_IS_ENOSPC	include/apr/apr_errno.h	1230;"	d
+APR_STATUS_IS_ENOSPC	include/apr/apr_errno.h	1233;"	d
+APR_STATUS_IS_ENOSPC	include/apr/apr_errno.h	930;"	d
+APR_STATUS_IS_ENOSTAT	include/apr/apr_errno.h	359;"	d
+APR_STATUS_IS_ENOTDIR	include/apr/apr_errno.h	1046;"	d
+APR_STATUS_IS_ENOTDIR	include/apr/apr_errno.h	1143;"	d
+APR_STATUS_IS_ENOTDIR	include/apr/apr_errno.h	1227;"	d
+APR_STATUS_IS_ENOTDIR	include/apr/apr_errno.h	929;"	d
+APR_STATUS_IS_ENOTEMPTY	include/apr/apr_errno.h	1121;"	d
+APR_STATUS_IS_ENOTEMPTY	include/apr/apr_errno.h	1183;"	d
+APR_STATUS_IS_ENOTEMPTY	include/apr/apr_errno.h	1301;"	d
+APR_STATUS_IS_ENOTEMPTY	include/apr/apr_errno.h	975;"	d
+APR_STATUS_IS_ENOTENOUGHENTROPY	include/apr/apr_errno.h	429;"	d
+APR_STATUS_IS_ENOTHDKEY	include/apr/apr_errno.h	385;"	d
+APR_STATUS_IS_ENOTHREAD	include/apr/apr_errno.h	383;"	d
+APR_STATUS_IS_ENOTIME	include/apr/apr_errno.h	373;"	d
+APR_STATUS_IS_ENOTIMPL	include/apr/apr_errno.h	615;"	d
+APR_STATUS_IS_ENOTSOCK	include/apr/apr_errno.h	1086;"	d
+APR_STATUS_IS_ENOTSOCK	include/apr/apr_errno.h	1157;"	d
+APR_STATUS_IS_ENOTSOCK	include/apr/apr_errno.h	1261;"	d
+APR_STATUS_IS_ENOTSOCK	include/apr/apr_errno.h	949;"	d
+APR_STATUS_IS_EOF	include/apr/apr_errno.h	567;"	d
+APR_STATUS_IS_EPATHWILD	include/apr/apr_errno.h	416;"	d
+APR_STATUS_IS_EPIPE	include/apr/apr_errno.h	1117;"	d
+APR_STATUS_IS_EPIPE	include/apr/apr_errno.h	1181;"	d
+APR_STATUS_IS_EPIPE	include/apr/apr_errno.h	1297;"	d
+APR_STATUS_IS_EPIPE	include/apr/apr_errno.h	970;"	d
+APR_STATUS_IS_EPROC_UNKNOWN	include/apr/apr_errno.h	427;"	d
+APR_STATUS_IS_ERELATIVE	include/apr/apr_errno.h	408;"	d
+APR_STATUS_IS_ESPIPE	include/apr/apr_errno.h	1074;"	d
+APR_STATUS_IS_ESPIPE	include/apr/apr_errno.h	1150;"	d
+APR_STATUS_IS_ESPIPE	include/apr/apr_errno.h	1246;"	d
+APR_STATUS_IS_ESPIPE	include/apr/apr_errno.h	941;"	d
+APR_STATUS_IS_ESYMNOTFOUND	include/apr/apr_errno.h	421;"	d
+APR_STATUS_IS_ESYMNOTFOUND	include/apr/apr_errno.h	424;"	d
+APR_STATUS_IS_ETIMEDOUT	include/apr/apr_errno.h	1098;"	d
+APR_STATUS_IS_ETIMEDOUT	include/apr/apr_errno.h	1168;"	d
+APR_STATUS_IS_ETIMEDOUT	include/apr/apr_errno.h	1289;"	d
+APR_STATUS_IS_ETIMEDOUT	include/apr/apr_errno.h	960;"	d
+APR_STATUS_IS_EXDEV	include/apr/apr_errno.h	1119;"	d
+APR_STATUS_IS_EXDEV	include/apr/apr_errno.h	1182;"	d
+APR_STATUS_IS_EXDEV	include/apr/apr_errno.h	1299;"	d
+APR_STATUS_IS_EXDEV	include/apr/apr_errno.h	973;"	d
+APR_STATUS_IS_FILEBASED	include/apr/apr_errno.h	591;"	d
+APR_STATUS_IS_INCHILD	include/apr/apr_errno.h	492;"	d
+APR_STATUS_IS_INCOMPLETE	include/apr/apr_errno.h	542;"	d
+APR_STATUS_IS_INPARENT	include/apr/apr_errno.h	499;"	d
+APR_STATUS_IS_KEYBASED	include/apr/apr_errno.h	598;"	d
+APR_STATUS_IS_NOTDETACH	include/apr/apr_errno.h	513;"	d
+APR_STATUS_IS_NOTFOUND	include/apr/apr_errno.h	574;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	1101;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	1102;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	1171;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	1172;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	534;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	962;"	d
+APR_STATUS_IS_TIMEUP	include/apr/apr_errno.h	963;"	d
+APR_STRINGIFY	include/apr/apr_general.h	150;"	d
+APR_STRINGIFY	include/apr/apr_version.h	103;"	d
+APR_STRINGIFY_HELPER	include/apr/apr_general.h	152;"	d
+APR_STRINGIFY_HELPER	include/apr/apr_version.h	105;"	d
+APR_STRINGS_H	include/apr/apr_strings.h	41;"	d
+APR_SUCCESS	include/apr/apr_errno.h	225;"	d
+APR_SUPPORT_H	include/apr/apr_support.h	18;"	d
+APR_TABLES_H	include/apr/apr_tables.h	18;"	d
+APR_TCP_DEFER_ACCEPT	include/apr/apr_network_io.h	98;"	d
+APR_TCP_NODELAY	include/apr/apr_network_io.h	71;"	d
+APR_TCP_NODELAY_INHERITED	include/apr/apr.h	301;"	d
+APR_TCP_NOPUSH	include/apr/apr_network_io.h	74;"	d
+APR_TCP_NOPUSH_FLAG	include/apr/apr.h	297;"	d
+APR_THREAD_COND_H	include/apr/apr_thread_cond.h	18;"	d
+APR_THREAD_FUNC	include/apr/apr.h	454;"	d
+APR_THREAD_MUTEX_DEFAULT	include/apr/apr_thread_mutex.h	43;"	d
+APR_THREAD_MUTEX_H	include/apr/apr_thread_mutex.h	18;"	d
+APR_THREAD_MUTEX_NESTED	include/apr/apr_thread_mutex.h	44;"	d
+APR_THREAD_MUTEX_UNNESTED	include/apr/apr_thread_mutex.h	45;"	d
+APR_THREAD_PROC_H	include/apr/apr_thread_proc.h	18;"	d
+APR_THREAD_RWLOCK_H	include/apr/apr_thread_rwlock.h	18;"	d
+APR_TIMEUP	include/apr/apr_errno.h	450;"	d
+APR_TIME_C	include/apr/apr_time.h	50;"	d
+APR_TIME_H	include/apr/apr_time.h	18;"	d
+APR_TIME_T_FMT	include/apr/apr_time.h	53;"	d
+APR_TO_OS_ERROR	include/apr/apr_errno.h	1013;"	d
+APR_TO_OS_ERROR	include/apr/apr_errno.h	1129;"	d
+APR_TO_OS_ERROR	include/apr/apr_errno.h	1193;"	d
+APR_TO_OS_ERROR	include/apr/apr_errno.h	75;"	d
+APR_TO_OS_ERROR	include/apr/apr_errno.h	841;"	d
+APR_TRUNCATE	include/apr/apr_file_io.h	97;"	d
+APR_UEXECUTE	include/apr/apr_file_info.h	103;"	d
+APR_UINT16_MAX	include/apr/apr.h	388;"	d
+APR_UINT16_MAX	include/apr/apr.h	390;"	d
+APR_UINT32_MAX	include/apr/apr.h	406;"	d
+APR_UINT32_MAX	include/apr/apr.h	408;"	d
+APR_UINT64_C	include/apr/apr.h	373;"	d
+APR_UINT64_MAX	include/apr/apr.h	424;"	d
+APR_UINT64_MAX	include/apr/apr.h	426;"	d
+APR_UINT64_T_FMT	include/apr/apr.h	548;"	d
+APR_UINT64_T_FMT	include/apr/apr.h	561;"	d
+APR_UINT64_T_FMT	include/apr/apr.h	568;"	d
+APR_UINT64_T_FMT	include/apr/apr.h	574;"	d
+APR_UINT64_T_HEX_FMT	include/apr/apr.h	551;"	d
+APR_UINT64_T_HEX_FMT	include/apr/apr.h	562;"	d
+APR_UINT64_T_HEX_FMT	include/apr/apr.h	569;"	d
+APR_UINT64_T_HEX_FMT	include/apr/apr.h	575;"	d
+APR_UNKFILE	include/apr/apr_file_info.h	/^    APR_UNKFILE = 127   \/**< a file of some other unknown type *\/$/;"	e	enum:__anon6
+APR_UNSPEC	include/apr/apr_network_io.h	147;"	d
+APR_UNSPEC	include/apr/apr_network_io.h	149;"	d
+APR_UREAD	include/apr/apr_file_info.h	101;"	d
+APR_USEC_PER_SEC	include/apr/apr_time.h	61;"	d
+APR_USER_H	include/apr/apr_user.h	18;"	d
+APR_USETID	include/apr/apr_file_info.h	100;"	d
+APR_USE_FCNTL_SERIALIZE	include/apr/apr.h	230;"	d
+APR_USE_FLOCK_SERIALIZE	include/apr/apr.h	227;"	d
+APR_USE_POSIXSEM_SERIALIZE	include/apr/apr.h	229;"	d
+APR_USE_PROC_PTHREAD_SERIALIZE	include/apr/apr.h	231;"	d
+APR_USE_PTHREAD_SERIALIZE	include/apr/apr.h	232;"	d
+APR_USE_SHMEM_BEOS	include/apr/apr.h	225;"	d
+APR_USE_SHMEM_MMAP_ANON	include/apr/apr.h	224;"	d
+APR_USE_SHMEM_MMAP_SHM	include/apr/apr.h	220;"	d
+APR_USE_SHMEM_MMAP_TMP	include/apr/apr.h	219;"	d
+APR_USE_SHMEM_MMAP_ZERO	include/apr/apr.h	221;"	d
+APR_USE_SHMEM_SHMGET	include/apr/apr.h	223;"	d
+APR_USE_SHMEM_SHMGET_ANON	include/apr/apr.h	222;"	d
+APR_USE_SYSVSEM_SERIALIZE	include/apr/apr.h	228;"	d
+APR_UTIL_ERRSPACE_SIZE	include/apr/apr_errno.h	132;"	d
+APR_UTIL_START_STATUS	include/apr/apr_errno.h	141;"	d
+APR_UWRITE	include/apr/apr_file_info.h	102;"	d
+APR_VERSION_AT_LEAST	include/apr/apr_version.h	86;"	d
+APR_VERSION_H	include/apr/apr_version.h	18;"	d
+APR_VERSION_STRING	include/apr/apr_version.h	109;"	d
+APR_VERSION_STRING_CSV	include/apr/apr_version.h	117;"	d
+APR_WAIT	include/apr/apr_thread_proc.h	/^    APR_WAIT,           \/**< wait for the specified process to finish *\/$/;"	e	enum:__anon11
+APR_WANT_BYTEFUNC	include/apr/apr_want.h	121;"	d
+APR_WANT_IOVEC	include/apr/apr_file_io.h	33;"	d
+APR_WANT_IOVEC	include/apr/apr_strings.h	51;"	d
+APR_WANT_IOVEC	include/apr/apr_want.h	103;"	d
+APR_WANT_MEMFUNC	include/apr/apr_allocator.h	27;"	d
+APR_WANT_MEMFUNC	include/apr/apr_pools.h	46;"	d
+APR_WANT_MEMFUNC	include/apr/apr_want.h	66;"	d
+APR_WANT_STDIO	include/apr/apr_file_io.h	32;"	d
+APR_WANT_STDIO	include/apr/apr_want.h	77;"	d
+APR_WANT_STRFUNC	include/apr/apr_want.h	55;"	d
+APR_WEXECUTE	include/apr/apr_file_info.h	111;"	d
+APR_WREAD	include/apr/apr_file_info.h	109;"	d
+APR_WRITE	include/apr/apr_file_io.h	94;"	d
+APR_WRITE_BLOCK	include/apr/apr_thread_proc.h	94;"	d
+APR_WSTICKY	include/apr/apr_file_info.h	108;"	d
+APR_WWRITE	include/apr/apr_file_info.h	110;"	d
+APR_XTHREAD	include/apr/apr_file_io.h	102;"	d
+FALSE	include/apr/apr_general.h	51;"	d
+HUGE_STRING_LEN	include/apr/apr_lib.h	52;"	d
+INCL_DOS	include/apr/apr.h	186;"	d
+INCL_DOS	include/apr/apr_errno.h	844;"	d
+INCL_DOSERRORS	include/apr/apr.h	187;"	d
+INCL_DOSERRORS	include/apr/apr_errno.h	843;"	d
+INT64_C	include/apr/apr.h	336;"	d
+INT64_C	include/apr/apr.h	342;"	d
+INT64_C	include/apr/apr.h	348;"	d
+NOIME	include/apr/apr.h	142;"	d
+NOMCX	include/apr/apr.h	139;"	d
+NOUSER	include/apr/apr.h	136;"	d
+SIG_DFL	include/apr/apr_signal.h	48;"	d
+SIG_DFL	include/apr/apr_signal.h	51;"	d
+SIG_ERR	include/apr/apr_signal.h	50;"	d
+SIG_ERR	include/apr/apr_signal.h	53;"	d
+SIG_ERR	include/apr/apr_signal.h	67;"	d
+SIG_IGN	include/apr/apr_signal.h	49;"	d
+SIG_IGN	include/apr/apr_signal.h	52;"	d
+SOCBASEERR	include/apr/apr_errno.h	867;"	d
+SOCEACCES	include/apr/apr_errno.h	873;"	d
+SOCEADDRINUSE	include/apr/apr_errno.h	892;"	d
+SOCEADDRNOTAVAIL	include/apr/apr_errno.h	893;"	d
+SOCEAFNOSUPPORT	include/apr/apr_errno.h	891;"	d
+SOCEALREADY	include/apr/apr_errno.h	881;"	d
+SOCEBADF	include/apr/apr_errno.h	872;"	d
+SOCECONNABORTED	include/apr/apr_errno.h	897;"	d
+SOCECONNREFUSED	include/apr/apr_errno.h	905;"	d
+SOCECONNRESET	include/apr/apr_errno.h	898;"	d
+SOCEDESTADDRREQ	include/apr/apr_errno.h	883;"	d
+SOCEFAULT	include/apr/apr_errno.h	874;"	d
+SOCEHOSTDOWN	include/apr/apr_errno.h	908;"	d
+SOCEHOSTUNREACH	include/apr/apr_errno.h	909;"	d
+SOCEINPROGRESS	include/apr/apr_errno.h	880;"	d
+SOCEINTR	include/apr/apr_errno.h	870;"	d
+SOCEINVAL	include/apr/apr_errno.h	875;"	d
+SOCEISCONN	include/apr/apr_errno.h	900;"	d
+SOCELOOP	include/apr/apr_errno.h	906;"	d
+SOCEMFILE	include/apr/apr_errno.h	876;"	d
+SOCEMSGSIZE	include/apr/apr_errno.h	884;"	d
+SOCENAMETOOLONG	include/apr/apr_errno.h	907;"	d
+SOCENETDOWN	include/apr/apr_errno.h	894;"	d
+SOCENETRESET	include/apr/apr_errno.h	896;"	d
+SOCENETUNREACH	include/apr/apr_errno.h	895;"	d
+SOCENOBUFS	include/apr/apr_errno.h	899;"	d
+SOCENOPROTOOPT	include/apr/apr_errno.h	886;"	d
+SOCENOTCONN	include/apr/apr_errno.h	901;"	d
+SOCENOTEMPTY	include/apr/apr_errno.h	910;"	d
+SOCENOTSOCK	include/apr/apr_errno.h	882;"	d
+SOCENXIO	include/apr/apr_errno.h	871;"	d
+SOCEOPNOTSUPP	include/apr/apr_errno.h	889;"	d
+SOCEOS2ERR	include/apr/apr_errno.h	878;"	d
+SOCEPERM	include/apr/apr_errno.h	868;"	d
+SOCEPFNOSUPPORT	include/apr/apr_errno.h	890;"	d
+SOCEPIPE	include/apr/apr_errno.h	877;"	d
+SOCEPROTONOSUPPORT	include/apr/apr_errno.h	887;"	d
+SOCEPROTOTYPE	include/apr/apr_errno.h	885;"	d
+SOCESHUTDOWN	include/apr/apr_errno.h	902;"	d
+SOCESOCKTNOSUPPORT	include/apr/apr_errno.h	888;"	d
+SOCESRCH	include/apr/apr_errno.h	869;"	d
+SOCETIMEDOUT	include/apr/apr_errno.h	904;"	d
+SOCETOOMANYREFS	include/apr/apr_errno.h	903;"	d
+SOCEWOULDBLOCK	include/apr/apr_errno.h	879;"	d
+SW_HIDE	include/apr/apr.h	151;"	d
+TRUE	include/apr/apr_general.h	55;"	d
+UINT64_C	include/apr/apr.h	337;"	d
+UINT64_C	include/apr/apr.h	343;"	d
+UINT64_C	include/apr/apr.h	349;"	d
+WEXITSTATUS	include/apr/apr.h	601;"	d
+WIN32_LEAN_AND_MEAN	include/apr/apr.h	126;"	d
+WTERMSIG	include/apr/apr.h	602;"	d
+_APR_FNMATCH_H_	include/apr/apr_fnmatch.h	38;"	d
+_WIN32_WINNT	include/apr/apr.h	132;"	d
+__STDC_CONSTANT_MACROS	include/apr/apr.h	174;"	d
+__attribute__	include/apr/apr.h	63;"	d
+a	include/apr/apr_tables.h	/^APR_DECLARE(int) apr_is_empty_array(const apr_array_header_t *a);$/;"	v
+add	include/apr/apr_random.h	/^    apr_crypto_hash_add_t *add;$/;"	m	struct:apr_crypto_hash_t
+addr	include/apr/apr_network_io.h	/^APR_DECLARE(int) apr_sockaddr_is_wildcard(const apr_sockaddr_t *addr);$/;"	v
+addr_str_len	include/apr/apr_network_io.h	/^    int addr_str_len;$/;"	m	struct:apr_sockaddr_t
+apr_abortfunc_t	include/apr/apr_pools.h	/^typedef int (*apr_abortfunc_t)(int retcode);$/;"	t
+apr_allocator_t	include/apr/apr_allocator.h	/^typedef struct apr_allocator_t apr_allocator_t;$/;"	t	typeref:struct:apr_allocator_t
+apr_array_header_t	include/apr/apr_tables.h	/^struct apr_array_header_t {$/;"	s
+apr_array_header_t	include/apr/apr_tables.h	/^typedef struct apr_array_header_t apr_array_header_t;$/;"	t	typeref:struct:apr_array_header_t
+apr_byte_t	include/apr/apr.h	/^typedef  unsigned char           apr_byte_t;$/;"	t
+apr_child_errfn_t	include/apr/apr_thread_proc.h	/^typedef void (apr_child_errfn_t)(apr_pool_t *proc, apr_status_t err,$/;"	t
+apr_cmdtype_e	include/apr/apr_thread_proc.h	/^} apr_cmdtype_e;$/;"	t	typeref:enum:__anon10
+apr_crypto_hash_add_t	include/apr/apr_random.h	/^typedef void apr_crypto_hash_add_t(apr_crypto_hash_t *hash, const void *data,$/;"	t
+apr_crypto_hash_finish_t	include/apr/apr_random.h	/^typedef void apr_crypto_hash_finish_t(apr_crypto_hash_t *hash,$/;"	t
+apr_crypto_hash_init_t	include/apr/apr_random.h	/^typedef void apr_crypto_hash_init_t(apr_crypto_hash_t *hash);$/;"	t
+apr_crypto_hash_t	include/apr/apr_random.h	/^struct apr_crypto_hash_t {$/;"	s
+apr_crypto_hash_t	include/apr/apr_random.h	/^typedef struct apr_crypto_hash_t apr_crypto_hash_t;$/;"	t	typeref:struct:apr_crypto_hash_t
+apr_datatype_e	include/apr/apr_poll.h	/^} apr_datatype_e ;$/;"	t	typeref:enum:__anon8
+apr_descriptor	include/apr/apr_poll.h	/^} apr_descriptor;$/;"	t	typeref:union:__anon9
+apr_dev_t	include/apr/apr_file_info.h	/^typedef apr_uint32_t              apr_dev_t;$/;"	t
+apr_dev_t	include/apr/apr_file_info.h	/^typedef dev_t                     apr_dev_t;$/;"	t
+apr_dir_t	include/apr/apr_file_info.h	/^typedef struct apr_dir_t          apr_dir_t;$/;"	t	typeref:struct:apr_dir_t
+apr_dso_handle_sym_t	include/apr/apr_dso.h	/^typedef void *                        apr_dso_handle_sym_t;$/;"	t
+apr_dso_handle_t	include/apr/apr_dso.h	/^typedef struct apr_dso_handle_t       apr_dso_handle_t;$/;"	t	typeref:struct:apr_dso_handle_t
+apr_exit_why_e	include/apr/apr_thread_proc.h	/^} apr_exit_why_e;$/;"	t	typeref:enum:__anon12
+apr_file_t	include/apr/apr_file_io.h	/^typedef struct apr_file_t         apr_file_t;$/;"	t	typeref:struct:apr_file_t
+apr_fileattrs_t	include/apr/apr_file_io.h	/^typedef apr_uint32_t apr_fileattrs_t;$/;"	t
+apr_fileperms_t	include/apr/apr_file_info.h	/^typedef apr_int32_t               apr_fileperms_t;$/;"	t
+apr_filetype_e	include/apr/apr_file_info.h	/^} apr_filetype_e; $/;"	t	typeref:enum:__anon6
+apr_finfo_t	include/apr/apr_file_info.h	/^struct apr_finfo_t {$/;"	s
+apr_finfo_t	include/apr/apr_file_info.h	/^typedef struct apr_finfo_t        apr_finfo_t;$/;"	t	typeref:struct:apr_finfo_t
+apr_get_netos_error	include/apr/apr_errno.h	1020;"	d
+apr_get_netos_error	include/apr/apr_errno.h	1135;"	d
+apr_get_netos_error	include/apr/apr_errno.h	1200;"	d
+apr_get_netos_error	include/apr/apr_errno.h	857;"	d
+apr_get_os_error	include/apr/apr_errno.h	1015;"	d
+apr_get_os_error	include/apr/apr_errno.h	1131;"	d
+apr_get_os_error	include/apr/apr_errno.h	1195;"	d
+apr_getopt_err_fn_t	include/apr/apr_getopt.h	/^typedef void (apr_getopt_err_fn_t)(void *arg, const char *err, ...);$/;"	t
+apr_getopt_option_t	include/apr/apr_getopt.h	/^struct apr_getopt_option_t {$/;"	s
+apr_getopt_option_t	include/apr/apr_getopt.h	/^typedef struct apr_getopt_option_t apr_getopt_option_t;$/;"	t	typeref:struct:apr_getopt_option_t
+apr_getopt_t	include/apr/apr_getopt.h	/^struct apr_getopt_t {$/;"	s
+apr_getopt_t	include/apr/apr_getopt.h	/^typedef struct apr_getopt_t apr_getopt_t;$/;"	t	typeref:struct:apr_getopt_t
+apr_gid_compare	include/apr/apr_user.h	147;"	d
+apr_gid_t	include/apr/apr_user.h	/^typedef PSID                      apr_gid_t;$/;"	t
+apr_gid_t	include/apr/apr_user.h	/^typedef gid_t                     apr_gid_t;$/;"	t
+apr_global_mutex_child_init	include/apr/apr_global_mutex.h	152;"	d
+apr_global_mutex_create	include/apr/apr_global_mutex.h	151;"	d
+apr_global_mutex_destroy	include/apr/apr_global_mutex.h	156;"	d
+apr_global_mutex_lock	include/apr/apr_global_mutex.h	153;"	d
+apr_global_mutex_lockfile	include/apr/apr_global_mutex.h	157;"	d
+apr_global_mutex_name	include/apr/apr_global_mutex.h	158;"	d
+apr_global_mutex_pool_get	include/apr/apr_global_mutex.h	159;"	d
+apr_global_mutex_t	include/apr/apr_global_mutex.h	/^typedef struct apr_global_mutex_t apr_global_mutex_t;$/;"	t	typeref:struct:apr_global_mutex_t
+apr_global_mutex_t	include/apr/apr_global_mutex.h	150;"	d
+apr_global_mutex_trylock	include/apr/apr_global_mutex.h	154;"	d
+apr_global_mutex_unlock	include/apr/apr_global_mutex.h	155;"	d
+apr_hash_do_callback_fn_t	include/apr/apr_hash.h	/^typedef int (apr_hash_do_callback_fn_t)(void *rec, const void *key,$/;"	t
+apr_hash_index_t	include/apr/apr_hash.h	/^typedef struct apr_hash_index_t apr_hash_index_t;$/;"	t	typeref:struct:apr_hash_index_t
+apr_hash_t	include/apr/apr_hash.h	/^typedef struct apr_hash_t apr_hash_t;$/;"	t	typeref:struct:apr_hash_t
+apr_hashfunc_t	include/apr/apr_hash.h	/^typedef unsigned int (*apr_hashfunc_t)(const char *key, apr_ssize_t *klen);$/;"	t
+apr_hdtr_t	include/apr/apr_network_io.h	/^struct apr_hdtr_t {$/;"	s
+apr_hdtr_t	include/apr/apr_network_io.h	/^typedef struct apr_hdtr_t       apr_hdtr_t;$/;"	t	typeref:struct:apr_hdtr_t
+apr_in_addr_t	include/apr/apr_network_io.h	/^typedef struct in_addr          apr_in_addr_t;$/;"	t	typeref:struct:in_addr
+apr_inet_addr	include/apr/apr_network_io.h	183;"	d
+apr_inet_addr	include/apr/apr_network_io.h	189;"	d
+apr_ino_t	include/apr/apr.h	/^typedef  unsigned long           apr_ino_t;$/;"	t
+apr_int16_t	include/apr/apr.h	/^typedef  short           apr_int16_t;$/;"	t
+apr_int32_t	include/apr/apr.h	/^typedef  int             apr_int32_t;$/;"	t
+apr_int64_t	include/apr/apr.h	/^ typedef  long            apr_int64_t;$/;"	t
+apr_int64_t	include/apr/apr.h	/^ typedef  long long            apr_int64_t;$/;"	t
+apr_interface_e	include/apr/apr_network_io.h	/^} apr_interface_e;$/;"	t	typeref:enum:__anon4
+apr_interval_time_t	include/apr/apr_time.h	/^typedef apr_int64_t apr_interval_time_t;$/;"	t
+apr_ipsubnet_t	include/apr/apr_network_io.h	/^typedef struct apr_ipsubnet_t apr_ipsubnet_t;$/;"	t	typeref:struct:apr_ipsubnet_t
+apr_isalnum	include/apr/apr_lib.h	203;"	d
+apr_isalpha	include/apr/apr_lib.h	205;"	d
+apr_isascii	include/apr/apr_lib.h	216;"	d
+apr_isascii	include/apr/apr_lib.h	218;"	d
+apr_iscntrl	include/apr/apr_lib.h	207;"	d
+apr_isdigit	include/apr/apr_lib.h	209;"	d
+apr_isgraph	include/apr/apr_lib.h	211;"	d
+apr_islower	include/apr/apr_lib.h	213;"	d
+apr_isprint	include/apr/apr_lib.h	221;"	d
+apr_ispunct	include/apr/apr_lib.h	223;"	d
+apr_isspace	include/apr/apr_lib.h	225;"	d
+apr_isupper	include/apr/apr_lib.h	227;"	d
+apr_isxdigit	include/apr/apr_lib.h	229;"	d
+apr_kill_conditions_e	include/apr/apr_thread_proc.h	/^} apr_kill_conditions_e;$/;"	t	typeref:enum:__anon13
+apr_killpg	include/apr/apr_lib.h	93;"	d
+apr_killpg	include/apr/apr_lib.h	96;"	d
+apr_killpg	include/apr/apr_lib.h	98;"	d
+apr_lockmech_e	include/apr/apr_proc_mutex.h	/^} apr_lockmech_e;$/;"	t	typeref:enum:__anon1
+apr_memnode_t	include/apr/apr_allocator.h	/^struct apr_memnode_t {$/;"	s
+apr_memnode_t	include/apr/apr_allocator.h	/^typedef struct apr_memnode_t apr_memnode_t;$/;"	t	typeref:struct:apr_memnode_t
+apr_mmap_t	include/apr/apr_mmap.h	/^struct apr_mmap_t {$/;"	s
+apr_mmap_t	include/apr/apr_mmap.h	/^typedef struct apr_mmap_t            apr_mmap_t;$/;"	t	typeref:struct:apr_mmap_t
+apr_off_t	include/apr/apr.h	/^typedef  off64_t           apr_off_t;$/;"	t
+apr_os_dir_t	include/apr/apr_portable.h	/^typedef DIR                   apr_os_dir_t;         \/**< native dir *\/$/;"	t
+apr_os_dir_t	include/apr/apr_portable.h	/^typedef DIR                   apr_os_dir_t;$/;"	t
+apr_os_dir_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_dir_t;$/;"	t
+apr_os_dir_t	include/apr/apr_portable.h	/^typedef HDIR                  apr_os_dir_t;$/;"	t
+apr_os_dso_handle_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_dso_handle_t;$/;"	t
+apr_os_dso_handle_t	include/apr/apr_portable.h	/^typedef HMODULE               apr_os_dso_handle_t;$/;"	t
+apr_os_dso_handle_t	include/apr/apr_portable.h	/^typedef NSModule              apr_os_dso_handle_t;$/;"	t
+apr_os_dso_handle_t	include/apr/apr_portable.h	/^typedef image_id              apr_os_dso_handle_t;$/;"	t
+apr_os_dso_handle_t	include/apr/apr_portable.h	/^typedef shl_t                 apr_os_dso_handle_t;$/;"	t
+apr_os_dso_handle_t	include/apr/apr_portable.h	/^typedef void *                apr_os_dso_handle_t;$/;"	t
+apr_os_exp_time_t	include/apr/apr_portable.h	/^typedef SYSTEMTIME            apr_os_exp_time_t;$/;"	t
+apr_os_exp_time_t	include/apr/apr_portable.h	/^typedef struct tm             apr_os_exp_time_t;    \/**< native tm *\/$/;"	t	typeref:struct:tm
+apr_os_exp_time_t	include/apr/apr_portable.h	/^typedef struct tm             apr_os_exp_time_t;$/;"	t	typeref:struct:tm
+apr_os_file_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_file_t;$/;"	t
+apr_os_file_t	include/apr/apr_portable.h	/^typedef HFILE                 apr_os_file_t;$/;"	t
+apr_os_file_t	include/apr/apr_portable.h	/^typedef int                   apr_os_file_t;        \/**< native file *\/$/;"	t
+apr_os_file_t	include/apr/apr_portable.h	/^typedef int                   apr_os_file_t;$/;"	t
+apr_os_global_mutex_get	include/apr/apr_portable.h	198;"	d
+apr_os_global_mutex_t	include/apr/apr_portable.h	/^    struct apr_os_global_mutex_t {$/;"	s
+apr_os_global_mutex_t	include/apr/apr_portable.h	/^    typedef struct apr_os_global_mutex_t apr_os_global_mutex_t;$/;"	t	typeref:struct:apr_os_global_mutex_t
+apr_os_global_mutex_t	include/apr/apr_portable.h	196;"	d
+apr_os_imp_time_t	include/apr/apr_portable.h	/^typedef FILETIME              apr_os_imp_time_t;$/;"	t
+apr_os_imp_time_t	include/apr/apr_portable.h	/^typedef struct timeval        apr_os_imp_time_t;    \/**< native timeval *\/$/;"	t	typeref:struct:timeval
+apr_os_imp_time_t	include/apr/apr_portable.h	/^typedef struct timeval        apr_os_imp_time_t;$/;"	t	typeref:struct:timeval
+apr_os_proc_mutex_t	include/apr/apr_portable.h	/^struct apr_os_proc_mutex_t {$/;"	s
+apr_os_proc_mutex_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_proc_mutex_t;$/;"	t
+apr_os_proc_mutex_t	include/apr/apr_portable.h	/^typedef HMTX                  apr_os_proc_mutex_t;$/;"	t
+apr_os_proc_mutex_t	include/apr/apr_portable.h	/^typedef NXMutex_t             apr_os_proc_mutex_t;$/;"	t
+apr_os_proc_mutex_t	include/apr/apr_portable.h	/^typedef struct apr_os_proc_mutex_t  apr_os_proc_mutex_t; \/**< native process$/;"	t	typeref:struct:apr_os_proc_mutex_t
+apr_os_proc_mutex_t	include/apr/apr_portable.h	/^typedef struct apr_os_proc_mutex_t  apr_os_proc_mutex_t;$/;"	t	typeref:struct:apr_os_proc_mutex_t
+apr_os_proc_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_proc_t;$/;"	t
+apr_os_proc_t	include/apr/apr_portable.h	/^typedef PID                   apr_os_proc_t;$/;"	t
+apr_os_proc_t	include/apr/apr_portable.h	/^typedef long                  apr_os_proc_t;$/;"	t
+apr_os_proc_t	include/apr/apr_portable.h	/^typedef pid_t                 apr_os_proc_t;        \/**< native pid *\/$/;"	t
+apr_os_proc_t	include/apr/apr_portable.h	/^typedef thread_id             apr_os_proc_t;$/;"	t
+apr_os_shm_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_shm_t;$/;"	t
+apr_os_shm_t	include/apr/apr_portable.h	/^typedef void*                 apr_os_shm_t;         \/**< native SHM *\/$/;"	t
+apr_os_shm_t	include/apr/apr_portable.h	/^typedef void*                 apr_os_shm_t;$/;"	t
+apr_os_sock_info_t	include/apr/apr_portable.h	/^struct apr_os_sock_info_t {$/;"	s
+apr_os_sock_info_t	include/apr/apr_portable.h	/^typedef struct apr_os_sock_info_t apr_os_sock_info_t;$/;"	t	typeref:struct:apr_os_sock_info_t
+apr_os_sock_t	include/apr/apr_portable.h	/^typedef SOCKET                apr_os_sock_t;$/;"	t
+apr_os_sock_t	include/apr/apr_portable.h	/^typedef int                   apr_os_sock_t;        \/**< native dir *\/$/;"	t
+apr_os_sock_t	include/apr/apr_portable.h	/^typedef int                   apr_os_sock_t;$/;"	t
+apr_os_thread_t	include/apr/apr_portable.h	/^typedef HANDLE                apr_os_thread_t;$/;"	t
+apr_os_thread_t	include/apr/apr_portable.h	/^typedef NXThreadId_t          apr_os_thread_t;$/;"	t
+apr_os_thread_t	include/apr/apr_portable.h	/^typedef TID                   apr_os_thread_t;$/;"	t
+apr_os_thread_t	include/apr/apr_portable.h	/^typedef pthread_t             apr_os_thread_t;      \/**< native thread *\/$/;"	t
+apr_os_thread_t	include/apr/apr_portable.h	/^typedef thread_id             apr_os_thread_t;$/;"	t
+apr_os_threadkey_t	include/apr/apr_portable.h	/^typedef DWORD                 apr_os_threadkey_t; $/;"	t
+apr_os_threadkey_t	include/apr/apr_portable.h	/^typedef NXKey_t               apr_os_threadkey_t; $/;"	t
+apr_os_threadkey_t	include/apr/apr_portable.h	/^typedef PULONG                apr_os_threadkey_t; $/;"	t
+apr_os_threadkey_t	include/apr/apr_portable.h	/^typedef int                   apr_os_threadkey_t;$/;"	t
+apr_os_threadkey_t	include/apr/apr_portable.h	/^typedef pthread_key_t         apr_os_threadkey_t;   \/**< native thread address$/;"	t
+apr_other_child_rec_t	include/apr/apr_thread_proc.h	/^typedef struct apr_other_child_rec_t  apr_other_child_rec_t;$/;"	t	typeref:struct:apr_other_child_rec_t
+apr_palloc	include/apr/apr_pools.h	452;"	d
+apr_pcalloc	include/apr/apr_pools.h	465;"	d
+apr_pcalloc	include/apr/apr_pools.h	481;"	d
+apr_pollcb_cb_t	include/apr/apr_poll.h	/^typedef apr_status_t (*apr_pollcb_cb_t)(void *baton, apr_pollfd_t *descriptor);$/;"	t
+apr_pollcb_t	include/apr/apr_poll.h	/^typedef struct apr_pollcb_t apr_pollcb_t;$/;"	t	typeref:struct:apr_pollcb_t
+apr_pollfd_t	include/apr/apr_poll.h	/^struct apr_pollfd_t {$/;"	s
+apr_pollfd_t	include/apr/apr_poll.h	/^typedef struct apr_pollfd_t apr_pollfd_t;$/;"	t	typeref:struct:apr_pollfd_t
+apr_pollset_method_e	include/apr/apr_poll.h	/^} apr_pollset_method_e;$/;"	t	typeref:enum:__anon7
+apr_pollset_t	include/apr/apr_poll.h	/^typedef struct apr_pollset_t apr_pollset_t;$/;"	t	typeref:struct:apr_pollset_t
+apr_pool_clear	include/apr/apr_pools.h	385;"	d
+apr_pool_create	include/apr/apr_pools.h	318;"	d
+apr_pool_create	include/apr/apr_pools.h	322;"	d
+apr_pool_create_core	include/apr/apr_pools.h	336;"	d
+apr_pool_create_core	include/apr/apr_pools.h	343;"	d
+apr_pool_create_core_ex	include/apr/apr_pools.h	291;"	d
+apr_pool_create_ex	include/apr/apr_pools.h	255;"	d
+apr_pool_create_unmanaged	include/apr/apr_pools.h	339;"	d
+apr_pool_create_unmanaged	include/apr/apr_pools.h	345;"	d
+apr_pool_create_unmanaged_ex	include/apr/apr_pools.h	295;"	d
+apr_pool_destroy	include/apr/apr_pools.h	415;"	d
+apr_pool_join	include/apr/apr_pools.h	798;"	d
+apr_pool_join	include/apr/apr_pools.h	800;"	d
+apr_pool_lock	include/apr/apr_pools.h	803;"	d
+apr_pool_lock	include/apr/apr_pools.h	805;"	d
+apr_pool_t	include/apr/apr_pools.h	/^typedef struct apr_pool_t apr_pool_t;$/;"	t	typeref:struct:apr_pool_t
+apr_port_t	include/apr/apr_network_io.h	/^typedef apr_uint16_t            apr_port_t;$/;"	t
+apr_proc_mutex_t	include/apr/apr_proc_mutex.h	/^typedef struct apr_proc_mutex_t apr_proc_mutex_t;$/;"	t	typeref:struct:apr_proc_mutex_t
+apr_proc_t	include/apr/apr_thread_proc.h	/^typedef struct apr_proc_t {$/;"	s
+apr_proc_t	include/apr/apr_thread_proc.h	/^} apr_proc_t;$/;"	t	typeref:struct:apr_proc_t
+apr_procattr_t	include/apr/apr_thread_proc.h	/^typedef struct apr_procattr_t         apr_procattr_t;$/;"	t	typeref:struct:apr_procattr_t
+apr_random_t	include/apr/apr_random.h	/^typedef struct apr_random_t apr_random_t;$/;"	t	typeref:struct:apr_random_t
+apr_seek_where_t	include/apr/apr_file_io.h	/^typedef int       apr_seek_where_t;$/;"	t
+apr_set_netos_error	include/apr/apr_errno.h	1021;"	d
+apr_set_netos_error	include/apr/apr_errno.h	1136;"	d
+apr_set_netos_error	include/apr/apr_errno.h	1201;"	d
+apr_set_netos_error	include/apr/apr_errno.h	858;"	d
+apr_set_os_error	include/apr/apr_errno.h	1016;"	d
+apr_set_os_error	include/apr/apr_errno.h	1132;"	d
+apr_set_os_error	include/apr/apr_errno.h	1196;"	d
+apr_shm_t	include/apr/apr_shm.h	/^typedef struct apr_shm_t apr_shm_t;$/;"	t	typeref:struct:apr_shm_t
+apr_short_interval_time_t	include/apr/apr_time.h	/^typedef apr_int32_t apr_short_interval_time_t;$/;"	t
+apr_shutdown_how_e	include/apr/apr_network_io.h	/^} apr_shutdown_how_e;$/;"	t	typeref:enum:__anon3
+apr_sigfunc_t	include/apr/apr_signal.h	/^typedef void apr_sigfunc_t(int);$/;"	t
+apr_signal	include/apr/apr_signal.h	71;"	d
+apr_signum_t	include/apr/apr_general.h	/^typedef int               apr_signum_t;$/;"	t
+apr_size_t	include/apr/apr.h	/^typedef  size_t          apr_size_t;$/;"	t
+apr_skiplist	include/apr/apr_skiplist.h	/^typedef struct apr_skiplist apr_skiplist;$/;"	t	typeref:struct:apr_skiplist
+apr_skiplist_compare	include/apr/apr_skiplist.h	/^typedef int (*apr_skiplist_compare) (void *, void *);$/;"	t
+apr_skiplist_freefunc	include/apr/apr_skiplist.h	/^typedef void (*apr_skiplist_freefunc) (void *);$/;"	t
+apr_skiplistnode	include/apr/apr_skiplist.h	/^typedef struct apr_skiplistnode apr_skiplistnode;$/;"	t	typeref:struct:apr_skiplistnode
+apr_sockaddr_t	include/apr/apr_network_io.h	/^struct apr_sockaddr_t {$/;"	s
+apr_sockaddr_t	include/apr/apr_network_io.h	/^typedef struct apr_sockaddr_t apr_sockaddr_t;$/;"	t	typeref:struct:apr_sockaddr_t
+apr_socket_t	include/apr/apr_network_io.h	/^typedef struct apr_socket_t     apr_socket_t;$/;"	t	typeref:struct:apr_socket_t
+apr_socklen_t	include/apr/apr.h	/^typedef  socklen_t       apr_socklen_t;$/;"	t
+apr_ssize_t	include/apr/apr.h	/^typedef  ssize_t         apr_ssize_t;$/;"	t
+apr_status_t	include/apr/apr_errno.h	/^typedef int apr_status_t;$/;"	t
+apr_table_do_callback_fn_t	include/apr/apr_tables.h	/^typedef int (apr_table_do_callback_fn_t)(void *rec, const char *key, $/;"	t
+apr_table_entry_t	include/apr/apr_tables.h	/^struct apr_table_entry_t {$/;"	s
+apr_table_entry_t	include/apr/apr_tables.h	/^typedef struct apr_table_entry_t apr_table_entry_t;$/;"	t	typeref:struct:apr_table_entry_t
+apr_table_t	include/apr/apr_tables.h	/^typedef struct apr_table_t apr_table_t;$/;"	t	typeref:struct:apr_table_t
+apr_thread_cond_t	include/apr/apr_thread_cond.h	/^typedef struct apr_thread_cond_t apr_thread_cond_t;$/;"	t	typeref:struct:apr_thread_cond_t
+apr_thread_mutex_t	include/apr/apr_thread_mutex.h	/^typedef struct apr_thread_mutex_t apr_thread_mutex_t;$/;"	t	typeref:struct:apr_thread_mutex_t
+apr_thread_once_t	include/apr/apr_thread_proc.h	/^typedef struct apr_thread_once_t      apr_thread_once_t;$/;"	t	typeref:struct:apr_thread_once_t
+apr_thread_rwlock_t	include/apr/apr_thread_rwlock.h	/^typedef struct apr_thread_rwlock_t apr_thread_rwlock_t;$/;"	t	typeref:struct:apr_thread_rwlock_t
+apr_thread_start_t	include/apr/apr_thread_proc.h	/^typedef void *(APR_THREAD_FUNC *apr_thread_start_t)(apr_thread_t*, void*);$/;"	t
+apr_thread_t	include/apr/apr_thread_proc.h	/^typedef struct apr_thread_t           apr_thread_t;$/;"	t	typeref:struct:apr_thread_t
+apr_threadattr_t	include/apr/apr_thread_proc.h	/^typedef struct apr_threadattr_t       apr_threadattr_t;$/;"	t	typeref:struct:apr_threadattr_t
+apr_threadkey_t	include/apr/apr_thread_proc.h	/^typedef struct apr_threadkey_t        apr_threadkey_t;$/;"	t	typeref:struct:apr_threadkey_t
+apr_time_as_msec	include/apr/apr_time.h	73;"	d
+apr_time_exp_t	include/apr/apr_time.h	/^struct apr_time_exp_t {$/;"	s
+apr_time_exp_t	include/apr/apr_time.h	/^typedef struct apr_time_exp_t apr_time_exp_t;$/;"	t	typeref:struct:apr_time_exp_t
+apr_time_from_msec	include/apr/apr_time.h	76;"	d
+apr_time_from_sec	include/apr/apr_time.h	79;"	d
+apr_time_make	include/apr/apr_time.h	82;"	d
+apr_time_msec	include/apr/apr_time.h	70;"	d
+apr_time_sec	include/apr/apr_time.h	64;"	d
+apr_time_t	include/apr/apr_time.h	/^typedef apr_int64_t apr_time_t;$/;"	t
+apr_time_usec	include/apr/apr_time.h	67;"	d
+apr_tolower	include/apr/apr_lib.h	231;"	d
+apr_toupper	include/apr/apr_lib.h	233;"	d
+apr_uid_compare	include/apr/apr_user.h	113;"	d
+apr_uid_t	include/apr/apr_user.h	/^typedef PSID                      apr_uid_t;$/;"	t
+apr_uid_t	include/apr/apr_user.h	/^typedef uid_t                     apr_uid_t;$/;"	t
+apr_uint16_t	include/apr/apr.h	/^typedef  unsigned short  apr_uint16_t;$/;"	t
+apr_uint32_t	include/apr/apr.h	/^typedef  unsigned int    apr_uint32_t;$/;"	t
+apr_uint64_t	include/apr/apr.h	/^ typedef  unsigned long   apr_uint64_t;$/;"	t
+apr_uint64_t	include/apr/apr.h	/^ typedef  unsigned long long   apr_uint64_t;$/;"	t
+apr_uintptr_t	include/apr/apr.h	/^typedef  apr_uint32_t            apr_uintptr_t;$/;"	t
+apr_uintptr_t	include/apr/apr.h	/^typedef  apr_uint64_t            apr_uintptr_t;$/;"	t
+apr_version_t	include/apr/apr_version.h	/^} apr_version_t;$/;"	t	typeref:struct:__anon2
+apr_vformatter_buff_t	include/apr/apr_lib.h	/^struct apr_vformatter_buff_t {$/;"	s
+apr_vformatter_buff_t	include/apr/apr_lib.h	/^typedef struct apr_vformatter_buff_t apr_vformatter_buff_t;$/;"	t	typeref:struct:apr_vformatter_buff_t
+apr_wait_how_e	include/apr/apr_thread_proc.h	/^} apr_wait_how_e;$/;"	t	typeref:enum:__anon11
+apr_wait_t	include/apr/apr.h	/^typedef int apr_wait_t;$/;"	t
+apr_wait_t	include/apr/apr.h	598;"	d
+apr_wait_t	include/apr/apr.h	600;"	d
+area	include/apr/apr_mmap.h	/^    area_id area;$/;"	m	struct:apr_mmap_t
+argc	include/apr/apr_getopt.h	/^    int argc;$/;"	m	struct:apr_getopt_t
+argv	include/apr/apr_getopt.h	/^    const char **argv;$/;"	m	struct:apr_getopt_t
+arr	include/apr/apr_tables.h	/^APR_DECLARE(void *) apr_array_pop(apr_array_header_t *arr);$/;"	v
+arr	include/apr/apr_tables.h	/^APR_DECLARE(void *) apr_array_push(apr_array_header_t *arr);$/;"	v
+arr	include/apr/apr_tables.h	/^APR_DECLARE(void) apr_array_clear(apr_array_header_t *arr);$/;"	v
+atime	include/apr/apr_file_info.h	/^    apr_time_t atime;$/;"	m	struct:apr_finfo_t
+attr	include/apr/apr_thread_proc.h	/^APR_DECLARE(apr_status_t) apr_threadattr_detach_get(apr_threadattr_t *attr);$/;"	v
+ben	include/apr/apr_portable.h	/^	int32  ben;$/;"	m	struct:apr_os_proc_mutex_t
+client_data	include/apr/apr_poll.h	/^    void *client_data;          \/**< allows app to associate context *\/$/;"	m	struct:apr_pollfd_t
+cntxt	include/apr/apr_mmap.h	/^    apr_pool_t *cntxt;$/;"	m	struct:apr_mmap_t
+cond	include/apr/apr_thread_cond.h	/^APR_DECLARE(apr_status_t) apr_thread_cond_broadcast(apr_thread_cond_t *cond);$/;"	v
+cond	include/apr/apr_thread_cond.h	/^APR_DECLARE(apr_status_t) apr_thread_cond_destroy(apr_thread_cond_t *cond);$/;"	v
+cond	include/apr/apr_thread_cond.h	/^APR_DECLARE(apr_status_t) apr_thread_cond_signal(apr_thread_cond_t *cond);$/;"	v
+cont	include/apr/apr_getopt.h	/^    apr_pool_t *cont;$/;"	m	struct:apr_getopt_t
+crossproc	include/apr/apr_portable.h	/^    int crossproc;$/;"	m	struct:apr_os_proc_mutex_t
+csize	include/apr/apr_file_info.h	/^    apr_off_t csize;$/;"	m	struct:apr_finfo_t
+ctime	include/apr/apr_file_info.h	/^    apr_time_t ctime;$/;"	m	struct:apr_finfo_t
+curpos	include/apr/apr_lib.h	/^    char *curpos;$/;"	m	struct:apr_vformatter_buff_t
+data	include/apr/apr_random.h	/^    void *data;$/;"	m	struct:apr_crypto_hash_t
+desc	include/apr/apr_poll.h	/^    apr_descriptor desc;        \/**< @see apr_descriptor *\/$/;"	m	struct:apr_pollfd_t
+desc_type	include/apr/apr_poll.h	/^    apr_datatype_e desc_type;   \/**< descriptor type *\/$/;"	m	struct:apr_pollfd_t
+description	include/apr/apr_getopt.h	/^    const char *description;$/;"	m	struct:apr_getopt_option_t
+device	include/apr/apr_file_info.h	/^    apr_dev_t device;$/;"	m	struct:apr_finfo_t
+elt_size	include/apr/apr_tables.h	/^    int elt_size;$/;"	m	struct:apr_array_header_t
+elts	include/apr/apr_tables.h	/^    char *elts;$/;"	m	struct:apr_array_header_t
+endp	include/apr/apr_allocator.h	/^    char          *endp;            \/**< pointer to end of free memory *\/$/;"	m	struct:apr_memnode_t
+endpos	include/apr/apr_lib.h	/^    char *endpos;$/;"	m	struct:apr_vformatter_buff_t
+err	include/apr/apr_thread_proc.h	/^    apr_file_t *err;$/;"	m	struct:apr_proc_t
+errarg	include/apr/apr_getopt.h	/^    void *errarg;$/;"	m	struct:apr_getopt_t
+errfn	include/apr/apr_getopt.h	/^    apr_getopt_err_fn_t *errfn;$/;"	m	struct:apr_getopt_t
+f	include/apr/apr_file_io.h	/^APR_DECLARE(apr_int32_t) apr_file_flags_get(apr_file_t *f);$/;"	v
+f	include/apr/apr_poll.h	/^    apr_file_t *f;              \/**< file *\/$/;"	m	union:__anon9
+family	include/apr/apr_network_io.h	/^    apr_int32_t family;$/;"	m	struct:apr_sockaddr_t
+family	include/apr/apr_portable.h	/^    int family;             \/**< always required (APR_INET, APR_INET6, etc.) *\/$/;"	m	struct:apr_os_sock_info_t
+file	include/apr/apr_file_io.h	/^APR_DECLARE(apr_status_t) apr_file_close(apr_file_t *file);$/;"	v
+file	include/apr/apr_file_io.h	/^APR_DECLARE_INHERIT_SET(file);$/;"	v
+file	include/apr/apr_file_io.h	/^APR_DECLARE_INHERIT_UNSET(file);$/;"	v
+file	include/apr/apr_file_io.h	/^APR_POOL_DECLARE_ACCESSOR(file);$/;"	v
+filehand	include/apr/apr_file_info.h	/^    struct apr_file_t *filehand;$/;"	m	struct:apr_finfo_t	typeref:struct:apr_finfo_t::apr_file_t
+filetype	include/apr/apr_file_info.h	/^    apr_filetype_e filetype;$/;"	m	struct:apr_finfo_t
+finish	include/apr/apr_random.h	/^    apr_crypto_hash_finish_t *finish;$/;"	m	struct:apr_crypto_hash_t
+first_avail	include/apr/apr_allocator.h	/^    char          *first_avail;     \/**< pointer to first free memory *\/$/;"	m	struct:apr_memnode_t
+fname	include/apr/apr_file_info.h	/^    const char *fname;$/;"	m	struct:apr_finfo_t
+fptr	include/apr/apr_file_io.h	/^APR_DECLARE(apr_status_t) apr_file_eof(apr_file_t *fptr);$/;"	v
+free_index	include/apr/apr_allocator.h	/^    apr_uint32_t   free_index;      \/**< how much free *\/$/;"	m	struct:apr_memnode_t
+g	include/apr/apr_random.h	/^APR_DECLARE(void) apr_random_barrier(apr_random_t *g);$/;"	v
+gid_t	include/apr/apr.h	/^typedef  int         gid_t;$/;"	t
+global_mutex	include/apr/apr_global_mutex.h	/^APR_POOL_DECLARE_ACCESSOR(global_mutex);$/;"	v
+group	include/apr/apr_file_info.h	/^    apr_gid_t group;$/;"	m	struct:apr_finfo_t
+handle	include/apr/apr_dso.h	/^APR_DECLARE(apr_status_t) apr_dso_unload(apr_dso_handle_t *handle);$/;"	v
+has_arg	include/apr/apr_getopt.h	/^    int has_arg;$/;"	m	struct:apr_getopt_option_t
+hash	include/apr/apr_hash.h	/^APR_POOL_DECLARE_ACCESSOR(hash);$/;"	v
+headers	include/apr/apr_network_io.h	/^    struct iovec* headers;$/;"	m	struct:apr_hdtr_t	typeref:struct:apr_hdtr_t::iovec
+hi	include/apr/apr_hash.h	/^APR_DECLARE(apr_hash_index_t *) apr_hash_next(apr_hash_index_t *hi);$/;"	v
+hi	include/apr/apr_hash.h	/^APR_DECLARE(apr_ssize_t) apr_hash_this_key_len(apr_hash_index_t *hi);$/;"	v
+hi	include/apr/apr_hash.h	/^APR_DECLARE(const void*) apr_hash_this_key(apr_hash_index_t *hi);$/;"	v
+hi	include/apr/apr_hash.h	/^APR_DECLARE(void*) apr_hash_this_val(apr_hash_index_t *hi);$/;"	v
+hostname	include/apr/apr_network_io.h	/^    char *hostname;$/;"	m	struct:apr_sockaddr_t
+hproc	include/apr/apr_thread_proc.h	/^    HANDLE hproc;$/;"	m	struct:apr_proc_t
+ht	include/apr/apr_hash.h	/^APR_DECLARE(unsigned int) apr_hash_count(apr_hash_t *ht);$/;"	v
+ht	include/apr/apr_hash.h	/^APR_DECLARE(void) apr_hash_clear(apr_hash_t *ht);$/;"	v
+in	include/apr/apr_thread_proc.h	/^    apr_file_t *in;$/;"	m	struct:apr_proc_t
+in_addr	include/apr/apr_network_io.h	/^struct in_addr {$/;"	s
+ind	include/apr/apr_getopt.h	/^    int ind;$/;"	m	struct:apr_getopt_t
+index	include/apr/apr_allocator.h	/^    apr_uint32_t   index;           \/**< size *\/$/;"	m	struct:apr_memnode_t
+init	include/apr/apr_random.h	/^    apr_crypto_hash_init_t *init;$/;"	m	struct:apr_crypto_hash_t
+inode	include/apr/apr_file_info.h	/^    apr_ino_t inode;$/;"	m	struct:apr_finfo_t
+interleave	include/apr/apr_getopt.h	/^    int interleave;$/;"	m	struct:apr_getopt_t
+intraproc	include/apr/apr_portable.h	/^    pthread_mutex_t *intraproc;$/;"	m	struct:apr_os_proc_mutex_t
+invoked	include/apr/apr_thread_proc.h	/^    char *invoked;$/;"	m	struct:apr_proc_t
+iov_base	include/apr/apr_want.h	/^    void *iov_base;$/;"	m	struct:iovec
+iov_len	include/apr/apr_want.h	/^    size_t iov_len;$/;"	m	struct:iovec
+iovec	include/apr/apr_want.h	/^struct iovec$/;"	s
+ipaddr_len	include/apr/apr_network_io.h	/^    int ipaddr_len;$/;"	m	struct:apr_sockaddr_t
+ipaddr_ptr	include/apr/apr_network_io.h	/^    void *ipaddr_ptr;$/;"	m	struct:apr_sockaddr_t
+is_dev	include/apr/apr_version.h	/^    int is_dev;     \/**< is development (1 or 0) *\/$/;"	m	struct:__anon2
+key	include/apr/apr_tables.h	/^    char *key;          \/* maybe NULL in future;$/;"	m	struct:apr_table_entry_t
+key	include/apr/apr_thread_proc.h	/^APR_DECLARE(apr_status_t) apr_threadkey_private_delete(apr_threadkey_t *key);$/;"	v
+key_checksum	include/apr/apr_tables.h	/^    apr_uint32_t key_checksum;$/;"	m	struct:apr_table_entry_t
+link	include/apr/apr_mmap.h	/^    APR_RING_ENTRY(apr_mmap_t) link;$/;"	m	struct:apr_mmap_t
+local	include/apr/apr_portable.h	/^    struct sockaddr *local; \/**< NULL if not yet bound *\/$/;"	m	struct:apr_os_sock_info_t	typeref:struct:apr_os_sock_info_t::sockaddr
+m	include/apr/apr_shm.h	/^APR_DECLARE(apr_size_t) apr_shm_size_get(const apr_shm_t *m);$/;"	v
+m	include/apr/apr_shm.h	/^APR_DECLARE(apr_status_t) apr_shm_destroy(apr_shm_t *m);$/;"	v
+m	include/apr/apr_shm.h	/^APR_DECLARE(apr_status_t) apr_shm_detach(apr_shm_t *m);$/;"	v
+m	include/apr/apr_shm.h	/^APR_DECLARE(void *) apr_shm_baseaddr_get(const apr_shm_t *m);$/;"	v
+major	include/apr/apr_version.h	/^    int major;      \/**< major number *\/$/;"	m	struct:__anon2
+mem	include/apr/apr_atomic.h	/^APR_DECLARE(apr_uint32_t) apr_atomic_inc32(volatile apr_uint32_t *mem);$/;"	v
+mem	include/apr/apr_atomic.h	/^APR_DECLARE(apr_uint32_t) apr_atomic_read32(volatile apr_uint32_t *mem);$/;"	v
+mem	include/apr/apr_atomic.h	/^APR_DECLARE(int) apr_atomic_dec32(volatile apr_uint32_t *mem);$/;"	v
+memmove	include/apr/apr_general.h	156;"	d
+mhandle	include/apr/apr_mmap.h	/^    HANDLE mhandle;$/;"	m	struct:apr_mmap_t
+minor	include/apr/apr_version.h	/^    int minor;      \/**< minor number *\/$/;"	m	struct:__anon2
+mm	include/apr/apr_mmap.h	/^    void *mm;$/;"	m	struct:apr_mmap_t
+mm	include/apr/apr_mmap.h	/^APR_DECLARE(apr_status_t) apr_mmap_delete(apr_mmap_t *mm);$/;"	v
+mtime	include/apr/apr_file_info.h	/^    apr_time_t mtime;$/;"	m	struct:apr_finfo_t
+mutex	include/apr/apr_global_mutex.h	/^APR_DECLARE(apr_status_t) apr_global_mutex_destroy(apr_global_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_global_mutex.h	/^APR_DECLARE(apr_status_t) apr_global_mutex_lock(apr_global_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_global_mutex.h	/^APR_DECLARE(apr_status_t) apr_global_mutex_trylock(apr_global_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_global_mutex.h	/^APR_DECLARE(apr_status_t) apr_global_mutex_unlock(apr_global_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_global_mutex.h	/^APR_DECLARE(const char *) apr_global_mutex_lockfile(apr_global_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_global_mutex.h	/^APR_DECLARE(const char *) apr_global_mutex_name(apr_global_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_proc_mutex.h	/^APR_DECLARE(apr_status_t) apr_proc_mutex_destroy(apr_proc_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_proc_mutex.h	/^APR_DECLARE(apr_status_t) apr_proc_mutex_lock(apr_proc_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_proc_mutex.h	/^APR_DECLARE(apr_status_t) apr_proc_mutex_trylock(apr_proc_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_proc_mutex.h	/^APR_DECLARE(apr_status_t) apr_proc_mutex_unlock(apr_proc_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_proc_mutex.h	/^APR_DECLARE(const char *) apr_proc_mutex_lockfile(apr_proc_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_proc_mutex.h	/^APR_DECLARE(const char *) apr_proc_mutex_name(apr_proc_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_thread_mutex.h	/^APR_DECLARE(apr_status_t) apr_thread_mutex_destroy(apr_thread_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_thread_mutex.h	/^APR_DECLARE(apr_status_t) apr_thread_mutex_lock(apr_thread_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_thread_mutex.h	/^APR_DECLARE(apr_status_t) apr_thread_mutex_trylock(apr_thread_mutex_t *mutex);$/;"	v
+mutex	include/apr/apr_thread_mutex.h	/^APR_DECLARE(apr_status_t) apr_thread_mutex_unlock(apr_thread_mutex_t *mutex);$/;"	v
+mv	include/apr/apr_mmap.h	/^    void *mv;$/;"	m	struct:apr_mmap_t
+nalloc	include/apr/apr_tables.h	/^    int nalloc;$/;"	m	struct:apr_array_header_t
+name	include/apr/apr_file_info.h	/^    const char *name;$/;"	m	struct:apr_finfo_t
+name	include/apr/apr_getopt.h	/^    const char *name;$/;"	m	struct:apr_getopt_option_t
+nelts	include/apr/apr_tables.h	/^    int nelts;$/;"	m	struct:apr_array_header_t
+newpool	include/apr/apr_pools.h	/^APR_DECLARE(apr_status_t) apr_pool_create_core(apr_pool_t **newpool);$/;"	v
+newpool	include/apr/apr_pools.h	/^APR_DECLARE(apr_status_t) apr_pool_create_unmanaged(apr_pool_t **newpool);$/;"	v
+next	include/apr/apr_allocator.h	/^    apr_memnode_t *next;            \/**< next memnode *\/$/;"	m	struct:apr_memnode_t
+next	include/apr/apr_network_io.h	/^    apr_sockaddr_t *next;$/;"	m	struct:apr_sockaddr_t
+nlink	include/apr/apr_file_info.h	/^    apr_int32_t nlink;$/;"	m	struct:apr_finfo_t
+numheaders	include/apr/apr_network_io.h	/^    int numheaders;$/;"	m	struct:apr_hdtr_t
+numtrailers	include/apr/apr_network_io.h	/^    int numtrailers;$/;"	m	struct:apr_hdtr_t
+opt	include/apr/apr_getopt.h	/^    int opt;$/;"	m	struct:apr_getopt_t
+optch	include/apr/apr_getopt.h	/^    int optch;$/;"	m	struct:apr_getopt_option_t
+os_sock	include/apr/apr_portable.h	/^    apr_os_sock_t *os_sock; \/**< always required *\/$/;"	m	struct:apr_os_sock_info_t
+out	include/apr/apr_thread_proc.h	/^    apr_file_t *out;$/;"	m	struct:apr_proc_t
+p	include/apr/apr_atomic.h	/^APR_DECLARE(apr_status_t) apr_atomic_init(apr_pool_t *p);$/;"	v
+p	include/apr/apr_poll.h	/^    apr_pool_t *p;              \/**< associated pool *\/$/;"	m	struct:apr_pollfd_t
+p	include/apr/apr_random.h	/^APR_DECLARE(apr_crypto_hash_t *) apr_crypto_sha256_new(apr_pool_t *p);$/;"	v
+p	include/apr/apr_random.h	/^APR_DECLARE(apr_random_t *) apr_random_standard_new(apr_pool_t *p);$/;"	v
+p	include/apr/apr_time.h	/^APR_DECLARE(void) apr_time_clock_hires(apr_pool_t *p);$/;"	v
+patch	include/apr/apr_version.h	/^    int patch;      \/**< patch number *\/$/;"	m	struct:__anon2
+pid	include/apr/apr_thread_proc.h	/^    pid_t pid;$/;"	m	struct:apr_proc_t
+pid_t	include/apr/apr.h	/^typedef  int         pid_t;$/;"	t
+place	include/apr/apr_getopt.h	/^    char const* place;$/;"	m	struct:apr_getopt_t
+poffset	include/apr/apr_mmap.h	/^    apr_off_t  poffset;$/;"	m	struct:apr_mmap_t
+pollset	include/apr/apr_poll.h	/^APR_DECLARE(apr_status_t) apr_pollset_destroy(apr_pollset_t *pollset);$/;"	v
+pollset	include/apr/apr_poll.h	/^APR_DECLARE(apr_status_t) apr_pollset_wakeup(apr_pollset_t *pollset);$/;"	v
+pollset	include/apr/apr_poll.h	/^APR_DECLARE(const char *) apr_pollset_method_name(apr_pollset_t *pollset);$/;"	v
+pool	include/apr/apr_file_info.h	/^    apr_pool_t *pool;$/;"	m	struct:apr_finfo_t
+pool	include/apr/apr_hash.h	/^APR_DECLARE(apr_hash_t *) apr_hash_make(apr_pool_t *pool);$/;"	v
+pool	include/apr/apr_network_io.h	/^    apr_pool_t *pool;$/;"	m	struct:apr_sockaddr_t
+pool	include/apr/apr_portable.h	/^        apr_pool_t *pool;$/;"	m	struct:apr_os_global_mutex_t
+pool	include/apr/apr_portable.h	/^APR_DECLARE(const char*) apr_os_default_encoding(apr_pool_t *pool);$/;"	v
+pool	include/apr/apr_portable.h	/^APR_DECLARE(const char*) apr_os_locale_encoding(apr_pool_t *pool);$/;"	v
+pool	include/apr/apr_tables.h	/^    apr_pool_t *pool;$/;"	m	struct:apr_array_header_t
+port	include/apr/apr_network_io.h	/^    apr_port_t port;$/;"	m	struct:apr_sockaddr_t
+proc	include/apr/apr_random.h	/^APR_DECLARE(void) apr_random_after_fork(apr_proc_t *proc);$/;"	v
+proc_mutex	include/apr/apr_portable.h	/^        apr_proc_mutex_t *proc_mutex;$/;"	m	struct:apr_os_global_mutex_t
+proc_mutex	include/apr/apr_proc_mutex.h	/^APR_POOL_DECLARE_ACCESSOR(proc_mutex);$/;"	v
+protection	include/apr/apr_file_info.h	/^    apr_fileperms_t protection;$/;"	m	struct:apr_finfo_t
+protocol	include/apr/apr_portable.h	/^    int protocol;           \/**< 0 or actual protocol (APR_PROTO_SCTP, APR_PROTO_TCP, etc.) *\/$/;"	m	struct:apr_os_sock_info_t
+psize	include/apr/apr_mmap.h	/^    apr_size_t psize;$/;"	m	struct:apr_mmap_t
+pstart	include/apr/apr_mmap.h	/^    apr_off_t  pstart;$/;"	m	struct:apr_mmap_t
+pthread_interproc	include/apr/apr_portable.h	/^    pthread_mutex_t *pthread_interproc;$/;"	m	struct:apr_os_proc_mutex_t
+pvsn	include/apr/apr_version.h	/^APR_DECLARE(void) apr_version(apr_version_t *pvsn);$/;"	v
+r	include/apr/apr_random.h	/^APR_DECLARE(apr_status_t) apr_random_insecure_ready(apr_random_t *r);$/;"	v
+r	include/apr/apr_random.h	/^APR_DECLARE(apr_status_t) apr_random_secure_ready(apr_random_t *r);$/;"	v
+ref	include/apr/apr_allocator.h	/^    apr_memnode_t **ref;            \/**< reference to self *\/$/;"	m	struct:apr_memnode_t
+remote	include/apr/apr_portable.h	/^    struct sockaddr *remote; \/**< NULL if not connected *\/$/;"	m	struct:apr_os_sock_info_t	typeref:struct:apr_os_sock_info_t::sockaddr
+reqevents	include/apr/apr_poll.h	/^    apr_int16_t reqevents;      \/**< requested events *\/$/;"	m	struct:apr_pollfd_t
+reset	include/apr/apr_getopt.h	/^    int reset;$/;"	m	struct:apr_getopt_t
+rtnevents	include/apr/apr_poll.h	/^    apr_int16_t rtnevents;      \/**< returned events *\/$/;"	m	struct:apr_pollfd_t
+rwlock	include/apr/apr_thread_rwlock.h	/^APR_DECLARE(apr_status_t) apr_thread_rwlock_destroy(apr_thread_rwlock_t *rwlock);$/;"	v
+rwlock	include/apr/apr_thread_rwlock.h	/^APR_DECLARE(apr_status_t) apr_thread_rwlock_rdlock(apr_thread_rwlock_t *rwlock);$/;"	v
+rwlock	include/apr/apr_thread_rwlock.h	/^APR_DECLARE(apr_status_t) apr_thread_rwlock_tryrdlock(apr_thread_rwlock_t *rwlock);$/;"	v
+rwlock	include/apr/apr_thread_rwlock.h	/^APR_DECLARE(apr_status_t) apr_thread_rwlock_trywrlock(apr_thread_rwlock_t *rwlock);$/;"	v
+rwlock	include/apr/apr_thread_rwlock.h	/^APR_DECLARE(apr_status_t) apr_thread_rwlock_unlock(apr_thread_rwlock_t *rwlock);$/;"	v
+rwlock	include/apr/apr_thread_rwlock.h	/^APR_DECLARE(apr_status_t) apr_thread_rwlock_wrlock(apr_thread_rwlock_t *rwlock);$/;"	v
+s	include/apr/apr_poll.h	/^    apr_socket_t *s;            \/**< socket *\/$/;"	m	union:__anon9
+s_addr	include/apr/apr_network_io.h	/^    apr_uint32_t  s_addr; \/**< storage to hold the IP# *\/$/;"	m	struct:in_addr
+sa	include/apr/apr_network_io.h	/^    } sa;$/;"	m	struct:apr_sockaddr_t	typeref:union:apr_sockaddr_t::__anon5
+salen	include/apr/apr_network_io.h	/^    apr_socklen_t salen;$/;"	m	struct:apr_sockaddr_t
+sas	include/apr/apr_network_io.h	/^        struct sockaddr_storage sas;$/;"	m	union:apr_sockaddr_t::__anon5	typeref:struct:apr_sockaddr_t::__anon5::sockaddr_storage
+sem	include/apr/apr_portable.h	/^	sem_id sem;$/;"	m	struct:apr_os_proc_mutex_t
+servname	include/apr/apr_network_io.h	/^    char *servname;$/;"	m	struct:apr_sockaddr_t
+shm	include/apr/apr_shm.h	/^APR_POOL_DECLARE_ACCESSOR(shm);$/;"	v
+sin	include/apr/apr_network_io.h	/^        struct sockaddr_in sin;$/;"	m	union:apr_sockaddr_t::__anon5	typeref:struct:apr_sockaddr_t::__anon5::sockaddr_in
+sin6	include/apr/apr_network_io.h	/^        struct sockaddr_in6 sin6;$/;"	m	union:apr_sockaddr_t::__anon5	typeref:struct:apr_sockaddr_t::__anon5::sockaddr_in6
+size	include/apr/apr_file_info.h	/^    apr_off_t size;$/;"	m	struct:apr_finfo_t
+size	include/apr/apr_mmap.h	/^    apr_size_t size;$/;"	m	struct:apr_mmap_t
+size	include/apr/apr_random.h	/^    apr_size_t size;$/;"	m	struct:apr_crypto_hash_t
+skip_end	include/apr/apr_getopt.h	/^    int skip_end;$/;"	m	struct:apr_getopt_t
+skip_start	include/apr/apr_getopt.h	/^    int skip_start;$/;"	m	struct:apr_getopt_t
+sl	include/apr/apr_skiplist.h	/^APR_DECLARE(apr_skiplistnode *) apr_skiplist_getlist(apr_skiplist *sl);$/;"	v
+sl	include/apr/apr_skiplist.h	/^APR_DECLARE(void *) apr_skiplist_peek(apr_skiplist *sl);$/;"	v
+socket	include/apr/apr_network_io.h	/^APR_DECLARE_INHERIT_SET(socket);$/;"	v
+socket	include/apr/apr_network_io.h	/^APR_DECLARE_INHERIT_UNSET(socket);$/;"	v
+socket	include/apr/apr_network_io.h	/^APR_POOL_DECLARE_ACCESSOR(socket);$/;"	v
+strcasecmp	include/apr/apr_general.h	118;"	d
+strncasecmp	include/apr/apr_general.h	124;"	d
+t	include/apr/apr_tables.h	/^APR_DECLARE(const apr_array_header_t *) apr_table_elts(const apr_table_t *t);$/;"	v
+t	include/apr/apr_tables.h	/^APR_DECLARE(int) apr_is_empty_table(const apr_table_t *t);$/;"	v
+t	include/apr/apr_tables.h	/^APR_DECLARE(void) apr_table_clear(apr_table_t *t);$/;"	v
+t	include/apr/apr_time.h	/^APR_DECLARE(void) apr_sleep(apr_interval_time_t t);$/;"	v
+thd	include/apr/apr_thread_proc.h	/^APR_DECLARE(apr_status_t) apr_thread_detach(apr_thread_t *thd);$/;"	v
+thedir	include/apr/apr_file_info.h	/^APR_DECLARE(apr_status_t) apr_dir_close(apr_dir_t *thedir);$/;"	v
+thedir	include/apr/apr_file_info.h	/^APR_DECLARE(apr_status_t) apr_dir_rewind(apr_dir_t *thedir);$/;"	v
+thefile	include/apr/apr_file_io.h	/^APR_DECLARE(apr_size_t) apr_file_buffer_size_get(apr_file_t *thefile);$/;"	v
+thefile	include/apr/apr_file_io.h	/^APR_DECLARE(apr_status_t) apr_file_datasync(apr_file_t *thefile);$/;"	v
+thefile	include/apr/apr_file_io.h	/^APR_DECLARE(apr_status_t) apr_file_flush(apr_file_t *thefile);$/;"	v
+thefile	include/apr/apr_file_io.h	/^APR_DECLARE(apr_status_t) apr_file_sync(apr_file_t *thefile);$/;"	v
+thefile	include/apr/apr_file_io.h	/^APR_DECLARE(apr_status_t) apr_file_unlock(apr_file_t *thefile);$/;"	v
+thesocket	include/apr/apr_network_io.h	/^APR_DECLARE(apr_status_t) apr_socket_close(apr_socket_t *thesocket);$/;"	v
+thread	include/apr/apr_thread_proc.h	/^APR_POOL_DECLARE_ACCESSOR(thread);$/;"	v
+thread_cond	include/apr/apr_thread_cond.h	/^APR_POOL_DECLARE_ACCESSOR(thread_cond);$/;"	v
+thread_mutex	include/apr/apr_portable.h	/^        apr_thread_mutex_t *thread_mutex;$/;"	m	struct:apr_os_global_mutex_t
+thread_mutex	include/apr/apr_thread_mutex.h	/^APR_POOL_DECLARE_ACCESSOR(thread_mutex);$/;"	v
+thread_rwlock	include/apr/apr_thread_rwlock.h	/^APR_POOL_DECLARE_ACCESSOR(thread_rwlock);$/;"	v
+tm_gmtoff	include/apr/apr_time.h	/^    apr_int32_t tm_gmtoff;$/;"	m	struct:apr_time_exp_t
+tm_hour	include/apr/apr_time.h	/^    apr_int32_t tm_hour;$/;"	m	struct:apr_time_exp_t
+tm_isdst	include/apr/apr_time.h	/^    apr_int32_t tm_isdst;$/;"	m	struct:apr_time_exp_t
+tm_mday	include/apr/apr_time.h	/^    apr_int32_t tm_mday;$/;"	m	struct:apr_time_exp_t
+tm_min	include/apr/apr_time.h	/^    apr_int32_t tm_min;$/;"	m	struct:apr_time_exp_t
+tm_mon	include/apr/apr_time.h	/^    apr_int32_t tm_mon;$/;"	m	struct:apr_time_exp_t
+tm_sec	include/apr/apr_time.h	/^    apr_int32_t tm_sec;$/;"	m	struct:apr_time_exp_t
+tm_usec	include/apr/apr_time.h	/^    apr_int32_t tm_usec;$/;"	m	struct:apr_time_exp_t
+tm_wday	include/apr/apr_time.h	/^    apr_int32_t tm_wday;$/;"	m	struct:apr_time_exp_t
+tm_yday	include/apr/apr_time.h	/^    apr_int32_t tm_yday;$/;"	m	struct:apr_time_exp_t
+tm_year	include/apr/apr_time.h	/^    apr_int32_t tm_year;$/;"	m	struct:apr_time_exp_t
+trailers	include/apr/apr_network_io.h	/^    struct iovec* trailers;$/;"	m	struct:apr_hdtr_t	typeref:struct:apr_hdtr_t::iovec
+type	include/apr/apr_portable.h	/^    int type;               \/**< always required (SOCK_STREAM, SOCK_DGRAM, etc.) *\/$/;"	m	struct:apr_os_sock_info_t
+uid_t	include/apr/apr.h	/^typedef  int         uid_t;$/;"	t
+user	include/apr/apr_file_info.h	/^    apr_uid_t user;$/;"	m	struct:apr_finfo_t
+val	include/apr/apr_tables.h	/^    char *val;$/;"	m	struct:apr_table_entry_t
+valid	include/apr/apr_file_info.h	/^    apr_int32_t valid;$/;"	m	struct:apr_finfo_t
