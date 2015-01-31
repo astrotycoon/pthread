@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "pjlib.h"
+#include <unistd.h>
+#include "apr/apr_pools.h"
+#include "apr/apr_thread_proc.h"
+#include "apr/apr_errno.h"
 
 struct employee {
 	int 	number;
@@ -25,78 +28,78 @@ void copy_employee(struct employee *from, struct employee *to)
 	memcpy(to, from, sizeof(struct employee));
 }
 
-static pj_mutex_t *mutex;
-void *do_loop(void *data)
+apr_thread_mutex_t *mutex;
+
+static void *do_loop(apr_thread_t *th, void *data)
 {
 	int num = *(int *)data;
 
 	while (1) {
-		pj_mutex_lock(mutex);
+		apr_thread_mutex_lock(mutex);
 		copy_employee(&employees[num - 1], &employee_of_the_day);
-		pj_mutex_unlock(mutex);
+		apr_thread_mutex_unlock(mutex);
 	}
 }
 
 int main(int argc, const char *argv[])
 {
-	char 			errmsg[PJ_ERR_MSG_SIZE];	
-	pj_status_t		status;
-	pj_caching_pool	caching_pool;
-	pj_pool_t		*pool;
-	pj_thread_t		*th1;
-	pj_thread_t		*th2;
+	apr_status_t	status;
+	apr_pool_t		*pool;
+	apr_thread_t	*th1;	
+	apr_thread_t	*th2;	
+	char 			errmsg[256];
 	int				num1 = 1;
-	int 			num2 = 2;
+	int				num2 = 2;
 	int 			i = 0;
 
 begin:
-	/* 初始化pjlib库 */
-	status = pj_init();
-	if (status != PJ_SUCCESS) {
-		pj_strerror(status, errmsg, sizeof(errmsg));
+	copy_employee(&employees[0], &employee_of_the_day);
+	/* 初始化pool */
+	status = apr_pool_initialize();	
+	if (status != APR_SUCCESS) {
+		apr_strerror(status, errmsg, sizeof(errmsg));	
+		puts(errmsg);
 		exit(EXIT_FAILURE);
 	}
-	/* 创建内存池工厂 */	
-	pj_caching_pool_init(&caching_pool, NULL, 1024 * 1024);
-	/* 创建内存池	*/
-	pool = pj_pool_create(&caching_pool.factory, NULL, 4096, 4096, NULL);
-	if (NULL == pool) {
-		pj_strerror(status, errmsg, sizeof(errmsg));
-		pj_caching_pool_destroy(&caching_pool);
-		pj_shutdown();
-		exit(EXIT_FAILURE);
-	}
-	/* 初始化mutex */
-	status = pj_mutex_create_simple(pool, NULL, &mutex);
-	if (status != PJ_SUCCESS) {
-		pj_strerror(status, errmsg, sizeof(errmsg));
-		pj_caching_pool_destroy(&caching_pool);
-		pj_shutdown();
+	/* 创建一个pool*/
+	status = apr_pool_create(&pool, NULL);
+	if (status != APR_SUCCESS) {
+		apr_strerror(status, errmsg, sizeof(errmsg));	
+		puts(errmsg);
+		apr_pool_terminate();
 		exit(EXIT_FAILURE);
 	}
 
-	/* 创建线程1 */
-	status = pj_thread_create(pool, NULL, (pj_thread_proc *)do_loop, &num1, PJ_THREAD_DEFAULT_STACK_SIZE, 0, &th1);
-	if (status != PJ_SUCCESS) {
-		pj_strerror(status, errmsg, sizeof(errmsg));
-		pj_pool_release(pool);
-		pj_caching_pool_destroy(&caching_pool);
-		pj_shutdown();
-		exit(EXIT_FAILURE);
-	}
-	/* 创建线程2 */
-	status = pj_thread_create(pool, NULL, (pj_thread_proc *)do_loop, &num2, PJ_THREAD_DEFAULT_STACK_SIZE, 0, &th1);
-	if (status != PJ_SUCCESS) {
-		pj_strerror(status, errmsg, sizeof(errmsg));
-		pj_pool_release(pool);
-		pj_caching_pool_destroy(&caching_pool);
-		pj_shutdown();
-		exit(EXIT_FAILURE);
+	status = apr_thread_mutex_create(&mutex, APR_THREAD_MUTEX_DEFAULT, pool);
+	if (status != APR_SUCCESS) {
+		apr_strerror(status, errmsg, sizeof(errmsg));	
+		puts(errmsg);
+		apr_pool_destroy(pool);
+		apr_pool_terminate();
+		exit(EXIT_SUCCESS);
 	}
 
-	/* 主线程 */
+	status = apr_thread_create(&th1, NULL, do_loop, &num1, pool);
+	if (status != APR_SUCCESS) {
+		apr_strerror(status, errmsg, sizeof(errmsg));	
+		puts(errmsg);
+		apr_thread_mutex_destroy(mutex);
+		apr_pool_destroy(pool);
+		apr_pool_terminate();
+		exit(EXIT_SUCCESS);
+	}
+
+	status = apr_thread_create(&th2, NULL, do_loop, &num2, pool);
+	if (status != APR_SUCCESS) {
+		apr_strerror(status, errmsg, sizeof(errmsg));	
+		puts(errmsg);
+		apr_pool_destroy(pool);
+		apr_pool_terminate();
+		exit(EXIT_SUCCESS);
+	}
+
 	while (1) {
-		pj_mutex_lock(mutex);
+		apr_thread_mutex_lock(mutex);
 		struct employee *p = &employees[employee_of_the_day.number - 1];
 
 		if (p->id != employee_of_the_day.id) {
@@ -131,14 +134,12 @@ begin:
 		i++;
 		
 		printf("lory, employees contents was always consistent\n");
-		pj_mutex_unlock(mutex);
+		apr_thread_mutex_unlock(mutex);
 	}
 
-end:
-	pj_pool_release(pool);
-	pj_caching_pool_destroy(&caching_pool);
-	/* 销毁pjlib库 */
-	pj_shutdown();
-
+end:	
+	apr_thread_mutex_destroy(mutex);
+	apr_pool_destroy(pool);
+	apr_pool_terminate();
 	exit(EXIT_SUCCESS);
 }
