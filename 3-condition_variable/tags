@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NUM_HANDLER_THREADS	thread-pool-server.c	6;"	d	file:
+__USE_GNU	thread-pool-server.c	2;"	d	file:
+add_request	thread-pool-server.c	/^add_request(int request_num,$/;"	f
+get_request	thread-pool-server.c	/^get_request(pthread_mutex_t* p_mutex)$/;"	f
+got_request	thread-pool-server.c	/^pthread_cond_t  got_request   = PTHREAD_COND_INITIALIZER;$/;"	v
+handle_request	thread-pool-server.c	/^handle_request(struct request* a_request, int thread_id)$/;"	f
+handle_requests_loop	thread-pool-server.c	/^handle_requests_loop(void* data)$/;"	f
+last_request	thread-pool-server.c	/^struct request* last_request = NULL; \/* pointer to last request.         *\/$/;"	v	typeref:struct:request
+main	thread-pool-server.c	/^main(int argc, char* argv[])$/;"	f
+next	thread-pool-server.c	/^    struct request* next;   \/* pointer to next request, NULL if none. *\/$/;"	m	struct:request	typeref:struct:request::request	file:
+num_requests	thread-pool-server.c	/^int num_requests = 0;	\/* number of pending requests, initially none *\/$/;"	v
+number	thread-pool-server.c	/^    int number;		    \/* number of the request                  *\/$/;"	m	struct:request	file:
+request	thread-pool-server.c	/^struct request {$/;"	s	file:
+request_mutex	thread-pool-server.c	/^pthread_mutex_t request_mutex = PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP;$/;"	v
+requests	thread-pool-server.c	/^struct request* requests = NULL;     \/* head of linked list of requests. *\/$/;"	v	typeref:struct:request
