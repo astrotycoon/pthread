@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CEIL	thpool.c	23;"	d	file:
+CONSUMER_THREAD_NUM	test.c	19;"	d	file:
+MAX_NANOSEC	thpool.c	22;"	d	file:
+OBJS	Makefile	/^OBJS=$(patsubst %.c, %.o, $(wildcard *.c))  $/;"	m
+PCHECK	test.c	9;"	d	file:
+PRODUCER_THREAD_NUM	test.c	18;"	d	file:
+QUEUE_MAX_NUM	test.c	17;"	d	file:
+RM	Makefile	/^RM=rm -rf $/;"	m
+TARGETS	Makefile	/^TARGETS=test$/;"	m
+_Data	test.c	/^struct _Data {$/;"	s	file:
+_THPOOL_	thpool.h	8;"	d
+__workq	test.c	/^struct __workq {$/;"	s	file:
+arg	thpool.c	/^	void*  arg;                          \/* function's argument       *\/$/;"	m	struct:job	file:
+bsem	thpool.c	/^typedef struct bsem {$/;"	s	file:
+bsem	thpool.c	/^} bsem;$/;"	t	typeref:struct:bsem	file:
+bsem_init	thpool.c	/^static void bsem_init(bsem *bsem_p, int value) {$/;"	f	file:
+bsem_post	thpool.c	/^static void bsem_post(bsem *bsem_p) {$/;"	f	file:
+bsem_post_all	thpool.c	/^static void bsem_post_all(bsem *bsem_p) {$/;"	f	file:
+bsem_reset	thpool.c	/^static void bsem_reset(bsem *bsem_p) {$/;"	f	file:
+bsem_wait	thpool.c	/^static void bsem_wait(bsem* bsem_p) {$/;"	f	file:
+cnt	test.c	/^	int							cnt;		\/* 队列中元素个数 *\/$/;"	m	struct:__workq	file:
+cond	thpool.c	/^	pthread_cond_t   cond;$/;"	m	struct:bsem	file:
+consumer	test.c	/^static void *consumer(void *args)$/;"	f	file:
+front	thpool.c	/^	job  *front;                         \/* pointer to front of queue *\/$/;"	m	struct:jobqueue	file:
+function	thpool.c	/^	void*  (*function)(void* arg);       \/* function pointer          *\/$/;"	m	struct:job	file:
+got_consumer_cond	test.c	/^	pthread_cond_t				got_consumer_cond;	\/* 用于队列由满变为非满时唤醒生产者继续生产 *\/$/;"	m	struct:__workq	file:
+got_producer_cond	test.c	/^	pthread_cond_t				got_producer_cond;	\/* 用于队列由空变为非空时唤醒消费者继续消费 *\/$/;"	m	struct:__workq	file:
+has_jobs	thpool.c	/^	bsem *has_jobs;                      \/* flag as binary semaphore  *\/$/;"	m	struct:jobqueue	file:
+id	thpool.c	/^	int       id;                        \/* friendly id               *\/$/;"	m	struct:thread	file:
+job	thpool.c	/^typedef struct job{$/;"	s	file:
+job	thpool.c	/^} job;$/;"	t	typeref:struct:job	file:
+jobqueue	thpool.c	/^typedef struct jobqueue{$/;"	s	file:
+jobqueue	thpool.c	/^} jobqueue;$/;"	t	typeref:struct:jobqueue	file:
+jobqueue_clear	thpool.c	/^static void jobqueue_clear(thpool_* thpool_p){$/;"	f	file:
+jobqueue_destroy	thpool.c	/^static void jobqueue_destroy(thpool_* thpool_p){$/;"	f	file:
+jobqueue_init	thpool.c	/^static int jobqueue_init(thpool_* thpool_p){$/;"	f	file:
+jobqueue_p	thpool.c	/^	jobqueue*  jobqueue_p;               \/* pointer to the job queue  *\/    $/;"	m	struct:thpool_	file:
+jobqueue_pull	thpool.c	/^static struct job* jobqueue_pull(thpool_* thpool_p){$/;"	f	file:
+jobqueue_push	thpool.c	/^static void jobqueue_push(thpool_* thpool_p, struct job* newjob){$/;"	f	file:
+len	thpool.c	/^	int   len;                           \/* number of jobs in queue   *\/$/;"	m	struct:jobqueue	file:
+lock	test.c	/^	pthread_mutex_t				lock;		\/* 用于保护队列和两个条件变量 *\/$/;"	m	struct:__workq	file:
+main	test.c	/^int main(int argc, const char *argv[])$/;"	f
+mutex	thpool.c	/^	pthread_mutex_t mutex;$/;"	m	struct:bsem	file:
+num_threads_alive	thpool.c	/^	int        num_threads_alive;        \/* threads currently alive   *\/$/;"	m	struct:thpool_	file:
+num_threads_working	thpool.c	/^	int        num_threads_working;      \/* threads currently working *\/$/;"	m	struct:thpool_	file:
+prev	thpool.c	/^	struct job*  prev;                   \/* pointer to previous job   *\/$/;"	m	struct:job	typeref:struct:job::job	file:
+producer	test.c	/^static void *producer(void *args)$/;"	f	file:
+pthread	thpool.c	/^	pthread_t pthread;                   \/* pointer to actual thread  *\/$/;"	m	struct:thread	file:
+queue_add	test.c	/^static void queue_add(struct __workq *pworkq)$/;"	f	file:
+queue_remove	test.c	/^static void queue_remove(struct __workq *pworkq)$/;"	f	file:
+rear	thpool.c	/^	job  *rear;                          \/* pointer to rear  of queue *\/$/;"	m	struct:jobqueue	file:
+rwmutex	thpool.c	/^	pthread_mutex_t rwmutex;             \/* used for queue r\/w access *\/$/;"	m	struct:jobqueue	file:
+thcount_lock	thpool.c	/^	pthread_mutex_t  thcount_lock;       \/* used for thread count etc *\/$/;"	m	struct:thpool_	file:
+thpool_	thpool.c	/^typedef struct thpool_{$/;"	s	file:
+thpool_	thpool.c	/^} thpool_;$/;"	t	typeref:struct:thpool_	file:
+thpool_add_work	thpool.c	/^int thpool_add_work(thpool_* thpool_p, void *(*function_p)(void*), void* arg_p){$/;"	f
+thpool_destroy	thpool.c	/^void thpool_destroy(thpool_* thpool_p){$/;"	f
+thpool_init	thpool.c	/^struct thpool_* thpool_init(int num_threads){$/;"	f
+thpool_p	thpool.c	/^	struct thpool_* thpool_p;            \/* access to thpool          *\/$/;"	m	struct:thread	typeref:struct:thread::thpool_	file:
+thpool_pause	thpool.c	/^void thpool_pause(thpool_* thpool_p) {$/;"	f
+thpool_resume	thpool.c	/^void thpool_resume(thpool_* thpool_p) {$/;"	f
+thpool_wait	thpool.c	/^void thpool_wait(thpool_* thpool_p){$/;"	f
+thread	thpool.c	/^typedef struct thread{$/;"	s	file:
+thread	thpool.c	/^} thread;$/;"	t	typeref:struct:thread	file:
+thread_destroy	thpool.c	/^static void thread_destroy (thread* thread_p){$/;"	f	file:
+thread_do	thpool.c	/^static void* thread_do(struct thread* thread_p){$/;"	f	file:
+thread_hold	thpool.c	/^static void thread_hold () {$/;"	f	file:
+thread_init	thpool.c	/^static void thread_init (thpool_* thpool_p, struct thread** thread_p, int id){$/;"	f	file:
+threadpool	thpool.h	/^typedef struct thpool_* threadpool;$/;"	t	typeref:struct:thpool_
+threads	thpool.c	/^	thread**   threads;                  \/* pointer to threads        *\/$/;"	m	struct:thpool_	file:
+threads_keepalive	thpool.c	/^static volatile int threads_keepalive;$/;"	v	file:
+threads_on_hold	thpool.c	/^static volatile int threads_on_hold;$/;"	v	file:
+v	thpool.c	/^	int v;$/;"	m	struct:bsem	file:
+value	test.c	/^	int 	value;$/;"	m	struct:_Data	file:
