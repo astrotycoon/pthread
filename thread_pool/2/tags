@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD_THREAD	tpool.c	22;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CONSUMER_THREAD_NUM	test.c	19;"	d	file:
+OBJS	Makefile	/^OBJS=$(patsubst %.c, %.o, $(wildcard *.c))  $/;"	m
+PCHECK	test.c	9;"	d	file:
+PRODUCER_THREAD_NUM	test.c	18;"	d	file:
+QUEUE_MAX_NUM	test.c	17;"	d	file:
+REMOVE_JOB	tpool.c	28;"	d	file:
+RM	Makefile	/^RM=rm -rf $/;"	m
+TARGETS	Makefile	/^TARGETS=test$/;"	m
+TINY_THREADPOOL_H	tiny-threadpool.h	16;"	d
+_Data	test.c	/^struct _Data {$/;"	s	file:
+__workq	test.c	/^struct __workq {$/;"	s	file:
+_tjob_s	tiny-threadpool.h	/^struct _tjob_s {$/;"	s
+_tthread_s	tiny-threadpool.h	/^struct _tthread_s {$/;"	s
+_tthreadpool_s	tiny-threadpool.h	/^struct _tthreadpool_s {$/;"	s
+cnt	test.c	/^	int							cnt;		\/* 队列中元素个数 *\/$/;"	m	struct:__workq	file:
+consumer	test.c	/^static void consumer(tjob_t *job)$/;"	f	file:
+got_consumer_cond	test.c	/^	pthread_cond_t				got_consumer_cond;	\/* 用于队列由满变为非满时唤醒生产者继续生产 *\/$/;"	m	struct:__workq	file:
+got_producer_cond	test.c	/^	pthread_cond_t				got_producer_cond;	\/* 用于队列由空变为非空时唤醒消费者继续消费 *\/$/;"	m	struct:__workq	file:
+job_function	tiny-threadpool.h	/^    void (*job_function)(tjob_t *job);$/;"	m	struct:_tjob_s
+jobs	tiny-threadpool.h	/^    tjob_t *jobs;$/;"	m	struct:_tthreadpool_s
+jobs_mutex	tiny-threadpool.h	/^    pthread_mutex_t jobs_mutex;				\/* 用于保护job队列（jobs指针）*\/$/;"	m	struct:_tthreadpool_s
+jobs_not_empty_cond	tiny-threadpool.h	/^    pthread_cond_t jobs_not_empty_cond;		\/* 当job队列由空变为非空时 *\/$/;"	m	struct:_tthreadpool_s
+jobs_not_full_cond	tiny-threadpool.h	/^    pthread_cond_t jobs_not_full_cond;$/;"	m	struct:_tthreadpool_s
+killed	tiny-threadpool.h	/^    int killed;$/;"	m	struct:_tthread_s
+lock	test.c	/^	pthread_mutex_t				lock;		\/* 用于保护队列和两个条件变量 *\/$/;"	m	struct:__workq	file:
+main	test.c	/^int main(int argc, const char *argv[])$/;"	f
+next	tiny-threadpool.h	/^    tjob_t *next;$/;"	m	struct:_tjob_s
+next	tiny-threadpool.h	/^    tthread_t *next;$/;"	m	struct:_tthread_s
+num_jobs	tiny-threadpool.h	/^    int num_jobs;$/;"	m	struct:_tthreadpool_s
+num_jobs_mutex	tiny-threadpool.h	/^    pthread_mutex_t num_jobs_mutex;$/;"	m	struct:_tthreadpool_s
+num_threads	tiny-threadpool.h	/^    int num_threads;$/;"	m	struct:_tthreadpool_s
+pool	tiny-threadpool.h	/^    tthreadpool_t *pool;$/;"	m	struct:_tthread_s
+prev	tiny-threadpool.h	/^    tjob_t *prev;$/;"	m	struct:_tjob_s
+prev	tiny-threadpool.h	/^    tthread_t *prev;$/;"	m	struct:_tthread_s
+producer	test.c	/^static void producer(tjob_t *job)$/;"	f	file:
+queue_add	test.c	/^static void queue_add(struct __workq *pworkq)$/;"	f	file:
+queue_remove	test.c	/^static void queue_remove(struct __workq *pworkq)$/;"	f	file:
+thread_function	tpool.c	/^static void *thread_function(void *ptr) $/;"	f	file:
+thread_id	tiny-threadpool.h	/^    pthread_t thread_id;$/;"	m	struct:_tthread_s
+threads	tiny-threadpool.h	/^    tthread_t *threads;$/;"	m	struct:_tthreadpool_s
+tjob_t	tiny-threadpool.h	/^typedef struct _tjob_s tjob_t;$/;"	t	typeref:struct:_tjob_s
+tthread_t	tiny-threadpool.h	/^typedef struct _tthread_s tthread_t;$/;"	t	typeref:struct:_tthread_s
+tthreadpool_add_job	tpool.c	/^void tthreadpool_add_job(tthreadpool_t *pool, tjob_t *job) $/;"	f
+tthreadpool_add_job_ex	tpool.c	/^void tthreadpool_add_job_ex(tthreadpool_t *pool, tjob_t *job) $/;"	f
+tthreadpool_init	tpool.c	/^int tthreadpool_init(tthreadpool_t *pool, int num_threads) $/;"	f
+tthreadpool_shutdown	tpool.c	/^void tthreadpool_shutdown(tthreadpool_t *pool) $/;"	f
+tthreadpool_t	tiny-threadpool.h	/^typedef struct _tthreadpool_s tthreadpool_t;$/;"	t	typeref:struct:_tthreadpool_s
+tthreadpool_wait	tpool.c	/^void tthreadpool_wait(tthreadpool_t *pool) $/;"	f
+user_data	tiny-threadpool.h	/^    void *user_data;$/;"	m	struct:_tjob_s
+value	test.c	/^	int 	value;$/;"	m	struct:_Data	file:

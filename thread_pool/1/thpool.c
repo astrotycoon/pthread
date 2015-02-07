@@ -75,7 +75,9 @@ typedef struct thpool_{
 	jobqueue*  jobqueue_p;               /* pointer to the job queue  */    
 } thpool_;
 
-
+// thpool_ 			\
+// *threadpool		|-> struct
+// struct thpool_	/
 
 
 

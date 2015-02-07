@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <err.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 #include <pthread.h>
 #include <sys/queue.h>
+#include "tiny-threadpool.h"
 
 #define PCHECK(CALL) do {												\
 	int	result;															\
@@ -12,15 +13,6 @@
 		exit(EXIT_FAILURE);												\
 	}																	\
 } while (/*CONSTCOND*/0)
-
-#define PCHECK_STR(CALL, str) do {												\
-	int	result;															\
-	if ((result = (CALL)) == -1) {										\
-		fprintf(stderr, "FATAL: %s (%s)(%s)\n", strerror(result), #CALL, str);	\
-		exit(EXIT_FAILURE);												\
-	}																	\
-} while (/*CONSTCOND*/0)
-
 
 #define QUEUE_MAX_NUM		(1000)	/* 规定队列最多拥有1000个队列元素 */
 #define PRODUCER_THREAD_NUM	(5)		/* 生产者线程个数 */
@@ -62,9 +54,9 @@ static void queue_add(struct __workq *pworkq)
 	PCHECK(pthread_cond_broadcast(&pworkq->got_producer_cond));	/* 通知消费者可以继续消费了 */
 }
 
-static void *producer(void *args)
+static void producer(tjob_t *job)
 {
-	struct __workq	*pworkq = (struct __workq *)args;
+	struct __workq	*pworkq = (struct __workq *)job->user_data;
 
 	while (1) {
 		queue_add(pworkq);			
@@ -93,21 +85,23 @@ static void queue_remove(struct __workq *pworkq)
 	free(pdata);
 }
 
-static void *consumer(void *args)
+static void consumer(tjob_t *job)
 {
-	struct __workq	*pworkq = (struct __workq *)args;
+	struct __workq	*pworkq = (struct __workq *)job->user_data;
 
 	while (1) {
 		queue_remove(pworkq);
 	}
 }
 
+
 int main(int argc, const char *argv[])
 {
-	pthread_t		pth[PRODUCER_THREAD_NUM];
-	pthread_t		cth[CONSUMER_THREAD_NUM];
+	tthreadpool_t 	pool;
 	struct __workq 	WorkQ; 
 	int 			i;
+	tjob_t			job;
+	
 begin:
 	srand(time(NULL));
 	WorkQ.cnt = 0;
@@ -116,29 +110,34 @@ begin:
 	PCHECK(pthread_cond_init(&WorkQ.got_producer_cond, NULL));
 	TAILQ_INIT(&WorkQ.head);
 
+	if (tthreadpool_init(&pool, PRODUCER_THREAD_NUM + CONSUMER_THREAD_NUM) < 0) {
+		errx(EXIT_FAILURE, "tthreadpool_init() error.\n");
+	}
+
+#if 1
 	/* 消费者线程 */
 	for (i = 0; i < CONSUMER_THREAD_NUM; i++) {
-		PCHECK(pthread_create(&cth[i], NULL, consumer, &WorkQ));
+		memset(&job, 0, sizeof(tjob_t));
+		job.job_function = consumer;
+		job.user_data = &WorkQ;
+		if (i == 0) {
+			tthreadpool_add_job(&pool, &job);
+		} else {
+			tthreadpool_add_job_ex(&pool, &job);
+		}
 	}
-	sleep(2);
+	sleep(5);
 	/* 生产者线程 */
 	for (i = 0; i < PRODUCER_THREAD_NUM; i++) {
-		PCHECK(pthread_create(&pth[i], NULL, producer, &WorkQ));
+		memset(&job, 0, sizeof(tjob_t));
+		job.job_function = producer;
+		job.user_data = &WorkQ;
+		tthreadpool_add_job_ex(&pool, &job);
 	}
-
+#endif
 end:
-	for (i = 0; i < PRODUCER_THREAD_NUM; i++) {
-		PCHECK(pthread_join(pth[i], NULL));
-	}
-	for (i = 0; i < CONSUMER_THREAD_NUM; i++) {
-		PCHECK(pthread_join(cth[i], NULL));
-	}
-
-	PCHECK(pthread_mutex_destroy(&WorkQ.lock));
-	PCHECK(pthread_cond_destroy(&WorkQ.got_consumer_cond));
-	PCHECK(pthread_cond_destroy(&WorkQ.got_producer_cond));
-
-	PCHECK_STR(open("xxx", O_RDONLY, 0), "XXX");
-
+	tthreadpool_wait(&pool);
+	tthreadpool_shutdown(&pool);
+	
 	exit(EXIT_SUCCESS);
 }
