@@ -4,18 +4,48 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+NUM_HANDLER_THREADS	cond.c	9;"	d	file:
+NUM_HANDLER_THREADS	cond_m.c	9;"	d	file:
 NUM_HANDLER_THREADS	thread-pool-server.c	6;"	d	file:
+OBJS	Makefile	/^OBJS=cond.o$/;"	m
+RM	Makefile	/^RM=rm -rf $/;"	m
+TARGET	Makefile	/^TARGET=cond$/;"	m
+_Data	circleq.c	/^struct _Data {$/;"	s	file:
+__USE_GNU	cond.c	5;"	d	file:
+__USE_GNU	cond_m.c	5;"	d	file:
 __USE_GNU	thread-pool-server.c	2;"	d	file:
+__queue_request	cond.c	/^struct __queue_request {$/;"	s	file:
+__queue_request	cond_m.c	/^struct __queue_request {$/;"	s	file:
+add_request	cond.c	/^	void (*add_request)(int, struct __queue_request *);$/;"	m	struct:__queue_request	file:
+add_request	cond.c	/^static void add_request(int num, struct __queue_request *pqueue_request)$/;"	f	file:
+add_request	cond_m.c	/^static void add_request(int num, struct __queue_request *pqueue_request)$/;"	f	file:
 add_request	thread-pool-server.c	/^add_request(int request_num,$/;"	f
 get_request	thread-pool-server.c	/^get_request(pthread_mutex_t* p_mutex)$/;"	f
+got_request	cond.c	/^	pthread_cond_t						got_request;	$/;"	m	struct:__queue_request	file:
+got_request	cond_m.c	/^	pthread_cond_t						got_request;	$/;"	m	struct:__queue_request	file:
 got_request	thread-pool-server.c	/^pthread_cond_t  got_request   = PTHREAD_COND_INITIALIZER;$/;"	v
 handle_request	thread-pool-server.c	/^handle_request(struct request* a_request, int thread_id)$/;"	f
+handle_requests_loop	cond.c	/^static void *handle_requests_loop(void *arg)$/;"	f	file:
+handle_requests_loop	cond_m.c	/^static void *handle_requests_loop(void *arg)$/;"	f	file:
 handle_requests_loop	thread-pool-server.c	/^handle_requests_loop(void* data)$/;"	f
 last_request	thread-pool-server.c	/^struct request* last_request = NULL; \/* pointer to last request.         *\/$/;"	v	typeref:struct:request
+main	circleq.c	/^int main(int argc, const char *argv[])$/;"	f
+main	cond.c	/^int main(int argc, const char *argv[])$/;"	f
+main	cond_m.c	/^int main(int argc, const char *argv[])$/;"	f
 main	thread-pool-server.c	/^main(int argc, char* argv[])$/;"	f
 next	thread-pool-server.c	/^    struct request* next;   \/* pointer to next request, NULL if none. *\/$/;"	m	struct:request	typeref:struct:request::request	file:
+num_request	cond.c	/^	uint32_t							num_request;	\/* 请求个数 *\/	$/;"	m	struct:__queue_request	file:
+num_request	cond_m.c	/^	uint32_t							num_request;	\/* 请求个数 *\/	$/;"	m	struct:__queue_request	file:
 num_requests	thread-pool-server.c	/^int num_requests = 0;	\/* number of pending requests, initially none *\/$/;"	v
 number	thread-pool-server.c	/^    int number;		    \/* number of the request                  *\/$/;"	m	struct:request	file:
+request	cond.c	/^struct request {$/;"	s	file:
+request	cond_m.c	/^struct request {$/;"	s	file:
 request	thread-pool-server.c	/^struct request {$/;"	s	file:
+request_mutex	cond.c	/^	pthread_mutex_t						request_mutex;$/;"	m	struct:__queue_request	file:
+request_mutex	cond_m.c	/^	pthread_mutex_t						request_mutex;$/;"	m	struct:__queue_request	file:
 request_mutex	thread-pool-server.c	/^pthread_mutex_t request_mutex = PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP;$/;"	v
 requests	thread-pool-server.c	/^struct request* requests = NULL;     \/* head of linked list of requests. *\/$/;"	v	typeref:struct:request
+value	circleq.c	/^	int						value;$/;"	m	struct:_Data	file:
+value	cond.c	/^	int						value;	\/* 请求号  *\/$/;"	m	struct:request	file:
+value	cond_m.c	/^	int						value;	\/* 请求号  *\/$/;"	m	struct:request	file:

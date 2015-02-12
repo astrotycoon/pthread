@@ -1,5 +1,5 @@
 #include <stdio.h>       /* standard I/O routines                     */
-#define __USE_GNU 
+#define __USE_GNU		 /* PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP 	  */ 
 #include <pthread.h>     /* pthread functions and data structures     */
 #include <stdlib.h>      /* rand() and srand() functions              */
 /* number of threads used to service requests */

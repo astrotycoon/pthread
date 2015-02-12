@@ -47,6 +47,7 @@ static void *handle_requests_loop(void *arg)
 	fflush(stdout);
 #endif
 
+#if 1
 	while (1) {
 		pthread_mutex_lock(&pqueue_request->request_mutex);	
 #ifdef DEBUG
@@ -66,14 +67,51 @@ static void *handle_requests_loop(void *arg)
 		}	
 //		pthread_mutex_lock(&pqueue_request->request_mutex);	
 		struct request *prequest = TAILQ_FIRST(&pqueue_request->head_requests);	
-		TAILQ_REMOVE(&pqueue_request->head_requests, prequest, entry);
-//		pthread_mutex_unlock(&pqueue_request->request_mutex);	
-		printf("Thread '%lu' handled request '%d'\n", pthread_self(), prequest->value);
-       	fflush(stdout);
-		--pqueue_request->num_request;
-		pthread_mutex_unlock(&pqueue_request->request_mutex);	
-		free(prequest);
+		if (prequest) {
+			TAILQ_REMOVE(&pqueue_request->head_requests, prequest, entry);
+//			pthread_mutex_unlock(&pqueue_request->request_mutex);	
+			printf("Thread '%lu' handled request '%d'\n", pthread_self(), prequest->value);
+       		fflush(stdout);
+			--pqueue_request->num_request;
+			pthread_mutex_unlock(&pqueue_request->request_mutex);	
+			free(prequest);
+		}
 	}
+#else	/* 会发生段错误 有待调试 */
+	pthread_mutex_lock(&pqueue_request->request_mutex);
+	while (1) {
+//		pthread_mutex_lock(&pqueue_request->request_mutex);	/* 要提取出去，否则出现死锁现象 */
+#ifdef DEBUG
+        printf("thread '%lu', num_requests =  %d\n", pthread_self(), pqueue_request->num_request);
+        fflush(stdout);
+#endif /* DEBUG */
+		if (pqueue_request->num_request > 0) {
+//			pthread_mutex_lock(&pqueue_request->request_mutex);	
+			struct request *prequest = TAILQ_FIRST(&pqueue_request->head_requests);	
+			if (prequest) {
+				TAILQ_REMOVE(&pqueue_request->head_requests, prequest, entry);
+//				pthread_mutex_unlock(&pqueue_request->request_mutex);	
+				printf("Thread '%lu' handled request '%d'\n", pthread_self(), prequest->value);
+       			fflush(stdout);
+				--pqueue_request->num_request;
+//				pthread_mutex_unlock(&pqueue_request->request_mutex);	// 这里不应该解锁	？	
+//													因为在调用pthread_cond_wait之前需要确保 request_mutex是锁住的
+				free(prequest);
+			}
+		} else {
+#ifdef DEBUG
+            printf("thread '%lu' before pthread_cond_wait\n", pthread_self());
+            fflush(stdout);
+#endif /* DEBUG */
+			pthread_cond_wait(&pqueue_request->got_request, &pqueue_request->request_mutex);
+#ifdef DEBUG
+            printf("thread '%lu' after pthread_cond_wait\n", pthread_self());
+            fflush(stdout);
+#endif /* DEBUG */
+		}
+	}
+#endif
+
 
 #if 0
 	pthread_mutex_lock(&pqueue_request->request_mutex);	
@@ -144,6 +182,7 @@ int main(int argc, const char *argv[])
         }
 	}
 #else
+	i = 0;
 	while (1) {
 		add_request(i, &request);
 
@@ -152,6 +191,7 @@ int main(int argc, const char *argv[])
             delay.tv_nsec = 10;
             nanosleep(&delay, NULL);
         }
+		i++;
 	}
 #endif
 
@@ -160,4 +200,5 @@ int main(int argc, const char *argv[])
 	
 	exit(EXIT_SUCCESS);
 }
+
 

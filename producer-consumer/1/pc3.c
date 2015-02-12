@@ -22,7 +22,7 @@
 } while (/*CONSTCOND*/0)
 
 
-#define QUEUE_MAX_NUM		(1000)	/* 规定队列最多拥有1000个队列元素 */
+#define QUEUE_MAX_NUM		(100000)	/* 规定队列最多拥有1000个队列元素 */
 #define PRODUCER_THREAD_NUM	(5)		/* 生产者线程个数 */
 #define CONSUMER_THREAD_NUM	(3)		/* 消费者线程个数 */
 
@@ -137,8 +137,6 @@ end:
 	PCHECK(pthread_mutex_destroy(&WorkQ.lock));
 	PCHECK(pthread_cond_destroy(&WorkQ.got_consumer_cond));
 	PCHECK(pthread_cond_destroy(&WorkQ.got_producer_cond));
-
-	PCHECK_STR(open("xxx", O_RDONLY, 0), "XXX");
 
 	exit(EXIT_SUCCESS);
 }
